@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalDensityOperator
 import Calderon.SphereSobolevCoordinateInclusion
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-PHYSICAL-FIRST-SECTION-DOMAIN-EXPANSION-v001.md. Internal local-section implication; actual eta construction remains separate. -/
+/-! Internal local-section implication; the eta construction is elsewhere. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

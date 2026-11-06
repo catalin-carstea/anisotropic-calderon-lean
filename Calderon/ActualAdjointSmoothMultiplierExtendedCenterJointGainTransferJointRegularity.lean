@@ -8,7 +8,7 @@ import Calderon.ActualReferenceSmoothMultiplierSecondTaylorSmoothness
 import Calderon.ActualAdjointSmoothMultiplierExtendedRoomCompatibilityTransferJointRegularity
 import Calderon.SphereSobolevBalancedDualSmoothMiddle
 import Calderon.CompactWithinJetBounds
--- Draft modular implementation of the exact extended-centre regularity target.
+-- Modular proof of the extended-centre regularity statement.
 import Calderon.WeightedCommonSupportCoefficients
 import Calderon.MixedLinearDriftBounds
 import Calderon.CompactParameterReferenceWeakDriftCoercivity
@@ -45,8 +45,8 @@ open OAI.AnisotropicCalderon.SmoothKernelCodomainStructureTransport
 variable {T : Type} [NormedAddCommGroup T] [NormedSpace ℝ T]
   [FiniteDimensional ℝ T]
 
--- R1: same protection as every compiled sibling (Compatibility.lean:19-24); local only,
--- no data instance and no statement change.
+-- Keep these definitions locally irreducible, as in the sibling files; this adds no
+-- instance.
 attribute [local irreducible] referenceHighAdjointSmoothMultiplierBoundaryCommutatorFamily
   referenceSmoothMultiplierBoundaryCommutatorFamily referenceGaugeNormalHighInvertibleLocus
   referenceRadialEndpointInvertibleLocus secondTaylorRemainder

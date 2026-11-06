@@ -11,17 +11,12 @@ import Calderon.ActualAngularHighDraft
 import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.ActualFiniteHarmonicModelRaisingCommute
 
-/-! Opus v079 author-only source, 30 October 2026. UNCOMPILED until Root checks.
-Before-source mathematics: MATHEMATICS.md (same output directory). Repairs v078 internally.
-* `hRepH/hRepL` discharged by `rfl` (definition of raisingHigh/raisingLow);
-* raising symmetry proved from native singles + `harmonicDerivativeAdjoint_composition_commute`
-  + partial sums (method of native `gainedHigh_graph`);
-* uniform cap CC of `C_A` on one retained compact room, before g2/profile/F/cutoff, from
-  continuity of every actual factor; the ONE factor without a supplied native continuity
-  producer (the Hi→Hi high adjoint coordinate Taylor remainder `XG`) is an explicit named
-  regularity premise `hXcont` of the cap/final theorems (see STATUS.md);
-* literal original `higherSAngularHalf` principal/error identity and `9 CQ CC R ‖U‖` bound.
-NOT proved: S-Sdag, double-E, weighted integral, cofinal uniformity, coercivity, Main. -/
+/-! Raising and coordinate regularity:
+* the generic angular-S principal/error rewrite and its `9 CQ CC r ‖U‖` correction bound;
+* the angular transpose at `3/2` is `raisingHigh` by definition;
+* raising symmetry, proved from native singles, `harmonicDerivativeAdjoint_composition_commute`
+  and partial sums (the method of native `gainedHigh_graph`);
+* `C^∞` regularity of the Hi→Hi high adjoint coordinate Taylor remainder `XG` on a room. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -43,7 +38,7 @@ local notation "IH" => sphereSobolevInclusionL (3/2 : ℝ) (1/2 : ℝ) (by norm_
 local notation "JL" => sphereSobolevInclusionL (1/2 : ℝ) (-(1/2 : ℝ)) (by norm_num)
 attribute [local instance] v017PiHighComplete v017PiHalfComplete v017PiNegativeComplete
 
-/-! ## 1. Generic algebra (complete proofs, unchanged from v078) -/
+/-! ## 1. Generic algebra -/
 section Algebra
 variable {E F N : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
   [NormedAddCommGroup F] [NormedSpace ℝ F] [NormedAddCommGroup N] [NormedSpace ℝ N]
@@ -246,7 +241,7 @@ theorem raisingLow_comp_raisingHigh_symm (i m : Fin 3) (v : Hi) :
       (Filter.Eventually.of_forall hFinite))
     ((Rm.continuous.tendsto v).comp (tendsto_sphereSobolevPartialSum (3/2 : ℝ) v))
 
-/-! ### 2b. The actual family `C_A` (unchanged from v078) -/
+/-! ### 2b. The actual family `C_A` -/
 
 /-- Native HIGH coordinate/Th gain (order zero, Hi → Hi). -/
 def coordinateAdjointHighGain (j : Fin 3) (p : Pphys) : Hi →L[ℝ] Hi :=
@@ -256,7 +251,7 @@ def coordinateAdjointHighGain (j : Fin 3) (p : Pphys) : Hi →L[ℝ] Hi :=
 local notation "XG" => coordinateAdjointHighGain hF hO hD g L y0 Φ B ε C ρ H a w hData hg hcalc τ0
 
 
-/-- Root: C-infinity for the actual Hi-to-Hi coordinate Taylor gain on its TRUE high locus. -/
+/-- C-infinity for the actual Hi-to-Hi coordinate Taylor gain on its true high locus. -/
 theorem coordinateAdjointHighGain_contDiffAt_of_high_segment (k : Fin 3) (p : Pphys)
     (hSegment : ∀ θ ∈ Icc (0 : ℝ) 1, (p.1,(p.2.1,θ*p.2.2)) ∈
       referenceGaugeNormalHighInvertibleLocus g L y0 Φ B ε C ρ H a w hData hcalc) :
@@ -283,7 +278,7 @@ theorem coordinateAdjointHighGain_contDiffAt_of_high_segment (k : Fin 3) (p : Pp
   simpa only [F,T,σ,Function.comp_def] using
     hTaylor.comp (f := σ) p hσ.contDiffAt
 
-/-- Root: fixed genuine high-invertibility room, before all g2/profiles/finite inputs. -/
+/-- Fixed genuine high-invertibility room, before all g2/profiles/finite inputs. -/
 theorem exists_coordinateAdjointHighGain_germs (hreg : FixedDirichletRegularity)
     (δ0 : ℝ) (hδ0 : 0 < δ0) :
     ∃ δ : ℝ, 0 < δ ∧ δ ≤ δ0 ∧ δ ≤ ρ ∧

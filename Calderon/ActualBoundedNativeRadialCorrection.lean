@@ -2,9 +2,9 @@ import Calderon.BoundedRadialDriftTrace
 import Calderon.ActualNativeRadialFirstVariation
 import Calderon.CurvatureContraction
 
-/-! Source-only same-witness actual/native first radial correction. Completed
-L2 boundedness is separate from the core derivative identities. Ordinary
-literature witnesses and every actual joint parameter remain explicit. -/
+/-! The actual/native first radial correction, with the same witnesses. L2
+boundedness of the completed correction is separate from the core derivative
+identities. The literature witnesses and every actual joint parameter are explicit. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

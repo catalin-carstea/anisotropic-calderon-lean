@@ -4,8 +4,7 @@ import Calderon.ActualFullAdjointFirstActionRegularity
 import Calderon.ActualFiniteHighFullAdjointFirstSectionSupport
 import Calderon.SphereSobolevPairing
 
-/-! The original finite INPUT cutoff and literal uncompressed Half section.
-Full author expansion: full-physical-graph-and-genuine-adjoint-beforecode-v001.
+/-! The original finite input cutoff and literal uncompressed Half section.
 No finite output, inverse negative inclusion, norm change or Products premise. -/
 set_option autoImplicit false
 noncomputable section

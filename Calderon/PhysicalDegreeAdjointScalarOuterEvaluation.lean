@@ -4,8 +4,8 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic
-/-! Full upfront EXPANSION-v001.json. ORIGINAL literal two summands evaluated;
-no zero-equivalence/inner unfolding or inherited-dictionary normalization is used. -/
+/-! ORIGINAL literal two summands evaluated; no zero-equivalence/inner unfolding or
+inherited-dictionary normalization is used. -/
 lemma degreeAdjointScalarL_apply_outer_sub
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
     (ij : Fin 3 × Fin 3) (f g : SphereSobolev 1) (x : PhysicalDegreeCasimirData) :

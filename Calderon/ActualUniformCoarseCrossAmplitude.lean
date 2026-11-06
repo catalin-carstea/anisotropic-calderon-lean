@@ -2,7 +2,7 @@ import Calderon.ActualCoarseUniformProductNorms
 import Calderon.ActualCurrentCoefficientProductNormBounds
 import Calderon.ActualUniformCoarseRestrictionSpectrum
 import Calderon.ActualCrossSeriesQuantitativeNorm
-import MixedKernelClosedUniformFoundation
+import Calderon.MixedKernelConstruction.MixedKernelClosedUniformFoundation
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

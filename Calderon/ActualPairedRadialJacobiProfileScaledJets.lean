@@ -2,10 +2,7 @@ import Calderon.ActualPairedRadialJacobiConditionalProfileJets
 import Calderon.ActualRadiusThreeJetProfileRoom
 import Calderon.ActualFinitePairedRadialQuarticDomain
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-original-common-profile-direct-conditional-consumer-v073.md.
-ONE profile amplitude for four literal remainder components and all three Jacobi native endpoints.
-The explicit finite-quartic import requests the original production import union. -/
+/-! One profile amplitude for four remainder components and all three Jacobi native endpoints. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -1,7 +1,7 @@
 import Calderon.ActualHighSmoothMultiplierForcingJointTopology
 import Calderon.NativeCompletedHarmonicLiftProductTopology
 
-/-! Before-source v202: the literal native high forcing composed with the
+/-! The native high forcing composed with the
 completed low harmonic lift, in the original parent contexts. -/
 set_option autoImplicit false
 noncomputable section

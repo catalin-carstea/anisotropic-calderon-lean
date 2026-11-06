@@ -2,9 +2,8 @@ import Calderon.ActualReferenceRotationSignedRemainder
 import Calderon.ActualReferenceSharpRotationRemainderDefinition
 import Calderon.SphereSobolevConormalRotationDerivative
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-high-rotation-remainder-density-v123.md. Genuine ALL-H3half
-normalized rotation graph by density, without a finite-core output premise. -/
+/-! Genuine normalized rotation graph on all of H3half, obtained by density, without a
+finite-core output premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

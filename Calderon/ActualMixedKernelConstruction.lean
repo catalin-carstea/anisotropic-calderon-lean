@@ -1,27 +1,27 @@
-import MixedKernelNativeParameterAssembly
-import MixedKernelClosedTubeConstruction
-import MixedKernelClosedCoarseSeed
-import MixedKernelMonotoneCurrentPair
-import MixedKernelPositiveChartAgreement
-import MixedKernelObservedOutputRooms
-import MixedKernelCurrentCommonPair
-import MixedKernelProductOpenUCP
-import MixedKernelCenteredRooms
-import MixedKernelFiniteInterpolation
-import MixedKernelKnownSideNearOne
-import MixedKernelAnnulusGeometry
-import MixedKernelKnownSideCompactBuffer
-import MixedKernelActualSeparatorAnchors
-import MixedKernelKnownSideNeighborhood
-import MixedKernelCompatibleGluing
-import MixedKernelFullCrossAssembly
-import MixedKernelAnchoredKernelConstruction
+import Calderon.MixedKernelConstruction.MixedKernelNativeParameterAssembly
+import Calderon.MixedKernelConstruction.MixedKernelClosedTubeConstruction
+import Calderon.MixedKernelConstruction.MixedKernelClosedCoarseSeed
+import Calderon.MixedKernelConstruction.MixedKernelMonotoneCurrentPair
+import Calderon.MixedKernelConstruction.MixedKernelPositiveChartAgreement
+import Calderon.MixedKernelConstruction.MixedKernelObservedOutputRooms
+import Calderon.MixedKernelConstruction.MixedKernelCurrentCommonPair
+import Calderon.MixedKernelConstruction.MixedKernelProductOpenUCP
+import Calderon.MixedKernelConstruction.MixedKernelCenteredRooms
+import Calderon.MixedKernelConstruction.MixedKernelFiniteInterpolation
+import Calderon.MixedKernelConstruction.MixedKernelKnownSideNearOne
+import Calderon.MixedKernelConstruction.MixedKernelAnnulusGeometry
+import Calderon.MixedKernelConstruction.MixedKernelKnownSideCompactBuffer
+import Calderon.MixedKernelConstruction.MixedKernelActualSeparatorAnchors
+import Calderon.MixedKernelConstruction.MixedKernelKnownSideNeighborhood
+import Calderon.MixedKernelConstruction.MixedKernelCompatibleGluing
+import Calderon.MixedKernelConstruction.MixedKernelFullCrossAssembly
+import Calderon.MixedKernelConstruction.MixedKernelAnchoredKernelConstruction
 import Calderon.CollaboratorUCPCarlemanOct17
-import MixedKernelClosedUniformFoundation
-import MixedKernelFullCrossExtension
-import MixedKernelNativeRadialCoordinates
-import MixedKernelActualChartZeroBox
-import MixedKernelNativeFullCrossLevelGluing
+import Calderon.MixedKernelConstruction.MixedKernelClosedUniformFoundation
+import Calderon.MixedKernelConstruction.MixedKernelFullCrossExtension
+import Calderon.MixedKernelConstruction.MixedKernelNativeRadialCoordinates
+import Calderon.MixedKernelConstruction.MixedKernelActualChartZeroBox
+import Calderon.MixedKernelConstruction.MixedKernelNativeFullCrossLevelGluing
 set_option autoImplicit false
 set_option maxHeartbeats 200000
 noncomputable section
@@ -46,7 +46,7 @@ theorem initial_cross_product : InitialCrossProductGoal := v021_initial_cross_pr
 end OAI.AnisotropicCalderon.MixedKernelConstructionTask
 end
 
-/-! ## v064: the ACTUAL scaled tube criterion and ONE lambda0 on the compact sweep (N55-N60) -/
+/-! ## The scaled tube criterion and one lambda0 on the compact sweep (N55-N60) -/
 noncomputable section
 namespace OAI.AnisotropicCalderon.MixedKernelConstructionTask
 open Set Metric Filter
@@ -503,7 +503,7 @@ theorem tube_phase_zero (M e0 a σ : ℝ) (Y w : R3) (hw : ‖w‖ = 1) :
 end OAI.AnisotropicCalderon.MixedKernelConstructionTask
 end
 
-/-! ## v065: COHERENT tube witnesses and ONE lambda0 for the same `σ, T0, e0` (N63-N66) -/
+/-! ## Coherent tube witnesses and one lambda0 for the same `σ, T0, e0` (N63-N66) -/
 noncomputable section
 namespace OAI.AnisotropicCalderon.MixedKernelConstructionTask
 open Set Metric Filter
@@ -735,7 +735,7 @@ theorem tube_phase_pos_mono {M e0 a b σ : ℝ} {X Y : R3} (hb : 0 ≤ b) (hba :
     0 < tubePhase M e0 b σ (X, Y) :=
   (tube_phase_pos_iff hb ht).2 (hba.trans_lt ((tube_phase_pos_iff (hb.trans hba) ht).1 h))
 
-/-- N70: at an actual strict tube-front point, the checked full-cross extension continues an old-side
+/-- N70: at an actual strict tube-front point, the full-cross extension continues an old-side
 solution with both full crosses across the front. -/
 theorem tube_front_local_extension (S : KnownSideSourceData) (L lam : ℝ) (hlam : 0 < lam)
     (M e0 a σ : ℝ) (Y w : R3) (hw : ‖w‖ = 1)
@@ -1494,7 +1494,7 @@ theorem real_downward_induction {R : ℝ → Prop} {amin amax : ℝ} (htop : ∀
     linarith
 
 /-- N95b: with the top (N94b) and limit (N94c) steps, `TubeReached amin` follows from the FRONT STEP
-alone (an explicit hypothesis here; it is the remaining open obligation, not an original premise). -/
+alone, taken here as an explicit hypothesis (N108 proves it). -/
 theorem tube_reached_all (S : KnownSideSourceData) (L lam : ℝ)
     {M e0 σ c0 B T0 lower upper amin : ℝ} {P : Set R3} (hP : IsOpen P) (hc0 : 0 < c0)
     (hB : 0 ≤ B) (hM : B + 3 < M) (he0 : 0 ≤ e0) (hσ : 0 ≤ σ) (hσ1 : σ ≤ 1) (hamin : 0 ≤ amin)
@@ -1531,7 +1531,7 @@ theorem tube_room_constants {c0 d B M T0 : ℝ} (hc0 : 0 < c0) (hd : 0 < d) (hB 
   have hsq : 0 ≤ (2 / c0 + 1) * max 1 T0 ^ 2 := by positivity
   refine ⟨ham, by linarith, by linarith, by linarith, by linarith, by linarith⟩
 
-/-- N97: the actual polar chart of the bounded room (difference chart, then the checked unit-sphere
+/-- N97: the actual polar chart of the bounded room (difference chart, then the unit-sphere
 radial chart, then reassociation). -/
 def tubePolarChart (P : Set R3) (hP : IsOpen P) (lower upper : ℝ) :
     OpenPartialHomeomorph (R3 × R3) ((R3 × sphere (0 : R3) 1) × ℝ) :=
@@ -1677,7 +1677,7 @@ theorem tubeLevelChart_zero_mem_target {P : Set R3} (hP : IsOpen P) {lower upper
   simp
 
 /-- N102: the canonical room `A = canonical(c)` is upward in the SAME level-`c` chart: moving the height up
-inside the actual target keeps the center and direction, so the seed cone (checked `tube_seed_upward`) and the
+inside the actual target keeps the center and direction, so the seed cone (`tube_seed_upward`) and the
 strict outside (N74 on the fixed ray) are both preserved; D-membership comes from the actual chart. -/
 theorem tubeCanonicalRoom_upward {P : Set R3} (hP : IsOpen P) {lower upper : ℝ} (hl : 0 ≤ lower)
     {M e0 c σ B T0 c0 : ℝ} (hσ : 0 ≤ σ) (hc : 0 ≤ c) (hc0 : 0 < c0)
@@ -1801,7 +1801,7 @@ theorem tubeCanonicalRoom_lower_subset {P : Set R3} (hP : IsOpen P) {lower upper
 
 /-- N104: the WHOLE compact front slab. If every literal `c`-front point over `K` (all unit directions) lies
 in an open `N`, and over `K` the center is in `P` with BOTH radial caps, then ONE actual level-`c` chart slab
-over a neighbourhood of `K × sphere` maps into `N` (checked compact-level slab lemma, zero level by N101b). -/
+over a neighbourhood of `K × sphere` maps into `N` (compact-level slab lemma, zero level by N101b). -/
 theorem tube_front_slab {P : Set R3} (hP : IsOpen P) {lower upper : ℝ} (hl : 0 ≤ lower)
     {M e0 c σ B T0 : ℝ} (hσ : 0 ≤ σ) (he0 : 0 < e0)
     (hKP : ∀ Y : R3, -B - 1 ≤ Y 2 → tubeHeight M e0 Y ≤ T0 →
@@ -1866,7 +1866,7 @@ theorem tube_front_passage_geometry {P : Set R3} (hP : IsOpen P) {lower upper : 
 
 /-- N106: the N95b step from ONE actual open solution `H` on an open `N ⊇ canonical(c) ∪ (whole c-front over K)`
 with BOTH full crosses and seed equality: restrict the SAME `H` to every `canonical(c')`, `c - eps < c' ≤ c`
-(N105, `eps ≤ c - amin`). The construction of such `N, H` (N72 boxes + full-cross gluing) remains OPEN. -/
+(N105, `eps ≤ c - amin`). Such `N, H` are constructed in N108. -/
 theorem tube_reached_step_of_front_solution (S : KnownSideSourceData) (L lam : ℝ)
     {P : Set R3} (hP : IsOpen P) {lower upper : ℝ} (hl : 0 ≤ lower)
     {M e0 c σ B T0 c0 amin : ℝ} (hσ : 0 ≤ σ) (he0 : 0 < e0) (hamin : 0 ≤ amin) (hc : amin < c)
@@ -1896,7 +1896,7 @@ theorem tube_reached_step_of_front_solution (S : KnownSideSourceData) (L lam : �
 
 /-- N107: ONE actual same-chart local box at an UNSEEDED `c`-front point: N72 in the room
 `D ∩ {t>0} ∩ (D ∩ strict base)` from the reached old-side solution `F` and actual strictness at the point,
-then the checked zero box in the SAME level-`c` chart; `G = F` on the box's positive height. -/
+then the zero box in the SAME level-`c` chart; `G = F` on the box's positive height. -/
 theorem tube_front_box (S : KnownSideSourceData) (L lam : ℝ) (hlam : 0 < lam)
     {P : Set R3} (hP : IsOpen P) {lower upper : ℝ} (hl : 0 ≤ lower)
     {M e0 c σ B T0 c0 : ℝ} (hσ : 0 ≤ σ) (hc : 0 ≤ c)
@@ -2009,7 +2009,7 @@ theorem tube_front_box (S : KnownSideSourceData) (L lam : ℝ) (hlam : 0 < lam)
     exact hGF ⟨hzV, hzR, hph⟩
 
 /-- N108: the ACTUAL front step (N95b `hstep` shape) from `TubeReached(c)`: N107 boxes at EVERY unseeded front
-point (actual strictness there), the checked full-cross common-level gluing with `A = canonical(c)` (upward by
+point (actual strictness there), the full-cross common-level gluing with `A = canonical(c)` (upward by
 N102) in the SAME level-`c` chart, boundary front points in `A`, then N106. -/
 theorem tube_reached_front_step (S : KnownSideSourceData) (L lam : ℝ) (hlam : 0 < lam)
     {P : Set R3} (hP : IsOpen P) {lower upper : ℝ} (hl : 0 ≤ lower)
@@ -2162,9 +2162,6 @@ theorem tube_reached_amin_seeded (S : KnownSideSourceData) (L lam : ℝ) (hlam :
 end OAI.AnisotropicCalderon.MixedKernelConstructionTask
 end
 
-/- UNCHECKED Root fragment, outside the active Claude workspace.
-Requires import MixedKernelNativeParameterAssembly when eventually inserted.
-Do not regard this text or the unfinished final invocation as a checked proof. -/
 noncomputable section
 namespace OAI.AnisotropicCalderon.MixedKernelConstructionTask
 open Set Metric Filter
@@ -2242,9 +2239,6 @@ theorem exists_fixed_separation_kernel_from_coarse_cone
 end OAI.AnisotropicCalderon.MixedKernelConstructionTask
 end
 
-/- UNCHECKED producer template. The actual front invocation is now drafted from N107/N106, but must pass the
-unchanged compiler, kernel replay and complete-root audit before acceptance.
-No admission or new original premise is being accepted. -/
 noncomputable section
 namespace OAI.AnisotropicCalderon.MixedKernelConstructionTask
 open Set Metric Filter
@@ -2343,8 +2337,8 @@ theorem fixed_separation_product_producer : FixedSeparationProductProducer := by
       have hTopAt : 1 < c0*amin*tubeHeight M e0 Y^σ := by rw [htEq];exact hTop
       exact hNoCone (tube_top_face_in_seed hc0 hMpos.le he0.le ht hamin.le ha.1 hTopAt hw)
 
-  -- Root will replace this with Claude's actually proved front-passage theorem,
-  -- instantiated with hTests, hDSource, SAME hTop/hCenter and SAME H0 seed data.
+  -- The front-passage theorem, instantiated with hTests, hDSource, the same hTop/hCenter
+  -- and the same H0 seed data.
   have hReached : TubeReached S L lam M e0 amin σ B T0 P lower upper c0 H0 :=
     tube_reached_amin_seeded S L lam hlam hP hLower.le hσ.le hσ1 he0 hM hc0 hB.le hamin.le
       hTop hUpper hDSource hPt
@@ -2398,8 +2392,6 @@ end
 
 noncomputable section
 namespace OAI.AnisotropicCalderon.MixedKernelConstructionTask
-/-- Mandatory requested endpoint. Keep this target even when only a coherent
-component can be closed; an admitted endpoint must be reported OPEN. -/
 theorem actual_mixed_kernel_exists : ActualMixedKernelConstructionGoal := by
   exact actualMixedKernelConstructionGoal_of_fixed_separation_product_producer fixed_separation_product_producer
 

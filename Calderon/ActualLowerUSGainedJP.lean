@@ -1,9 +1,8 @@
 import Calderon.ActualLowerUSJPCoefficient
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jp-upfront-v001.md.
-Complete actual fixed-metric J/P producer: original coordinate weights, actual
+/-! Complete actual fixed-metric J/P producer: original coordinate weights, actual
 paired gains, genuine fixed Js, original lower-only J mass. No analytic cap
-callback is a theorem premise. Source-only pending Root checks; no compiler. -/
+callback is a theorem premise. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

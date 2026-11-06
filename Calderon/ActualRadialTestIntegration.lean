@@ -8,9 +8,7 @@ open MeasureTheory Metric Set TopologicalSpace
 open scoped ContDiff Distributions InnerProductSpace
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 
-/-! First actual ingredient of ball Green's identity. The upfront mathematical
-expansion is EXPANSION-ball-Green-spectral-sharp-trace-v001.json. This module
-proves a whole-space radial test identity only; it asserts no ball flux,
+/-! First ingredient of ball Green's identity. This module proves a whole-space radial test identity only; it asserts no ball flux,
 sharp boundary trace, or physical moving-sphere estimate. -/
 
 variable {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]

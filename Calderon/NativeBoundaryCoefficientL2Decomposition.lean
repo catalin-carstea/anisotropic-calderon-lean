@@ -9,8 +9,6 @@ open scoped ENNReal ContDiff Classical
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic
 
-/-! Expansion: EXPANSION-native-H2-conormal-radial-conversion-v001.md, step 1. -/
-
 theorem sphereCoordinateMulL_eq_scalarMulL (i : Fin 3) :
     sphereCoordinateMulL i = sphereContinuousScalarMulL (sphereCoordinate i) := by
   apply ContinuousLinearMap.ext

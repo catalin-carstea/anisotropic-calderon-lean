@@ -8,9 +8,8 @@ set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v002.json precedes source. Original eight blocks are unchanged;
-two exact canonical scalar caches are additional derived instances. Explicit caches of the
-original canonical inherited subtype structures, verified below by rfl evidence.
+/-! Two exact canonical scalar caches are additional derived instances. Explicit caches of the
+original canonical inherited subtype structures, verified below by `rfl`.
 No alternative norm, module, topology, or closure premise is introduced. -/
 
 def physicalDegreeCasimirData_smul :

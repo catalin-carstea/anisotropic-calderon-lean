@@ -1,8 +1,6 @@
 import Calderon.ActualHigherRadiusProfile
 import Calderon.ProfileRadiusJets
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-independent-scalar-three-jet-profile-room-v029.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set

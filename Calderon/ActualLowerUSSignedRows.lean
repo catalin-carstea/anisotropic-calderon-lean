@@ -5,10 +5,8 @@ import Calderon.ActualLowerUSDQDensity
 import Calderon.FiniteCoreSobolevDerivativeEnergy
 
 /-!
-Author: GPT-6.1 Sol. Before-code ../lower-u-s-signed-rows-upfront.md.
 Actual native signed lower U/S rows: full physical P/Q outputs and genuine
 finite pretests, with no application of finite LA to a physical S output.
-Author source; Root owns diagnostics, qualification and semantic acceptance.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -437,7 +435,7 @@ theorem nativeSignedBeforeRowsDensity_eq_rows_of_common_room
 
 /-- Actual signed-row integral identity. Integrability of the complete row
 sum follows from the original full-output Green theorem, without a finite-S
-output premise. Separate row estimates remain the quantitative next step. -/
+output premise. -/
 theorem actual_lower_US_signed_rows_integral_of_common_room
     (δ : ℝ) (Cm : CRoom δ)
     (hJac : ∀ z ∈ commonRoom y0 ρ δ,

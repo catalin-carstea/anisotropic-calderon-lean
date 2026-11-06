@@ -4,9 +4,8 @@ import Calderon.ActualFullAdjointFirstActionRegularity
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 import Calderon.ActualDensityPrincipalFrameSmoothness
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-finite-full-formal-adjoint-L2-v015.md, object3.
-SAME explicit whole Hhalf output, global smoothness and compactness derived. -/
+/-! The explicit whole Hhalf output of the finite formal adjoint; its global
+smoothness and compactness are derived. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

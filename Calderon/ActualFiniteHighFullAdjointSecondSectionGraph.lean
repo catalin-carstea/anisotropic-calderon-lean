@@ -6,8 +6,7 @@ import Calderon.ActualFiniteHighFullAdjointFirstSectionSupport
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 import Calderon.SphereSobolevHalfNegativeInclusionZero
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-named-global-reversed-word-graph-v011.md. SAME explicit uncompressed xi. -/
+/-! The same explicit uncompressed xi. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

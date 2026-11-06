@@ -1,5 +1,5 @@
 import Calderon.GreenRadialTrace
-import ComparatorChallenges.AnisotropicCalderon
+import OAI.Analysis.AnisotropicCalderon.Defs
 import Mathlib.Analysis.InnerProductSpace.PiL2
 
 noncomputable section

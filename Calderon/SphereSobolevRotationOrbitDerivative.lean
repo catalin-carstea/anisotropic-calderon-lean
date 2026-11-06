@@ -8,8 +8,7 @@ open scoped ENNReal Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothSphereRotationProjection DirichletFamily.DriftBootstrap
 
-/-! Full expansion: EXPANSION-sphere-sobolev-full-rotation-orbit-derivative-v001.json.
-The true orbit loses exactly one order when differentiated; norm-smoothness of R_s as an operator is not asserted. -/
+/-! The true orbit loses exactly one order when differentiated; norm-smoothness of R_s as an operator is not asserted. -/
 
 lemma hasDerivAt_sphereSobolevOrthogonalPullback_coordinate_partialSum_lower
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (s : ℝ)

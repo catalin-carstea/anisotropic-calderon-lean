@@ -2,10 +2,7 @@ import Calderon.ActualFinitePairedRadialRemainderGraphRoom
 import Calderon.ActualFiniteGaugePairedRadialRemainderDomain
 import Calderon.ActualReferenceRadialEndpointOpenLocus
 
-/-! Full before-source: actual-high-first-output-domain-plan-oct16-v001/
-EXPANSION-quartic-actual-domain-on-locus-factor-v013.md and
-EXPANSION-domain-on-locus-implementation-v014.md. One actual inverse room and
-paired signed-R2 first-output domain before every original finite product input. -/
+/-! One actual inverse room and paired signed-R2 first-output domain before every original finite product input. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

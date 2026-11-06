@@ -1,7 +1,7 @@
 import Calderon.ActualHigherSActualCubicPairing
 
-/-! Literal full3*3*207 mixed physical contraction, author source uncompiled.
-Canonical own4511 first fields keep the original reverse minus. Every word and
+/-! Literal full 3*3*207 mixed physical contraction.
+The canonical first fields keep the original reverse minus. Every word and
 coefficient order is retained. No output angular restriction or analytic callback. -/
 set_option autoImplicit false
 noncomputable section

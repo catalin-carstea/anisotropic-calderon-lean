@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleLowerTranspose
 import Calderon.ActualReferenceTwoAngleMidpointCore
 import Calderon.SphereSobolevMidpointPhysicalAdjunction
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-paired-midpoint-v107.md. Actual pointwise graphs and pivot. -/
+/-! Actual pointwise graphs and pivot of the paired two-angle adjoint midpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

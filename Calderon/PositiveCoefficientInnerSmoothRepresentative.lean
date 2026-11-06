@@ -2,8 +2,7 @@ import Calderon.PositiveCoefficientAffineAllOrderRegularity
 import Calderon.NativeInteriorDirectSmoothReconstruction
 import Calderon.LocalSmoothAmbientExtension
 
-/-! Full upfront: EXPANSION.json.
-Actual positive coefficient weak solver, derived all-order regularity and interior smooth realization. -/
+/-! Actual positive coefficient weak solver, derived all-order regularity and interior smooth realization. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter Metric TopologicalSpace

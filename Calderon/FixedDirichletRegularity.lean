@@ -9,9 +9,8 @@ open scoped ENNReal ContDiff Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily
 open EnergyBridge
 
-/-- The provisionally reviewed complete fixed-operator McLean composite.
-Future relative theorems take this proposition explicitly; it is not an axiom.
-Its exact Tau value/derivative/norm/distribution/trace transports remain uncompiled. -/
+/-- The complete fixed-operator regularity statement (McLean composite).
+Theorems that use it take this proposition as an explicit hypothesis; it is not an axiom. -/
 def FixedDirichletRegularity : Prop :=
   ∀ (s : ℕ) (a : R3 → Matrix (Fin 3) (Fin 3) ℝ) (lam Lam : ℝ),
     ContDiffOn ℝ ∞ a (Metric.closedBall 0 2) →

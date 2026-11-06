@@ -4,9 +4,8 @@ import Calderon.ActualLowerUSGainedJP
 import Calderon.ActualLowerUSGainedJQ
 import Calderon.ActualFiniteHarmonicModelHorizontalProfileIntegral
 
-/-! Author GPT-6.1 Sol; before-code ../lower-r-z-original-energy-upfront-v001.md.
-Actual full R/Z integral estimate in the original reference-profile energy.
-No analytic cap callback, physical output substitution, or author compiler. -/
+/-! Actual full R/Z integral estimate in the original reference-profile energy.
+No analytic cap callback or physical output substitution is used. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

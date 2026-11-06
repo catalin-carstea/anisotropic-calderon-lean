@@ -1,9 +1,6 @@
 import Calderon.ActualHighAdjointMovingBoundaryFamily
 import Calderon.ActualMovingBoundaryTransposeIdentification
 
-/-! Full upfront: day-oct13/actual-moving-boundary-family-author-oct15-v001/
-EXPANSION-adjoint-families-split.md. Unchanged public roots, definitions and
-statements; only receipt/module boundaries are decomposed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

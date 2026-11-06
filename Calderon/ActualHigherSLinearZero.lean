@@ -3,9 +3,8 @@ import Calderon.ActualHigherSIntegratedPairing
 import Calderon.ActualHigherSScalarCommutatorForm
 import Calderon.ActualHigherSAdjointCoefficientExtraction
 import Calderon.ActualHigherSZeroParameterFactors
-/-! Explicit linear zero-base high operators. Author source, UNCOMPILED.
-Exact full upfront/signature in linear-zero-high-upfront-v001. No Words/allRoom import.
-These definitions are literal derivative/coefficient/density rows, never residuals. -/
+/-! Explicit linear zero-base high operators.
+These definitions are explicit derivative/coefficient/density rows, never residuals. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

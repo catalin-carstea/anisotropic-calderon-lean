@@ -1,7 +1,5 @@
 import Calderon.SphereSobolevInclusion
 
-/-! Full before-source: day-oct13/actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-half-zero-negative-inclusion-apply-v051.md. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

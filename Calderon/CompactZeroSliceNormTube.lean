@@ -2,8 +2,7 @@ import Mathlib.Analysis.Normed.Group.Continuity
 import Mathlib.Analysis.Normed.Group.Real
 import Mathlib.Topology.Compactness.Compact
 
-/-! The full compact norm-zero tube expansion and exact interface were sealed
-before this source. ROOT owns formal checking; no completeness is required. -/
+/-! Compact norm-zero tube; no completeness is required. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

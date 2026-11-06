@@ -11,9 +11,7 @@ import Calderon.SupportedOperatorSectionsOfPairing
 import Calderon.PhysicalDensityProductsFiniteCoreProjection
 import Calderon.WeightedIntegralCongruence
 
-/-! Exact owned forward literal postmap five-fact public extraction.
-Full upfront expansion SHA256 ff03a8719deeaeea94819227f1558f32c7f4c1e03ce2bb2ca9916ded7010767e.
-Source-only; all ordinary full checking and review qualifications remain required. -/
+/-! Public extraction of the five facts of the forward literal postmap. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

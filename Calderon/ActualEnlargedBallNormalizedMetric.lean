@@ -1,8 +1,6 @@
 import Calderon.PhysicalHarmonicDilation
 
-/-! Expanded first in EXPANSION-actual-enlarged-ball-normalized-metric-v001.json.
-The coefficient-normalized metric g(Rx) retains frozen admissibility for R≥1.
-This is not a cast of a Sobolev carrier or a native-to-smooth regularity claim. -/
+/-! The coefficient-normalized metric g(Rx) retains frozen admissibility for R≥1. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

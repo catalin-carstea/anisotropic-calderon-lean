@@ -5,10 +5,7 @@ import Calderon.ActualLowerUSFirstCoefficientJets
 import Calderon.ActualLowerUSIndexedAngularGraphs
 import Calderon.ActualLowerUSAdjointCore
 
-/-! Original mathematical author: GPT-6.1 Sol, lower_bound_route.
-Mechanical module extraction: Root, recorded in ../D-PRESENTATIONS-EXTRACTION-v001.json.
-Before-code: ../d-presentation-module-boundary-upfront-v001.md.
-Exact full D/Dstar presentations only; no physical Q output or analytic cap. -/
+/-! Exact full D/Dstar presentations only; no physical Q output or analytic cap. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -48,7 +45,7 @@ local notation "GS" => lowerCoreAngularGeneratorAdjoint hO hD hF
 local notation "cD" j:max => nativeDFirstCoefficient g g2 L q dr Ar p j
 local notation "hcD" j:max => contDiff_nativeDFirstCoefficient g g2 hg hg2 L q dr Ar p hdr hAr j
 
-/-- Full native D equals this globally smooth scalar presentation. The checked
+/-- Full native D equals this globally smooth scalar presentation. The
 physical D dictionary and exact indexed finite lifts identify its actual fields. -/
 theorem nativeD_eq_first_presentation (j : Fin 3) :
     D j = coreScalarCombination hO hD GG (cD j) (hcD j) := by

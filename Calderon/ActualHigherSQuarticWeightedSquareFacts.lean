@@ -10,10 +10,8 @@ import Calderon.ActualHigherSQuadraticZeroQuarticRegularity
 import Calderon.ActualHigherSQuadraticZeroQuarticRowBound
 import Calderon.ActualHigherSPairingNormDiagnostic
 
-/-! Complete actual regularity/support and BOTH weighted square integrabilities,
-proved boundary C of the stored quartic factorization. No abstract replacement
-norm, profile-support callback or new public premise is introduced. Uncompiled;
-all original source/body/API/owner/norm/literature37/model holds remain. -/
+/-! Regularity and support, and both weighted square integrabilities, for the quartic
+factorization. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -77,7 +75,7 @@ local notation "Z2" => actualZ2Half g L y0 Φ B ε C ρ H a w hData hg hcalc hF 
 local notation "T2" => actualT2Half g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data
 local notation "QR" => quarticWordRow g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data
 
-/-- Actual smoothness, support and both L1 square facts at one original profile. -/
+/-- Smoothness, support and both L1 square facts at one profile. -/
 structure WeightedSquareFacts (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : ℝ)
     (F : smoothCompactFiniteSphereCore hO hD) : Prop where
   regularZ : ContDiff ℝ ∞ (Z2 g2 dr Ar p q F)
@@ -89,7 +87,7 @@ structure WeightedSquareFacts (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : �
   integrableT : Integrable
     (fun x => referenceDensityFamily g L (q,x)*‖KL (T2 g2 dr Ar p q F x)‖^2)
 
-/-- Prove the complete facts from the actual native room and actual support membership. -/
+/-- The complete facts, from the native room and support membership. -/
 lemma weighted_square_facts_of_original_room (dF : ℝ)
     (Cm : ActualCommonFirstWordQuadraticAdjoint.CommonFirstWordRoom
       g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 hreg data.δ0 data.germs dF)

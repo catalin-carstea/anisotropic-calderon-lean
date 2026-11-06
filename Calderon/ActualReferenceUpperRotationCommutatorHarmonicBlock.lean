@@ -8,8 +8,7 @@ open scoped ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotation SmoothSphereRotationProjection SpectralWeightedGraph
 
-/-! Full upfront argument is EXPANSION-v006.json in this immutable author directory.
-This is the actual harmonic block identity and its exact degree-weighted upper bound.
+/-! This is the actual harmonic block identity and its exact degree-weighted upper bound.
 The degree weights are retained; no uniform Sylvester half-form premise is introduced. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)

@@ -1,8 +1,7 @@
 import Calderon.ActualDensityCovariantSecondNormalForm
 import Calderon.ActualDensityNormalFormHorizontalDistribution
 
-/-! Before-source: actual-covariant-leading-algebra-author-oct16-v001/EXPANSION-grouped-parent-split-v004.md.
-Ordered actual identity, with every native correction retained. -/
+/-! Ordered actual identity, with every native correction retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

@@ -4,8 +4,6 @@ import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
 import Mathlib.Topology.UniformSpace.Compact
 import Mathlib.Tactic
 
-/-! Source-only author construction. EXPANSION-v001.md and exact typed interfaces
-were sealed before source. No compiler, trusted check or acceptance is claimed. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

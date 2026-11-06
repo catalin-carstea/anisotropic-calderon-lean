@@ -1,8 +1,8 @@
 import Calderon.ReferenceFramedNormalizedEndpointIntegralIdentities
 import Calderon.JointLocalParameterInverse
 
-/-! Source-only local joint inverse for the same smooth normalized endpoint.
-No whole-ball inverse gluing or ambient original-piecewise identity is claimed. -/
+/-! Local joint inverse for the same smooth normalized endpoint. This is local: no whole-ball
+inverse gluing or ambient original-piecewise identity is involved. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

@@ -4,8 +4,6 @@ import Calderon.ActualCanonicalAngularGainedBracket
 import Calderon.SphereSobolevAngularRaisingThreeHalfGraph
 
 /-!
-GPT-6.1 Sol authoring support. Before-code target and expansion:
-lower-u-s-nov03-v001/second-row-next-upfront.md.
 Finite INPUT dictionaries only; no finite replacement of physical S outputs.
 -/
 set_option autoImplicit false
@@ -201,7 +199,7 @@ local notation "KL" => sphereSobolevHalfToSphereL2L hO hD
 
 /-- The exact native lower U-adjoint first coefficient has the chosen physical
 high endpoint on the original finite input. All density/raising cancellations
-are consumed from the checked native coefficient dictionary. -/
+are consumed from the native coefficient dictionary. -/
 theorem lowerAdjointFirstHigh_finiteCore_physical (i : Fin 3)
     (F : smoothCompactFiniteSphereCore hO hD) (x : R3) :
     KL (DH i x (finiteCoreSobolevLift hO hD (3/2 : ℝ) F x)) = (DF i F).val x := by

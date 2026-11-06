@@ -1,5 +1,5 @@
 import Calderon.ActualFixedSeparationInteriorGeometry
-import MixedKernelPacketEndpointBounds
+import Calderon.MixedKernelConstruction.MixedKernelPacketEndpointBounds
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

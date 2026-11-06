@@ -2,10 +2,9 @@ import Calderon.ActualTSZeroWordPairing
 import Calderon.ActualTZeroGenuineReverse
 
 /-!
-Before-code: ../T-S-L00-weighted-assembly-before-source-nov03-night-v001/.
 Exact ORIGINAL T-zero finite word realization. All lifts are on original finite
 input. Raw adjoint corrections and original coefficients/norms are retained.
-This does not yet identify the full coefficient-weighted physical L00 pairing.
+The full coefficient-weighted physical L00 pairing is not identified here.
 -/
 set_option autoImplicit false
 set_option Elab.async false

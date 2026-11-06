@@ -2,8 +2,7 @@ import Calderon.NativeFiniteHarmonicProductHighTangentialGraph
 import Calderon.ActualReferenceGaugeTangentOperator
 import Calderon.NativeRepackedCoefficientMultiplierTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-GAUGE-TANGENT-HIGH-EXPANSION-v001.md. Original tangent field, no transpose premise. -/
+/-! High graph of the finite gauge tangent operator, for the original tangent field. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

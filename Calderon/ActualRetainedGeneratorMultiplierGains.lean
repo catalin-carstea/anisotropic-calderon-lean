@@ -1,8 +1,7 @@
 import Calderon.ActualPiJacobiRadialGainedRows
 
-/-! Source-only Sol author prerequisite. Full upfront:
-generator-multiplier-before-v001. Actual current Pi/nine-Jacobi witnesses are
-retained; degree B has eigenvalue k, including zero. Not the full W/E result. -/
+/-! Actual current Pi/nine-Jacobi witnesses are retained; degree B has
+eigenvalue k, including zero. This is not the full W/E result. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

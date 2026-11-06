@@ -1,8 +1,6 @@
 import Calderon.NativeWeightedDriftFluxGreen
 import Calderon.ActualReferenceStrongRoom
 
-/-! Expanded before source in EXPANSION-actual-reference-conormal-strong-compatibility-v001.json.
-Author draft; no checked acceptance claimed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

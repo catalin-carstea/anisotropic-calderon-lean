@@ -2,9 +2,8 @@ import Calderon.ActualLowerUSZeroAngularLocality
 import Calderon.ActualLowerUSFirstOutput
 import Calderon.ActualFiniteHarmonicModelScalarExpansion
 
-/-! Author-support GPT-6.1 Sol; before-code ../gained-jp-upfront-v001.md.
-Global genuine first-output finite linearity and angular scalar centrality.
-No room hypothesis and no output finiteness assumption. No compiler by author. -/
+/-! Global genuine first-output finite linearity and angular scalar centrality.
+No room hypothesis and no output finiteness assumption. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

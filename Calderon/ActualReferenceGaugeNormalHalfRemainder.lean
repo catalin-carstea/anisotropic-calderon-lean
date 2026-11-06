@@ -2,9 +2,7 @@ import Calderon.ActualReferenceGaugeNormalHalfCommutator
 import Calderon.LocalSmoothSignedTaylorRemainder
 import Calderon.CompactInverseDerivativeBounds
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-gauge-normal-half-remainder-v073.md. Literal signed integral
-normal remainder; correct generally nonzero firstjet is subtracted. -/
+/-! Literal signed integral normal remainder; correct generally nonzero firstjet is subtracted. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

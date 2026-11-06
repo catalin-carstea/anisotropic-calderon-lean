@@ -4,12 +4,9 @@ import Calderon.ActualReferenceRadialAdjointSharpJointSmoothnessCoercivity
 import Calderon.ActualReferenceSmoothMultiplierSecondTaylorSmoothness
 import Calderon.NativeSmoothMultiplierCommonSupportJets
 
-/-! v005 successor (author-only, UNCOMPILED): actual high/low adjacent gained commutators,
-joint C^∞ and uniform op-norm caps on one fixed radial box.
-Mathematics: output/MATHEMATICS.md (A1-A5), written before this file.
-Parent `Calderon.ActualHighRadialCommutatorGain` = exact v004 candidate source (Root qualifies).
-No sorry/admit/axiom/opaque/native_decide. Local instances are only the Prop-valued
-`CompleteSpace` facts for existing carriers, as in the supplied owners. -/
+/-! Actual high/low adjacent gained commutators, joint C^∞ and uniform op-norm caps on one
+fixed radial box. Local instances are only the Prop-valued `CompleteSpace` facts for existing
+carriers. -/
 
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
@@ -84,7 +81,7 @@ local notation "BCL" => referenceSmoothMultiplierBoundaryCommutatorFamily
 local notation "BCA" => referenceHighAdjointSmoothMultiplierBoundaryCommutatorFamily
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-! ### A1. The named actual adjacent maps (literally the two sides of v004 H13). -/
+/-! ### A1. The named actual adjacent maps (literally the two sides of H13 in `ActualHighRadialCommutatorGain`). -/
 
 /-- Actual HIGH adjacent gained commutator `Hi → Half` (five-term H8/H13 expression). -/
 def referenceAdjacentGainedCommutatorHigh (Qi Qk : SmoothCoefficientJets 3)
@@ -193,7 +190,7 @@ theorem contDiffAt_referenceAdjacentGainedCommutatorHigh_of_segment
       ((q,(y,r)),(ti,tk)) := contDiffAt_fst.prodMk contDiffAt_snd.fst
   have hPk : ContDiffAt ℝ ∞ (fun z : (ℝ × (R3 × ℝ)) × (T × T) => (z.1,z.2.2))
       ((q,(y,r)),(ti,tk)) := contDiffAt_fst.prodMk contDiffAt_snd.snd
-  -- (a) high Kbar (v004 H11)
+  -- (a) high Kbar (H11)
   have hKb : ContDiffAt ℝ ∞ (fun z : (ℝ × (R3 × ℝ)) × (T × T) => KbH z.1.1 z.1.2.1 z.1.2.2)
       ((q,(y,r)),(ti,tk)) :=
     (contDiffAt_referenceRadialAdjointSharpSecondCommutatorHigh_of_segment
@@ -218,7 +215,7 @@ theorem contDiffAt_referenceAdjacentGainedCommutatorHigh_of_segment
       secondTaylorRemainder (fun s : ℝ => RAH (z.1.1,(z.1.2.1,s))) z.1.2.2)
       ((q,(y,r)),(ti,tk)) := hPair.2.comp
         (f := fun z : (ℝ × (R3 × ℝ)) × (T × T) => z.1) ((q,(y,r)),(ti,tk)) contDiffAt_fst
-  -- (d) high adjoint multiplier remainder, coefficient frozen (supplied owner)
+  -- (d) high adjoint multiplier remainder, coefficient frozen
   have hGA : ContDiffAt ℝ ∞ (fun z : (ℝ × (R3 × ℝ)) × (T × T) =>
       secondTaylorRemainder (fun s : ℝ =>
         BCA (commonSupportCoefficientFamily 3 mi hmi Ki hKi hmiz z.2.1) (z.1.1,(z.1.2.1,s))) z.1.2.2)

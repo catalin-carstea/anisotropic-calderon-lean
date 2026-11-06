@@ -1,8 +1,7 @@
 import Calderon.NativeH2SmoothMultiplierDerivative
 import Calderon.CoefficientFirstJetsCommonSupport
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-common-support-spatial-multiplier-jets-v018.md. Joint spatial
+/-! Joint spatial
 derivative with the SAME actual compact support and exact jet transport. -/
 set_option autoImplicit false
 noncomputable section

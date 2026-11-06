@@ -2,8 +2,7 @@ import Calderon.NativeCoefficientMultiplierOrderCoherence
 import Calderon.NativeH2SmoothMultiplierOutwardTrace
 import Calderon.NativeOrderOneCoefficientMultiplier
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. Genuine plus normal term at high endpoint. -/
+/-! Genuine plus normal term at high endpoint. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -9,8 +9,7 @@ open scoped ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotation SmoothSphereRotationProjection SpectralWeightedGraph
 
-/-! Fully expanded before source in EXPANSION-v006.json in this author directory.
-The derivative is of the ACTUAL checked upper radial trace family. Its graph identity
+/-! The derivative is of the actual upper radial trace family. Its graph identity
 uses H^(5/2) input and H^(-1/2) output. No lower endpoint is postulated. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)

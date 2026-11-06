@@ -1,8 +1,6 @@
 import Calderon.SphereSobolevInclusion
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-native-adjunction-scalar-zero-parents-v024.md, parent2.
-The existing native inclusion and original literal endpoint zero values. -/
+/-! The existing native inclusion and original literal endpoint zero values. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

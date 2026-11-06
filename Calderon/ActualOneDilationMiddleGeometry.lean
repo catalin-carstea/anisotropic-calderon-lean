@@ -3,8 +3,8 @@ import Calderon.ActualReferenceRadiusCompactContinuation
 import Calderon.ActualPositiveDepthStrictCurrentRadius
 import Calderon.ActualKnownSideNormalizedH8Zero
 import Calderon.ActualNormalizedPrincipalH8InitialSmallness
-import MixedKernelUniformLowerSide
-import MixedKernelCylinderBoundary
+import Calderon.MixedKernelConstruction.MixedKernelUniformLowerSide
+import Calderon.MixedKernelConstruction.MixedKernelCylinderBoundary
 
 set_option autoImplicit false
 noncomputable section
@@ -17,8 +17,7 @@ open ConformalDepth RadiusProfile CoordinateBootstrapJets
   ActualNormalizedPrincipalH8InitialSmallness
 
 /-- The fixed middle gain and the actual beta profile yield one dilation for
-all softplus radii. The `hGain` input is the conditional result of the actual
-five-source factory and still needs its exact same-cutoff angular density bound. -/
+all softplus radii. -/
 theorem exists_one_dilation_current_radius_bootstrap_of_middle_three_halves
     (S : KnownSideSourceData) (L Rstar eps C rho0 tb eta : ℝ) (p : ℕ)
     (hL : 0 < L) (hRstar : 0 < Rstar) (heps : 0 < eps)

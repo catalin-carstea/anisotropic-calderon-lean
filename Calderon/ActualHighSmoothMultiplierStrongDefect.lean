@@ -15,8 +15,7 @@ import Calderon.ActualReferenceSmoothMultiplierStrongDefect
 import Calderon.ActualReferenceInvertibleStrongWeakCoherence
 import Calderon.NativeHighStrongSobolevTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. SAME correction gains one finite native order. -/
+/-! The same correction gains one finite native order. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

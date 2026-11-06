@@ -15,10 +15,7 @@ open EnergyBridge ConnectionError SphereHarmonic NativeFullSharpHalfTrace
   NativeHarmonicLiftCompletion NativeCoefficientBoundaryMultiplier
   NativeNegativeHalfCoefficientCoordinateProduct
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/EXPANSION.md
-and EXPANSION-lower-boundary-action.md. Exact actual boundary action at the
-H1/2 to H-1/2 endpoint. No smooth-core preservation, parameter smoothness,
-twofactor composition, pseudodifferential order, or moving estimate is claimed. -/
+/-! The actual boundary action at the H1/2 to H-1/2 endpoint. -/
 
 attribute [local irreducible] referenceHarmonicLiftFamily harmonicLiftCompletion
   referenceJacobiBoundaryCoefficientJets referenceJacobiSphereCoefficient

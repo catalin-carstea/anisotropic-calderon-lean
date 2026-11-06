@@ -1,7 +1,6 @@
 import Calderon.ActualLowerUSRotationLie
 
-/-! GPT-6.1 Sol author support. Literal completed ordinary bracket case table;
-before-code ordinary-angular-before-v001. Every sharp map is a true partner. -/
+/-! The completed ordinary bracket case table. Every sharp map is a true partner. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

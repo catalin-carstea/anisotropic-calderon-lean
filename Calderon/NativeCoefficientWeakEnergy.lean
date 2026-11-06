@@ -15,14 +15,11 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in EXPANSION-native-coefficient-weak-half-lift-rotation-v001.json.
-The transparent affine formula uses the literal coefficient energy, not an assumed solution. -/
+/-! The transparent affine formula uses the literal coefficient energy, not an assumed solution. -/
 
 variable (a : MatrixField) (b : R3 → R3) (c : R3 → ℝ)
   (hcoeff : MemLp (fun x => TauCeti.PDE.energyIntegrand (a x) (b x) (c x)) ⊤
     ((volume : Measure R3).restrict ballOpens))
-
-/-! Serial factoring: EXPANSION-native-weak-lift-serial-factoring-v001.json. -/
 
 def nativeCoefficientWeakEnergyL : BallH1 →L[ℝ] StrongDual ℝ BallH1Zero :=
   (TauCeti.PDE.energyFormH1L (mu := (volume : Measure R3)) (Omega := ballOpens)

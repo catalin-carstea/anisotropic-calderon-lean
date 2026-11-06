@@ -2,8 +2,7 @@ import Calderon.ActualNativePhysicalModelInputDictionary
 import Calderon.ActualReferenceHighAdjointCoordinateZeroRaisingGraph
 import Calderon.ActualNativeZeroCoordinateCovariantTransport
 
-/-! Upfront: actual-physical-P-local-allocation-author-oct16-v001/
-EXPANSION-model-T-dictionary-v004.md. Literal finite-input physical T, SAME model. -/
+/-! Literal finite-input physical T, same model. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

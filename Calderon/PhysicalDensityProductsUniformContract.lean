@@ -6,12 +6,8 @@ import Calderon.PhysicalProductsCoercivityInterface
 set_option Elab.async false
 
 /-!
-AUTHOR-PRODUCTS-UNIFORM-CONVERSION-SOURCE-NOV01-v006.
-Pre-source expansion SHA256 af8ae6909fa1104d12d2da26c8cf9101e61513c77242a62209594d19e2fc5547.
-Uncompiled bounded author candidate; normal kernel/replay/axiom/review checks remain mandatory.
-
 The original uniform Products profile theorem, using exactly the radius and
-constant returned by the original pointwise/room producer and the checked
+constant returned by the original pointwise/room construction and the
 conditional profile interface.
 -/
 

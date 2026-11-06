@@ -3,8 +3,7 @@ import Calderon.ActualRadiusThreeJetProfileRoom
 import Calderon.LocalSignedRadiusPowerCompositionJets
 import Calderon.ProductIteratedFDerivBounds
 
-/-! BEFORE-SOURCE proposal v071. Original native 31 jet bounds at ANY
-positive amplitude satisfying scalar profile bounds; no amplitude is selected. -/
+/-! Original native 31 jet bounds at any positive amplitude satisfying scalar profile bounds; no amplitude is selected. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -2,11 +2,8 @@ import Calderon.ActualHigherSMixedWordScalarProducts
 import Calderon.ProfileRadiusJets
 import Calderon.ActualHigherSCoordinateWeightBounds
 
-/-! Complete actual scalar first-jet producer for every207 mixed word.
-Constants precede q/profile/base point; no jet/budget callback is a final premise.
-Conditional own scalar-jet algebra11482bd5 and Words005 retain native/review holds.
-Original ProfileRadiusJets observed source-byte qualification is retained explicitly
-in the archived correspondence; no older receipt binding is newly asserted. -/
+/-! Complete actual scalar first-jet producer for every mixed word.
+Constants precede q/profile/base point; no jet/budget callback is a final premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

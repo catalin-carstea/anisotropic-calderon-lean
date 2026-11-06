@@ -3,8 +3,7 @@ import Calderon.ActualReferenceSmoothMultiplierBoundaryCommutator
 import Calderon.ActualReferenceCoordinateCorrectionTopology
 import Calderon.CompactInverseDerivativeBounds
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-common-support-commutator-jets-v020.md. The actual reference
+/-! Common-support commutator jets. The actual reference
 parameter and genuine compact multiplier-extension parameter remain independent. -/
 set_option autoImplicit false
 noncomputable section

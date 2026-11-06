@@ -3,8 +3,8 @@ set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic ClosedScalarCompatibility
-/-! Full upfront EXPANSION-v001.json precedes source. Exact standard-KERNEL
-structures, avoiding the W alias under ContDiffOn instance arguments. -/
+/-! The standard kernel structures, avoiding the W alias under ContDiffOn
+instance arguments. -/
 
 lemma physicalDegreeCasimirCompatibleData_normedAddCommGroup_eq_kernel
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) :

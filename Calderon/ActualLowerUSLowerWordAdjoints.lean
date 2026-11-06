@@ -2,10 +2,8 @@ import Calderon.ActualLowerUSAdjointZeroPolynomial
 import Calderon.ActualFiniteHarmonicModelQuadraticAngularAdjoint
 import Calderon.ActualPerturbedModelSupport
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jq-upfront.md.
-Actual finite true adjoints of the restricted lower-only J dictionary.
-Raising occurs only in a genuine finite adjoint test. No E self-adjointness.
-Source-only pending Root's native qualification; no compilation by author. -/
+/-! Actual finite true adjoints of the restricted lower-only J dictionary.
+Raising occurs only in a genuine finite adjoint test. No E self-adjointness. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

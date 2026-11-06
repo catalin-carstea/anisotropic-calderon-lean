@@ -10,9 +10,7 @@ open scoped ContDiff ENNReal Matrix.Norms.Elementwise Topology
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic MetricOperator NormalCoordinatesFrame
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/EXPANSION.md.
-These are the actual Jacobi coefficients. No parameter smoothness of the chosen
-extensions, boundary pseudodifferential order, or moving estimate is asserted. -/
+/-! These are the actual Jacobi coefficients. -/
 
 variable (g : MatrixField) (hg : IsAdmissibleMetric g) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)

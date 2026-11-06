@@ -1,7 +1,6 @@
 import Calderon.RealPivotDifferenceCancellation
 import Mathlib.Tactic.Linarith
-/-! Upfront: full-quartic-form-author-oct15-v001/
-EXPANSION-pure-quartic-four-pairing-v012.md. Pure conditional real pairing algebra. -/
+/-! Pure real pairing algebra. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

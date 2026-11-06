@@ -1,12 +1,9 @@
--- ADVISORY PROPOSAL (Claude consult 2026-10-23). NOT COMPILED. Not proof acceptance.
--- Statement (lines below `theorem`) is copied verbatim from inputs/Current.lean /
--- inputs/OriginalTarget.lean. Changes are body-only, see outputs/DIAGNOSIS.md R1-R5.
 import Calderon.ActualReferenceExtendedCenterInverseRoom
 import Calderon.ActualReferenceSmoothMultiplierSecondTaylorSmoothness
 import Calderon.ActualAdjointSmoothMultiplierExtendedRoomCompatibilityTransferJointRegularity
 import Calderon.SphereSobolevBalancedDualSmoothMiddle
 import Calderon.CompactWithinJetBounds
--- Draft modular implementation of the exact extended-centre regularity target.
+-- Modular proof of the extended-centre regularity statement.
 import Calderon.WeightedCommonSupportCoefficients
 import Calderon.MixedLinearDriftBounds
 import Calderon.CompactParameterReferenceWeakDriftCoercivity
@@ -43,8 +40,8 @@ open OAI.AnisotropicCalderon.SmoothKernelCodomainStructureTransport
 variable {T : Type} [NormedAddCommGroup T] [NormedSpace ℝ T]
   [FiniteDimensional ℝ T]
 
--- R1: same protection as every compiled sibling (Compatibility.lean:19-24); local only,
--- no data instance and no statement change.
+-- Keep these definitions locally irreducible, as in the sibling files; this adds no
+-- instance.
 attribute [local irreducible] referenceHighAdjointSmoothMultiplierBoundaryCommutatorFamily
   referenceSmoothMultiplierBoundaryCommutatorFamily referenceGaugeNormalHighInvertibleLocus
   referenceRadialEndpointInvertibleLocus secondTaylorRemainder
@@ -109,7 +106,7 @@ theorem exists_reference_adjointSmoothMultiplier_extended_center_smooth_room
   have hd1 : d ≤ 1 := min_le_left _ _
   refine ⟨lam,Lam,d0,d,hd,hdρ,hd1,hdd0strict,hRoom,?_⟩
   intro m hm Km hKm hmz S I J Gh GS Gn
-  -- R2: no Hi/Half/Neg/Pphys/K type aliases; literal carrier types only.
+  -- No Hi/Half/Neg/Pphys/K type aliases here; only the literal carrier types.
   have hSegment (z : (ℝ × (R3 × ℝ)) × T) (hz : z ∈ S) (θ : ℝ)
       (hθ : θ ∈ Icc (0 : ℝ) 1) :
       (z.1.1,(z.1.2.1,θ*z.1.2.2)) ∈
@@ -126,7 +123,7 @@ theorem exists_reference_adjointSmoothMultiplier_extended_center_smooth_room
         (by simpa only [one_mul] using hr)
     have h := hRoom (z.1.1,(z.1.2.1,θ*z.1.2.2)) hz.1.1 hz.1.2.1 hθr
     exact ⟨h.2.2.1,h.2.2.2⟩
-  -- R3: destructure the point so it is syntactically the helper's ((q,(y,r)),t).
+  -- Destructure the point so it is syntactically the helper's ((q,(y,r)),t).
   have hGh : ContDiffOn ℝ ∞ Gh S := by
     rintro ⟨⟨q,y,r⟩,t⟩ hz
     exact (contDiffAt_referenceAdjointHighCommonSupportSecondRemainder_of_segment
@@ -139,7 +136,7 @@ theorem exists_reference_adjointSmoothMultiplier_extended_center_smooth_room
       g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
       m hm Km hKm hmz q y r t
       (fun θ hθ => (hSegment _ hz θ hθ).1)).contDiffWithinAt
-  -- R4: typed unapplied template for the minus adjoint; Neg diamond stays on a closed term.
+  -- A typed unapplied template for the minus adjoint keeps the Neg diamond on a closed term.
   have hAdj : ContDiff ℝ ∞
       (realHalfOperatorAdjointL :
         (SphereSobolev (1/2 : ℝ) →L[ℝ] SphereSobolev (1/2 : ℝ)) →

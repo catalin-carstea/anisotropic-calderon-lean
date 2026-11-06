@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceTwoAngleStrongWeakIdentification
 import Calderon.NativeH2OutwardTraceOrthogonalCovariance
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-strong-covariance-v012.md. Actual uncompressed outer covariance. -/
+/-! Actual uncompressed outer covariance. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

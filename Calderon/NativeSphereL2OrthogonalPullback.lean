@@ -9,8 +9,6 @@ open scoped ENNReal ContDiff
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open OrthogonalSphereMeasure SmoothAngularCasimir DirichletFamily.DriftBootstrap
 
-/-! Expanded before source in EXPANSION-native-finite-sphere-orthogonal-trace-v001.json. -/
-
 def sphereL2OrthogonalPullback (e : R3 ≃ₗᵢ[ℝ] R3) : SphereL2 →ₗᵢ[ℝ] SphereL2 :=
   Lp.compMeasurePreservingₗᵢ ℝ (orthogonalSphereHomeomorph e)
     (orthogonalSphereHomeomorph_sphereProbability_preserving e)

@@ -2,9 +2,8 @@ import Calderon.ActualReferenceSmoothMultiplierLocalRealization
 import Calderon.ActualReferenceSmoothMultiplierLowerCommutator
 import Calderon.ActualReferenceEndpointFirstRadialJetMatching
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-commutator-firstjet-v030.md. The actual scalar multiplier
-is held fixed in the radial derivative; the linear subtraction is proved. -/
+/-! The actual scalar multiplier is held fixed in the radial derivative; the linear
+subtraction is proved. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

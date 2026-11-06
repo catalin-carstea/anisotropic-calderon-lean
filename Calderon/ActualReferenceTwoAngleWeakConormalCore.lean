@@ -15,8 +15,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 include hData
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-weak-conormal-v013.md. SAME literal native energy and weak lift. -/
+/-! SAME literal native energy and weak lift. -/
 
 def referenceTwoAngleWeakConormalFunctionalFamily (hcalc : FixedSobolevCalculus)
     (hF : SphereFischerInner) (i j k l : Fin 3) (t : ℝ × (ℝ × (ℝ × (R3 × ℝ)))) :

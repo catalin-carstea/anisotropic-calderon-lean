@@ -8,9 +8,7 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SpectralWeightedGraph
 
-/-! Expanded before source in EXPANSION-sphere-sobolev-orthogonal-pullback-v001.json.
-Harmonic block parent is an author candidate awaiting serial checks.
-No equal-order norm-smoothness in the rotation angle is asserted. -/
+/-! No equal-order norm-smoothness in the rotation angle is asserted. -/
 
 lemma harmonicSphereOrthogonalPullback_symm_apply (e : R3 ≃ₗᵢ[ℝ] R3) (k : ℕ)
     (u : harmonicSphereSubspace k) :

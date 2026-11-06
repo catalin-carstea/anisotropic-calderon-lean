@@ -6,10 +6,7 @@ import Calderon.ActualHigherSZeroWordLiteralDictionary
 import Calderon.ActualLowerSSelfFormation
 
 /-!
-Before-code: ../T-S-L00-weighted-assembly-before-source-nov03-night-v001/.
-The exact signed coefficient-weighted T30/S207 scalar is bounded on original
-input support. Its physical native T0/S0 dictionary and remaining correction/
-linear terms are separate required work; no literal L00 completion is claimed.
+The signed coefficient-weighted T30/S207 scalar is bounded on the input support.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -89,8 +86,8 @@ private lemma reference_log_frame_eq_radius_horizontal
 attribute [local irreducible] ActualHigherSFormation.higherSInput
   actualOrderedWordPairingDefect signedWeightedQuadraticZero
 
-/-- Actual coefficient and finite-input word bounds close all premises internally.
-This is the selected weighted scalar, before its exact native physical dictionary. -/
+/-- The coefficient and finite-input word bounds discharge all premises internally.
+This is the weighted scalar, before its exact native physical dictionary. -/
 theorem exists_original_weighted_zero_quadratic_bound
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) :

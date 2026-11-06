@@ -1,11 +1,8 @@
 import Calderon.ActualReferencePairedLowRadialRemainderLocalSmoothness
 import Calderon.ActualReferencePrimalCommutatorJets
 import Calderon.ActualReferenceRadialEndpointOpenLocus
-/-! Source-only complete repair v002, not compiled by its author.
-Upfront: /tmp/ActualReferenceRadialEndpointJointJetsRepair_v002_20261023.md.
-The exact auxiliary target/public theorem type is unchanged. Cap construction
-now occurs entirely in a geometry-free full-payload theorem, with explicit
-existing canonical data arguments. No new hypothesis, instance or limit. -/
+/-! The cap construction occurs entirely in a geometry-free full-payload theorem,
+with explicit existing canonical data arguments. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

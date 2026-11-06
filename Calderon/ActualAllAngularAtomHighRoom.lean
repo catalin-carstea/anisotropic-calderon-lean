@@ -7,11 +7,9 @@ import Calderon.ActualFixedGeneratorPairedGains
 import Calderon.ActualAllAngularAtomPairedLow
 import Calderon.ActualAllAngularAtomNativeBudgets
 
-/-! Complete actual high-room prerequisite. Original public atom definitions,
-nine-case gained dictionary and final AllAngularAtomRoom record are retained
-byte-identically in their original namespace. Complete low/finite-cap assembly
-is separated and is not asserted by this high prerequisite alone. All source,
-owner, norm, native and review qualifications remain; no acceptance claimed. -/
+/-! The high room for the angular atoms: the public atom definitions, the
+nine-case gained dictionary and the final `AllAngularAtomRoom` record. The
+low/finite-cap assembly is done separately. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

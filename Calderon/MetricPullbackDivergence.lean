@@ -1,9 +1,8 @@
 import Calderon.MetricPullbackFlux
 import Calderon.WeightedMatrixCalculus
 import Mathlib.Analysis.Calculus.FDeriv.Congr
-/-! Source-only author C3-C4 covariance stage. Signed Piola, actual pointwise
-flux congruence and locally constant sign were fully expanded/sealed first.
-No covariance, harmonic-kernel or boundary-symbol premise is introduced. -/
+/-! C3-C4 covariance stage: signed Piola, actual pointwise flux congruence and
+locally constant sign. No covariance, harmonic-kernel or boundary-symbol premise is introduced. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

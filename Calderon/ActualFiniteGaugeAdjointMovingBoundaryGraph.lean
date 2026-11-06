@@ -4,8 +4,6 @@ import Calderon.ActualFiniteGaugeAdjointUnitRadialGraph
 import Calderon.ActualFiniteGaugeAdjointMovingBoundaryFamily
 import Calderon.ActualFiniteGaugeAdjointCoordinateGraph
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-DIRECT-MOVING-GRAPH-PROOF-DECOMPOSITION-UPFRONT-v001.md. Exact original moving graph proof block. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

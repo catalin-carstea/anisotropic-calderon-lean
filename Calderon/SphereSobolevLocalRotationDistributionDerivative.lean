@@ -8,8 +8,7 @@ open scoped Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothSphereRotationProjection DirichletFamily.DriftBootstrap
 
-/-! Fully expanded before source in EXPANSION-generic-local-sphere-rotation-distribution-derivative-v001.json.
-Only near-zero finite covariance is needed; actual applications must derive it. -/
+/-! Only near-zero finite covariance is needed; applications must derive it. -/
 
 lemma sphereSobolev_operator_zero_of_eventually_coordinate_covariance
     (s t : ℝ) (i j : Fin 3)

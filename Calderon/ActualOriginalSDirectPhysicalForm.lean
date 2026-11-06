@@ -1,22 +1,18 @@
-/- Opus v085 original S direct physical form package, author-only and uncompiled. -/
 import Calderon.ActualHigherSAngularAdjoint
 import Calderon.ActualHigherSSecondAdjoint
 import Calderon.ActualHigherSPhysicalIntegratedConsumer
 import Calderon.ActualHigherSCoefficientBounds
 
-/-! Source-only Opus v085 author, 31 October 2026. UNCOMPILED.
-Before-source mathematics: MATHEMATICS.md (same output directory).
-
-PROVED HERE (author claim, Root checks):
-* §2 the ORIGINAL angularS block `higherSAngularHalf` against its own finite input: exact
+/-! The original S block in direct physical form. Proved here:
+* §2 the original angularS block `higherSAngularHalf` against its own finite input: exact
   global pointwise identity via `raising_pairing_lowering` (outer raising) and one `Cm.pivot`
   (`EH_i UA_j`), both `Q_ij` orders literal; global bound `≤ K R ‖UF‖²`; density-integrated
   diagonal bound with integrabilities; constants `δ, Cm, CE, CrE, CL, CA` before `g2`,
   `K` after `g2` and before every profile/input/point.
 * §3 secondS rows: exact pointwise E-UD pivot row and the exact integrated D-row Green identity
   (outer weighted `D` moved by `scalar_weighted_green_combined`, `v = IH VF_j`).
-NOT PROVED HERE: the final secondS integrated bound, the full literal S budget, the small form.
-See STATUS.md for the precise missing native statements. -/
+The final secondS integrated bound, the full S budget and the small form are not part of this
+file. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -332,7 +328,7 @@ theorem integrated_angular_bound_of_bounds (hreg : FixedDirichletRegularity) (δ
   rw [integral_const_mul, Real.norm_eq_abs] at h
   exact ⟨hInt, hWi, h⟩
 
-/- Root: bounded proof boundaries for room/cap selection and fixed-metric specialization. -/
+/- Bounded proof boundaries for room/cap selection and fixed-metric specialization. -/
 private structure AngularRoomBounds (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : CoeffRoom δ0) where
   δ : ℝ
   room : CRoom hreg δ0 W δ

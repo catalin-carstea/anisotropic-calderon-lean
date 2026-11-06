@@ -1,8 +1,7 @@
 import Calderon.NativeCoefficientWeakHalfLift
 import Calderon.NativeHalfSmoothMultiplier
 
-/-! Expanded before source in EXPANSION-native-weak-multiplication-defect-reduction-author-v001.json.
-This module proves a reduction, not zero-Dirichlet membership of the free harmonic product defect. -/
+/-! This module proves a reduction, not zero-Dirichlet membership of the free harmonic product defect. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

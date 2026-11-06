@@ -16,8 +16,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Full upfront expansion: EXPANSION-native-smooth-full-energy-and-angle-family-v001.json.
-Actual literal full native energy operator regularity is derived from coefficient multipliers. -/
+/-! Actual literal full native energy operator regularity is derived from coefficient multipliers. -/
 
 def referenceRotationFullWeakEnergyFamily (hcalc : FixedSobolevCalculus)
     (i j : Fin 3) (t : ℝ × (ℝ × (R3 × ℝ))) : BallH1 →L[ℝ] StrongDual ℝ BallH1 :=

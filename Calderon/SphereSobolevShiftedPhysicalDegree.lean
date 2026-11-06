@@ -4,8 +4,7 @@ noncomputable section
 open scoped ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SpectralWeightedGraph
-/-! Full upfront: EXPANSION-v001.json. Original physical degree k,
-actual order loss one, degree zero retained; no selected-S substitution. -/
+/-! Original physical degree k, actual order loss one, degree zero retained. -/
 
 def sphereSobolevShiftedDegreeL (s : ℝ) : SphereSobolev s →L[ℝ] SphereSobolev (s-1) :=
   (sphereSobolevBesselEquiv s 1).toContinuousLinearEquiv.toContinuousLinearMap -

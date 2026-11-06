@@ -2,9 +2,8 @@ import Calderon.ActualFullECanonicalEndpoints
 import Calderon.ActualCanonicalAngularGainedBracket
 import Calderon.NativeHalfCoefficientCommutation
 
-/-! Source-only Sol author candidate, no compiler lease.
-Upfront: full-finite-assembly-before-v001/MATHEMATICS.md §§1–3 (HH band).
-The final actual producer uses the ordinary owner's exact shared Pi/Jacobi germs.
+/-! The HH band. The final actual producer uses the exact shared Pi/Jacobi germs of the
+ordinary endpoints.
 No high norm is used to infer a low endpoint. -/
 set_option autoImplicit false
 noncomputable section
@@ -81,7 +80,7 @@ local notation "NJ3" => referenceJacobiBoundaryThreeHalfCoefficientFamily g hg L
 local notation "NJ2" => referenceJacobiBoundaryCoefficientFamily g hg L y0 Φ B ε C ρ H a w hData
 local notation "Guard" => finiteRoomGuard hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData
 
-/-- Exact current native Jacobi jets from the ordinary owner's retained support data. -/
+/-- Exact current native Jacobi jets from the retained support data of the ordinary endpoints. -/
 def jacobiJets (δ0 : ℝ) (W : CoeffRoom δ0) (i m : Fin 3) (p : Pphys) : SmoothCoefficientJets 3 :=
   commonSupportCoefficientFamily 3 (W.jacobiScalar i m) (W.jacobiSmooth i m)
     (W.jacobiSupport i m) (W.jacobiCompact i m) (W.jacobiZero i m) p

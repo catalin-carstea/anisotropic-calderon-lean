@@ -1,9 +1,6 @@
 import Calderon.NativeCoefficientStrongDriftEnergy
 import Calderon.ActualReferenceTwoAngleStrongOperator
 
-/-! Exact original tested energy root, partitioned unchanged.
-Upfront: high-degree-rotation-author-oct15-v001/
-PARTITION-two-angle-strong-tested-energy-v073.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

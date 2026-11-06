@@ -1,9 +1,8 @@
-/- Opus v089: successor of `ActualHigherSZeroCoefficientJets` (predecessor NOT modified,
-not claimed accepted).  Source-only, author has NOT compiled.  Proves the generic order-2
-budgets and radius 0..4 selection for the two-jet bound of the actual canonical zero
-coefficient, and reduces `CanonicalZeroCoefficientJetTarget` to the single named
-factorisation `CanonicalZeroFactorisation` (identity (★) of MATHEMATICS.md §1 plus germs),
-which is NOT proved here.  See STATUS.md. -/
+/- Proves the generic order-2 budgets and radius 0..4 selection for the two-jet bound of the
+actual canonical zero coefficient, and reduces `CanonicalZeroCoefficientJetTarget` (from
+`ActualHigherSZeroCoefficientJets`) to the single named factorisation
+`CanonicalZeroFactorisation` (identity (★) plus germs), which is proved in
+`ActualHigherSZeroCoefficientFactorisation`. -/
 import Calderon.ActualHigherSZeroCoefficientJets
 set_option autoImplicit false
 noncomputable section
@@ -180,7 +179,7 @@ local notation "Neg" => SphereSobolev (-(1/2 : ℝ))
 local notation "Pphys" => ℝ × (R3 × ℝ)
 local notation "Tpar" => Pphys × (R3 →L[ℝ] ℝ)
 attribute [local instance] v017PiHighComplete v017PiHalfComplete v017PiNegativeComplete
-/- Same cache order as the predecessor: inner operator norm, then its module. -/
+/- Cache order: inner operator norm, then its module. -/
 @[instance_reducible] private def zeroBoundsHighHalfNormed : NormedAddCommGroup (Hi →L[ℝ] Half) :=
   inferInstance
 attribute [local instance] zeroBoundsHighHalfNormed
@@ -269,7 +268,7 @@ local notation "CZc" => canonicalZeroCoefficient g L y0 Φ B ε C ρ H a w hData
 local notation "Target" => CanonicalZeroCoefficientJetTarget
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-- UNPROVED named body: the exact factorisation (★) of MATHEMATICS.md §1 for the literal
+/-- The exact factorisation (★) for the literal
 `canonicalZeroCoefficient`, with factor germs `Φ0, Ψ` depending ONLY on the parameter
 `t` (chosen after δ, g2; before δr, Ar, p, q, x).  This is an identity about the actual
 objects, not a bound; no jet or compact-bound information is contained in it. -/
@@ -285,9 +284,9 @@ def CanonicalZeroFactorisation (δ : ℝ) (g2 : MatrixField) : Prop :=
           hessianEntry i (fderiv ℝ (fderiv ℝ (referenceRadius δr Ar p L)) y)) •
           Ψ i ((Tq δr Ar p q) y)
 
-/-- Reduction: the exact predecessor target follows from the named factorisation, using
+/-- Reduction: `CanonicalZeroCoefficientJetTarget` follows from the named factorisation, using
 ONLY native data (compact room caps, actual parameter jets, actual radius jets 0..4).
-`hL` is the same native hypothesis as in the checked first-coefficient bound. -/
+`hL` is the same native hypothesis as in the first-coefficient bound. -/
 theorem canonicalZeroCoefficientJetTarget_of_factorisation
     (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : CoeffRoom δ0)
     (δ : ℝ) (Cm : CRoom hreg δ0 W δ) (hL : 0 < L)

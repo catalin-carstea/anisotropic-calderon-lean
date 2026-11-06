@@ -1,6 +1,6 @@
 import Calderon.SourceRungeLiteratureInterfaces
 
-/-! Full upfront expansion precedes these exact raw/covariant jet identities. -/
+/-! Exact raw/covariant jet identities. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

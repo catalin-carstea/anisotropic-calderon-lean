@@ -5,9 +5,7 @@ import Calderon.ActualLowerUSFirstScalarJets
 import Calderon.ActualLowerUSFiniteNormBudget
 
 /-!
-Author: GPT-6.1 Sol. Before-code ../lower-r-z-full-d-first-jets-upfront.md.
 Full actual D value and first coordinate jets; scalar sigma is derived inline.
-No analytic cap callback, proof admission or author compilation.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -34,8 +32,7 @@ attribute [local instance] fullFirstLowNormed
 attribute [local instance] fullFirstLowSpace
 attribute [local irreducible] lowerAdjointFirstLow
 
-/-- Exact original uniform full-D word-jet proposition. This definition has
-identical quantifiers to the expanded target separately elaborated by Root. -/
+/-- Exact original uniform full-D word-jet proposition. -/
 def LowerAdjointFirstUniformWordBound
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
     (g g2 : MatrixField) (hg : IsAdmissibleMetric g) (hg2 : IsAdmissibleMetric g2)

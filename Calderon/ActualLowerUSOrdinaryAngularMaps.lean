@@ -1,8 +1,7 @@
 import Calderon.ActualLowerUSFirstCoefficientGraph
 import Calderon.ActualLowerUSAdjointZeroPolynomial
 
-/-! GPT-6.1 Sol author support. Before-code ordinary-angular-before-v001.
-Canonical ordinary maps and their TRUE angular partners, no analytic callback. -/
+/-! Canonical ordinary maps and their true angular partners. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

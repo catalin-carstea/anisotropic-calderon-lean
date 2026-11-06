@@ -1,7 +1,6 @@
 import Calderon.HarmonicCoordinateCompatibility
 import Calderon.SphereDerivativeAdjoint
 
-/-! Expanded before source in EXPANSION-native-coordinate-harmonic-defect-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial

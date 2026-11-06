@@ -1,9 +1,7 @@
 import Calderon.ActualNativeFirstVariationRadialFactor
 import Calderon.ActualNativeTraceFirstOperatorDerivative
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-firstjet-polynomial-radial-factor-v024.md. SAME actual
-coarse derivative, using the proved radialFactor curve derivative. -/
+/-! SAME actual coarse derivative, using the proved radialFactor curve derivative. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory MvPolynomial

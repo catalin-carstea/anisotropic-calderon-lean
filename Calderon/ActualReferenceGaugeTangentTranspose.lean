@@ -5,8 +5,7 @@ import Calderon.NativeSmoothMultiplierCommonSupportJets
 import Calderon.SphereSobolevCoordinateNegativeHalfOrder
 import Calderon.ActualReferenceLowerBoundaryTranspose
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/
-EXPANSION-transpose-v003.md. Genuine probability-L2 pivot transpose, actual scalar divergence. -/
+/-! Genuine probability-L2 pivot transpose, actual scalar divergence. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

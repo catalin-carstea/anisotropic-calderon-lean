@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalDensityProductsAdjointOperatorCore
 import Calderon.SphereSobolevInclusion
 
-/-! Complete AUTHOR beforecode proposal only. No executable or acceptance grant.
-Canonical Half postmap and exact original pointwise Products room conditions. -/
+/-! Canonical Half postmap and exact original pointwise Products room conditions. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.MainPhysicalGraphBridge

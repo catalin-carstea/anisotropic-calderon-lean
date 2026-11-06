@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteHarmonicProductRadialRemainderGraph
 import Calderon.ActualFiniteGaugeAdjointRemainderGraph
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-PAIRED-FINITE-GENUINE-SIGNED-REMAINDER-DOMAIN-EXPANSION-v001.md. Exact uncompressed finite-input witnesses. -/
+/-! Exact uncompressed finite-input witnesses. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

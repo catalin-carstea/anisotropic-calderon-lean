@@ -1,8 +1,7 @@
 import Calderon.ActualDensityFirstActionNormalForms
 import Calderon.ActualPhysicalDensityHigherFirstSectionDomain
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-second-action-germ-normal-form-v004.md. Genuine original first-section germ. -/
+/-! Normal form of the second action, on the genuine first-section germ. -/
 set_option autoImplicit false
 noncomputable section
 open Filter

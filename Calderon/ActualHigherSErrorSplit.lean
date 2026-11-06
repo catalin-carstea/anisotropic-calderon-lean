@@ -1,13 +1,10 @@
 import Calderon.ActualPhysicalDensityErrorDecomposition
 import Calderon.ActualHigherSFormation
 
-/-! Source-only author: Opusv040, repaired Opusv044, 29 October 2026. UNCOMPILED.
-Before-source mathematics: INTEGRATED-PAIRING-MATHEMATICS.md §1 (same output directory).
-Literal full physical-error regrouping: the complementary `USigma+UD+UFirst+UProducts`, copied
-term by term from `referencePhysicalDensityError`, and the purely additive identity
-`error = complement + nativeHigherSNegative` (formation's literal `USecond+UAngular+UDouble`).
-v044: calls checked against the native formation API (`nativeHigherSNegative hF hO hD g L y0 ...
-hData hg hcalc τ0 g2 q R u y`); proof zeta-reduces both sides, then applies the generic lemma. -/
+/-! Regrouping of the full physical error: the complementary `USigma+UD+UFirst+UProducts`,
+taken term by term from `referencePhysicalDensityError`, and the purely additive identity
+`error = complement + nativeHigherSNegative` (the `USecond+UAngular+UDouble` of the formation).
+The proof zeta-reduces both sides, then applies the generic lemma. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter
@@ -30,8 +27,8 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)
   (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)
 
-/-- Literal `USigma+UD+UFirst+UProducts` of `referencePhysicalDensityError`: the `let` block is
-copied verbatim from the source (lines 36–82); only the final sum drops the three higher-S
+/-- The `USigma+UD+UFirst+UProducts` part of `referencePhysicalDensityError`: the `let` block is
+that of `referencePhysicalDensityError`; only the final sum drops the three higher-S
 summands. -/
 def referencePhysicalDensityErrorComplement (g2 : MatrixField) (q : ℝ) (R : R3 → ℝ)
     (u : R3 → SphereSobolev (3/2 : ℝ)) (y : R3) : SphereSobolev (-(1/2 : ℝ)) :=

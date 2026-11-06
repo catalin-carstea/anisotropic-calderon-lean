@@ -4,8 +4,7 @@ set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
-/-! Full upfront EXPANSION-v001.json. Exact already-constructed finite dual-pair
-bound factored from original point theorem; no cap or mathematical change. -/
+/-! The finite dual-pair bound, factored out of the pointwise theorem. -/
 attribute [local irreducible] sphereSobolevSingleL sphereSobolevCoefficientL sphereSobolevInclusionL
 
 lemma finite_half_dual_degree_pair_bound_of_decoded_form_bound

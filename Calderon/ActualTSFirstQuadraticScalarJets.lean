@@ -2,8 +2,7 @@ import Calderon.ActualTFirstNegativeGraph
 import Calderon.ActualHigherSMixedWordScalarUniformCaps
 
 /-! Actual frame-weighted original207 quadratic-word scalar first jets.
-Only scalar coefficient data are closed here; the full quadratic D10 producer remains.
-Before-code: ../T-first-S-quadratic-scalar-first-jets-before-source-nov03-night-v001/. -/
+Only the scalar coefficient data are treated here. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

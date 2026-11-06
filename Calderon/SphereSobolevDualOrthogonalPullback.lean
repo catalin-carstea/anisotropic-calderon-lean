@@ -6,8 +6,6 @@ noncomputable section
 open scoped InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 
-/-! Fully expanded before source in EXPANSION-sphere-sobolev-dual-orthogonal-pullback-v001.json. -/
-
 theorem sphereSobolevDualPairing_orthogonalPullback (s : ℝ)
     (e : R3 ≃ₗᵢ[ℝ] R3) (u : SphereSobolev s) (v : SphereSobolev (-s)) :
     sphereSobolevDualPairing s (sphereSobolevOrthogonalPullbackL s e u)

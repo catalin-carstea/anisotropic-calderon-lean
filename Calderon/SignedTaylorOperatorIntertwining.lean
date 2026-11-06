@@ -1,8 +1,7 @@
 import Calderon.SignedTaylorFixedLinearTransport
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-signed-Taylor-operator-intertwining-v126.md. Exact fixed-inclusion
-integral transport on abstract normed spaces; actual native graphs are separate. -/
+/-! Exact fixed-inclusion integral transport on abstract normed spaces; the actual
+native graphs are treated separately. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

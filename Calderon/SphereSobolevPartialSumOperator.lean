@@ -1,7 +1,6 @@
 import Calderon.SphereSobolevCompletion
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-ADJOINT-PRODUCT-ASSEMBLY-EXPANSION-v001.md. Existing partial sum as its literal finite CLM sum. -/
+/-! The partial sum as its literal finite sum of continuous linear maps. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

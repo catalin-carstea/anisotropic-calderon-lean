@@ -9,8 +9,6 @@ open scoped ENNReal ContDiff Classical
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic
 
-/-! Expanded before source in EXPANSION-native-H2-coefficient-flux-Green-v001.json. -/
-
 def coefficientSmoothData (F : SmoothCoefficientJets 2) : SmoothData :=
   ⟨coefficientValue 2 F,contDiff_coefficientValue 2 F⟩
 

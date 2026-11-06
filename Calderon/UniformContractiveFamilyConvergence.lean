@@ -8,8 +8,6 @@ open Filter
 open scoped Topology
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 
-/-! Full upfront expansion: EXPANSION-sphere-sobolev-full-rotation-orbit-derivative-v001.json. -/
-
 lemma tendstoUniformly_contractive_family_apply
     {E F A N : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
     [NormedAddCommGroup F] [NormedSpace ℝ F]

@@ -3,9 +3,8 @@ import Calderon.NativeRadialJetTranspose
 import Calderon.SphereSobolevHalfDualRotationPairing
 import Calderon.ActualHorizontalGeometry
 
-/-! Source-only Sol author candidate. Exact upfront W-E-paired-before-v001.
-Ordinary17612 and E/Ev003 dependencies are unqualified. Physical degree k,
-true angular reverse, retained W, no independent derivative-gain premise. -/
+/-! Paired gained endpoints of W and E. Physical degree k, true angular reverse,
+retained W, no independent derivative-gain premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

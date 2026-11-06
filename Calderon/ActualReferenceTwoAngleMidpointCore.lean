@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleRadialRoom
 import Calderon.ActualReferenceTwoAngleEndpointCompatibility
 import Calderon.ActualReferenceSharpMidpointRadialTrace
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-midpoint-v020.md. Actual compatible primal midpoint. -/
+/-! Actual compatible primal midpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

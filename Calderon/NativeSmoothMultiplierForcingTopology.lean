@@ -2,8 +2,7 @@ import Calderon.NativeSmoothMultiplierCommonSupportJets
 import Calderon.NativeSmoothMultiplierForcingCoefficients
 import Calderon.NativeCoefficientH1ProductTopology
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-smooth-multiplier-forcing-topology-v019.md. Smoothness is obtained
+/-! Smoothness is obtained
 from actual coefficient functions and exact native jet graphs, not an output premise. -/
 set_option autoImplicit false
 noncomputable section

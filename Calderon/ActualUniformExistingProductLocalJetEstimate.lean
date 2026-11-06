@@ -1,5 +1,5 @@
 import Calderon.ActualUniformProductExtensionJetBudget
-import MixedKernelFullCrossExtension
+import Calderon.MixedKernelConstruction.MixedKernelFullCrossExtension
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -2,8 +2,6 @@ import Calderon.NativeNegativeHalfMultiplierOrthogonalCovariance
 import Calderon.NativeCoefficientBoundaryMultiplier
 import Calderon.ContinuousLinearConjugacyInverse
 
-/-! Original full expansion and focused checked proof transfer recorded before source
-in EXPANSION-v003.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

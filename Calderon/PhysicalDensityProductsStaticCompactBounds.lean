@@ -7,9 +7,6 @@ import Mathlib.Analysis.Calculus.ContDiff.Comp
 import Mathlib.Analysis.Normed.Group.Bounded
 import Mathlib.Topology.Algebra.Monoid
 
-/-! Full upfront written before this source: FULL-UPFRONT-EXPANSION.md,
-SHA256 55e78bb41b0d892a66c12a3beefe54c13f7d163c28ad66879cc39baa2ec71020.
-Author-only proposal under Root v165. No native or proof-acceptance claim. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter
@@ -17,8 +14,6 @@ open scoped ContDiff Topology
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic
 
-/- The identical complete canonical-completeness proof passed in isolation
-   (source63919da7); it is proved here, not imported as a new premise. -/
 private theorem completeSpace_sphereSobolev_threeHalf_to_half :
     letI productsOperatorNormedAddCommGroup :
       NormedAddCommGroup (SphereSobolev (3/2 : ℝ) →L[ℝ] SphereSobolev (1/2 : ℝ)) :=

@@ -3,9 +3,7 @@ import Calderon.ActualFormalAdjointPhysicalDensityOperator
 import Calderon.ActualFiniteHighFullAdjointSecondSectionGraph
 import Calderon.ActualDensityPrincipalFrameSmoothness
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-finite-full-formal-adjoint-L2-v015.md object2 and refinement017.
-Exact literal full formal-adjoint graph, no output regularity premise. -/
+/-! Exact literal full formal-adjoint graph, no output regularity premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set

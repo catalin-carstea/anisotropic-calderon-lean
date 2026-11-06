@@ -2,8 +2,7 @@ import Calderon.ActualHorizontalSobolevConnection
 import Calderon.SphereSobolevHalfDualRotationPairing
 import Mathlib.Analysis.InnerProductSpace.Calculus
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-HORIZONTAL-PAIRING-EXPANSION-v001.md. Genuine native mixed-endpoint value pairing. -/
+/-! Horizontal pairing: the genuine native mixed-endpoint value pairing. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

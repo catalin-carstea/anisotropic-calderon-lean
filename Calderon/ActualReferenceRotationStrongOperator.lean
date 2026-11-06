@@ -14,8 +14,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Expanded before source in EXPANSION-actual-rotation-strong-operator-topology-root-v001.json.
-The drift multiplier already contains the full weighted drift coefficient. -/
+/-! The drift multiplier already contains the full weighted drift coefficient. -/
 
 def referenceRotationOrdinaryStrongFamily (hcalc : FixedSobolevCalculus)
     (i j : Fin 3) (t : ℝ × (ℝ × (R3 × ℝ))) : BallSobolev 2 →L[ℝ] BallSobolev 0 :=

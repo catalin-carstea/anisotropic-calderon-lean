@@ -7,8 +7,6 @@ import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Invertible
 import Mathlib.Analysis.Normed.Operator.Banach
 import Mathlib.Tactic
 
-/-! UNCOMPILED author construction. The complete expansion and literal original
-geometry payload were sealed before source authoring. No chart premise is added. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 set_option backward.isDefEq.respectTransparency false

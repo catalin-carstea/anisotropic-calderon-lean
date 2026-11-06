@@ -3,9 +3,7 @@ import Calderon.ActualCanonicalAngularGainedBracket
 import Calderon.ActualFiniteHarmonicCoreRotation
 import Calderon.ActualFiniteHarmonicCoreDerivative
 
-/-! Fixed finite-input Hi lift dictionary. Root author; exact before-code expansion
-and contract: fixed-lift-dictionary-upfront-v001. No actual all-atom estimate,
-finite angular output restriction, inverse inclusion or acceptance is asserted. -/
+/-! Fixed finite-input Hi lift dictionary. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff Topology InnerProductSpace

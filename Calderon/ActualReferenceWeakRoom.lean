@@ -1,8 +1,7 @@
 import Calderon.JointConformalReferenceFramedDriftData
 import Calderon.CompactParameterReferenceWeakDriftCoercivity
 
-/-! Source-only actual retained-witness common weak radius. Full expansion and
-literal interfaces were sealed before this proof body. No Sobolev order enters
+/-! Actual retained-witness common weak radius. No Sobolev order enters
 the radius choice and no desired inverse estimate is assumed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

@@ -1,7 +1,7 @@
 import Calderon.RadiusTwoSmoothSourceJetLinear
 import Calderon.RadiusTwoSmoothSourceClassicalEquation
 
-/-! Full upfront expansion precedes the actual symmetric PDE-compatible range inclusion. -/
+/-! The actual symmetric PDE-compatible range inclusion. -/
 set_option autoImplicit false
 noncomputable section
 open Set

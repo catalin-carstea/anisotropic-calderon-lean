@@ -6,8 +6,8 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic
-/-! Full upfront EXPANSION-SUPPLEMENT-v008.json. Original final1 is assembled
-from separately checked actual values, without unfolding its original CLM definition. -/
+/-! Original final1 is assembled from separately computed actual values, without unfolding
+its original CLM definition. -/
 lemma degreeAdjointScalarL_apply
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
     (ij : Fin 3 × Fin 3) (f g : SphereSobolev 1) (x : PhysicalDegreeCasimirData) :

@@ -1,8 +1,6 @@
 import Calderon.NativeCoefficientH1ProductDerivative
 import Calderon.ClosedCoefficientMultiplier
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-H1-product-fixed-topology-helper-v038.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

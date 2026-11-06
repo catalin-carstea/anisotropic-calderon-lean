@@ -1,9 +1,7 @@
 import Calderon.ActualReferenceTwoAngleCoefficientJets
 import Calderon.ClosedCoefficientMultiplier
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-native-two-angle-operators-v003.md. Same actual nested-rotation
-coefficients; independent angles and original geometric data retained. -/
+/-! Same actual nested-rotation coefficients; independent angles and original geometric data retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

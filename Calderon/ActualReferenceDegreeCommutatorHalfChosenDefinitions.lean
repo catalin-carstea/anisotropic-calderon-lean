@@ -6,8 +6,8 @@ open Set Metric
 open scoped ContDiff ENNReal InnerProductSpace Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic ConnectionError
-/-! Full upfront EXPANSION-v001.json precedes source. Actual canonical
-bounded extension of the literal raw degree commutator, not an assumed norm. -/
+/-! Canonical bounded extension of the literal raw degree commutator, not an
+assumed norm. -/
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)
   (H a : (ℝ × (R3 × ℝ)) × R3 → Matrix (Fin 3) (Fin 3) ℝ)

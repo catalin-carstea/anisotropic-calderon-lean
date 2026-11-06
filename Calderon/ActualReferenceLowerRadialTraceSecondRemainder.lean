@@ -2,9 +2,8 @@ import Calderon.ActualReferenceEndpointFirstRadialJetMatching
 import Calderon.JointParameterTaylorRemainder
 import Calderon.ActualReferenceLowerRadialTraceRawTaylor
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-chosen-lower-DN-remainder-v031.md. Literal signed integral
-remainder of SAME actual lower DN curve; native true firstjet is proved. -/
+/-! Literal signed integral remainder of SAME actual lower DN curve; native true firstjet
+is proved. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

@@ -5,9 +5,8 @@ import Calderon.ActualReferenceSharpMidpointRadialCoefficients
 import Calderon.ActualReferenceAdjointRadialEndpointFamilies
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 
-/-! Full upfront: full-physical-U-form-author-oct16-v001/
-native-adjoint-radial-jets-author-v001/EXPANSION.md. Derive actual B and true
-first adjoint jet from the local genuine transpose graph, not a jet premise. -/
+/-! B and the true first adjoint jet, derived from the local genuine transpose
+graph rather than assumed as a jet premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

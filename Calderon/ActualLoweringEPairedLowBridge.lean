@@ -1,9 +1,7 @@
 import Calderon.ActualLoweringEHighRoomAccess
 
-/-! Small variable-high-room paired-low diagnostic owner. The copied generic
-native4fact and finite-cap declarations are unchanged from Thin010. Read-only
-Astra/high advice is advisory only; this implementation is routine Sol author
-work, uncompiled and not independent review. -/
+/-! Variable-high-room paired-low bridge, with the generic native4fact and
+finite-cap declarations. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

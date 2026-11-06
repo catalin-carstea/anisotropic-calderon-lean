@@ -1,8 +1,8 @@
 import Calderon.ActualJointNativeTraceOperatorFamily
 import Calderon.NativeHarmonicLiftExtension
 
-/-! Before-source v189: the exact completed low harmonic lift, before any
-higher-order boundary class registrations. No native structure is replaced. -/
+/-! The completed low harmonic lift, before any higher-order boundary class
+registrations. No native structure is replaced. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

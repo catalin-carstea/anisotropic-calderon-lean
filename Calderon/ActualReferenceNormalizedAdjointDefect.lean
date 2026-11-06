@@ -6,8 +6,7 @@ import Calderon.ActualReferenceAdjointRadialSignedRemainder
 import Calderon.SignedTaylorQuadraticFactor
 import Calderon.SignedTaylorAdditiveTransport
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-normalized-adjoint-defect-v022.md. SAME signed integral remainders. -/
+/-! The normalized adjoint defect, with the same signed integral remainders. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

@@ -1,4 +1,4 @@
-import TaskInterface
+import Calderon.MixedKernelConstruction.TaskInterface
 import Mathlib.Tactic
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

@@ -2,11 +2,8 @@ import Calderon.ActualReferenceAdjointZeroCoefficient
 import Calderon.ActualReferenceFullAdjunction
 
 /-!
-Source-only candidate for the exact full reference T-adjoint split.
-Frozen target: OAI.AnisotropicCalderon.main, d1205fb493b3fbe04e55f72b76c6ff0761fb5a03.
-EXPANSION-v001.md and all literal helper types were frozen before authoring.
+The exact full reference T-adjoint split.
 This file does not identify the reference zero field with physical U†−U.
-No compilation, kernel replay, foundation, review or acceptance claim.
 -/
 
 set_option autoImplicit false

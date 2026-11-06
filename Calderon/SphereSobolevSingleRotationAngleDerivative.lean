@@ -9,8 +9,7 @@ open scoped ENNReal ContDiff Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothSphereRotationProjection
 
-/-! Upfront expansion: EXPANSION-finite-harmonic-angle-derivative-v001.json.
-Same-order angle smoothness is asserted only for a fixed harmonic single. -/
+/-! Same-order angle smoothness is asserted only for a fixed harmonic single. -/
 
 lemma contDiff_sphereSobolevOrthogonalPullback_coordinate_single
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (s : ℝ)

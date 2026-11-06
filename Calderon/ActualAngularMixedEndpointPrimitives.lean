@@ -7,20 +7,15 @@ import Calderon.SphereSobolevHalfDualRotationPairing
 import Calderon.SphereSobolevCoordinateInclusion
 import Calderon.NativeOrderOneCoefficientMultiplier
 
-/-! DRAFT NOT CHECKED (claude-actual-Pi-low-instantiation-2026-10-29-v017, Claude Opus 5.5, author
-only, nothing compiled or run). Before-source mathematics: output/MATHEMATICS.md. Root supplied the
-routing and the exact API names. v015 (`ActualAngularPiMixedCapsDraft`) and v016
-(`ActualAngularPiMixedLowDraft`) are imported unchanged.
-
-Contents:
+/-! Contents:
 * §1 Lemma H: the half-level adjunction `P(x, aL_i y) = P(y, AL_i x)` for ALL `x y : Half`.
 * §2 Lemma I: the inclusion graphs `J ∘ aH_i = aL_i ∘ IH` and `J ∘ AH_i = AL_i ∘ IH`.
 * §3 the cross adjunctions (aA1), (aA2).
 * §4 the native Pi primitives (high/half, half/negative, direct adjoint pairing).
-* §5 the ACTUAL theorem. It obtains the v015 witnesses once and returns the v015 facts together
-  with two actual low families `C_l, D_l` on the SAME witnesses: graphs, weak transpose graphs,
-  midpoint norms, `ContDiffOn ∞` on the closed `S`, and one cap per `N`.
-NOT claimed: D_Q, absorption, coercivity, Main. -/
+* §5 the actual theorem. It obtains the witnesses of `ActualAngularPiMixedCapsDraft` once and
+  returns its facts together with two actual low families `C_l, D_l` on the same witnesses:
+  graphs, weak transpose graphs, midpoint norms, `ContDiffOn ∞` on the closed `S`, and one cap
+  per `N`. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -70,7 +65,7 @@ local notation "natL" => nativeHalfCoefficientMulL hcalc hF hO hD τ0
 local notation "natN" => nativeNegativeHalfCoefficientMulL hcalc hF hO hD τ0
 local notation "low" => smoothMultiplierLowerJets
 
-/-! ### §1 Lemma H: half-level adjunction (MATHEMATICS.md §2) -/
+/-! ### §1 Lemma H: half-level adjunction -/
 
 /-- `P(x, aL_i y) = P(y, AL_i x)` for all `x y : Half`. The rotation terms use (M) and the half
 rotation skew. The degree term uses (M) and `(Bl)ᵗ = Bl`. There is no extra factor or sign. -/
@@ -100,7 +95,7 @@ theorem v017_pairing_loweringLow_raisingLow (i : Fin 3) (x y : Half) :
   rw [← Finset.sum_neg_distrib]
   exact congrArg₂ (fun a b : ℝ => a + b) (Finset.sum_congr rfl (fun j _ => hTerm j)) hDeg
 
-/-! ### §2 Lemma I: inclusion graphs (MATHEMATICS.md §3) -/
+/-! ### §2 Lemma I: inclusion graphs -/
 
 /-- (I-a) `J (aH_i x) = aL_i (IH x)`. -/
 theorem v017_inclusion_loweringHigh (i : Fin 3) (x : Hi) :
@@ -134,7 +129,7 @@ theorem v017_inclusion_raisingHigh (i : Fin 3) (x : Hi) :
     ContinuousLinearMap.neg_apply, ContinuousLinearMap.sum_apply, ContinuousLinearMap.comp_apply,
     map_add, map_neg, map_sum, hRot, hDeg, hM]
 
-/-! ### §3 Cross adjunctions (aA1), (aA2) (MATHEMATICS.md §4) -/
+/-! ### §3 Cross adjunctions (aA1), (aA2) -/
 
 theorem v017_aA1 (i : Fin 3) (x : Hi) (y : Half) :
     PP (IH x) (loweringLow hF hO hD i y) = PP y (JL (raisingHigh hF hO hD i x)) := by
@@ -146,7 +141,7 @@ theorem v017_aA2 (i : Fin 3) (x : Hi) (y : Half) :
   rw [v016_pairing_inclusion_symm, v017_inclusion_loweringHigh hF hO hD i x]
   exact v017_pairing_loweringLow_raisingLow hF hO hD i y (IH x)
 
-/-! ### §4 Native Pi primitives (MATHEMATICS.md §1, §5) -/
+/-! ### §4 Native Pi primitives -/
 
 /-- (Πc) `IH ∘ natH Q = natL (low Q) ∘ IH`, from the exact coefficient-value identity. -/
 theorem v017_native_high_half (Q : SmoothCoefficientJets 3) (z : Hi) :

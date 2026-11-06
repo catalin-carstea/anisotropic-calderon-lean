@@ -2,8 +2,7 @@ import Calderon.NativeSobolevCoordinateDerivativeCoherence
 import Calderon.NativeThreeHalfCoefficientMultiplier
 import Calderon.NativeFullHalfRadialTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-H3-TRACE-EXPANSION-v001.md, Component E. SAME native derivatives and radial lower graph. -/
+/-! SAME native derivatives and radial lower graph. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

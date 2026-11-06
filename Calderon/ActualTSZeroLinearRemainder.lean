@@ -3,7 +3,6 @@ import Calderon.ActualTZeroNegativeProfileCap
 import Calderon.ActualHigherSLinearZeroCaps
 
 /-!
-Before-code: ../T-S-L00-weighted-assembly-before-source-nov03-night-v001/.
 The two original S-linear remainders in the retained signed T/S zero/zero row.
 Both raw original T maps, including the original adjoint N-1, are retained.
 No bounded quadratic Hi->Half map or finite angular S-output is assumed.

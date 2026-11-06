@@ -3,9 +3,8 @@ import Calderon.ActualJacobiBoundaryMultiplierFamily
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 import Calderon.ActualLowerMovingBoundaryFamily
 
-/-! Full upfront: day-oct13/actual-moving-boundary-family-author-oct15-v001/
-EXPANSION-high-family.md. Literal actual H3/2 to H1/2 family.
-Chosen Jacobi jet smoothness is not assumed. No physical P claim. -/
+/-! The high moving boundary family from H3/2 to H1/2. Smoothness of the chosen
+Jacobi jets is not assumed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

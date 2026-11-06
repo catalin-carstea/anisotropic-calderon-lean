@@ -3,9 +3,7 @@ import Calderon.ActualHigherSAdjointCoefficientExtraction
 import Calderon.ActualHigherSZeroParameterFactors
 import Calderon.ActualRaisingEHighGraph
 
-/-! Complete finite angular-word definitions, successor v002. UNCOMPILED.
-No all-atom gain producer, coefficient equality, physical realization or bound is asserted here.
-Exact before-source expansion and contract are archived with this package. -/
+/-! Complete finite angular-word definitions. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -119,10 +117,10 @@ local notation "WC" => actualWordCoefficient g L
 local notation "WN" => wordNegative g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 local notation "WR" => wordReverseNegative g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-- The fully finite angular-order-two negative family; physical realization still needs its chosen lifts. -/
+/-- The fully finite angular-order-two negative family; its physical realization uses chosen lifts. -/
 def quadraticZeroNegative (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : ℝ) (x : R3) : Hi →L[ℝ] Neg :=
   ∑ w : ZeroWord, WC g2 dr Ar p q x w • WN ((Tq dr Ar p q) x) w
-/-- Exactly the SAME scalar coefficients, with literal reversed genuine adjoint words. -/
+/-- The same scalar coefficients, with the reversed genuine adjoint words. -/
 def quadraticZeroReverseNegative (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : ℝ) (x : R3) : Hi →L[ℝ] Neg :=
   ∑ w : ZeroWord, WC g2 dr Ar p q x w • WR ((Tq dr Ar p q) x) w
 

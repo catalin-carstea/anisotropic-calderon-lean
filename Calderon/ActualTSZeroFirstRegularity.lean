@@ -2,10 +2,8 @@ import Calderon.ActualTSZeroFirstLiteralWords
 import Calderon.ActualTSPrincipalGreen
 
 /-! Genuine original D01 integrability, using the actual first S fields and
-the original compact input support. Before code: ../UPFRONT.md and
-../integral-UPFRONT.md. No room membership is required outside the support.
-Root authored the factory; d01_scalar repaired terminal-map reduction boundaries.
-Repair expansion: ../regularity-repair-UPFRONT.md; exact model/effort unexposed. -/
+the original compact input support. No room membership is required outside the
+support. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

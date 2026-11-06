@@ -2,8 +2,7 @@ import Calderon.ActualPhysicalUFirstPointwiseCap
 import Calderon.ActualFiniteHarmonicModelHorizontalProfileIntegral
 import Calderon.ReferenceWeightedApproximation
 
-/-! Root continuation of the exact Opus v033 pointwise statement.
-Before-source: actual-coercivity-UFirst-integral-Root-day-oct29-v001/before-source-v001.
+/-! Integral form of the pointwise UFirst cap.
 Actual weighted integrability and support are derived, never assumed. -/
 set_option autoImplicit false
 noncomputable section

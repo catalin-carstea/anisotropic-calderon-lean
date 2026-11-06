@@ -1,6 +1,6 @@
 import Calderon.ActualUniformPrescribedPhaseDilationCarleman
 import Calderon.ActualCompactParameterCollarResidual
-import MixedKernelCenteredRooms
+import Calderon.MixedKernelConstruction.MixedKernelCenteredRooms
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

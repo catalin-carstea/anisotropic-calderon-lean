@@ -4,7 +4,6 @@ import Calderon.ActualReferenceAngleConormalCovariance
 import Calderon.ActualReferenceOrthogonalStrongLift
 import Calderon.ActualReferenceRadialInvertibleEndpointCompatibility
 
-/-! Expanded first in EXPANSION-actual-rotation-lower-radial-dense-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

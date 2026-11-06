@@ -5,8 +5,8 @@ import Mathlib.Analysis.Calculus.MeanValue
 import Mathlib.Topology.Compactness.Compact
 
 /-!
-An uncompiled compact-parameter flow proposal. See EXPANSION.md, written first.
-One compact-supported parameter-preserving field and one global flow are used.
+A compact-parameter flow: one compactly supported parameter-preserving field and one
+global flow are used.
 -/
 set_option autoImplicit false
 noncomputable section

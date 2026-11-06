@@ -8,8 +8,6 @@ namespace OAI.AnisotropicCalderon.SmoothCoordinateBoundaryGreen
 open HarmonicPolynomialGreen RadialTestIntegration NativePolynomialBulkMoments
   SphereHarmonic DirichletFamily EnergyBridge MetricVolume
 
-/-! Expanded before source in EXPANSION-native-coordinate-boundary-Green-v001.json. -/
-
 lemma radialDivergence_scalar_coordinate (q : R3 → ℝ) (hq : ContDiff ℝ 1 q)
     (i : Fin 3) (x : R3) :
     radialDivergence (EuclideanSpace.basisFun (Fin 3) ℝ)

@@ -2,8 +2,7 @@ import Calderon.ActualNearBallPhysicalDensityPairing
 import Calderon.NativeHighDensityTracePairingDictionary
 import Calderon.ActualNativeSmoothHighHalfTraceCompatibility
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-PHYSICAL-HARMONIC-TEST-PAIRING-EXPANSION-v001.md. Same physical input in the dense trace core. -/
+/-! The same physical input in the dense trace core. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

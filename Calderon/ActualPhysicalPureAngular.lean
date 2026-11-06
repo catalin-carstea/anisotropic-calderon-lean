@@ -13,7 +13,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
   AngularDerivativeBesselField ActualHorizontalNormBridge ActualScalarPrincipalAdjoint
   ActualUnboundedFirstPrincipalFormBound ReferenceDensityBounds ConformalDepth
 
-/- Source-only author candidate. The ordinary-coordinate coefficient is converted
+/- The ordinary-coordinate coefficient is converted
    with the actual reference coframe. This is the literal pure A* A* component
    of manuscript U, without any identification with full physical U or H. -/
 

@@ -2,8 +2,6 @@ import Calderon.SphereSobolevShiftedPhysicalDegree
 import Calderon.SphereSobolevCoordinateInclusion
 import Mathlib.Tactic.Module
 
-/-! Upfront: REPAIR-finite-band-typed-graphs-v058.md, together with full
-EXPANSION-native-first-correction-degree-commutator-v048.md. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ENNReal

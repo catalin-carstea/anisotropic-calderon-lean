@@ -4,8 +4,7 @@ import Calderon.ActualFiniteHarmonicModelReference
 import Calderon.ActualNativeMovingRadiusTrace
 import Calderon.SphereSobolevShiftedPhysicalDegree
 
-/-! Upfront: actual-physical-P-local-allocation-author-oct16-v001/
-EXPANSION-model-input-dictionary-v003.md. SAME physical finite input, degree k. -/
+/-! SAME physical finite input, degree k. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff Topology ENNReal

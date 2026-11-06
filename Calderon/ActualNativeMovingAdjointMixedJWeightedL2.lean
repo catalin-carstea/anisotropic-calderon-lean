@@ -9,10 +9,7 @@ import Calderon.SphereSobolevZeroSectionSupport
 import Calderon.SphereSobolevZeroEquivIdentities
 import Calderon.RealNormedGroupProjectionData
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-actual-mixed-weighted-L2-bound-v022.md and
-actual-covariant-leading-algebra-author-oct16-v001/EXPANSION-actual-mixed-weighted-L2-implementation-v016.md.
-One canonical representative, before-profile-power uniform actual mixed bound. -/
+/-! One canonical representative, before-profile-power uniform actual mixed bound. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

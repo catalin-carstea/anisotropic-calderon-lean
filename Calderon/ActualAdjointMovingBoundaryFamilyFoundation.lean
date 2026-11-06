@@ -2,9 +2,6 @@ import Calderon.ActualLowerMovingBoundaryFamily
 import Calderon.ActualAdjointMovingBoundaryAction
 import Calderon.ActualReferenceAdjointRadialEndpointFamilies
 
-/-! Full upfront: day-oct13/actual-moving-boundary-family-author-oct15-v001/
-EXPANSION-adjoint-families-split.md. Unchanged public roots, definitions and
-statements; only receipt/module boundaries are decomposed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -13,9 +10,7 @@ open scoped ContDiff ENNReal InnerProductSpace Matrix.Norms.Elementwise Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open NativeCoefficientBoundaryMultiplier
 
-/-! Full upfront: day-oct13/actual-moving-boundary-family-author-oct15-v001/
-EXPANSION-adjoint-families.md. Actual genuine adjoints; no chosen jet smoothness
-assumption and no physical P assertion. -/
+/-! Genuine adjoint families; no smoothness of the chosen jets is assumed. -/
 
 local instance : CompleteSpace (SphereSobolev (1/2 : ℝ)) := by
   letI : ∀ k : ℕ, CompleteSpace (harmonicSphereSubspace k) :=

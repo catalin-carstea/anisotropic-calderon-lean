@@ -24,8 +24,7 @@ import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 /-! Generic integration argument, independent of the physical Products function.
-Full upfront: /tmp/ProductsProfileConditionalAssembly-v003/UPFRONT.md.
-Internal numerical prerequisites are discharged by actual producers at callers.
+Its numerical prerequisites are discharged at the call sites.
 -/
 set_option autoImplicit false
 noncomputable section

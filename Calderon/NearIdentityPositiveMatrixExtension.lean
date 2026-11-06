@@ -2,8 +2,7 @@ import Calderon.ActualFramedPositiveMetric
 import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
 import Mathlib.Topology.Algebra.Module.FiniteDimension
 
-/-! UNCOMPILED author proposal. EXPANSION.md C2 was sealed first.
-The cutoff support itself supplies positivity, so no larger q-room is assumed. -/
+/-! The cutoff support itself supplies positivity, so no larger q-room is assumed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

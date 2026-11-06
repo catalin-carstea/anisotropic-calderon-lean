@@ -2,9 +2,6 @@ import Calderon.ActualReferenceWeakConormalEndpoint
 import Calderon.ActualReferenceFullWeakEnergyTopology
 import Calderon.ActualReferenceInvertibleWeakLiftTopology
 
-/-! Full upfront argument: EXPANSION-invertible-weak-endpoint-topology-author-v001.json.
-Actual joint families, author draft awaiting checks. -/
-
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

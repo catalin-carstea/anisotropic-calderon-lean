@@ -1,9 +1,7 @@
 import Calderon.ActualFiniteHarmonicModelFirstAngularCoefficientJets
 import Calderon.ActualLowerUSWeightedScalarJets
 
-/-! Author GPT-6.1 Sol. Before-code ../full-first-scalar-isolation-upfront-v001.md.
-Complete REAL native scalar jets, before any LowMap instance declaration.
-No cap callback, limit change, proof admission or compiler call by author. -/
+/-! Complete REAL native scalar jets, before any LowMap instance declaration. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

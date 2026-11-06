@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteGaugeDensityFirstSection
 import Calderon.ActualFiniteGaugeAdjointMovingBoundaryGraph
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-DIRECT-FINITE-PHYSICAL-DENSITY-DOMAIN-EXPANSION-v001.md. Literal eta, actual uncompressed first outputs. -/
+/-! Literal eta, actual uncompressed first outputs. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

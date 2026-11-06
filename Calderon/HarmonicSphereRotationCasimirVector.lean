@@ -8,8 +8,8 @@ open scoped InnerProductSpace
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open SphereHarmonic SmoothSphereRotationProjection AngularPolynomial RotationCasimir
 
-/-! Full upfront expansion: EXPANSION-v002.json. Actual harmonic vector Casimir,
-all9 ordered rotations, degree0 retained. No actual upper endpoint dependency. -/
+/-! Actual harmonic vector Casimir, all nine ordered rotations, degree zero
+included. No upper endpoint dependency. -/
 
 lemma sum_harmonicSphereRotation_twice (k : ℕ) (v : harmonicSphereSubspace k) :
     (∑ i : Fin 3, ∑ j : Fin 3,

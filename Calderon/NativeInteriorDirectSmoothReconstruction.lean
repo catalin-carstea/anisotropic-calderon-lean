@@ -2,9 +2,7 @@ import Calderon.NativeInteriorH2ContinuousRepresentative
 import Calderon.LocalContinuousWeakDerivativeClassical
 import Mathlib.MeasureTheory.Measure.OpenPos
 
-/-! Full upfront: EXPANSION-native-direct-smooth-reconstruction-v001.json.
-Direct actual native weak→classical reconstruction, preserving the original two smoothness claims.
-The prior auxiliary third-order projection claims stay preserved and open. -/
+/-! Direct native weak→classical reconstruction. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter Metric TopologicalSpace

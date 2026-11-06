@@ -2,7 +2,6 @@ import Calderon.ActualReferenceRotationStrongIdentification
 import Calderon.ActualReferenceOrthogonalSharpUpperEndpoint
 import Calderon.ActualReferenceRadialEndpointOpenLocus
 
-/-! Expanded first in EXPANSION-actual-rotation-guarded-strong-identification-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

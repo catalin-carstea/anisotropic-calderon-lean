@@ -1,9 +1,7 @@
 import Calderon.ActualReferenceTwoAngleCoefficientData
 import Calderon.ActualReferenceRotationNormalCoefficient
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-ordinary-normal-covariance-v004.md. ORDINARY principal
-normal coefficient, distinct from exponential-gauge alpha. E=R_inner R_outer. -/
+/-! ORDINARY principal normal coefficient, distinct from exponential-gauge alpha. E=R_inner R_outer. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

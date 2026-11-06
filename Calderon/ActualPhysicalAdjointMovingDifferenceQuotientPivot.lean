@@ -16,9 +16,8 @@ import Mathlib.Analysis.Calculus.Deriv.Mul
 import Mathlib.Analysis.InnerProductSpace.Calculus
 import Calderon.ActualNativeMovingLocalRemainderCompatibility
 
-/-! SAME actual ordered pivot correction. Full literal before-code6 inventory v007,
-local open products v009, direct radial/coordinate/Jacobi pivots v010.
-All6 ordinary names mandatory. This active author source is held and uncompiled. -/
+/-! The actual ordered pivot correction: local open products and direct
+radial/coordinate/Jacobi pivots. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

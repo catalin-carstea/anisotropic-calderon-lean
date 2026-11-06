@@ -52,8 +52,8 @@ local notation "Known" => actualLeadingScalarSReferenceError
 local notation "Rem" => actualModelSUnestimatedDensity
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data g2 hg2 dr Ar p hdr hAr q
 
-/-- An explicit remaining-density bound combines with the checked leading/scalar estimate.
-This conditional consumer does not assert the remaining bound. -/
+/-- An explicit remaining-density bound combines with the leading/scalar estimate.
+The remaining bound is a hypothesis here. -/
 theorem actual_model_S_full_signed_error_bound
     (CErr CRem eta : ℝ) (F : smoothCompactFiniteSphereCore hO hD)
     (hDec : ActualModelSErrorDecomposition g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0

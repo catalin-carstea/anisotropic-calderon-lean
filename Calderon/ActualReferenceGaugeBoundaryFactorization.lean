@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceGaugeBoundaryJets
 import Calderon.ActualReferenceNormalOrderOneFamily
 
-/-! Full upfront: actual-gauge-boundary-jets-author-oct15-v001/
-EXPANSION-factorization-positivity-v003.md. Exact native scalar factorization;
-original checked normal positivity and SAME positive exponential gauge. -/
+/-! Exact native scalar factorization; normal positivity and the same positive
+exponential gauge. -/
 set_option autoImplicit false
 noncomputable section
 open Set

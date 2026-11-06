@@ -1,7 +1,7 @@
 import Calderon.ActualFrameParallelVelocity
 import Calderon.JointLocalReferenceFramedNormalizedEndpointInverse
 
-/-! Source-only actual double-Hadamard Jacobi remainder. The supplied flow,
+/-! Actual double-Hadamard Jacobi remainder. The supplied flow,
 Gram frame, endpoint and full original metric payload are retained. A compact
 signed tube is chosen once, before every finite joint derivative order. -/
 set_option autoImplicit false

@@ -3,8 +3,7 @@ import Calderon.ActualWeightedHorizontalGreen
 import Calderon.ActualAngularCoordinateTransposePairing
 import Calderon.ActualHigherSSigned
 
-/-! Source-only author: Opusv044, 29 October 2026. UNCOMPILED.
-Before-source mathematics: INTEGRATED-PAIRING-MATHEMATICS.md §§3–5 (same output directory).
+/-! The integrated higher-S pairing.
 (1) generic lower weighted product rule `Dlow_i(a v) = a Dlow_i v + X_i(a) • J v`;
 (2) scalar weighted Green from the native `actual_weighted_horizontal_green` (coefficient
 derivative `X_i(a)` kept, density divergence with its native sign);
@@ -153,7 +152,7 @@ private lemma weightedPairing_smul_right (c a : ℝ) (x v : Half) :
 section Generic
 variable (g : MatrixField) (L q : ℝ) (R : R3 → ℝ)
 
-/-- The checked definitional expansion (as `e1` in the native Green proof). -/
+/-- The definitional expansion (as `e1` in the native Green proof). -/
 lemma lowerWeighted_eq (v : R3 → Half) (y : R3) (i : Fin 3) :
     referenceLowerWeightedHorizontalAction g L q R v y i =
       JL (fderiv ℝ v y (referenceMetricGramFrame g L (q,y) i)) +

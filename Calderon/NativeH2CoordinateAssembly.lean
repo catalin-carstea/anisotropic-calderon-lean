@@ -2,7 +2,6 @@ import Calderon.StrongDirichletDomain
 import Calderon.CoordinateWeakIntegration
 import TauCeti.Analysis.Sobolev.Wkp.SecondOrder
 
-/-! Expanded first in EXPANSION-native-H2-orthogonal-pullback-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

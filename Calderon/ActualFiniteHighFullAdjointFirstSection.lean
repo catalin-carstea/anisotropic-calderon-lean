@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteHighPrimalMovingTopology
 import Calderon.ActualFiniteHighHorizontalSection
 
-/-! Full upfront: actual-primal-moving-adjoint-domain-author-oct16-v001/EXPANSION-v001.md.
-Literal Y=-H+Cprimal-div_mu(e) on the ORIGINAL finite input, no Pdag domain premise. -/
+/-! Y = -H + Cprimal - div_mu(e) on the original finite input, with no Pdag domain premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set

@@ -1,7 +1,6 @@
 import Calderon.NativeThreeHalfProductTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-COEFFICIENT-PRODUCT-ALGEBRA-EXPANSION-v001.md. Literal scalar product before native and boundary maps. -/
+/-! Literal scalar product before native and boundary maps. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

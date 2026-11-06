@@ -1,7 +1,6 @@
 import Calderon.NativeSobolevStageStructure
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-SEQUENCE-LP-INHERITED-STRUCTURE-EXPANSION-v001.md. Existing sequence-lp algebra projections, no replacement structures. -/
+/-! Sequence-lp algebra projections, with no replacement structures. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ENNReal

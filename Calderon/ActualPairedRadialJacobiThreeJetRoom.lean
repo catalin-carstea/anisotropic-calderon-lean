@@ -2,9 +2,7 @@ import Calderon.ActualPairedRadialRemainderThreeJetRoom
 import Calderon.ActualJacobiNativeMultiplierJointJetBounds
 import Calderon.ActualJacobiCoefficientTubeCover
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-common-paired-Jacobi-raw-room-implementation-v059.md.
-Original paired room and three genuine Jacobi native endpoints; no profile allocation. -/
+/-! Original paired room and three genuine Jacobi native endpoints; no profile allocation. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -5,7 +5,7 @@ import Calderon.ActualHigherSCommonProfileRoomData
 import Calderon.ActualHigherSZeroScalarNativeForm
 import Calderon.ActualTSFirstLinearZeroIntegral
 
-/-! Full original quadratic D10 integral producer draft; unvalidated. Before-code: ../T-S-first-quadratic-original-integral-before-source-nov04-day-v001/. -/
+/-! The full original quadratic D10 integral. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

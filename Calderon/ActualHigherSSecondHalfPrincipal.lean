@@ -1,5 +1,4 @@
 import Calderon.ActualConnectionGramCancellation
-/- Root; exact source expansion precedes this file in UPFRONT.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

@@ -2,9 +2,7 @@ import Calderon.ActualLowerUSSecondRowCoefficients
 import Calderon.FixedParameterProfileBudgets
 
 /-!
-GPT-6.1 Sol authoring support; before-code expansion is
-lower-u-s-nov03-v001/second-row-next-upfront.md. Concrete first physical
-caps of the retained low gains used by the T derivative; no cap callback.
+Concrete first physical caps of the retained low gains used by the T derivative.
 -/
 set_option autoImplicit false
 set_option Elab.async false

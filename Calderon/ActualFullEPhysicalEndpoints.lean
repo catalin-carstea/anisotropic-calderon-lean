@@ -1,9 +1,8 @@
 import Calderon.FixedParameterProfileBudgets
 import Calderon.ActualFullEGainedJointEndpoints
 
-/-! Physical-only consumer of the exact selected checked4501 joint module.
-Root physical proof preserved; new module extraction by the delegated Main author.
-See UPFRONT.md and CORRESPONDENCE.json. No semantic acceptance asserted. -/
+/-! The physical endpoints, obtained from the joint endpoints of
+`ActualFullEGainedJointEndpoints`. -/
 set_option autoImplicit false
 set_option Elab.async false
 set_option stderrAsMessages false
@@ -66,8 +65,7 @@ attribute [local irreducible] canonicalHigh canonicalLow orderedReverseHigh orde
   fullGainedHigh retainedAdjacentHigh radialAngularHigh angularRadialHigh jacobiAngularHigh
   commonRoom referenceRadialEndpointInvertibleLocus
 
-/-! Physical fixed-q endpoint realization. Full before-code expansion is pinned
-in the dependent component's UPFRONT; every actual parameter guard is derived. -/
+/-! Physical fixed-q endpoint realization; every parameter guard is derived. -/
 open FixedParameterProfilePullback FixedParameterProfileBudgets ConformalDepth
   ReferenceWeightedApproximation ActualScalarPrincipalAdjoint
 local notation "Tq" dr:max Ar:max p:max q:max => ActualHigherSFormation.higherSParam L dr Ar p q

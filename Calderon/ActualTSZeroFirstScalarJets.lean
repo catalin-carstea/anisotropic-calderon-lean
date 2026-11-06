@@ -1,12 +1,7 @@
 import Calderon.ActualTSFirstQuadraticScalarJets
 import Calderon.ActualReferenceAngularCoefficientJets
 
-/-! D01-owned successor of the preserved Transfer source-only scalar draft.
-Before-code: ../scalar-UPFRONT.md and ../UPFRONT.md.
-The cap proof is inherited from the Root-authored uncompiled draft. The
-d01_scalar Codex agent authored the global smoothness lemma and namespace
-repair; exact runtime model/version/effort are unexposed.
-This scalar component does not itself prove the full original D01 estimate. -/
+/-! Scalar jets and caps used in the D01 estimate, with the global smoothness lemma. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

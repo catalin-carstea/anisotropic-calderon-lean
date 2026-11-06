@@ -1,6 +1,5 @@
 import Calderon.NativeSmoothH1OrthogonalPullback
 
-/-! Upfront argument: EXPANSION-native-H1-rotation-action-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

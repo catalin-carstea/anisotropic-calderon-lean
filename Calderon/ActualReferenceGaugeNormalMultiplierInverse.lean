@@ -3,8 +3,7 @@ import Calderon.ActualReferenceGaugeBoundaryFactorization
 import Calderon.NativeSmoothMultiplierInverse
 import Calderon.FiniteDimensionalLocalSmoothExtension
 
-/-! Full upfront: actual-gauge-boundary-jets-author-oct15-v001/
-EXPANSION-reciprocal-multipliers-v004.md. Actual positive normal coefficient,
+/-! Actual positive normal coefficient,
 compact reciprocal room, and native half/negative-half inverses. No weighted DN inverse. -/
 set_option autoImplicit false
 noncomputable section

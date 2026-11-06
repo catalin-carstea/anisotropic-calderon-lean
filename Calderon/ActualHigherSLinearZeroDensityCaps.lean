@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSLinearZero
 import Calderon.ActualHigherSLinearZeroScalarCaps
 import Calderon.ActualHigherSLeadingWeightedJetBounds
-/-! Exact normalized coefficient/density derivative caps. UNCOMPILED own chain.
-Full before-code expansion in linear-zero-density-upfront-v001. -/
+/-! Exact normalized coefficient/density derivative caps. -/
 noncomputable section
 set_option autoImplicit false
 open Set Metric

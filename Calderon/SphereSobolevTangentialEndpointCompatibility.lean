@@ -13,8 +13,7 @@ namespace OAI.AnisotropicCalderon.SphereHarmonic
 open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap
   NativeCoefficientBoundaryMultiplier NativeNegativeHalfSmoothMultiplier
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/
-EXPANSION-high-boundary-action.md. Literal compatible native endpoints. -/
+/-! Literal compatible native endpoints. -/
 
 theorem nativeCoefficientMulL_half_negative_compatibility
     (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)

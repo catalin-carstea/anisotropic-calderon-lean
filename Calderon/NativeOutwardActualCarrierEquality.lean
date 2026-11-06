@@ -4,9 +4,7 @@ import Calderon.NativeHighStrongSobolevTopology
 import Calderon.NativeHighStrongH3StructureEquality
 import Calderon.InnerProductMeasureSpaceProjectionData
 
-/-! Before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-native-outward-actual-carrier-capture-v104.md.
-The exact inferred native carrier and its mandatory original Stage carrier equality. -/
+/-! The exact inferred native carrier and its equality with the original Stage carrier. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -1,4 +1,4 @@
-import C3Geometry
+import Calderon.MixedKernelConstruction.C3Geometry
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

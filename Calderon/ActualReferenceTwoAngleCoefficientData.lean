@@ -1,7 +1,6 @@
 import Calderon.ActualReferenceRotationCoefficientJets
 
-/-! Upfront: day-oct13/high-degree-rotation-author-oct15-v001/EXPANSION-v001.md.
-Literal two independent rotations of SAME actual principal/full drift fields.
+/-! Literal two independent rotations of SAME actual principal/full drift fields.
 Only coefficient smoothness/support; no second commutator or high gain assumed. -/
 set_option autoImplicit false
 noncomputable section

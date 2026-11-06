@@ -6,8 +6,8 @@ import Calderon.InnerProductMeasureSpaceProjectionData
 import Calderon.NativeOutwardActualCarrierEquality
 import Calderon.NativeHighStrongOutwardPublicCarrierEquality
 
-/-! Full before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-native-outward-post-context-and-full-carrier-v113.md. Exact pre/post native public carrier coherence and full actual-to-selected-native Type equality; no new norm or trace premise. -/
+/-! Coherence of the native outward carriers and equality of the actual and
+native carrier types; no norm or trace premise. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

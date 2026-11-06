@@ -9,8 +9,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeFullSharpHalfTrace NativeNegativeHalfSmoothMultiplier
   NativeBoundaryNormalMultiplierInverse
 
-/-! Expansion: EXPANSION-native-H2-conormal-radial-conversion-v001.md, step 3.
-The normal inverse is derived from actual open-ball ellipticity by the imported module. -/
+/-! The normal inverse is derived from actual open-ball ellipticity by the imported module. -/
 
 theorem nativeH2_radial_eq_inverse_conormal_sub_tangent
     (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)

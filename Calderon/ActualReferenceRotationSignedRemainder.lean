@@ -6,9 +6,8 @@ import Calderon.SequenceLpNaturalStructureData
 import Calderon.InheritedNormedStructureData
 import Calderon.ClmInheritedStructureData
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-normalized-rotation-same-paired-remainder-v041.md. Literal paired
-signed remainders; genuine normalized rotation graph on the existing smooth domain. -/
+/-! Literal paired signed remainders; genuine normalized rotation graph on the existing
+smooth domain. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

@@ -1,7 +1,6 @@
 import Calderon.ActualPhysicalDensityOperator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-PHYSICAL-DENSITY-LOCALITY-UPFRONT-v001.md. Literal actual support locality; arbitrary intermediates. -/
+/-! Literal actual support locality; arbitrary intermediates. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

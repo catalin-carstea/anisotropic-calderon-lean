@@ -1,6 +1,5 @@
 import Calderon.RadiusTwoCommonLimitZeroCutoff
 
-/-! EXPANSION.json and PARTITION-UPFRONT.json precede actual test-cutoff existence. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

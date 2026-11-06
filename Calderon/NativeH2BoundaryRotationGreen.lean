@@ -13,8 +13,6 @@ open EnergyBridge MetricVolume SphereHarmonic DriftBootstrap
   NativeH1CoordinateBoundaryGreen NativeSmoothSharpTraceCompletion NativePolynomialBulkMoments
   SmoothSphereRotation SmoothAngularCasimir
 
-/-! Expansion: EXPANSION-native-H2-tangential-trace-v001.md, obligations B-C. -/
-
 theorem inner_sphereCoordinateMulL_left (i : Fin 3) (u v : SphereL2) :
     ⟪sphereCoordinateMulL i u,v⟫_ℝ = ⟪u,sphereCoordinateMulL i v⟫_ℝ := by
   rw [L2.inner_def,L2.inner_def]

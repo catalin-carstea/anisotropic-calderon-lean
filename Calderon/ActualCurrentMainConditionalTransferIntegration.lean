@@ -10,11 +10,10 @@ import Calderon.ActualRadiusTwoSourceSeparation
 import Calderon.CollaboratorFixedDirichletRegularityOct17
 import Calderon.CollaboratorFixedSobolevCalculusOct17
 
-/-! CONDITIONAL CURRENT-MAIN SUCCESSOR. This preserves the original current Main
-assembly's finite-rank and joint-regularity producers and global construction.
-The source-image admission is replaced by the checked original transfer producer
-under an EXPLICIT, still unproved two-sided full physical coercivity hypothesis.
-This is not an unconditional proof or replacement of the frozen Main. -/
+/-! Main assembly through the transfer producer. It uses the finite-rank and
+joint-regularity producers and the global construction of the Main assembly; the
+source-image step is supplied by the original transfer producer, which takes the
+two-sided full physical coercivity estimate as a hypothesis. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric
@@ -22,8 +21,8 @@ open scoped ContDiff Distributions
 namespace OAI.AnisotropicCalderon.MainAssemblyWithTransferProducer
 open EnergyBridge DirichletFamily ExteriorSource ExteriorSource.Literature
 
-/-- The proved local mixed-kernel construction, with its original source-data
-interface and quantifier order. Its instantiation from Main remains separate. -/
+/-- The local mixed-kernel construction, with its source-data interface and
+quantifier order. -/
 theorem local_mixed_kernel_construction :
     MixedKernelConstructionTask.ActualMixedKernelConstructionGoal :=
   MixedKernelConstructionTask.actual_mixed_kernel_exists

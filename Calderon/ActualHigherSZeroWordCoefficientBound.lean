@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSQuadraticZeroWords
 
-/-! Scalar bound for every original zero-word coefficient. The declaration
-retains its original namespace and exact hypotheses; no physical endpoint or
-pairing context is required. AUTHOR REPAIR UNCOMPILED. -/
+/-! Scalar bound for every original zero-word coefficient. No physical endpoint or
+pairing context is required. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualHigherSQuadraticZeroQuarticBounds

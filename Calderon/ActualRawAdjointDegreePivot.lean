@@ -32,7 +32,7 @@ local notation "Qsharp" => referenceTwoAngleDegreeCommutatorHalfFamily
 local notation "Ω" => referenceRadialEndpointInvertibleLocus
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/-! ## Root draft (kept): negative-transpose low families and the explicit high lift -/
+/-! ## Negative-transpose low families and the explicit high lift -/
 
 local notation "Ct" => lowFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 local notation "Wt" => rotationDerivativeFamily
@@ -154,7 +154,7 @@ lemma gainedHighFamily_raw_adjoint_degree_graph (p : ℝ × (R3 × ℝ)) (hp : p
     _ = -(Tl (Bhigh u)-Bhalf (Th u)) := congrArg (fun z : NegH => -z) hPositive
     _ = Bhalf (Th u)-Tl (Bhigh u) := neg_sub _ _
 
-/-! ## Signed second Taylor remainder and its exact graph (MATHEMATICS.md §4)
+/-! ## Signed second Taylor remainder and its exact graph
 
 q and y are frozen inside the signed integral; only the radial variable moves. -/
 

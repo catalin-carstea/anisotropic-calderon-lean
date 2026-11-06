@@ -2,8 +2,7 @@ import Calderon.NativeSupportedAdjointStrongForcing
 import Calderon.NativeCoefficientMultiplierOrderCoherence
 import Calderon.NativeSmoothMultiplierForcingCoefficients
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. Literal native H2→H1 forcing, same low graph. -/
+/-! Gain of the high smooth multiplier: the native H2→H1 forcing, with the same low graph. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

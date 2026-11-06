@@ -47,7 +47,7 @@ attribute [local instance] v017PiHalfComplete v017PiNegativeComplete
 attribute [local instance] negDualNormed negDualSpace
 attribute [local irreducible] halfDualPairingL
 
-/-- Conditional local norm lemma; actual pre-profile caps are supplied by the physical consumer. -/
+/-- Local norm lemma; the actual pre-profile caps are supplied by the physical consumer. -/
 theorem half_negative_pairing_profile_bound (z : Half) (s : Neg)
     (CZ CS beta r eta m : ℝ) (d : Fin 3 → ℝ)
     (hCZ : 0 ≤ CZ) (hCS : 0 ≤ CS)

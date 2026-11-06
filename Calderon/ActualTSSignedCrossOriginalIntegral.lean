@@ -1,7 +1,7 @@
 import Calderon.ActualTSSignedCrossAssembly
 import Calderon.ActualTSZeroFirstOriginalEnergy
 
-/-! Exact original signed T/S consumer draft. Await reviewed D01 handoff and coherent native replay before validation. -/
+/-! Original signed T/S cross integral. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -39,7 +39,7 @@ local notation "PB" => OriginalProfileIntegralBound
 local notation "Lower" => lowerPhysicalCross
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 hreg data.δ0 data.germs
 
-/-- Exact original lower T/S, now consuming the complete third-owned D01. -/
+/-- Original lower T/S integral bound, using the D01 estimate. -/
 theorem exists_original_lower_TS_integral_bound
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) :

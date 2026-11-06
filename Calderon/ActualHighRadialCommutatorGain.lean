@@ -56,10 +56,9 @@ local notation "Sh" => referenceSharpRadialTraceSecondRemainder
 local notation "Sl" => referenceLowerRadialTraceSecondRemainder
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/- v004 (H0): the high frozen-coefficient remainder is the EXISTING owner
-`referenceHighSmoothMultiplierBoundaryCommutatorSecondRemainder` (literally
-`secondTaylorRemainder (fun t => referenceHighSmoothMultiplierBoundaryCommutatorFamily … Q (q,(y,t))) r`);
-the v003 duplicate definition is removed. -/
+/- The high frozen-coefficient remainder is
+`referenceHighSmoothMultiplierBoundaryCommutatorSecondRemainder`, that is,
+`secondTaylorRemainder (fun t => referenceHighSmoothMultiplierBoundaryCommutatorFamily … Q (q,(y,t))) r`. -/
 local notation "GHr" => referenceHighSmoothMultiplierBoundaryCommutatorSecondRemainder
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
@@ -81,9 +80,9 @@ local notation "BCA" => referenceHighAdjointSmoothMultiplierBoundaryCommutatorFa
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
 
-/-! ### H13. H8 instantiated: genuine common-support P_i, arbitrary P_k, one radius.
-Every displayed graph hypothesis is discharged by a supplied source (MATHEMATICS.md H13);
-(hN) keeps the source's MINUS sign: Gn_i = -(realHalfOperatorAdjointL G_i). -/
+/-! ### Genuine common-support P_i, arbitrary P_k, one radius.
+Every displayed graph hypothesis is discharged;
+(hN) keeps the minus sign: Gn_i = -(realHalfOperatorAdjointL G_i). -/
 
 theorem exists_reference_commonRadius_adjacentGainedCommutator_high_graph_uniform
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0) :
@@ -202,13 +201,13 @@ theorem exists_reference_commonRadius_adjacentGainedCommutator_high_graph_unifor
         NMN (smoothMultiplierLowerJets Qi) (Sl q y r v) := fun v =>
     referenceSmoothMultiplierSecondRemainder_lower_graph
       g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 hKernel Qi q y r hSegment v
-  -- (hGui), (hGuk): H6'
+  -- (hGui), (hGuk)
   have hGu (Q : SmoothCoefficientJets 3) : ∀ f : SphereSobolev (3/2 : ℝ),
       secondTaylorRemainder (fun s : ℝ => BCL Q (q,(y,s))) r (Ihi f) =
         Sh q y r (NMH Q f) - NML (smoothMultiplierLowerJets Q) (Sh q y r f) := fun f =>
     referenceSmoothMultiplierSecondRemainder_upper_graph
       g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 hKernel Q q y r hSegment f
-  -- (hGHi), (hGHk): H3 on the physical tube
+  -- (hGHi), (hGHk): on the physical tube
   have hGH (Q : SmoothCoefficientJets 3) : ∀ f : SphereSobolev (3/2 : ℝ),
       Ihi (GHr Q q y r f) = secondTaylorRemainder (fun s : ℝ => BCL Q (q,(y,s))) r (Ihi f) :=
     fun f => by
@@ -219,7 +218,7 @@ theorem exists_reference_commonRadius_adjacentGainedCommutator_high_graph_unifor
           (referenceHighSmoothMultiplierSecondRemainder_lower_inclusion
         g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 hreg hKernel Q q y r d0 lam Lam
             hr0 hSegment hTube))
-  -- (hN): first conclusion of the supplied negative factor, MINUS kept
+  -- (hN): first conclusion of the negative factor, with its minus sign
   have hNegativeFactor := referenceAdjointHalfRadialSecondRemainder_smoothMultiplier_negative_factor
     g L y0 Φ B ε C ρ H a w hData m hm Km hKm hmz hcalc hF hO hD τ0 hKernel q y r t hSegment
   have hNF := hNegativeFactor.1

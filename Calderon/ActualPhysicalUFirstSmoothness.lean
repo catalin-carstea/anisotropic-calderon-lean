@@ -3,10 +3,9 @@ import Calderon.ActualHorizontalGeometry
 import Calderon.ActualDensityPrincipalFrameSmoothness
 import Calderon.ActualNormalizedSecondMetricDrift
 
-/-! Author: Claude (Opus 5.5), v032. Expansion: output/MATHEMATICS.md, "Smoothness proof".
-The actual native `UFirst` output of the unchanged v030 parent is `C^∞`, and its weighted norm
-square is integrable against every continuous weight. Joint geometry is taken from the existing
-`contDiff_referenceMetricGramFrame` and `contDiff_referenceFrameConnectionJoint`; no premise. -/
+/-! The actual native `UFirst` output is `C^∞`, and its weighted norm
+square is integrable against every continuous weight. Joint geometry is taken from
+`contDiff_referenceMetricGramFrame` and `contDiff_referenceFrameConnectionJoint`. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter MeasureTheory

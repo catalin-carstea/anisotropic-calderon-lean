@@ -9,8 +9,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in native-coefficient-weak-half-uniqueness-author-oct14-v001/EXPANSION-v001.json.
-Actual zero-space injectivity identifies homogeneous affine weak solutions. -/
+/-! Actual zero-space injectivity identifies homogeneous affine weak solutions. -/
 
 lemma nativeH1_affine_difference_mem_zero (P U V : BallH1)
     (hU : P-U ∈ TauCeti.w1p0Submodule volume ballOpens 2)

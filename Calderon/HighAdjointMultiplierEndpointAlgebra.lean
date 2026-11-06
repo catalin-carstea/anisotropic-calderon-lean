@@ -1,8 +1,7 @@
 import Mathlib.Analysis.Normed.Operator.Basic
 import Mathlib.Tactic.Abel
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-HIGH-GENUINE-COMMUTATOR-ENDPOINT-ALGEBRA-EXPANSION-v001.md. Exact linear endpoint algebra only. -/
+/-! Linear endpoint algebra of the high commutator. -/
 set_option autoImplicit false
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 

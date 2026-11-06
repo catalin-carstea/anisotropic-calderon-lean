@@ -1,9 +1,7 @@
 import Calderon.ActualNativeMovingAdjointMixedJRealization
 import Calderon.ActualNativeLeadingCovariantRadiusCancellation
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-mixed-correction-negative-endpoint-v019.md.
-Literal original mixed J at the negative physical endpoint. -/
+/-! The mixed J at the negative physical endpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -3,8 +3,7 @@ import Calderon.ActualCovariantDensityFirstActions
 import Calderon.ActualMovingBoundaryTransposeIdentification
 import Calderon.ActualHighMovingBoundaryAction
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-DENSITY-FIRST-PAIRING-DEFECT-EXPANSION-v001.md. Actual product rule retains its exact trace defect. -/
+/-! The actual product rule retains its exact trace defect. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -18,8 +18,7 @@ open EnergyBridge SphereHarmonic NativeHarmonicLiftCompletion NativeHarmonicH1Li
   NativeHarmonicLiftOrderCoherence
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in native-supported-adjoint-nonzero-H2-author-oct14-v001/EXPANSION-v001.json.
-Exact three-half datum, literal formal-adjoint coefficients and same harmonic completion. -/
+/-! Exact three-half datum, literal formal-adjoint coefficients and same harmonic completion. -/
 
 attribute [local irreducible] nativeCoefficientWeakEnergyL nativeSupportedAdjointStrongL
   nativeZeroCoefficientEnergyL nativeSupportedOriginalZeroEnergyL

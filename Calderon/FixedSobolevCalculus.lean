@@ -8,9 +8,8 @@ open scoped ENNReal ContDiff
 namespace OAI.AnisotropicCalderon.DirichletFamily
 open EnergyBridge
 
-/-- The complete provisionally reviewed fixed-ball standard Sobolev calculus
-composite. All actual graph/distribution/norm transports remain uncompiled;
-relative results take this proposition explicitly and human ratification is pending. -/
+/-- The complete fixed-ball standard Sobolev calculus composite.
+Relative results take this proposition explicitly. -/
 def FixedSobolevCalculus : Prop :=
   (∀ k : ℕ, ∃ C : ℝ, 0 ≤ C ∧
     ∀ phi : R3 → ℝ, ContDiff ℝ ∞ phi → HasCompactSupport phi →

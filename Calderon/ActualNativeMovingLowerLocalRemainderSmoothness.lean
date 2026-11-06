@@ -1,8 +1,7 @@
 import Calderon.ActualNativeMovingLocalRemainder
 import Calderon.ActualAdjointMovingBoundaryFamilies
 
-/-! Before-source: actual-local-remainder-endpoint-smoothness-author-oct16-v001/EXPANSION-v001.md.
-One actual endpoint of the unchanged paired local quotient claim. -/
+/-! One endpoint of the paired local quotient claim. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

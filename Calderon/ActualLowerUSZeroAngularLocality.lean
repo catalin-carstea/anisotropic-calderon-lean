@@ -1,9 +1,8 @@
 import Calderon.ActualHigherSZeroPhysicalGraph
 import Calderon.ActualFiniteHarmonicModelScalarExpansion
 
-/-! Author-support GPT-6.1 Sol; no compilation by author. Before-code:
-../gained-jq-upfront.md. Native Q angular locality follows from its canonical
-negative graph. No finite physical output or analytic cap is assumed. -/
+/-! Native Q angular locality follows from its canonical negative graph.
+No finite physical output or analytic cap is assumed. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

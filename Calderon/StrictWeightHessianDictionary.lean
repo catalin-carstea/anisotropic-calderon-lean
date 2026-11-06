@@ -2,7 +2,6 @@ import Calderon.CollaboratorUCPWeightOct17
 import Calderon.MetricHessianQuadratic
 
 /-! Exact local native dictionary for the original strict-weight condition.
-Full prior expansion: UPFRONT-STRICT-WEIGHT-HESSIAN-DICTIONARY-v001.md.
 No global admissibility of the local coordinate metric is assumed. -/
 set_option autoImplicit false
 noncomputable section

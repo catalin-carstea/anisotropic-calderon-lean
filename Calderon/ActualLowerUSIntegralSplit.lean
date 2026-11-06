@@ -1,10 +1,8 @@
 import Calderon.ActualModelSErrorDecomposition
 
 /-!
-Author: GPT-6.1 Sol, lower U/S authoring support.
-Upfront expansion and exact target: lower-u-s-nov03-v001/upfront-v001.
 This module proves only integrability and exact integral bookkeeping. It
-asserts no quantitative estimate for the remaining lower U/S group.
+contains no quantitative estimate for the lower U/S group.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -46,8 +44,8 @@ local notation "Lo" => nativeULowerSCrossDensity
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data
   g2 hg2 dr Ar p hdr hAr q
 
-/-- The full physical U/S density splits into the checked scalar density and
-the existing literal B/C,V/W,density-corrected lower density. -/
+/-- The full physical U/S density splits into the scalar density and
+the literal B/C,V/W,density-corrected lower density. -/
 theorem nativeUSCrossDensity_eq_scalar_add_lower
     (F : smoothCompactFiniteSphereCore hO hD) (x : R3) :
     ⟪(UF F).val x,SO F x⟫_ℝ - ⟪(UD F).val x,SD F x⟫_ℝ = Sc F x + Lo F x := by
@@ -70,7 +68,7 @@ def LowerUSIntegralSplit (F : smoothCompactFiniteSphereCore hO hD) : Prop :=
     (∫ x, mu x * (2 * Sc F x)) + (∫ x, mu x * (2 * Lo F x)) ∧
   (∫ x, mu x * (2 * Lo F x)) = 2 * (∫ x, mu x * Lo F x)
 
-/-- The checked original decomposition supplies lower and original-energy
+/-- The original decomposition supplies lower and original-energy
 integrability; the exact scalar split then supplies all integral bookkeeping. -/
 theorem lowerUSIntegralSplit_of_decomposition
     (CErr eta : ℝ) (F : smoothCompactFiniteSphereCore hO hD)
@@ -130,7 +128,7 @@ theorem lowerUSIntegralSplit_of_decomposition
   ring
 
 /-- One positive threshold precedes every original profile and finite input.
-This is only the exact-integral milestone, with no lower U/S smallness claim. -/
+The statement contains the exact integrals only, with no lower U/S smallness estimate. -/
 theorem exists_lowerUSIntegralSplit
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0) :
     ∃ etaUS : ℝ, 0 < etaUS ∧ etaUS ≤ data.eta0 ∧ etaUS ≤ 1 ∧

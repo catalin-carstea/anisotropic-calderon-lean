@@ -27,8 +27,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Full upfront expansion: EXPANSION-actual-reference-native-weak-identification-v001.json.
-All identities hold for the SAME total definitions, including outside the invertible locus. -/
+/-! All identities hold for the SAME total definitions, including outside the invertible locus. -/
 
 include hData
 

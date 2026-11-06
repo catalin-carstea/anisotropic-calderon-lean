@@ -2,7 +2,6 @@ import Calderon.NativeRadialFactorTruncation
 import Calderon.NativeL2DominatedConvergence
 import Mathlib.Analysis.SpecificLimits.Basic
 
-/-! Expanded first in EXPANSION-native-radial-factor-specific-dct-author-v002.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

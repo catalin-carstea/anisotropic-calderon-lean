@@ -6,8 +6,7 @@ import Calderon.ActualFirstCorrectionParameterJets
 import Calderon.ActualNativeMovingRadiusTrace
 import Mathlib.Analysis.Normed.Module.FiniteDimension
 
-/-! Full upfront: actual-native-finite-J-author-oct16-v001/EXPANSION-v001.md.
-Actual finite native J; compact derivative parameter before p. The physical
+/-! Actual finite native J; compact derivative parameter before p. The physical
 P/canonical harmonic dictionary is an explicit separate graph, not a premise. -/
 set_option autoImplicit false
 noncomputable section

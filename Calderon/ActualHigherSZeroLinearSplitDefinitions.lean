@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSLinearZero
 import Calderon.ActualHigherSAdjointLeadingCoordinate
 
-/-! Exact original quadratic zero-map definitions, isolated as their actual owner.
-Author source; complete-owner current-input/native/review checking pending. -/
+/-! Exact original quadratic zero-map definitions. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

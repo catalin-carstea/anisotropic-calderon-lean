@@ -2,8 +2,7 @@ import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.AngularShiftGraph
 import Calderon.SharpRadialHarmonicCoefficientCore
 
-/-! Upfront: native-angular-raising-dictionary-author-oct16-v001/
-EXPANSION-threehalf-generic-graph-split-v019.md. Same canonical H3half raising graph. -/
+/-! The canonical H3half raising graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

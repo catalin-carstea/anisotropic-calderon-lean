@@ -2,7 +2,7 @@ import Calderon.ActualReferenceWeakRoom
 import Calderon.ActualHarmonicLiftZeroDerivative
 import Calderon.WeightedDriftCommonRadius
 
-/-! Source-only actual same-witness all-order strong inverse on one weak room.
+/-! Actual same-witness all-order strong inverse on one weak room.
 The native lower-order bootstrap is used; no orderwise Neumann-radius
 intersection or desired invertibility premise appears in the actual-room root. -/
 set_option autoImplicit false

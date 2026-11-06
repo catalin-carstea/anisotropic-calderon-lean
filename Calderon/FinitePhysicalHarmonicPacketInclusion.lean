@@ -7,9 +7,6 @@ open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.RotationCasimirEstimate
 open SphereHarmonic SmoothSphereRotationProjection
 
-/-! Full upfront: EXPANSION-v001.json. Generic actual-space assembly seam only.
-Physical operator adjunction and actual uniform Csharp remain separate obligations. -/
-
 lemma zeroEquiv_symm_inclusion_one_zero_finite_packet
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
     (s : Finset ℕ) (u : ∀ k, harmonicSphereSubspace k) :

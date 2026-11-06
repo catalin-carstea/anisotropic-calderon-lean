@@ -14,8 +14,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Fully expanded before source in EXPANSION-actual-reference-sharp-midpoint-family-v001.json.
-Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
+/-! Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
 def referenceRotationAdjointRadialEndpointPairFamily (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace) (iA jA : Fin 3) (t : ℝ × (ℝ × (R3 × ℝ))) : SphereSobolevEndpointPair :=
   (referenceRotationAdjointHalfRadialFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 iA jA t,referenceRotationAdjointThreeHalfRadialFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 iA jA t)

@@ -1,5 +1,5 @@
 import Calderon.ActualScalarPrincipalSelfFormBound
-/-! Pure scalar absorption for actual mixed specialization. UNCOMPILED author helper. -/
+/-! Pure scalar absorption for actual mixed specialization. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualHigherSMixedCubicAbsorption

@@ -1,8 +1,7 @@
 import Calderon.ActualFinitePhysicalModelFullErrorDictionary
 
-/-! Full before-source expansion and verified API bundle:
-actual-finite-physical-model-dictionary-author-oct19-v001/BEFORE-SOURCE-RECEIPT.json.
-Concrete original finite-input dictionary. No quantitative or transfer-existence claim. -/
+/-! Concrete original finite-input dictionary. It contains no quantitative or
+transfer-existence statement. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

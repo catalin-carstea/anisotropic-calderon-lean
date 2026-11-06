@@ -9,13 +9,6 @@ import Calderon.ActualPerturbedModelSupport
 import Calderon.PhysicalDensityProductsForwardLiteralPostmapSection
 import Calderon.ActualPhysicalDensityOperatorLocality
 
-/-! AUTHOR source preparation only, approved full-forward v002 mathematics.
-The generic algebra and concrete proof body are verbatim approved beforecode.
-Original full input/output, given packet witnesses, norms and quantifiers retained.
-Future coherent executable parent: NULL. No compiler/native/review credit here.
-Source-object NULLs, completion/inclusion bindings, literature/model qualifiers,
-historical SectionFive scope and pending human ratification remain unchanged.
--/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.MainPhysicalGraphBridge
@@ -26,9 +19,8 @@ open EnergyBridge ConnectionError SphereHarmonic ActualFiniteHarmonicCore
   ReferenceDensityBounds ReferenceWeightedApproximation ConformalDepth
 
 
--- COMPLETE proposed pure lemma proof, not a materialized/checkable owner yet.
--- Instantiate pointwise; each graph premise is derived from the retained ACTUAL
--- component owners in the unchanged final producer, never a new final callback.
+-- Instantiate pointwise; each graph premise is derived from the actual components
+-- of the final producer.
 private theorem assemble_full_physical_graph_at
     {E N : Type*} [NormedAddCommGroup E] [NormedAddCommGroup N]
     [NormedSpace ℝ E] [NormedSpace ℝ N]

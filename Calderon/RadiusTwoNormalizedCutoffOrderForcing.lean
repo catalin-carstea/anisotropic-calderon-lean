@@ -2,7 +2,6 @@ import Calderon.RadiusTwoNormalizedCutoffCoefficients
 import Calderon.CoefficientMultiplier
 import Calderon.SobolevDivergenceAssembly
 
-/-! EXPANSION-order-forcing.json precedes actual all-order normalized cutoff forcing. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

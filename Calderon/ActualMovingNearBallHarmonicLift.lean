@@ -1,8 +1,7 @@
 import Calderon.LocalSmoothFamilyExtension
 import Calderon.ActualNearBallHarmonicLift
-/-! Source-only actual moving-neighborhood physical/native harmonic bridge.
-One ambient extension, actual varying datum, and exact physical traces.
-All interfaces and full expansion were sealed before bodies. No Psi closure claim. -/
+/-! Actual moving-neighborhood physical/native harmonic bridge.
+One ambient extension, actual varying datum, and exact physical traces. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

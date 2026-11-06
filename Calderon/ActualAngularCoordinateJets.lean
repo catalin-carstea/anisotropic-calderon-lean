@@ -10,7 +10,7 @@ noncomputable section
 open Set Filter Metric
 open scoped ContDiff ENNReal Topology InnerProductSpace
 
-/-! ## Generic typed finite cancellations and within-jet caps (MATHEMATICS.md §3–§5) -/
+/-! ## Generic typed finite cancellations and within-jet caps -/
 
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualAngularHighDraft
 

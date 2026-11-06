@@ -1,7 +1,5 @@
 import Calderon.CompactParameterReferenceDrift
 
-/-! Mechanical source-only ownership split. Exact original declarations are
-copied byte-for-byte; no mathematical interface or proof body is changed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

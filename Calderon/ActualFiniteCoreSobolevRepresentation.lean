@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteCoreSobolevLift
 import Calderon.SphereSobolevPartialSumOperator
 
-/-! Full AUTHOR upfront048, actual-Y-second-action-domain-author-oct16-v001.
-Original finite-core INPUT representation, not an output image theorem. -/
+/-! Representation of the original finite-core input; not an output image theorem. -/
 set_option autoImplicit false
 noncomputable section
 open Set

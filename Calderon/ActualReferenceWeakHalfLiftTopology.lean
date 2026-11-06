@@ -4,8 +4,7 @@ import Calderon.NativeWeakHalfLiftTopologyAlgebra
 import Calderon.NativeInvertibleWeakLiftTopology
 import Calderon.NativeWeakHalfLiftTopologyFactoring
 
-/-! Full upfront argument: EXPANSION-actual-reference-weak-endpoint-joint-topology-v001.json.
-Actual joint families, author draft awaiting checks. -/
+/-! Actual joint families. -/
 
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

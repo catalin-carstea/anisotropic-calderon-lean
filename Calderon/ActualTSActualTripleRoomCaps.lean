@@ -1,8 +1,7 @@
 import Calderon.ActualTSTripleBilinearCoefficient
 
 /-! Actual original all-angular-room triple coefficient first within caps.
-No ambient differentiability is inferred from the closed parameter room.
-Before-code: ../T-S-actual-triple-room-first-caps-before-source-nov03-night-v001/. -/
+No ambient differentiability is inferred from the closed parameter room. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

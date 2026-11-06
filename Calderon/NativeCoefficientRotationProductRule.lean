@@ -6,8 +6,7 @@ import Calderon.NativeCoefficientMultiplierBoundaryDerivative
 import Calderon.NativeSmoothHalfRadialTrace
 import Calderon.NativeH2ConormalRadialConversion
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/
-EXPANSION-rotation-product-v002.md. Genuine smooth trace product followed by density. -/
+/-! Genuine smooth trace product followed by density. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

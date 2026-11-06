@@ -12,7 +12,6 @@ variable {P E X V W : Type*}
   [NormedAddCommGroup V] [NormedSpace ℝ V]
   [NormedAddCommGroup W] [NormedSpace ℝ W]
 
-/-! Upfront expansion: EXPANSION-sharp-midpoint-coefficients-joint-v001.md, step 1. -/
 theorem radialFirstDerivative_eq_of_linked_evaluation
     (F : P × ℝ → E →L[ℝ] W) (G : P × ℝ → X →L[ℝ] V)
     (Z : V →L[ℝ] W) (y : P) (e : E) (x : X)

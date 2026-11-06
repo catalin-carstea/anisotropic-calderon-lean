@@ -1,5 +1,5 @@
 import Calderon.UniformBufferedHarmonicJetBounds
-import MixedKernelFullSeriesSolution
+import Calderon.MixedKernelConstruction.MixedKernelFullSeriesSolution
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

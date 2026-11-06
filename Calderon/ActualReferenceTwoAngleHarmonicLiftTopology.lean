@@ -3,8 +3,7 @@ import Calderon.ActualReferenceRotationHarmonicLiftTopology
 import Calderon.ActualReferenceSharpUpperTrace
 import Calderon.GuardedHarmonicLift
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-strong-lift-v010.md. Literal SAME strong lift and trace. -/
+/-! Literal SAME strong lift and trace. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

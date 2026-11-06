@@ -3,9 +3,7 @@ import Calderon.SphereSobolevTangentialEndpointCompatibility
 import Calderon.NativeHalfCoefficientInverseCompatibility
 import Calderon.InversePairingTransport
 
-/-! Full upfront: actual-gauge-boundary-jets-author-oct15-v001/
-EXPANSION-reciprocal-compatibility-v005.md. SAME reciprocal normal multipliers,
-actual pivot pairing and actual half/negative-half inclusion. -/
+/-! SAME reciprocal normal multipliers, actual pivot pairing and actual half/negative-half inclusion. -/
 set_option autoImplicit false
 noncomputable section
 open Set

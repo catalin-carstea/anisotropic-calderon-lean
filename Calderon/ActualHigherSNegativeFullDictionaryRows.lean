@@ -1,7 +1,6 @@
 import Calderon.ActualHigherSFormation
 
-/-! Complete AUTHOR beforecode proposal only. No executable or acceptance grant.
-Literal original Second/Angular/Double rows, arbitrary unchanged R/u. -/
+/-! Literal original Second/Angular/Double rows, arbitrary unchanged R/u. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.MainPhysicalGraphBridge

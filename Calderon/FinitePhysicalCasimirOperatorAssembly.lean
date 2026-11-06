@@ -8,8 +8,6 @@ namespace OAI.AnisotropicCalderon.RotationCasimirEstimate
 open SphereHarmonic SmoothSphereRotationProjection
 attribute [local irreducible] sphereSobolevSingleL sphereSobolevCoefficientL
   sphereSobolevZeroEquiv sphereSobolevInclusionL
-/-! Full upfront: EXPANSION-v003.json. Honestoriginalconditional2=checkedfirst1+thissecond1.
-ActualCsharp/truephysicaladjunction/uniformbound remain separate actualobligations. -/
 
 lemma finite_physical_casimir_pairing_le_of_adjoint_operator_bounds
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

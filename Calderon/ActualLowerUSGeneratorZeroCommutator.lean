@@ -8,12 +8,8 @@ import Calderon.ActualLowerUSIndexedAngularGraphs
 import Calderon.ActualLowerUSZeroSDecomposition
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Full before-code target: ../lower-r-z-complete-generator-q-upfront.md.
 Literal all-five-group primitive G/Q gained words, with true adjoint words.
-Complete actual primitive generator/Q weak graphs and original-profile caps
-are authored below. This source has not been compiled by its author; Root owns
-focused diagnostics, coherent native qualification and all acceptance evidence.
+Actual primitive generator/Q weak graphs and original-profile caps.
 -/
 set_option autoImplicit false
 set_option Elab.async false

@@ -2,10 +2,8 @@ import Calderon.ActualReferenceSmoothMultiplierZeroTrace
 import Calderon.ActualReferenceSmoothMultiplierForcingEnergy
 import Calderon.UnitBallValueTraceKernel
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-strong-gain-conditional-v006.md and EXPANSION-strong-gain-adopted-v007.md.
-The standard trace-kernel property remains an explicit parameter. The actual
-zero-boundary membership and SAME strong inverse identity are conclusions. -/
+/-! The standard trace-kernel property is an explicit parameter. The actual
+zero-boundary membership and the strong inverse identity are conclusions. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

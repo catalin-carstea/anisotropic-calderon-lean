@@ -1,9 +1,9 @@
 import Calderon.RadiusTwoSmoothSourceResponse
 import Calderon.ActualTwoMetricCompactExteriorSourceResponse
 
-/-! Full upfront expansion precedes the literal chosen-response data bridge.
+/-! The chosen-response data bridge.
 The original all-smooth minimal-energy hypothesis gives native source equality;
-the SAME response representatives are identified by continuous AE uniqueness. -/
+the same response representatives are identified by continuous AE uniqueness. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

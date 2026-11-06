@@ -23,10 +23,7 @@ import Mathlib.Analysis.SpecialFunctions.ExpDeriv
 import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
-/-! The qualitative prerequisite for the original canonical Products section.
-Upfront: ProductsProfileCanonicalQualitative-v006/UPFRONT-ARGUMENT.md.
-Original consumer body unread. Complete checking and current-input proof review
-remain required; no proof acceptance is asserted by this authored source. -/
+/-! The qualitative properties needed for the original canonical Products section. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

@@ -2,7 +2,7 @@ import Calderon.ActualFrameParallelVelocity
 import Mathlib.Geometry.Manifold.Instances.Sphere
 
 /-! Actual conformal Gram frame, canonical connection coefficients, and the
-negative parallel angular velocity on the same unit sphere. Source-only proposal. -/
+negative parallel angular velocity on the same unit sphere. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff Topology InnerProductSpace Manifold EuclideanSpace

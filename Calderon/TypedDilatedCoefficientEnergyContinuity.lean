@@ -2,8 +2,8 @@ import Calderon.UnitBallContinuousCoefficientLp
 import Calderon.UnitBallCoefficientOperatorSignature
 import Calderon.TypedCoefficientEnergyCurveContinuity
 
-/-! Full upfront: EXPANSION.json. Typed same-energy six-root construction; raw Tau operator Eq remains open.
-Compact uniform coefficient convergence gives literal native operator norm continuity. -/
+/-! Typed same-energy construction. Compact uniform coefficient convergence gives
+continuity of the native operator in operator norm. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

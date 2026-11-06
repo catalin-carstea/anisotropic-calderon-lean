@@ -2,9 +2,7 @@ import Calderon.ActualReferenceSmoothMultiplierBoundaryCommutator
 import Calderon.NativeThreeHalfBoundaryMultiplierLocalSmoothness
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-smooth-commutator-extension-independence-v014.md. Boundary value
-alone determines the sum of strong-defect trace and normal multiplier. -/
+/-! Boundary value alone determines the sum of strong-defect trace and normal multiplier. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

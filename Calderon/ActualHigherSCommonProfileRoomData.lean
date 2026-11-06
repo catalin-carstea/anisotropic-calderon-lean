@@ -12,8 +12,7 @@ import Calderon.ActualHigherSPairingNormDiagnostic
 
 /-! Complete original-data common room and uniform actual profile membership,
 for ANY positive base room. Reusable by quartic dI and uniform graph dA without
-a caller-supplied analytic callback. All original data/germs/norm/eta order and
-source/body/API/owner/literature37/model holds remain. Source-only uncompiled. -/
+a caller-supplied analytic callback. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -77,7 +76,7 @@ local notation "Z2" => actualZ2Half g L y0 Φ B ε C ρ H a w hData hg hcalc hF 
 local notation "T2" => actualT2Half g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data
 local notation "QR" => quarticWordRow g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data
 
-/-- Proved original-data common room and uniform membership into it and a base room. -/
+/-- Original-data common room and uniform membership into it and a base room. -/
 structure CommonProfileRoomData (base : ℝ) where
   base_pos : 0 < base
   commonRadius : ℝ

@@ -10,9 +10,8 @@ import Calderon.ActualHigherSQuadraticZeroQuarticRegularity
 import Calderon.ActualHigherSQuadraticZeroQuarticRowBound
 import Calderon.ActualHigherSPairingNormDiagnostic
 
-/-! Complete identity and SAME-packet row-data production, boundary A of the
-stored full quartic factorization proposal. No final estimate is assumed. Original
-source/body/API/owner/norm/energy/germ/literature37/model holds remain; uncompiled. -/
+/-! Complete identity and SAME-packet row-data production. No final estimate is
+assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

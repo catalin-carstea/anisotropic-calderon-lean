@@ -11,8 +11,6 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Expanded before source in EXPANSION-native-parameter-affine-lift-opaque-inverse-repair-v001.json. -/
-
 attribute [local irreducible] harmonicFirstOrderLiftCompletion
 
 lemma contDiffAt_nativeParameterHalfAffineLiftFormula

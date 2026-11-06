@@ -2,7 +2,6 @@ import Calderon.RadiusTwoOffPoleDyadicCutoffChain
 import Calderon.RadiusTwoCommonRowCutoffAllOrders
 import Calderon.RadiusTwoNativeAllOrderCutoffLocalSmoothness
 
-/-! EXPANSION.json and EXPANSION-local-identification.json precede SAME-row offpole smoothness. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

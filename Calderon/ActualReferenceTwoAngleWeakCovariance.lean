@@ -2,9 +2,7 @@ import Calderon.ActualReferenceTwoAngleWeakOperator
 import Calderon.ActualReferenceRotationAdjointWeakZeroInverse
 import Calderon.NativeContinuousCoefficientOrthogonalEnergy
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-weak-covariance-v005.md. Genuine tested covariance and
-actual inverse transport from SAME original weak inverse. -/
+/-! Tested covariance and inverse transport from the original weak inverse. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

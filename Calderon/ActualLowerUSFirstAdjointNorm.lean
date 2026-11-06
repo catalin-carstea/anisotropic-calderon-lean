@@ -2,8 +2,6 @@ import Calderon.ActualLowerUSAdjointCoefficients
 import Calderon.ActualFiniteHarmonicModelBAngularAdjointHalfNorm
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-first-adjoint-norm-upfront.md.
 Exact native D=-B-sphere-adjoint and genuine finite H^(3/2)->H^(1/2) test bounds.
 These are explicit weighted finite-core norms, not an endpoint upgrade.
 -/

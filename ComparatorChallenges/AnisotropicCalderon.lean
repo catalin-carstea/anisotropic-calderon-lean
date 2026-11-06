@@ -69,6 +69,17 @@ structure IsIsometryFixingExterior (Φ : R3 ≃ R3) (g₁ g₂ : MatrixField) : 
   fixes_exterior : ∀ x : R3, 1 ≤ ‖x‖ → Φ x = x
   isometry : ∀ x : R3, g₂ x = (D Φ x).transpose * g₁ (Φ x) * D Φ x
 
+/-- Main theorem: equal Dirichlet-to-Neumann data on the whole boundary implies that
+the metrics agree up to a diffeomorphism fixing the boundary. Because both metrics
+agree with the Euclidean metric to infinite order at `∂B`, the diffeomorphism agrees
+with the identity to infinite order at `∂B`, so it extends by the identity to a
+diffeomorphism of `ℝ³`. -/
+theorem main (g₁ g₂ : MatrixField)
+    (hg₁ : IsAdmissibleMetric g₁) (hg₂ : IsAdmissibleMetric g₂)
+    (hΛ : ∀ f : R3 → ℝ, ContDiff ℝ ∞ f → minimalEnergy g₁ f = minimalEnergy g₂ f) :
+    ∃ Φ : R3 ≃ R3, IsIsometryFixingExterior Φ g₁ g₂ := by
+  sorry
+
 end AnisotropicCalderon
 end
 

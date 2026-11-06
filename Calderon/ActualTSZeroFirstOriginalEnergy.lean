@@ -1,8 +1,7 @@
 import Calderon.ActualTSZeroFirstRegularity
 import Calderon.ActualTSZeroFirstSymmetricIntegral
 
-/-! Complete original factor-four D01 estimate. Before code: ../UPFRONT.md,
-../integral-UPFRONT.md. Exact selected type: ../TARGET-SPEC.txt.
+/-! Original factor-four D01 estimate.
 All row constants, room witnesses and threshold are produced internally. -/
 set_option autoImplicit false
 set_option Elab.async false

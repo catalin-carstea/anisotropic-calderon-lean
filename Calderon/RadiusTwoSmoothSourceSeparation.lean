@@ -1,6 +1,6 @@
 import Calderon.RadiusTwoSmoothSourceCommonExterior
 
-/-! The full upfront expansion precedes this conditional application of A.7. -/
+/-! A conditional application of A.7. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric TopologicalSpace

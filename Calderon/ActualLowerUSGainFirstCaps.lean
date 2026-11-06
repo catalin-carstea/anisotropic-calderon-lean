@@ -3,9 +3,7 @@ import Calderon.ActualLowerUSGainCapExtraction
 import Calderon.FixedParameterProfileBudgets
 
 /-!
-GPT-6.1 Sol authoring support; before-code expansion is
-lower-u-s-nov03-v001/second-row-next-upfront.md. Concrete first physical
-caps of the retained low gains used by the T derivative; no cap callback.
+Concrete first physical caps of the retained low gains used by the T derivative.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -89,8 +87,8 @@ theorem exists_firstAngularGain_joint_first_caps (mixed : MRoom) (δ : ℝ) (gen
 
 section PhysicalFirstCaps
 
-/- Cache only the already selected canonical low-map normed structures,
-AFTER the unchanged qualified-prefix theorem. No parameter-space override. -/
+/- Cache only the already selected canonical low-map normed structures, after the
+prefix theorem. No parameter-space override. -/
 @[instance_reducible] private def physicalGainLowMapNormed :
     NormedAddCommGroup (Half →L[ℝ] Neg) := inferInstance
 attribute [local instance] physicalGainLowMapNormed

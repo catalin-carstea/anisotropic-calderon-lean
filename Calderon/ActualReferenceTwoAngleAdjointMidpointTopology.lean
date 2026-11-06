@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleAdjointMidpointCore
 import Calderon.ActualReferenceTwoAngleLowerRadialEndpoint
 import Calderon.NativeLowerTransposeDerivative
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-midpoint-topology-v109.md. Genuine same normed transpose. -/
+/-! Topology of the two-angle adjoint midpoint, through the same normed transpose. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

@@ -7,8 +7,6 @@ open Set
 open scoped ContDiff
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 
-/-! Upfront expansion: EXPANSION-actual-coordinate-forcing-correction-topology-joint-v001.md. -/
-
 theorem smoothCoefficientJets_eq_of_coefficientValue_eq (r : ℕ)
     (F G : SmoothCoefficientJets r) (h : coefficientValue r F = coefficientValue r G) : F = G := by
   apply Subtype.ext

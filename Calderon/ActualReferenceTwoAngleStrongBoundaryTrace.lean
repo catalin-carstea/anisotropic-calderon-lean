@@ -3,8 +3,6 @@ import Calderon.ActualReferenceTwoAngleHarmonicLiftTopology
 import Calderon.ActualReferenceRotationStrongIdentification
 import Calderon.NativeHalfTraceRightInverse
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-PARTITION-two-angle-H2-Green-boundary-v096.md. Exact existing pointwise claims. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

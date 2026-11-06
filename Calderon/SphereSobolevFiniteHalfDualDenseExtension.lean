@@ -6,7 +6,7 @@ noncomputable section
 open Set Filter
 open scoped InnerProductSpace ENNReal Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
-/-! Full upfront: EXPANSION-v001.json. Actual weighted decoded input/test
+/-! Actual weighted decoded input/test
 partial sums and physical half-dual Riesz; complete unrestricted outputs. -/
 
 lemma norm_negativeHalf_le_of_finite_half_dual_tests

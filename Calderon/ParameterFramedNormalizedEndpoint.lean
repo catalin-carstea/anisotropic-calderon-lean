@@ -4,8 +4,7 @@ import Mathlib.Analysis.Calculus.ContDiff.Basic
 import Mathlib.Algebra.Order.BigOperators.Group.Finset
 import Mathlib.Topology.Constructions.SumProd
 
-/-! UNCOMPILED author proposal. EXPANSION.md E1--E3,E7 was sealed first.
-The metric below is the literal native metric of the frozen-parameter endpoint. -/
+/-! The metric below is the literal native metric of the frozen-parameter endpoint. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

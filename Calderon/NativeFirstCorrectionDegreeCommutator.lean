@@ -4,9 +4,8 @@ import Calderon.ActualFirstCorrectionSobolevFamilies
 import Calderon.ActualReferenceSharpMidpointRadialCoefficients
 import Mathlib.Tactic.Module
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-native-first-correction-degree-commutator-v048.md. Exact native
-bands, degree zero retained, genuine pivot transpose and SAME actual lower DN. -/
+/-! Native bands with degree zero retained, the genuine pivot transpose, and the same
+lower DN map. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

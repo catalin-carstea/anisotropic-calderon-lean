@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceTwoAngleStrongOriginalRoom
 import Calderon.ActualReferenceRadialEndpointOpenLocus
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-radial-room-v019.md. Actual common open inverse room. -/
+/-! Actual common open inverse room. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

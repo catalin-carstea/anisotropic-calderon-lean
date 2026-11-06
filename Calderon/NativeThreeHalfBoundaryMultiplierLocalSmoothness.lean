@@ -1,8 +1,7 @@
 import Calderon.NativeOrderOneCoefficientMultiplierTopology
 import Calderon.FiniteDimensionalLocalSmoothExtension
 
-/-! Full upfront: EXPANSION-NativeThreeHalfBoundaryMultiplierLocalSmoothness-v001.md.
-Actual native H3/2 multiplier, arbitrary ambient extensions, local operator norm. -/
+/-! Actual native H3/2 multiplier, arbitrary ambient extensions, local operator norm. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Function Metric

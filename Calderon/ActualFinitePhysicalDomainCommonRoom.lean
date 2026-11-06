@@ -2,8 +2,7 @@ import Calderon.ActualReferenceWeakRoom
 import Calderon.ActualReferenceRadialEndpointOpenLocus
 import Calderon.ActualNativeTraceGeometryRoom
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-PHYSICAL-DOMAIN-COMMON-ROOM-EXPANSION-v001.md. Derived original finite inverse and geometric room before n. -/
+/-! The original finite inverse and the geometric room, derived before n. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

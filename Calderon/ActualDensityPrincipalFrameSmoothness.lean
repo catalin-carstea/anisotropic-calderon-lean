@@ -1,7 +1,6 @@
 import Calderon.ActualDensityAngularBoundaryAction
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-DENSITY-PRINCIPAL-FRAME-SMOOTHNESS-UPFRONT-v001.md. SAME actual Q, finite scalar contraction. -/
+/-! The same actual Q, finite scalar contraction. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff

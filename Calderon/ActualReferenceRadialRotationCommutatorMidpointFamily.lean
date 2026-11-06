@@ -9,7 +9,7 @@ open scoped ContDiff ENNReal Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic
 
-/-! Full upfront argument: EXPANSION-v001.json. Reuse the EXISTING bounded linear
+/-! Reuse the existing bounded linear
 compatible interpolation family and its existing smooth kernel restriction. This
 auxiliary family has that construction's explicit zero extension outside the original
 inverse locus; actual derivative identities and smoothness are asserted on the locus. -/

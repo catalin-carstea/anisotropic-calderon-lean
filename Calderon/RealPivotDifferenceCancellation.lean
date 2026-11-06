@@ -1,8 +1,7 @@
 import Mathlib.Analysis.InnerProductSpace.Basic
 import Mathlib.Tactic.Linarith
 
-/-! Upfront: full-quartic-form-author-oct15-v001/REPAIR-v008.md.
-Elementary real-pivot cancellation, no operator/domain premise. -/
+/-! Elementary real-pivot cancellation, with no operator or domain premise. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

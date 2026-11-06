@@ -5,8 +5,6 @@ import Calderon.ActualNativeMovingRadiusTrace
 import Calderon.ActualNormalizedSecondDriftAngularAllocation
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-q-word-budget-upfront.md.
 Original scalar word coefficients for all five actual S zero groups.
 No assumed analytic cap, no finite-angular substitution for physical E outputs.
 -/

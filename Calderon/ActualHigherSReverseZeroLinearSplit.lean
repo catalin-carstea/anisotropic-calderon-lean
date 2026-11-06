@@ -2,8 +2,7 @@ import Calderon.ActualHigherSZeroLinearSplitDefinitions
 import Calderon.ActualHigherSReverseZeroConstructor
 import Calderon.ActualReverseZeroSourceRow
 
-/-! Independent complete owner of the original genuine reverse zero split.
-Original public statement retained; complete opaque native source-row identity used. -/
+/-! The reverse zero split, proved with the opaque native source-row identity. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

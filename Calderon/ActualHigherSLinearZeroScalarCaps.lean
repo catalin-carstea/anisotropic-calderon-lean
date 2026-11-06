@@ -1,7 +1,6 @@
 import Calderon.ActualHigherSZeroCoefficientBounds
 import Calderon.ActualHigherSCoordinateWeightBounds
-/-! Independent original-hypothesis scalar producer for linear zero and 207 words.
-Full expansion/signature archived in linear-zero-scalar-upfront-v001. UNCOMPILED. -/
+/-! Independent original-hypothesis scalar producer for linear zero and 207 words. -/
 noncomputable section
 set_option autoImplicit false
 open Set Metric

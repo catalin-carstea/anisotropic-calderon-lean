@@ -8,8 +8,7 @@ open MvPolynomial
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open GreenRadialTrace SmoothAngularCasimir AngularPolynomial
 
-/-! Expanded before source in EXPANSION-orthogonal-polynomial-harmonic-preservation-v001.json.
-Actual harmonic block invariance is proved, not supplied as a premise. -/
+/-! Invariance of the harmonic blocks is proved, not supplied as a hypothesis. -/
 
 lemma polynomialEvaluation_orthogonalPullback (e : R3 ≃ₗᵢ[ℝ] R3)
     (p : MvPolynomial (Fin 3) ℝ) :

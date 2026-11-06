@@ -1,10 +1,7 @@
 import Calderon.ActualFullEPhysicalEndpoints
 
-/-! Author proof source for the exact Double/Double four-pairing identity.
-This source is UNCOMPILED. It asserts no actual Calderon specialization,
-analytic bound, final callback premise, or acceptance.
-Before-source expansion and exact signature: ../upfront-v001/.
--/
+/-! The exact Double/Double four-pairing identity. It contains no actual Calderón
+specialization or analytic bound. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

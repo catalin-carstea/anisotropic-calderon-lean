@@ -1,8 +1,6 @@
 import Calderon.ActualReferencePairedProductRadialRemainderLocalSmoothness
 import Calderon.CompactInverseDerivativeBounds
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-actual-paired-fixed-three-jet-room-v042.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

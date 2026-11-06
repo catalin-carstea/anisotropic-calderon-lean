@@ -11,8 +11,6 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Upfront: native-supported-adjoint-strong-invertibility-author-oct14-v001/EXPANSION-v001.json. -/
-
 def nativeSupportedAdjointStrongDirichletL (hcalc : FixedSobolevCalculus)
     (F : SmoothCoefficientMatrix 2) (C : SmoothCoefficientJets 1)
     (beta : R3 → R3) (hbeta : ContDiff ℝ ∞ beta) (K : Set R3) (hK : IsCompact K)

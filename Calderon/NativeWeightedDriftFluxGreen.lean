@@ -10,8 +10,6 @@ open scoped ContDiff ENNReal InnerProductSpace Classical Matrix.Norms.Elementwis
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativePolynomialBulkMoments
 
-/-! Expanded before source in EXPANSION-native-H2-coefficient-flux-Green-v001.json. -/
-
 theorem memLp_unitBall_of_continuous_normed
     {V : Type*} [NormedAddCommGroup V] (f : R3 → V) (hf : Continuous f) :
     MemLp f ⊤ ((volume : Measure R3).restrict ballOpens) := by

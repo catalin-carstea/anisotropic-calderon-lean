@@ -2,8 +2,8 @@ import Calderon.UnitBallValueTraceKernel
 import Calderon.NativeThreeHalfCoefficientMultiplier
 import Calderon.ActualReferenceInvertibleStrongWeakCoherence
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-SAME-BOUNDARY-CORRECTION-EXPANSION-v001.md. Explicit adopted trace-kernel parameter only. -/
+/-! Same-boundary correction. The only additional parameter is an explicit trace-kernel
+parameter. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

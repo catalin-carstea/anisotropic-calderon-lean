@@ -1,5 +1,4 @@
 import Calderon.ActualDegreeGramBaseDerivative
-/- Root; before-code expansion in UPFRONT.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

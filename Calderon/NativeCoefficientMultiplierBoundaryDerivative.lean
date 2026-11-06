@@ -1,9 +1,7 @@
 import Calderon.NativeLinearCoordinateMultiplierIdentification
 import Calderon.OperatorCurveFixedArgumentDerivative
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-native-boundary-multiplier-firstjet-v065.md. Boundary scalar jets
-identify derivatives of the SAME native maps. No chosen-jet smoothness premise. -/
+/-! Boundary scalar jets identify derivatives of the native multiplier maps. No chosen-jet smoothness premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory Filter

@@ -1,7 +1,6 @@
 import Mathlib.Analysis.Normed.Operator.Basic
 
-/-! Before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-abstract-scaled-map-three-sum-v005.md. Elementary algebra on abstract vectors. -/
+/-! Elementary algebra on abstract vectors. -/
 set_option autoImplicit false
 
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

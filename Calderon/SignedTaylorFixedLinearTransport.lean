@@ -1,8 +1,6 @@
 import Calderon.SignedOperatorTaylorRemainder
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-signed-Taylor-fixed-linear-transport-v033.md. Necessary actual
-signed integral transport through fixed continuous linear maps. -/
+/-! Necessary actual signed integral transport through fixed continuous linear maps. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory Filter

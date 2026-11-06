@@ -8,8 +8,7 @@ open scoped ENNReal Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation DirichletFamily.DriftBootstrap
 
-/-! Full expansion: EXPANSION-sphere-sobolev-full-rotation-orbit-derivative-v001.json.
-Strong continuity is for each fixed datum, without infinite-space angle operator-norm continuity. -/
+/-! Strong continuity is for each fixed datum, without infinite-space angle operator-norm continuity. -/
 
 lemma norm_sphereSobolevOrthogonalPullback_partialSum_tail (s : ℝ) (i j : Fin 3)
     (u : SphereSobolev s) (n : ℕ) (θ : ℝ) :

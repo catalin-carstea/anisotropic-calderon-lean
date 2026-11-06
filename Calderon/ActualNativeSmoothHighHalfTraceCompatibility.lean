@@ -1,8 +1,7 @@
 import Calderon.NativeH2ThreeHalfValueTrace
 import Calderon.NativeFullSharpHalfTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-NATIVE-HALF-TEST-DENSITY-EXPANSION-v001.md. Exact old physical core in native high/half completion. -/
+/-! Density of half tests: the exact physical core in the native high/half completion. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

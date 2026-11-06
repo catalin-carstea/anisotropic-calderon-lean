@@ -2,9 +2,7 @@ import Calderon.ActualSourceFrontierCovectorGram
 import Calderon.ActualSourceChartNativeFirstDerivative
 import Calderon.NativeSourceChartInverseConditioning
 
-/-! Before-source expansion/API: distinct-source-chart-contact-metric-upfront-v576.
-Two actual SAME-source charts remain distinct. No second derivative=Id premise,
-patched-metric energy equality, new norm, or Main assumption is introduced. -/
+/-! Two charts of the same source remain distinct. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

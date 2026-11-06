@@ -175,7 +175,7 @@ theorem naturalFormalAdjoint_sub (v : Fin 3 → R3) (mu : R3 → ℝ) (a : Matri
 
 /-- The complete angular-coefficient defect with the actual reference density,
  actual shrinking radius and real symmetric perturbed principal matrix.
- B,C are explicit bounded Hilbert coefficient families; source Ψ-domain transfer remains open. -/
+ B,C are explicit bounded Hilbert coefficient families. -/
 theorem actual_naturalFormalAdjoint_sub (g : MatrixField) (hg : IsAdmissibleMetric g)
     (L lam δ R : ℝ) (p : ℕ) (h : MatrixField)
     (B : Fin 3 → R3 → E →L[ℝ] E) (C : R3 → E →L[ℝ] E) (w : R3 → E)

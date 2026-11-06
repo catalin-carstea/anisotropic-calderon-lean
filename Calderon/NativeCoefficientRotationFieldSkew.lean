@@ -2,8 +2,7 @@ import Calderon.NativeCoefficientRotationProductRule
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 import Calderon.ActualReferenceLowerBoundaryTranspose
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/
-EXPANSION-reciprocal-skew-v004.md. Right multiplier graph stays explicit. -/
+/-! The right multiplier graph stays explicit. -/
 set_option autoImplicit false
 noncomputable section
 open Set

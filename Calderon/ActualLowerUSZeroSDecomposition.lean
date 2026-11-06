@@ -1,8 +1,6 @@
 import Calderon.ActualHigherSZeroCoefficientJets
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-q-decomposition-upfront.md.
 Exact native S zero grouping into one-factor and two-factor angular words.
 Every profile-log, connection, drift and ordered principal coefficient is retained.
 -/

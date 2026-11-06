@@ -175,8 +175,6 @@ theorem valueTrace_smoothSobolev_smul (c : ℝ) (f : SmoothData) :
   simp only [TauCeti.W1p.valueL_apply, value_smoothSobolev]
   exact MemLp.toLp_const_smul c (memLp_smooth_value f)
 
-/-! ### Frozen targets -/
-
 theorem exists_smoothSphereValue_uniform_native_H1_bound :
     ∃ C : ℝ, 0 < C ∧ ∀ f : SmoothData,
       ‖(ContinuousMap.toLp 2 sphereProbability ℝ) (smoothSphereValue f)‖ ≤

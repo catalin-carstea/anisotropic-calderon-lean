@@ -2,8 +2,7 @@ import Calderon.ActualReferenceStrongRoom
 import Calderon.SupportedStrongOperatorEnergy
 import Calderon.ReferenceSupportedEnergyBridge
 
-/-! Actual native energy decomposition only. The full two-root expansion and
-interfaces were sealed before bodies; no inverse or energy premise is added. -/
+/-! Actual native energy decomposition; no inverse or energy premise is added. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

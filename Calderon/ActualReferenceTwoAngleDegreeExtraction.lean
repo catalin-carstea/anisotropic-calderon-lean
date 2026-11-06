@@ -4,8 +4,7 @@ import Calderon.PhysicalDegreeCasimirExtractorSmoothNorm
 import Calderon.PhysicalDegreeCasimirHalfExtractor
 import Mathlib.Analysis.Calculus.ContDiff.Comp
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-degree-extraction-v128.md. Actual closed-data extraction. -/
+/-! Actual closed-data extraction. -/
 set_option autoImplicit false
 noncomputable section
 open Set

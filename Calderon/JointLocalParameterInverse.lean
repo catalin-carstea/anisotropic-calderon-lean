@@ -1,8 +1,7 @@
 import Mathlib.Analysis.Calculus.ImplicitContDiff
 import Mathlib.Analysis.Calculus.ContDiff.Operations
 
-/-! Source-only author reduction of the literal native implicit function theorem.
-EXPANSION-LOCAL-INVERSE-v001.md and typed interfaces were sealed first. -/
+/-! Reduction of the native implicit function theorem. -/
 set_option autoImplicit false
 noncomputable section
 open Filter Set

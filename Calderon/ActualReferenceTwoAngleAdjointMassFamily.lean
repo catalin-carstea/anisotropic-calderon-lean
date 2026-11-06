@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceRotationAdjointMassFamily
 import Calderon.ActualReferenceTwoAngleCoefficientJets
 import Calderon.NativeFormalAdjointOrthogonalCoefficients
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-mass-v035.md. Literal negative divergence retained. -/
+/-! Literal negative divergence retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

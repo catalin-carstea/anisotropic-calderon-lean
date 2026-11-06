@@ -2,8 +2,7 @@ import Calderon.NativeThreeHalfNormalDerivativeMultiplier
 import Calderon.NativeRepackedCoefficientMultiplierTopology
 import Calderon.NativeSmoothMultiplierCommonSupportJets
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. Genuine high normal term joint topology. -/
+/-! Joint topology of the high normal term. -/
 set_option autoImplicit false
 noncomputable section
 open Set

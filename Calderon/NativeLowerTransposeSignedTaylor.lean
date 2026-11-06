@@ -2,8 +2,8 @@ import Calderon.ActualAdjointMovingBoundaryFamilyFoundation
 import Calderon.SignedTaylorFixedLinearTransport
 import Calderon.SphereSobolevDualOrthogonalPullback
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-native-lower-transpose-signed-Taylor-v016.md. SAME genuine pivot transpose. -/
+/-! Signed Taylor remainder of the native lower transpose, for the same genuine pivot
+transpose. -/
 set_option autoImplicit false
 noncomputable section
 open Set

@@ -342,8 +342,6 @@ theorem hasDerivAt_volFlux (H : ℝ × R3 → R3) (Z : R3 → R3) (hH : ContDiff
   · exact ae_of_all _ fun x s _ =>
       hasDerivAt_time_slice (vol H Z) s x (hv.differentiable (by simp) _)
 
-/-! ### Root -/
-
 theorem piolaSphereFlux_eq_of_divergence_eq_zero
     (H : ℝ × R3 → R3) (Z : R3 → R3)
     (hH : ContDiff ℝ ∞ H) (hZ : ContDiff ℝ ∞ Z)

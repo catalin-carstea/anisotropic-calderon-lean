@@ -1,6 +1,3 @@
--- BEFORE-CODE ONLY: Transfer whole consumer successor to Main's scalar-factored v005.
--- Independent native helper checks do not establish the full theorem.
--- Actual reviewed Main forward graph, common replay and before-write approval required.
 import Calderon.ActualCommonTraceEndpointRooms
 import Calderon.ActualChosenCoverSignedModelCofinalProfile
 import Calderon.ActualNativeCoverCommutatorEnergy
@@ -12,7 +9,7 @@ import Calderon.ActualPhysicalNormAbsorption
 import Calderon.ActualCoercivityPacketNormClosure
 import Calderon.ActualFiniteCoreReferenceEnergyLowerBound
 import Calderon.ActualFinitePhysicalAdjointOutput
-import Calderon.ActualFullForwardPhysicalGraph -- original named pending owned export
+import Calderon.ActualFullForwardPhysicalGraph
 import Calderon.ActualChosenCoverFiniteCoercivityGlobalMain
 
 set_option autoImplicit false
@@ -24,7 +21,6 @@ open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap SphereHarmonic
   ActualFiniteHarmonicCore ActualFiniteHarmonicModel ActualFullEGainedAssembly
   ConformalDepth ReferenceWeightedApproximation ReferenceDensityBounds WeightedBaseSpectral
 
--- Original public root, unchanged statement. Before-code text only.
 theorem exists_two_sided_original_chosen_cover_finite_physical_coercivity
     (original1 original2 : MatrixField) :
     TwoSidedOriginalChosenCoverFinitePhysicalCoercivity original1 original2 := by
@@ -70,7 +66,7 @@ theorem exists_two_sided_original_chosen_cover_finite_physical_coercivity
         orthogonalSphereHarmonics denseSphereHarmonics tau0 (Rooms i)
         fixedDirichletRegularity (data i) hL hKernel S.g2 S.g2_admissible
     choose etaF hEtaF hEtaF0 HFormation using HPacketFormation
-    -- Independent same-data signed base combines the checked exact owners.
+    -- Same-data signed base for each packet.
     have HPacketBase (i : Fin cover.count) :=
       ActualPacketSignedBase.exists_uniform_same_packet_model_higherS_base_norm_lower
         S.g1 L (cover.packet i).y0 (cover.packet i).Phi (cover.packet i).B
@@ -80,8 +76,6 @@ theorem exists_two_sided_original_chosen_cover_finite_physical_coercivity
         orthogonalSphereHarmonics denseSphereHarmonics tau0 (Rooms i)
         fixedDirichletRegularity (data i) S.g2 S.g2_admissible hL hKernel cRaise hcRaise
     choose etaBase hEtaBase hEtaBase0 hEtaBase1 HBase using HPacketBase
-    -- Original named Main forward export is UNQUALIFIED, not an assumed cap/callback.
-    -- Its source/object/receipt must actually qualify before executable materialization.
     have HPacketGraph (i : Fin cover.count) :=
       MainPhysicalGraphBridge.exists_uniform_same_packet_full_physical_graph
         S.g1 L (cover.packet i).y0 (cover.packet i).Phi (cover.packet i).B
@@ -129,8 +123,8 @@ theorem exists_two_sided_original_chosen_cover_finite_physical_coercivity
       simpa only [etaPacket,le_min_iff] using h0
     have hEtaKnownP (i : Fin cover.count) : etaTarget≤dP i/2 := (hThresholds i).1
     have hEtaKnownF (i : Fin cover.count) : etaTarget≤etaF i := (hThresholds i).2.1
-    -- The genuine physical/Low adjunction theorem is NOT used by this forward norm
-    -- argument, is not imported, and contributes NO threshold or extra premise.
+    -- The physical/Low adjunction theorem is not used by this forward norm
+    -- argument and contributes no threshold or extra premise.
     let Blow : ℝ := 1+8*(4*CL+2*CP^2)/cRaise
     let Bcut : ℝ := 1+32*n^2*Q/cRaise
     let BF : ℝ := max Blow Bcut
@@ -279,8 +273,8 @@ theorem exists_two_sided_original_chosen_cover_finite_physical_coercivity
       (fun x hx => (le_max_left _ _).trans (HProfile lambda hq delta hdelta hdeltaOne x hx.2).1)
       (fun x hx => (HProfile lambda hq delta hdelta hdeltaOne x hx.2).2.2.1)
       (fun x hx => hBootstrap.1 x hx.2) (hModel i)
-    -- Its first projection is the literal MR+SO bound; exact L1 results remain.
-    -- Concrete original fields for the still-open local physical estimate.
+    -- Its first projection is the literal MR+SO bound.
+    -- Concrete original fields for the local physical estimate.
     let MRi := fun i : Fin cover.count => nativeModelRaising orthogonalSphereHarmonics
       denseSphereHarmonics sphereFischerInner S.g1 S.g2 S.g1_admissible L lambda delta Rstar p
       S.g2_admissible hdelta hRstar (Fi i)

@@ -2,8 +2,7 @@ import Calderon.CompactParameterReferencePositiveCoefficients
 import Calderon.ParameterNormalizedConformalDrift
 import Calderon.MixedLinearDriftBounds
 
-/-! UNCOMPILED author proposal. EXPANSION.md D1--D8 was saved before source.
-The entire old positive-coefficient witness, including its same Phi/B, is retained. -/
+/-! The entire positive-coefficient witness, including its same Phi/B, is retained. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

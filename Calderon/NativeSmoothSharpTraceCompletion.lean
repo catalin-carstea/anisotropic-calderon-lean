@@ -11,8 +11,6 @@ open NativeSmoothSharpTraceFinite NativeHarmonicH1LiftCompletion NativePolynomia
   SphereHarmonic SpectralCoreRegularity DirichletFamily SpectralWeightedGraph
 open EnergyBridge
 
-/-! Fully expanded before source in EXPANSION-sharp-smooth-native-trace-completion-v001.json. -/
-
 lemma sphereSurfaceMass_pos : 0 < sphereSurfaceMass :=
   measureReal_univ_pos
 

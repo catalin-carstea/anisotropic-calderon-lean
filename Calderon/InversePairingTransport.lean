@@ -1,7 +1,6 @@
 import Calderon.NativeHalfCoefficientInverseCompatibility
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/repair-v077-v004/
-EXPANSION-same-statement-v004.md. Pure function inverse transport, no analytic premise. -/
+/-! Inverse transport for pure functions; no analytic hypothesis. -/
 set_option autoImplicit false
 namespace OAI.AnisotropicCalderon.ConnectionError
 

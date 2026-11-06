@@ -1,5 +1,4 @@
 import Calderon.ActualQDegreeBaseContraction
-/- Root; exact mathematics in UPFRONT.md before code. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

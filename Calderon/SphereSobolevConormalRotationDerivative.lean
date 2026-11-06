@@ -8,9 +8,7 @@ open scoped Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothSphereRotationProjection DirichletFamily.DriftBootstrap
 
-/-! Expanded before source in EXPANSION-actual-angle-conormal-covariance-commutator-v001.json
-and EXPANSION-actual-angle-conormal-bounded-commutator-v001.json.
-Distribution differentiation uses the actual one-order-loss rotation theorem. -/
+/-! Distribution differentiation uses the actual one-order-loss rotation theorem. -/
 
 lemma sphereSobolevRotationL_inclusion (s t : ℝ) (hts : t ≤ s) (i j : Fin 3) :
     (sphereSobolevRotationL t i j).comp (sphereSobolevInclusionL s t hts) =

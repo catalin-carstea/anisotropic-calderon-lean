@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalPullbackMetric
 import Calderon.MetricPullbackFlux
-/-! Source-only author actual C4 normalization stage. Exact matrix
-normalization and actual derivative invertibility were sealed first;
-no new chart/invertibility/covariance premise is introduced. -/
+/-! C4 normalization stage: exact matrix normalization and derivative
+invertibility, with no chart/invertibility/covariance premise. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

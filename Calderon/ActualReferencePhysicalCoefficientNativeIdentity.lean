@@ -3,9 +3,6 @@ import Calderon.ActualRescaledConformalGauge
 import Calderon.PositiveConformalMetric
 import Calderon.WeightedCommonSupportCoefficients
 
-/-! UNCOMPILED /tmp draft. See the preceding UPFRONT file.
-No axiom or admission is supplied. The final actual orientation theorem is
-still an explicitly unproved obligation described in that file. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

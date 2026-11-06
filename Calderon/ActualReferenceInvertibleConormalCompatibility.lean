@@ -2,7 +2,6 @@ import Calderon.ActualReferenceInvertibleStrongWeakCoherence
 import Calderon.ActualReferenceWeakConormalEndpoint
 import Calderon.NativeHarmonicHalfCoarseDualPairing
 
-/-! Upfront expansion: EXPANSION-actual-reference-invertible-conormal-compatibility-v001.json. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

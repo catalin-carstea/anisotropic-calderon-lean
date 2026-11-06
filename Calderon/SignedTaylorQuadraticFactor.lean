@@ -1,7 +1,6 @@
 import Calderon.SignedOperatorTaylorRemainder
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-signed-Taylor-quadratic-factor-v020.md. Actual integral, including zero. -/
+/-! Actual integral, including zero. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

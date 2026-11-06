@@ -1,8 +1,6 @@
 import Calderon.ActualReferenceTwoAngleNormalCovariance
 import Calderon.ActualReferenceTwoAngleNativeAdjointInverse
 import Calderon.ActualReferenceNormalOrderOneFamily
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-ordinary-normal-endpoint-inverses-v079.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

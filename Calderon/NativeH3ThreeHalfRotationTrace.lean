@@ -1,8 +1,8 @@
 import Calderon.NativeSobolevCoordinateDerivativeCoherence
 import Calderon.NativeThreeHalfCoefficientMultiplier
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-H3-TRACE-EXPANSION-v001.md, Component C. Same native derivative and coarse rotation graph. -/
+/-! Native H3 three-half rotation trace, with the same native derivative and coarse rotation
+graph. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

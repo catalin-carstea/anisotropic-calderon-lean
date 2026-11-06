@@ -13,8 +13,7 @@ open HarmonicPolynomialGreen NativeHarmonicLiftCompletion NativePolynomialBulkMo
   SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity DirichletFamily
   EnergyBridge MetricVolume
 
-/-! Expanded before source in EXPANSION-sharp-smooth-native-trace-v001.json.
-The domain here is the actual SmoothData domain. -/
+/-! The domain here is the `SmoothData` domain. -/
 
 lemma inner_sphereHarmonicCoordinate_self
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (k : ℕ) (v : SphereL2) :

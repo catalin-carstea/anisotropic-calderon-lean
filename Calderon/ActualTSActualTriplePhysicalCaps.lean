@@ -1,10 +1,7 @@
 import Calderon.ActualTSActualTripleRoomCaps
 import Calderon.FixedParameterProfileBudgets
 
-/-! Source-only unvalidated actual physical triple first-cap draft.
-This imports the focused-only room factory, which still needs full native
-qualification. It reuses the already-qualified fixed-parameter pullback APIs.
-Before-code: ../T-S-actual-triple-physical-first-caps-before-source-nov03-night-v001/. -/
+/-! Actual physical triple first caps, using the fixed-parameter pullback APIs. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -21,7 +18,7 @@ local notation "Half" => SphereSobolev (1/2 : ℝ)
 local notation "Neg" => SphereSobolev (-(1/2 : ℝ))
 local notation "PL" => ActualHigherSScalarCommutatorNativeForm.halfDualPairingL
 attribute [local instance] v017PiHighComplete v017PiHalfComplete v017PiNegativeComplete
--- Use the exact same canonical coefficient instances exported by their owner.
+-- Use the same canonical coefficient instances as `ActualTSActualTripleRoomCaps`.
 local notation "Coeff" => ActualTSActualTripleRoomCaps.TripleCoefficientSpace
 attribute [local instance] ActualTSActualTripleRoomCaps.tripleCoefficientNormedGroup
   ActualTSActualTripleRoomCaps.tripleCoefficientNormedSpace
@@ -65,7 +62,7 @@ local notation "Tq" => ActualHigherSFormation.higherSParam L
 attribute [local irreducible] actualTripleCoefficient ActualHigherSFormation.higherSParam
 
 /-- Actual original coefficient and genuine spatial derivative caps, with all
-constants chosen before profile inputs; source-only until full checking. -/
+constants chosen before profile inputs. -/
 theorem exists_actual_uniform_triple_physical_first_caps
     (hL : 0 < L) {d : ℝ} (hd : 0 < d) (P : ARoom d) :
     ∃ Cphys : ℝ, 0 < Cphys ∧ ∃ etaRoom : ℝ, 0 < etaRoom ∧ etaRoom ≤ 1 ∧

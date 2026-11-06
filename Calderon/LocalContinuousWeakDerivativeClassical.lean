@@ -1,7 +1,6 @@
 import Calderon.ContinuousWeakDerivativeClassical
 
-/-! Expanded first in EXPANSION-local-continuous-weak-derivative-v001.json.
-The weak field is used only on its actual open domain. -/
+/-! The weak field is used only on its actual open domain. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Filter Set Metric ContinuousLinearMap TopologicalSpace

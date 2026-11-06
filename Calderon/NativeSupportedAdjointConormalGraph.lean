@@ -16,8 +16,6 @@ open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
   NativePolynomialBulkMoments NativeSmoothSharpTraceCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Upfront: native-supported-adjoint-conormal-compatibility-author-oct14-v001/EXPANSION-v001.json. -/
-
 lemma nativeNormalizedGreenPairing (sigma e t : ℝ) (hSigma : 0 < sigma)
     (hGreen : e = sigma*t) : sigma⁻¹*e = t := by
   rw [hGreen, ← mul_assoc, inv_mul_cancel₀ (ne_of_gt hSigma), one_mul]

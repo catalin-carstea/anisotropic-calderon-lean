@@ -3,7 +3,7 @@ import Mathlib.Analysis.Calculus.ContDiff.Basic
 import Mathlib.Analysis.Matrix.Normed
 import Mathlib.LinearAlgebra.Matrix.PosDef
 
-/-! # Weak unique continuation (stated, not yet proved)
+/-! # Weak unique continuation
 
 Classical weak unique continuation for second-order elliptic equations in divergence form with
 smooth symmetric positive definite coefficients (Aronszajn 1957; Hörmander's Carleman estimates;
@@ -11,11 +11,9 @@ e.g. Hörmander, *The Analysis of Linear Partial Differential Operators III*, Th
 a smooth solution of `div(A ∇u) = 0` on a connected open set that vanishes on a nonempty open
 subset vanishes identically.
 
-This integration retains the proposition and its divergence-form operator. It omits the
-unproved inhabitant from the collaborator source. The imported conditional assembly theorems
-require an explicit hypothesis `hUCP : UniqueContinuation`; this module supplies no inhabitant
-of that proposition. Its mathematical literature correspondence is reviewed separately from
-Lean proof checking. -/
+This module states the proposition and its divergence-form operator. The theorems that use it
+take an explicit hypothesis `hUCP : UniqueContinuation`; the proposition is proved as
+`uniqueContinuation` in `Calderon.CollaboratorUniqueContinuationProofOct17`. -/
 
 noncomputable section
 open scoped ContDiff Matrix.Norms.Elementwise

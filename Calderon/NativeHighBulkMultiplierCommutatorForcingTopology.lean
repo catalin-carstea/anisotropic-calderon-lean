@@ -1,8 +1,7 @@
 import Calderon.NativeSmoothMultiplierForcingTopology
 import Calderon.NativeHighSmoothMultiplierForcingTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. SAME actual column/row/drift functions at high native order. -/
+/-! SAME actual column/row/drift functions at high native order. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

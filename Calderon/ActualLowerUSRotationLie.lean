@@ -1,8 +1,8 @@
 import Calderon.ActualLowerUSOrdinaryAngularMaps
 import Calderon.ActualCanonicalGeneratorAngularGainedRows
 
-/-! GPT-6.1 Sol. Before-code ordinary-angular-before-v001. Actual completed
-rotation Lie and degree/rotation graphs, via the canonical dense single basis. -/
+/-! Actual completed rotation Lie and degree/rotation graphs, via the canonical dense
+single basis. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -52,7 +52,7 @@ private lemma degreeLow_single (k : ℕ) (v : harmonicSphereSubspace k) :
     sphereSobolevShiftedDegreeL_single (1/2 : ℝ) k v
 
 /-- Completed-space rotation Lie graph. The dense-single theorem is the
-checked extension step; no unproved finite-to-completed implication is used. -/
+extension step. -/
 theorem rotationLieHigh_graph (i j a b : Fin 3) :
     (JL).comp (rotationLieHigh i j a b) = (RL i j).comp (RH a b) - (RL a b).comp (RH i j) := by
   apply sphereSobolev_clm_eq_of_single (3/2 : ℝ)

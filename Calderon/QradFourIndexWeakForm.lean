@@ -1,9 +1,10 @@
 import Calderon.SphereSobolevQuarticCommutatorForm
 import Mathlib.Tactic.GCongr
 
-/-! Exact four-index Qrad weak form, before-source UPFRONT.md.
-Only boundedness and ring algebra are proved here. The ACTUAL strong-domain
-pivot identification and actual uniform coefficient/operator caps remain separate. -/
+/-! Exact four-index Qrad weak form.
+Only boundedness and ring algebra are proved here. The actual strong-domain
+pivot identification and the actual uniform coefficient/operator caps are treated
+separately. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

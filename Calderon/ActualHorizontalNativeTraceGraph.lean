@@ -2,8 +2,7 @@ import Calderon.NativeSmoothBallSobolevFamily
 import Calderon.NativeH2ThreeHalfValueTrace
 import Calderon.ActualHorizontalSobolevConnection
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-HORIZONTAL-NATIVE-GRAPH-EXPANSION-v001.md. Same native horizontal graph by coefficients. -/
+/-! The native horizontal trace graph, by coefficients. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

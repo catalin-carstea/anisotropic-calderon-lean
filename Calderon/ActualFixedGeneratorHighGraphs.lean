@@ -4,10 +4,8 @@ import Calderon.ActualFiniteHarmonicModelRotationLieCommutator
 import Calderon.SphereSobolevSingleRotationAngleDerivative
 import Calderon.SphereSobolevShiftedPhysicalDegree
 
-/-! Fixed rotation/physical-degree paired gains, author source.
-Faithful focused repair v002. UNCOMPILED; no acceptance claimed. Exact before-source expansion/target in upfront-v001.
-The full Sobolev Lie graph is PROVED from checked harmonic singles+density in this source,
-not assumed. All original source/body/API/owner/norm/literature-relative37 holds remain. -/
+/-! Fixed rotation/physical-degree paired gains. The full Sobolev Lie graph is proved here
+from the harmonic singles and density. -/
 set_option autoImplicit false
 noncomputable section
 open Set

@@ -4,9 +4,7 @@ import Calderon.SphereSobolevQuarticCommutatorForm
 import Calderon.RealPivotDifferenceCancellation
 import Calderon.SphereSobolevPairingInclusion
 
-/-! Full upfront: day-oct13/full-quartic-form-author-oct15-v001/
-PIVOT-IDENTITY-EXPANSION-v002.md. Conditional exact native endpoint/pivot graph
-algebra. Actual finite high first-output representatives are not asserted. -/
+/-! Exact native endpoint/pivot graph algebra under explicit hypotheses. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

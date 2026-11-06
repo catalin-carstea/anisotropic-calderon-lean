@@ -2,8 +2,7 @@ import Calderon.ActualAdjointMovingBoundaryAction
 import Calderon.ActualJacobiBoundaryMultiplierFamily
 import Calderon.NativeThreeHalfBoundaryMultiplierLocalSmoothness
 
-/-! Full upfront: EXPANSION-ActualJacobiThreeHalfBoundaryMultiplierFamily-v001.md.
-Repackage the SAME chosen Jacobi coefficient; actual H3/2 operator norm only. -/
+/-! Repackages the chosen Jacobi coefficient; actual H3/2 operator norm only. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

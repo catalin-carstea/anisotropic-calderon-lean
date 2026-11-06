@@ -2,9 +2,8 @@ import Calderon.ActualReferenceGaugeNormalThreeHalfMultiplier
 import Calderon.ActualReferenceGaugeNormalHalfCommutator
 import Calderon.ActualHighSmoothMultiplierBoundaryTopology
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-gauge-high-K-and-D-v092.md. Actual high K, negative native B
-sign, right high reciprocal, independent joint topology, physical lower graph. -/
+/-! High K, negative native B sign, right high reciprocal, independent joint
+topology, physical lower graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

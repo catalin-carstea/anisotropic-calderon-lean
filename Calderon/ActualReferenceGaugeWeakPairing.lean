@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeNativeEnergy
 import Calderon.NativeContinuousCoefficientOrthogonalEnergy
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-pairing-v006.md. Literal weighted pairing of SAME W. -/
+/-! Literal weighted pairing of SAME W. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

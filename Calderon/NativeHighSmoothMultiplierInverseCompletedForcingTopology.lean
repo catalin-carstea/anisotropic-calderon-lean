@@ -1,7 +1,6 @@
 import Calderon.NativeHighSmoothMultiplierCompletedForcingTopology
 
-/-! Before-source v208: exact original strong inverse and its composition
-with the OWN completed forcing, before boundary proof-local endpoint caches. -/
+/-! The strong inverse and its composition with its own completed forcing. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

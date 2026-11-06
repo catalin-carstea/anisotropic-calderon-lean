@@ -82,9 +82,7 @@ local notation "Tpar" => (ℝ × (R3 × ℝ)) × (R3 →L[ℝ] ℝ)
 local notation "ParamRoom" d:max => Set.prod (commonRoom y0 ρ d) (closedBall (0 : R3 →L[ℝ] ℝ) 1)
 local notation "QPP" => ActualHigherSScalarCommutatorNativeForm.halfDualPairingL
 
-/-- Actual arbitrary-Half pivot from the SAME retained Pi germ/segment.
-The proof is reproduced from the checked source API, not imported from an
-unqualified other author body or assumed as a callback. -/
+/-- Actual arbitrary-Half pivot from the same retained Pi germ/segment. -/
 lemma actual_low_pivot (i : Fin 3) (t : Tpar) (ht : t ∈ ParamRoom data.δ) (v z : Half) :
     PP v (EL i t z)=PP z (BL i t v) := by
   have ht0 : t ∈ ParamRoom data.δ0 :=
@@ -139,7 +137,7 @@ private lemma weighted_low_pivot {H N : Type*}
   simp_rw [h]
   ring
 
-/-- Typed four contractions retain precisely the checked original coefficient definitions. -/
+/-- Typed four contractions are precisely the original coefficient definitions. -/
 lemma actual_first_coordinate_contractions (dr Ar : ℝ) (p : ℕ) (q : ℝ) (x : R3) (k : Fin 3) :
     let t := (Tq dr Ar p q) x
     let r := referenceRadius dr Ar p L x

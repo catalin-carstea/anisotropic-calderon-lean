@@ -15,8 +15,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Expanded before source in EXPANSION-actual-reference-native-weak-identification-v001.json.
-Precisely one sphereSurfaceMass inverse is retained for sphereProbability. -/
+/-! Precisely one sphereSurfaceMass inverse is retained for sphereProbability. -/
 
 lemma referenceWeakConormalEndpointFunctionalFamily_native_energy
     (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner) (p : ℝ × (R3 × ℝ))

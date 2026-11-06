@@ -2,8 +2,7 @@ import Calderon.ActualHigherSAdjointCoefficientExtraction
 import Calderon.ActualZeroCoefficientLinearity
 import Calderon.ClmInheritedStructureData
 
-/-! Native reverse collected-zero algebra on opaque Sobolev CLMs and density arrays.
-Author source; no physical endpoint/profile context or actual split declaration. -/
+/-! Native reverse collected-zero algebra on opaque Sobolev CLMs and density arrays. -/
 noncomputable section
 set_option autoImplicit false
 open scoped BigOperators

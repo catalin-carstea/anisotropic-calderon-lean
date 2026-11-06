@@ -10,8 +10,6 @@ namespace OAI.AnisotropicCalderon.HarmonicPolynomialGreen
 open RadialTestIntegration NativeHarmonicBulkDerivativeMoments NativePolynomialBulkMoments
   SphereHarmonic DirichletFamily EnergyBridge MetricVolume
 
-/-! Expanded before source in EXPANSION-actual-harmonic-polynomial-Green-v001.json. -/
-
 theorem contDiff_polynomial_energyGradient (p : MvPolynomial (Fin 3) ℝ) :
     ContDiff ℝ 1 (energyGradient (smoothPolynomialData p).1) := by
   have h := (smoothPolynomialData p).2.gradient_right (m := 1) (by simp)

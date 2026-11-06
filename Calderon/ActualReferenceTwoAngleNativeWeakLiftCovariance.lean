@@ -3,9 +3,8 @@ import Calderon.ActualReferenceRotationWeakHalfLiftTopology
 import Calderon.NativeWeakHalfLiftOrthogonalCovariance
 import Mathlib.Tactic.Abel
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-native-weak-lift-covariance-v008.md. Actual weak uniqueness and SAME
-zero correction identify uncompressed native lifts; no covariance premise. -/
+/-! Actual weak uniqueness and the same zero correction identify uncompressed
+native lifts; no covariance premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

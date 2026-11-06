@@ -5,8 +5,8 @@ open Set
 open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic ClosedScalarCompatibility
-/-! Full upfront EXPANSION-v001.json. Fix SAME original structures before any
-concrete restriction/function/s/zero proof; no norm or topology replacement. -/
+/-! Fix the original structures before any concrete restriction/function/s/zero
+proof; no norm or topology replacement. -/
 
 def physicalDegreeCasimirKernelSmoothnessTransportCache
     {X : Type*} [NormedAddCommGroup X] [NormedSpace ℝ X]

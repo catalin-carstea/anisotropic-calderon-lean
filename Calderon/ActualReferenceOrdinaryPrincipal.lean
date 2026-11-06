@@ -21,7 +21,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
 
 /- Exact native weighted DD ordinary principal/first-base/zero-base expansion.
    Genuine all-mode domains, covector Γ, actual density/radius conventions retained.
-   E/F, drift, J and fullphysicalP/U/H allocation remain separate. Source author only. -/
+   E/F, drift, J and fullphysicalP/U/H allocation are treated separately. -/
 
 lemma directionalFDeriv_second_coordinate_sum
     (u : R3 → SphereL2) (hu : ContDiff ℝ ∞ u) (x X Y : R3) :

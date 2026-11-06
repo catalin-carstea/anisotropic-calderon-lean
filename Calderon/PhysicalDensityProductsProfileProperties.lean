@@ -27,11 +27,7 @@ import Calderon.PhysicalDensityProductsProfilePointwiseEstimate
 import Calderon.PhysicalDensityProductsProfileCanonicalProperties
 import Calderon.PhysicalDensityProductsProfileIntegral
 
-/-! Exact original conditional Products profile helper.
-Full upfront: /tmp/ProductsProfileConditionalAssembly-v003/UPFRONT.md.
-All three mathematical producers have native passes; full checking and configured
-proof reviews remain required. Original consumer body remains unread.
--/
+/-! The original conditional Products profile helper. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

@@ -3,9 +3,9 @@ import Calderon.ActualReferenceStrongEnergy
 import Calderon.OrdinaryWeightedDriftEnergy
 import Calderon.DriftRegularityBootstrap
 
-/-! Source-only actual inverse projection and cross-order equality. Both native
+/-! Actual inverse projection and cross-order equality. Both native
 strong solutions solve the same actual energy equation; coercive uniqueness
-identifies their BallH1Zero fields. Full interfaces were sealed first. -/
+identifies their BallH1Zero fields. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -7,8 +7,7 @@ import Calderon.NativeOutwardActualCarrierEquality
 import Calderon.NativeHighStrongOutwardPublicCarrierEquality
 import Calderon.NativeHighStrongOutwardNativeCarrierEquality
 
-/-! Before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-small-native-outward-trace-transport-v085.md. The same actual outward trace in the checked stored H3 context. -/
+/-! The same actual outward trace, transported to the stored H3 context. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

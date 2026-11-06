@@ -1,7 +1,5 @@
 import Calderon.ActualReferencePairedHighRadialRemainderLocalSmoothness
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-actual-paired-low-radial-local-smoothness-v041.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

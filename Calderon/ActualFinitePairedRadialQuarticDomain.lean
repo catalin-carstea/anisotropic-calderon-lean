@@ -5,9 +5,7 @@ import Calderon.SphereSobolevQuarticPivotIdentity
 import Calderon.ActualFinitePairedRadialRemainderDomainOnLocus
 import Calderon.ActualFinitePairedRadialQuarticRoom
 
-/-! Full before-source: actual-high-first-output-domain-plan-oct16-v001/
-EXPANSION-direct-actual-finite-paired-quartic-pivot-v009.md.
-Direct actual four-difference weak identity. Common radius before both original
+/-! Direct actual four-difference weak identity. Common radius before both original
 finite product inputs; no generic gained theorem or strong fourth composition. -/
 set_option autoImplicit false
 noncomputable section

@@ -8,8 +8,7 @@ open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SpectralWeightedGraph SmoothSphereRotationProjection SmoothSphereRotationBounds
 
-/-! Full upfront: EXPANSION-v001.json. Existing finite decoded lp2 cutoff, actual
-H1-to-H0 rotations and probability-L2 decoding; selected Casimir shift is 1+k(k+1). -/
+/-! Existing finite decoded lp2 cutoff, actual H1-to-H0 rotations and probability-L2 decoding; selected Casimir shift is 1+k(k+1). -/
 
 lemma norm_sq_sphereSobolev_finite_decoded
     (s : ℝ) (n : ℕ) (u : SphereSobolev s)

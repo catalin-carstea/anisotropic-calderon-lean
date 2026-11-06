@@ -11,8 +11,7 @@ open scoped ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotation
 
-/-! Full upfront argument is EXPANSION-v002.json in this immutable author directory.
-The actual upper angular derivative has its original Sobolev orders. The radius below
+/-! The actual upper angular derivative has its original Sobolev orders. The radius below
 is selected from the original three-inverse locus before N and before all nine pairs. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)

@@ -2,8 +2,7 @@ import Calderon.ActualHighAdjointMovingTraceNativeDecomposition
 import Calderon.ActualNativeMovingAdjointFiniteJ
 import Calderon.ActualAdjointMovingBoundaryFamilies
 
-/-! Upfront: actual-native-moving-local-remainder-author-oct16-v001/EXPANSION-v001.md.
-Local quotient auxiliary only; radius-uniform estimates require its signed-R2 graph. -/
+/-! Local quotient auxiliary only; radius-uniform estimates require its signed-R2 graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

@@ -2,9 +2,7 @@ import Calderon.ActualDensityFirstNormalFormSummandSmoothness
 import Calderon.ActualWeightedHorizontalRadiusProduct
 import Calderon.ActualNativeMovingLocalRemainderCompatibility
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-actual-correction-remainder-FE-v014.md.
-Literal actual F/E products, native endpoints and signed radii. -/
+/-! Actual F/E products, native endpoints and signed radii. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

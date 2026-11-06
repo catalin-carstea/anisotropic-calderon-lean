@@ -1,8 +1,7 @@
 import Calderon.ActualNativeMovingAdjointCorrectionInclusion
 
-/-! Actual Main M1 Products adjoint. Full nine-root before-code expansion and
-exact original definitions were reviewed before authoring. No quantitative
-Productsdag cap, finite-output assumption or intrinsic Half adjoint is used. -/
+/-! The adjoint of the M1 Products term. No quantitative Productsdag cap,
+finite-output assumption or intrinsic Half adjoint is used. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

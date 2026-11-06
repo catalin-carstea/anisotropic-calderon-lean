@@ -3,10 +3,9 @@ import Calderon.ActualReferenceZeroECommutators
 import Calderon.ActualFixedAtomFiniteLifts
 
 /-!
-Before-code: ../T-S-MAIN-WORD-REUSE-UPFRONT.md.
 Exact original RAW Tdag-zero versus genuine reversed angular words.
-The original N-1 correction is retained explicitly. This is not an energy bound,
-the whole signed T/S estimate, or Main's absorption/coercivity.
+The original N-1 correction is retained explicitly. This is not an energy bound
+or the whole signed T/S estimate.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -114,8 +113,8 @@ attribute [local irreducible] generatorHigh generatorLow generatorSharpHigh gene
   genuineReferenceZeroReverseNegative referenceZeroAdjointCorrection
 
 
-/-- Conditional scalar bookkeeping for the EXACT correction, in its original operator norm.
-Actual scalar and atom budgets are produced in the subsequent uniform consumer. -/
+/-- Scalar bookkeeping for the EXACT correction, in its original operator norm, with the scalar
+and atom budgets as hypotheses; they are produced in the uniform consumer. -/
 theorem norm_referenceZeroAdjointCorrection_le {d : ℝ} (P : ARoom d)
     (q dr Ar : ℝ) (p : ℕ) (x : R3) (S M beta : ℝ)
     (hS : 0 ≤ S) (hM : 0 ≤ M) (hb : 0 ≤ beta)

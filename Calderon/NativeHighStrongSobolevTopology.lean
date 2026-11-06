@@ -13,9 +13,8 @@ import Calderon.ActualReferenceInverseOneLowerCoherence
 import Calderon.ActualReferenceSmoothMultiplierStrongDefect
 import Calderon.ActualReferenceInvertibleStrongWeakCoherence
 
-/-! Full before-source repair: day-oct13/weak-native-instance-repair-author-oct16-v001/
-EXPANSION-high-sobolev-instance-cache-reflexivity-v065.md.
-Original stored H3 norm structures and same-function continuity transport; no new analytic premise. -/
+/-! Original stored H3 norm structures and same-function continuity transport; no new
+analytic premise. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

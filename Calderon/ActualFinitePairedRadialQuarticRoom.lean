@@ -3,10 +3,7 @@ import Calderon.ActualReferenceSignedRemainderPivot
 import Calderon.ActualReferenceRadialEndpointOpenLocus
 import Calderon.SphereSobolevQuarticPivotIdentity
 
-/-! Full before-source: actual-high-first-output-domain-plan-oct16-v001/
-EXPANSION-actual-nominal-quartic-room-v016.md and
-EXPANSION-nominal-quartic-room-implementation-v017.md. Actual canonical
-uncompressed first outputs; every second output remains Hhalf. -/
+/-! Actual canonical uncompressed first outputs; every second output remains Hhalf. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -2,9 +2,7 @@ import Calderon.ActualFiniteHalfFormalAdjointPhysicalGraph
 import Calderon.ActualFiniteHalfFormalAdjointPhysicalGlobal
 import Mathlib.MeasureTheory.Function.LpSpace.Indicator
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-finite-full-formal-adjoint-L2-v015.md, object4.
-One global SphereL2 representative of literal formal Pdag on ORIGINAL finite input. -/
+/-! One global SphereL2 representative of literal formal Pdag on ORIGINAL finite input. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

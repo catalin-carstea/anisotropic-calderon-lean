@@ -2,8 +2,7 @@ import Calderon.ActualFiniteCoreSobolevLift
 import Calderon.ActualFiniteHarmonicAmbient
 import Calderon.ActualFiniteHarmonicModelHorizontalProfileComparison
 
-/-! Before-source v159: exact finite-input H1/Bessel norm correspondence.
-No all-smooth, gain, density comparison or coercivity hypothesis is added. -/
+/-! The H1/Bessel norm correspondence on finite inputs. -/
 set_option autoImplicit false
 noncomputable section
 open Set

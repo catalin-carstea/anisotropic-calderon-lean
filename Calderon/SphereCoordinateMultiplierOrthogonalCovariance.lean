@@ -8,7 +8,6 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open OrthogonalSphereMeasure DirichletFamily
 
-/-! Expansion: EXPANSION-native-H2-outward-trace-orthogonal-joint-v001.md, steps 1–2. -/
 lemma orthogonal_forward_coordinate_eq_sum (e : R3 ≃ₗᵢ[ℝ] R3) (x : R3) (i : Fin 3) :
     (e x) i = ∑ j : Fin 3, (e (EuclideanSpace.single j 1)) i * x j := by
   have hx : (∑ j : Fin 3, x j • EuclideanSpace.single j 1) = x := by

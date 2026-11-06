@@ -20,8 +20,7 @@ open EnergyBridge DirichletFamily ExteriorSource Literature SphereHarmonic Confo
 attribute [local irreducible] NativeFinitePhysicalCoerciveBound
 
 /-- A sufficient cofinal finite physical estimate, restricted to source-matched
-carriers of the literal ordered original metric pair. It is an unproved
-conditional input, not a literature adoption. Constants may depend on the
+carriers of the literal ordered original metric pair. Constants may depend on the
 carrier, cover, ordered geometric parameters, and the eventual cutoff, but
 are fixed before the final dilation and shrinking radius. -/
 def OriginalPairChosenCoverFinitePhysicalCoercivity
@@ -54,8 +53,8 @@ def TwoSidedOriginalChosenCoverFinitePhysicalCoercivity (original1 original2:Mat
     OriginalPairChosenCoverFinitePhysicalCoercivity original1 original2 tau0 ∧
     OriginalPairChosenCoverFinitePhysicalCoercivity original2 original1 tau0
 
-/-- The earlier sufficient all-cover estimate implies this strictly less
-prescriptive chosen-cover interface. Earlier checked consumers are preserved. -/
+/-- The sufficient all-cover estimate implies this strictly less prescriptive
+chosen-cover estimate. -/
 theorem original_pair_chosen_cover_finite_coercivity_of_all_cover_estimate
     (original1 original2:MatrixField) (tau0:UnitBallValueTrace)
     (h:OriginalPairFinitePhysicalCoercivity original1 original2 tau0):
@@ -169,8 +168,8 @@ open scoped ContDiff Topology Distributions
 namespace OAI.AnisotropicCalderon.MixedKernelConstructionTask
 open EnergyBridge DirichletFamily ExteriorSource Literature SphereHarmonic
 
-/-- The original global source-evaluation images follow from the explicit
-unproved two-sided cofinal finite physical estimate, via genuine strict
+/-- The original global source-evaluation images follow from the two-sided
+cofinal finite physical estimate, taken as a hypothesis, via strict
 extensions of arbitrary admissible source-matched regions. -/
 theorem original_sourceEvaluation_ranges_eq_of_chosen_cover_finite_physical_coercivity
     (g1 g2:MatrixField) (hg1:IsAdmissibleMetric g1) (hg2:IsAdmissibleMetric g2)
@@ -192,9 +191,8 @@ theorem original_sourceEvaluation_ranges_eq_of_chosen_cover_finite_physical_coer
   exact original_sourceEvaluation_ranges_eq_of_pair_local_carriers
     g1 g2 hg1 hg2 hEnergy radiusTwoSourceSeparation K1 K2 G1 G2 hK1 hK2 hLocal12 hLocal21
 
-/-- Explicitly CONDITIONAL endpoint with the frozen Main conclusion. The
-additional finite physical estimate is still unproved; this theorem does
-not replace or discharge the frozen unconditional main. -/
+/-- The conclusion of the main theorem, taking the two-sided finite physical
+estimate as a hypothesis. -/
 theorem exists_isometryFixingExterior_of_chosen_cover_finite_physical_coercivity
     (g1 g2:MatrixField) (hg1:IsAdmissibleMetric g1) (hg2:IsAdmissibleMetric g2)
     (hEnergy:∀ f:R3→ℝ,ContDiff ℝ ∞ f → minimalEnergy g1 f=minimalEnergy g2 f)

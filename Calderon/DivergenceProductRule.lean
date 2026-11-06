@@ -1,7 +1,6 @@
 import Calderon.CollaboratorUCPIdentityOct17
 
-/-! Exact product identities for the actual cutoff divergence operator.
-Full before-code expansion: UPFRONT-NATIVE-DIVERGENCE-PRODUCT-RULE-v001.md. -/
+/-! Exact product identities for the actual cutoff divergence operator. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff

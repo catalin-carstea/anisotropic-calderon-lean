@@ -1,7 +1,6 @@
 import Calderon.ActualOriginalSPhysicalSmallForm
 import Calderon.FiniteCoreSobolevDerivativeEnergy
 import Calderon.ActualFiniteHarmonicModelHorizontalProfileIntegral
-/- Root, before-source mathematical expansion in UPFRONT.md; pending parent qualification. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

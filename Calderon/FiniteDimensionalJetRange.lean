@@ -1,6 +1,5 @@
 import Mathlib.Analysis.Normed.Module.FiniteDimension
 
-/-! Full upfront expansion precedes the exact finite-dimensional range step. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SourceJet

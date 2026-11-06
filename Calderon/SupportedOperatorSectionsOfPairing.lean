@@ -1,7 +1,7 @@
 import Calderon.SupportedOperatorSection
 import Calderon.WeightedIntegralCongruence
 
-/-! Complete generic output assembly; see matching upfront expansion. -/
+/-! Complete generic output assembly. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

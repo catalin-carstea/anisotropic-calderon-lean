@@ -1,8 +1,5 @@
 import Calderon.ActualCompactNormalChart
 import Calderon.ActualRescaledConformalGauge
-/-! Source-only author stage C1. Exact input copies, full covariance expansion,
-and literal C1 interfaces were sealed before these proof bodies. C2-C5 remain
-implementation obligations; no physical/native kernel or Psi theorem claimed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -123,8 +123,8 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Fully expanded before source in EXPANSION-actual-reference-radial-endpoint-compatibility-v001.json.
-Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
+/-! The same actual retained coefficient `a`, with no parameter-dependent bound choices in the
+maps. -/
 lemma referenceConormalTraceFamily_joint_coefficient_eq
     (hcalc : FixedSobolevCalculus) (τ0 : UnitBallValueTrace) (p : ℝ × (R3 × ℝ)) :
     referenceConormalTraceFamily g L y0 Φ B ε C ρ H a w hData hcalc τ0 p.1 p.2 =

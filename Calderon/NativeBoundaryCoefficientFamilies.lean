@@ -10,8 +10,6 @@ open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap SphereHarmonic
   NativeCoefficientBoundaryMultiplier
 variable {H : Type} [NormedAddCommGroup H] [NormedSpace ℝ H] [FiniteDimensional ℝ H]
 
-/-! Expanded before source in EXPANSION-native-parameterized-boundary-multiplier-topology-v001.json. -/
-
 def normalCoefficientFunction (a : H × R3 → Matrix (Fin 3) (Fin 3) ℝ) : H × R3 → ℝ :=
   fun p => ∑ i : Fin 3, ∑ j : Fin 3, p.2 i*a p i j*p.2 j
 

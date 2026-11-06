@@ -24,9 +24,7 @@ import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 /-! Exact original reference-radius regularity and complete physical profile-energy
-integrability. Full mathematical expansion: FULL-UPFRONT.md, published before this
-source. Context v087, support algebra addition v088. No original consumer body,
-comparison-only energy, new premise, or own preexisting object is used. -/
+integrability. No comparison-only energy or new premise is used. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

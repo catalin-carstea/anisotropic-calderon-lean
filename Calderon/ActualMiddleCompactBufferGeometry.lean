@@ -1,5 +1,5 @@
 import Calderon.ActualMixedKernelOneDensityTwoUniformBounds
-import MixedKernelCylinderBoundary
+import Calderon.MixedKernelConstruction.MixedKernelCylinderBoundary
 
 set_option autoImplicit false
 noncomputable section

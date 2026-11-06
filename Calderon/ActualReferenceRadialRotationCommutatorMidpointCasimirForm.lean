@@ -8,8 +8,8 @@ open scoped InnerProductSpace ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotationProjection
 
-/-! Full upfront: EXPANSION-v005.json. Original physical actual Casimir pairing,
-via a fixed actual harmonic scalar functional and finite value-level map identities. -/
+/-! Original physical actual Casimir pairing, via a fixed actual harmonic scalar functional
+and finite value-level map identities. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)

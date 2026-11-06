@@ -8,9 +8,8 @@ open scoped InnerProductSpace
 namespace OAI.AnisotropicCalderon.SpectralSylvester
 open SphereHarmonic
 
-/-! Full upfront: EXPANSION-v001.json. Actual probability-L2 harmonic-block
-normalized directions, preserving degreeN. Generic Casimir product bound remains
-conditional; actual physical Csharp and its bound/adjunction are separate obligations. -/
+/-! Actual probability-L2 harmonic-block normalized directions, preserving degreeN.
+The generic Casimir product bound is taken as a hypothesis. -/
 
 lemma finite_harmonic_weighted_scaled_direction_energy_le
     (s : Finset ℕ) (a : ∀ k, harmonicSphereSubspace k)

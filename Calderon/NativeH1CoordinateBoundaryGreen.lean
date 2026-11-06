@@ -11,8 +11,7 @@ namespace OAI.AnisotropicCalderon.NativeH1CoordinateBoundaryGreen
 open SmoothCoordinateBoundaryGreen NativePolynomialBulkMoments
   SphereHarmonic DirichletFamily EnergyBridge MetricVolume
 
-/-! Expanded before source in EXPANSION-native-coordinate-boundary-Green-v001.json.
-Density is the imported actual smooth density theorem on the native H1 graph. -/
+/-! Density is the imported actual smooth density theorem on the native H1 graph. -/
 
 lemma unitBallCoordinateGradientL_smoothSobolev_ae (f : SmoothData) (i : Fin 3) :
     unitBallCoordinateGradientL i (smoothSobolev f) =ᵐ[(volume : Measure R3).restrict ballOpens]

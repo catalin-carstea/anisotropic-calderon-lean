@@ -1,7 +1,6 @@
 import Calderon.ActualLowerUSOrdinaryRows
 
-/-! Author GPT-6.1 Sol; before-code ../lower-r-z-integrability-upfront-v001.md.
-Individual actual native R/Z integrability. No cap premise or author compiler. -/
+/-! Individual actual native R/Z integrability, with no cap premise. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

@@ -17,8 +17,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
   ReferenceDensityBounds PrincipalCommutator ConformalDepth RadiusProfile ActualScalarPrincipalAdjoint
   ActualUnboundedFirstPrincipalFormBound
 
-/- Source-only author candidate. Actual native second-metric drift only.
-   All 24 literal interfaces and six whole definitions were frozen upfront.
+/- Actual native second-metric drift only.
    No complete E/F/U/H identity or bounded raw angular-arrow assumption. -/
 
 def normalizedSecondDriftDensityDivergence (g1 g2 : MatrixField) (L lam δ R : ℝ) (p : ℕ) : R3 → ℝ :=

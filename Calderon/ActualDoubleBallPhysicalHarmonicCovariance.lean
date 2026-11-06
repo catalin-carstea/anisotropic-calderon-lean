@@ -1,7 +1,6 @@
 import Calderon.ActualPhysicalHarmonicCovariance
 
-/-! Full upfront: EXPANSION-actual-double-ball-physical-covariance-v001.json.
-Exact same physical Piola/conformal formula throughout the actual double-ball room. -/
+/-! The same physical Piola/conformal formula throughout the actual double-ball room. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

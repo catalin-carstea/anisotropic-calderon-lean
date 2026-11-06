@@ -3,7 +3,6 @@ import Calderon.ActualTSFirstQuadraticTriple
 import Calderon.ActualTSFirstQuadraticScalarJets
 
 /-! Exact original quadratic D10 physical-to-word dictionary.
-Before-code: ../T-S-first-quadratic-physical-words-before-source-nov04-day-v001/.
 No energy estimate or finite angular S output is assumed. -/
 set_option autoImplicit false
 set_option Elab.async false

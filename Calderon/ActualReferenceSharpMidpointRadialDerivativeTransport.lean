@@ -14,7 +14,6 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Expanded before source in EXPANSION-sharp-midpoint-coefficients-joint-v001.md. -/
 lemma referenceRadialEndpointInvertibleLocus_zero_mem
     (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace) (hreg : FixedDirichletRegularity)

@@ -1,8 +1,6 @@
 import Calderon.ActualLowerUSAdjointZeroSphereAdjoint
 
 /-!
-Author-support GPT-6.1 Sol; actual backend/version/tokens unknown.
-Before-code: ../gained-jq-upfront.md. Source-only until Root qualifies imports.
 Pointwise witnesses are NOT assembled into a smooth x-indexed CLM family.
 The fixed finite adjoint is identified before pairing arbitrary SphereL2 outputs.
 -/

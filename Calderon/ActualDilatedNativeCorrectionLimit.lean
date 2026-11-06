@@ -2,8 +2,7 @@ import Calderon.ActualDilatedNativeCorrectionBinding
 import Calderon.CoerciveSolutionScalarLimit
 import Calderon.NativeCoerciveInverseScalarEquation
 
-/-! EXPANSION.json precedes this exact original correction-limit partition.
-The prerequisite binding2 is explicitly pending until checked. -/
+/-! The exact correction-limit partition. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

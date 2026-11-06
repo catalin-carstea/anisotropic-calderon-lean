@@ -1,9 +1,7 @@
 import Calderon.ActualFramedJacobiVelocityRemainder
 import Calderon.NativeReferenceHarmonicBoundary
 
-/-! Additive source-only author candidate. Upfront expansion and literal
-interfaces were sealed first. Exact smooth same-witness physical/native trace
-correspondence, without a Psi/E/F or harmonic-PDE transport claim. -/
+/-! Exact smooth same-witness physical/native trace correspondence. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

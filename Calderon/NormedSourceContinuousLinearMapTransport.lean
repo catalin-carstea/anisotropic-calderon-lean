@@ -1,8 +1,8 @@
 import Mathlib.Analysis.Normed.Operator.Basic
 import Mathlib.Data.Sigma.Basic
 
-/-! Full before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-boundary-full-source-data-norm-transport-v124.md. Canonical operator norm is preserved under equality of the FULL source group/space pair, not an arbitrary carrier equality. -/
+/-! The canonical operator norm is preserved under equality of the full source
+group/space pair, not under an arbitrary carrier equality. -/
 set_option autoImplicit false
 noncomputable section
 universe u v

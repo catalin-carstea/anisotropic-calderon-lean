@@ -3,9 +3,7 @@ import Calderon.ActualReferenceRadialEndpointOpenLocus
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-smooth-commutator-lower-graph-v028.md. Actual lower graph
-for the bounded half commutator, obtained through dense upper inputs. -/
+/-! Actual lower graph for the bounded half commutator, obtained through dense upper inputs. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

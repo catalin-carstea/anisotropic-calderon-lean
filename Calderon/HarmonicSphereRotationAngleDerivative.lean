@@ -10,8 +10,8 @@ namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothAngularCasimir SmoothSphereRotationProjection
   SpectralCoreRegularity GreenRadialTrace
 
-/-! Upfront expansion: EXPANSION-finite-harmonic-angle-derivative-v001.json.
-The genuine polynomial image is used; no Fischer injectivity or assumed block covariance. -/
+/-! The polynomial image is used; neither Fischer injectivity nor block covariance is
+assumed. -/
 
 lemma harmonicSphereOrthogonalPullback_eq_coordinate (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (e : R3 ≃ₗᵢ[ℝ] R3) (k : ℕ) (u : harmonicSphereSubspace k) :

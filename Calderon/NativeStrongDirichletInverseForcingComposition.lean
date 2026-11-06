@@ -1,7 +1,6 @@
 import Calderon.NativeStrongDirichletInverseInclusion
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-STRONG-INVERSE-FORCING-COMPOSITION-EXPANSION-v001.md. Literal generic typed composition. -/
+/-! Literal generic typed composition. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

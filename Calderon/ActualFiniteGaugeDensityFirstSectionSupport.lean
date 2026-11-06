@@ -1,7 +1,6 @@
 import Calderon.ActualFiniteGaugeDensityFirstSection
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-GAUGE-DENSITY-FIRST-SECTION-SUPPORT-UPFRONT-v001.md. Literal same-section support locality. -/
+/-! Support locality of the first density section. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

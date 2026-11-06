@@ -1,11 +1,8 @@
 import Calderon.ActualFullEGainedPairedCore
 
-/-! Source-only Sol author candidate. Full upfront: full-finite-assembly-before-v001.
-All maps below use the actual retained coefficient germs. This file assembles the
+/-! All maps below use the actual retained coefficient germs. This file assembles the
 literal full E/E HIGH graph, smooth paired LOW endpoint, and finite joint
-jet caps. The new
-ordinary reverse adapters are a declared unqualified dependency; no analytic
-callback is added. -/
+jet caps. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

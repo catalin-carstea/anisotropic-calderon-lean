@@ -1,6 +1,5 @@
 import Calderon.NativeWeightedDriftFluxGreen
 
-/-! Expanded first in EXPANSION-actual-rotation-guarded-strong-identification-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory Filter

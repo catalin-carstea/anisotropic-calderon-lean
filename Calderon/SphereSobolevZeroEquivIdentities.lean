@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevCompletion
 import Calderon.RealNormedGroupProjectionData
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-canonical-zero-decoding-inverse-and-norm-v045.md. Original isometry identities only. -/
+/-! Inverse and norm of the canonical zero decoding: isometry identities only. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

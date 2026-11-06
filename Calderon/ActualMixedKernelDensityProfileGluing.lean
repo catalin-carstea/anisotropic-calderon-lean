@@ -3,8 +3,6 @@ import Calderon.ActualMixedKernelNativeH3Datum
 import Calderon.ActualReferencePhysicalCoefficientNativeIdentity
 import Calderon.ActualReferencePhysicalOrientation
 
-/-! Separate author draft; exact mathematical expansion was written first in
-ActualMixedKernelDensityPacketCoherence_20261024_UPFRONT.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

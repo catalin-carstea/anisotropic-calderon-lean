@@ -1,7 +1,6 @@
 import Calderon.NativeOrthogonalCoefficientEnergyCovariance
 import Calderon.NativeBoundaryCoefficientFamilies
 
-/-! Expanded first in EXPANSION-actual-rotation-normal-multiplier-inverse-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

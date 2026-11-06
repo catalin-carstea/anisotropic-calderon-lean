@@ -1,8 +1,7 @@
 import Calderon.ActualLowerHorizontalScalarLeibniz
 import Calderon.SphereSobolevShiftedPhysicalDegree
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/EXPANSION-v001.md.
-Original horizontal actions plus the original log-radius times physical degree. -/
+/-! Original horizontal actions plus the original log-radius times physical degree. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff ENNReal

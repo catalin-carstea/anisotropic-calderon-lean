@@ -1,4 +1,4 @@
-import TaskInterface
+import Calderon.MixedKernelConstruction.TaskInterface
 import Calderon.ActualReferenceGaugePrincipalFamily
 import Calderon.ActualReferencePhysicalOrientation
 import Calderon.ActualPhysicalHarmonicCovariance

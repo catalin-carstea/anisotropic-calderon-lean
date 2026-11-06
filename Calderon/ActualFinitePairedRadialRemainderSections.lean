@@ -6,9 +6,7 @@ import Calderon.ActualFinitePhysicalDomainCommonRoom
 import Calderon.LocalSmoothSignedTaylorRemainder
 import Calderon.SphereSobolevPartialSumOperator
 
-/-! Full before-source expansion: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-moving-frozen-coefficient-paired-sections-v004.md.
-The current scalar coefficient is frozen during the auxiliary Taylor variable.
+/-! The current scalar coefficient is frozen during the auxiliary Taylor variable.
 Only the original input is cut; both actual outputs remain uncompressed. -/
 set_option autoImplicit false
 noncomputable section

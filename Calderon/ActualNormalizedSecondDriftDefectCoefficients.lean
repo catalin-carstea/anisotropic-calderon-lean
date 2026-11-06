@@ -18,7 +18,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
   ActualNormalizedSecondDriftDefectWeightedJets ActualScalarPrincipalAdjoint
   ReferenceDensityBounds PrincipalCommutator ConformalDepth RadiusProfile
 
-/- Source-only actual native b2 adjoint-defect coefficients. Genuine independent
+/- Actual native b2 adjoint-defect coefficients. Genuine independent
    adjoint-minus-U parent pays domains/density/support; no full E/F/H identity. -/
 
 def normalizedSecondDriftAngularConnectionNormalizedCoefficient (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

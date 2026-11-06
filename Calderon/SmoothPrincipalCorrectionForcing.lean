@@ -1,9 +1,8 @@
 import Calderon.NativeSmoothOperatorRealization
 import Calderon.TauBoundaryEnergyData
 
-/-! Expanded first in EXPANSION-smooth-principal-correction-forcing-v001.json.
-Literal globally smooth principal matrix, compact jets and actual correction forcing.
-No exterior normalization or desired regularity interface is used. -/
+/-! Globally smooth principal matrix, compact jets and actual correction forcing.
+No exterior normalization or regularity interface is used. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter Metric

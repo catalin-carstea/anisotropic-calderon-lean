@@ -15,7 +15,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
 
 /- Genuine native D_i+(r^-1 A_a*) transport with actual covector index.
    All modes, scalar/radius/angular/base graph domains and density support paid.
-   Source-only author candidate; no fullphysicalU/J/E/F/H identification. -/
+   No fullphysicalU/J/E/F/H identification. -/
 
 lemma inverse_referenceRadius_eq_exp_neg_log (δ R L : ℝ) (p : ℕ)
     (hδ : 0 < δ) (hR : 0 < R) (x : R3) :

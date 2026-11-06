@@ -1,7 +1,6 @@
-/- Opus v088: canonical zero-base HigherS coefficient, value equality, global
-supported field identity and its iterated derivatives.  Source-only, author has
-NOT compiled.  The germ and two-jet bounds are stated as EXACT targets (Prop
-definitions) and are NOT proved here; see MATHEMATICS.md §4 and STATUS.md. -/
+/- Canonical zero-base HigherS coefficient, value equality, global supported field
+identity and its iterated derivatives. The two-jet bound is stated as the Prop
+`CanonicalZeroCoefficientJetTarget`. -/
 import Calderon.ActualHigherSFirstCoefficientJets
 set_option autoImplicit false
 noncomputable section
@@ -25,7 +24,7 @@ local notation "Neg" => SphereSobolev (-(1/2 : ℝ))
 local notation "IH" => sphereSobolevInclusionL (3/2 : ℝ) (1/2 : ℝ) (by norm_num)
 attribute [local instance] v017PiHighComplete v017PiHalfComplete v017PiNegativeComplete
 
-/- Root repair: cache the identical inferred inner operator instances before its Frechet derivative. -/
+/- Cache the identical inferred inner operator instances before its Frechet derivative. -/
 @[instance_reducible] private def highHalfNormed : NormedAddCommGroup (Hi →L[ℝ] Half) := inferInstance
 attribute [local instance] highHalfNormed
 @[instance_reducible] private def highHalfSpace : NormedSpace ℝ (Hi →L[ℝ] Half) := inferInstance
@@ -203,7 +202,7 @@ lemma contDiffAt_zeroCoefficient_family {E : Type*} [NormedAddCommGroup E] [Norm
 
 /-- Genuine C^∞ GERM in x of the canonical zero coefficient at every point whose
 actual profile parameter lies in the native room.  Smoothness facts are those of
-the checked `ActualHigherSFormation` block (connection slice, Q, drift, log-derivative). -/
+the `ActualHigherSFormation` block (connection slice, Q, drift, log-derivative). -/
 theorem contDiffAt_canonicalZeroCoefficient (hreg : FixedDirichletRegularity)
     (δ0 : ℝ) (W : CoeffRoom δ0) (δ : ℝ) (Cm : CRoom hreg δ0 W δ)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
@@ -267,7 +266,7 @@ theorem contDiffAt_canonicalZeroCoefficient (hreg : FixedDirichletRegularity)
     (sphereSobolevAngularCoordinateTransposeL hF hO hD (3/2 : ℝ)) x
     hRR.contDiffAt hQ hb hZ hPH hEL
 
-/-! ## Exact remaining target (NOT proved in this packet) -/
+/-! ## Two-jet bound statement -/
 
 /-- Exact two-jet target: ONE `K` after the formation room and fixed admissible
 `g2`, BEFORE `δr, Ar, p, q, x`, input and angular degree. -/

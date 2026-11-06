@@ -2,7 +2,6 @@ import Calderon.NativeCoefficientWeakHalfLift
 import Calderon.SphereSobolevDualRiesz
 import Calderon.NativePolynomialBulkMoments
 
-/-! Expanded before source in EXPANSION-native-weak-conormal-orthogonal-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

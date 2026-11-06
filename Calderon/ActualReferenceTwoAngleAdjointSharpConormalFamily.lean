@@ -2,8 +2,6 @@ import Calderon.ActualReferenceTwoAngleAdjointH2LiftFamily
 import Calderon.NativeHalfCoefficientConormalTrace
 import Calderon.ClosedCoefficientMultiplier
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-sharp-conormal-v051.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

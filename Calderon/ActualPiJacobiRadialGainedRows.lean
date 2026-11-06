@@ -2,8 +2,7 @@ import Calderon.ActualJacobiAngularGainedRows
 import Calderon.ActualAdjacentGainedFiniteFamilyCaps
 import Calderon.ActualAdjacentGainedBracket
 
-/-! Source-only Sol author candidate. Upfront: full-finite-assembly-before-v001.
-The coefficient parameters in every Taylor primitive are frozen at the current
+/-! The coefficient parameters in every Taylor primitive are frozen at the current
 joint parameter, then the same-physical-point diagonal is taken. -/
 set_option autoImplicit false
 noncomputable section
@@ -282,8 +281,8 @@ private theorem jacobiRadialHalfGainsFoldedContract_proof
   exact ⟨M,hM0,fun i m n hn p hp => (hM i m n hn p hp).1⟩
 
 
-/-- Actual canonical radial/Jacobi half gains on the ordinary owner's exact N
-witnesses. The joint coefficient parameter is frozen inside each Taylor integral
+/-- Canonical radial/Jacobi half gains on the exact N witnesses of the ordinary
+rows. The joint coefficient parameter is frozen inside each Taylor integral
 and then the same-physical-point diagonal is taken. -/
 theorem exists_commonRoom_jacobi_radial_half_gains
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
@@ -509,9 +508,9 @@ private theorem actualPiJacobiMixedGraphsFoldedContract_proof
       (fun m => hGNG i m t.1 (hSubN ht.1)) u
 
 
-/-- The two actual radial/Jacobi mixed high graph families on ONE room and the
-ordinary owner's retained Pi/N germs. Every graph premise is discharged here
-from actual angular and canonical radial/N producers, never a new callback. -/
+/-- The two radial/Jacobi mixed high graph families on one room and the retained
+Pi/N germs of the ordinary rows. Every graph premise is discharged here from the
+angular and canonical radial/N producers. -/
 theorem exists_commonRoom_actualPiJacobi_mixed_high_graphs
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :
@@ -538,9 +537,8 @@ theorem exists_commonRoom_actualPiJacobi_mixed_high_graphs
     (hF:=hF) (hO:=hO) (hD:=hD) (τ0:=τ0) hreg hKernel δ0 hδ0 W)
 
 
-/-- Joint smoothness of the two actual mixed bands, retaining the exact returned
-Gcoord/GN/W. Conditions here are discharged by the actual producer immediately
-below, not exposed as new analytic premises of the final owner. -/
+/-- Joint smoothness of the two mixed bands, retaining the exact returned
+Gcoord/GN/W. Its conditions are discharged by the theorem immediately below. -/
 private lemma actualPiJacobi_mixed_high_contDiffOn
     (hreg : FixedDirichletRegularity)
     (Gcoord : Fin 3 → Pphys → Half →L[ℝ] Half)
@@ -723,7 +721,7 @@ private theorem actualPiJacobiMixedSmoothFoldedContract_proof
 
 
 /-- Actual mixed high graphs AND total joint smoothness, on the same retained W
-and the same actual Gcoord/GN. No extra analytic callback is present. -/
+and the same actual Gcoord/GN. -/
 theorem exists_commonRoom_actualPiJacobi_mixed_high_graphs_and_smooth
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :
@@ -838,8 +836,8 @@ private theorem retainedActualPiAdjacentRowsFoldedContract_proof
     (fun i j => (hSm i j).1) (fun i j => (hSm i j).2) N
 
 
-/-- The full actual adjacent R/R graph and every finite joint jet cap, on the
-ordinary owner's SAME Pi support witnesses and the diagonal (p,t,t). -/
+/-- The full adjacent R/R graph and every finite joint jet cap, on the same Pi
+support witnesses as the ordinary rows and the diagonal (p,t,t). -/
 theorem exists_commonRoom_retained_actualPi_adjacent_rows
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :

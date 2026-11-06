@@ -3,7 +3,6 @@ import TauCeti.Analysis.Sobolev.W1p.ChainRule
 import TauCeti.Analysis.Sobolev.W1p.CompactSupport
 import Mathlib.Analysis.InnerProductSpace.Calculus
 
-/-! Expanded before source in EXPANSION-native-radial-factor-specific-dct-author-v002.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

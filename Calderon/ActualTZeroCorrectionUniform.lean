@@ -4,9 +4,7 @@ import Calderon.ProfileRadiusJets
 import Calderon.ReferenceWeightedApproximation
 
 /-!
-Before-code: ../T-zero-correction-uniform-before-source-nov03-night-v001/UPFRONT.md.
-Actual original scalar/atom caps for the full raw N-1 correction.
-This is not the literal L00 energy estimate or Main's coercivity.
+Scalar/atom caps for the full raw N-1 correction.
 -/
 set_option autoImplicit false
 set_option Elab.async false

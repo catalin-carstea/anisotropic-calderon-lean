@@ -3,9 +3,7 @@ import Calderon.ActualReferenceWeakHalfLift
 import Calderon.SphereSobolevDualRiesz
 import Calderon.NativeSmoothSharpTraceCompletion
 
-/-! Actual normalized weak conormal endpoint. Full upfront expansion:
-EXPANSION-actual-reference-weak-conormal-endpoint-v001.json.
-Adapted from the preserved ActualReferenceWeakConormal draft; no acceptance claim. -/
+/-! Actual normalized weak conormal endpoint. -/
 
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

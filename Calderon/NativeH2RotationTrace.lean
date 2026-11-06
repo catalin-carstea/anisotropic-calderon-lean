@@ -10,8 +10,6 @@ open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap
   SmoothSphereRotation SmoothSphereRotationProjection SmoothAngularCasimir
   NativeFullSharpHalfTrace SpectralCoreRegularity AngularPolynomial GreenRadialTrace
 
-/-! Expansion: EXPANSION-native-H2-tangential-trace-v001.md, obligation D. -/
-
 theorem sphereHarmonicCoordinate_nativeH2_rotation
     (hcalc : FixedSobolevCalculus) (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)

@@ -2,7 +2,6 @@ import Calderon.RadiusTwoCommonRowCutoffSourceIdentity
 import Calderon.RadiusTwoNormalizedCutoffSourceOrderLift
 import Calderon.NativeFirstOrderLiftTransport
 
-/-! EXPANSION.json precedes the focused actual native successor transition. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

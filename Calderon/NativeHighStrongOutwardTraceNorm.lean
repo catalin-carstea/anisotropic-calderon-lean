@@ -3,10 +3,8 @@ import Calderon.NativeHighStrongOutwardTrace
 import Calderon.InheritedNormedStructureData
 import Calderon.SubmoduleRealNaturalStructureData
 
-/-! Before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-native-outward-canonical-norm-and-value-v129.md.
-Exact canonical operator norm from the SAME full source data, with a local
-registration of that original Norm value only after its explicit construction. -/
+/-! The canonical operator norm from the full source data, with a local
+registration of that Norm value only after its explicit construction. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

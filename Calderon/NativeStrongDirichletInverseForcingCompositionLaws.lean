@@ -1,7 +1,6 @@
 import Calderon.NativeStrongDirichletInverseForcingComposition
 
-/-! Before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-strong-generic-composition-laws-v075.md. Laws of the same actual native composition. -/
+/-! Laws of the native composition. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily

@@ -1,7 +1,6 @@
 import Calderon.CompactParameterGeodesicFlow
 import Calderon.NilpotentSecondVariation
 
-/-! UNCOMPILED. Full mathematical expansion precedes this source in EXPANSION.md. -/
 set_option autoImplicit false
 noncomputable section
 open Filter Set

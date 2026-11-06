@@ -6,8 +6,8 @@ open Set
 open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic ClosedScalarCompatibility DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json. Genuine actual-space specialization;
-concrete function/set inferred from typed proof, no reconstructed instances. -/
+/-! Actual-space specialization; the concrete function and set are inferred
+from the typed proof, with no reconstructed instances. -/
 
 def physicalDegreeCasimirScalarRestrictionCoeCache
     {X : Type*} [NormedAddCommGroup X] [NormedSpace ℝ X]

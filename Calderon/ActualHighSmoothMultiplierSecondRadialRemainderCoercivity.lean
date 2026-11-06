@@ -1,8 +1,7 @@
 import Calderon.ActualHighSmoothMultiplierFixedTopology
 import Calderon.SignedOperatorTaylorRemainder
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-FIXED-MULTIPLIER-RADIAL-JET-EXPANSION-v001.md. Draft-only actual high fixed-Q signed remainder. -/
+/-! Actual high fixed-Q signed remainder. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

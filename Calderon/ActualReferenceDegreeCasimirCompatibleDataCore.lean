@@ -9,7 +9,6 @@ open Set
 open scoped InnerProductSpace ContDiff ENNReal Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic PhysicalDegreeCasimirCompatibility
-/-! Exact original first7 of ActualData8; EXPANSION-PARTITION-v002.json. -/
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)
   (H a : (ℝ × (R3 × ℝ)) × R3 → Matrix (Fin 3) (Fin 3) ℝ)

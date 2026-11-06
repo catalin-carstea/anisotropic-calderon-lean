@@ -1,8 +1,8 @@
 import Calderon.ActualHigherSQuadraticZeroQuartic
 import Calderon.FixedParameterProfilePullback
 
-/-! Complete actual207 pointwise Half→negative realization and support closure.
-This owner supplies the point identities imported by the uniform profile consumer.
+/-! Complete actual 207-word pointwise Half→negative realization and support closure.
+This file supplies the point identities used by the uniform profile consumer.
 It adds no analytic premise, output truncation or final estimate callback. -/
 set_option autoImplicit false
 noncomputable section

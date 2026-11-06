@@ -1,17 +1,12 @@
-/- Root compilation candidate; original Opusv053 body preserved, native qualification pending. -/
-/- Opusv053 actual common first-word/quadratic adjoint source author, no trusted premise. -/
 import Calderon.ActualReverseEHigherLift
 import Calderon.ActualHigherSPhysicalPairing
 
-/-! Source-only Opusv053 author, 30 October 2026. UNCOMPILED.
-Before-source mathematics: MATHEMATICS.md (same output directory).
-On ANY retained `W`: one common room `δ` (native reverse room ∩ forward generator graph ∩
-forward generator germs), rebuilt forward canonical ambient germs / compatibility / genuine
-pivot on that W; global forward (`higherSLift`) and reverse (`reverseEHigherLift`) Hi lifts
-under the membership-only premise; the quadratic double angular Half fields
-`FwdDouble = higherSDoubleHalf` and `RevDouble = R^3 Σ Q_ij e_j(Tx)(VR_i)`; and the exact
-pointwise and integrated physical adjoint identity.
-NOT proved here: remaining Sdag pieces, norm difference, cofinal profile, coercivity, Main. -/
+/-! The common first-word/quadratic adjoint. On any retained `W`: one common room `δ` (native
+reverse room ∩ forward generator graph ∩ forward generator germs), rebuilt forward canonical
+ambient germs / compatibility / genuine pivot on that W; global forward (`higherSLift`) and
+reverse (`reverseEHigherLift`) Hi lifts under the membership-only premise; the quadratic double
+angular Half fields `FwdDouble = higherSDoubleHalf` and `RevDouble = R^3 Σ Q_ij e_j(Tx)(VR_i)`;
+and the exact pointwise and integrated physical adjoint identity. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

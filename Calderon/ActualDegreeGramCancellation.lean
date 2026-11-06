@@ -1,6 +1,5 @@
 import Calderon.ActualCommonFirstWordQuadraticAdjoint
 import Calderon.ActualHigherSPhysicalPairing
-/- Root mathematical expansion is in UPFRONT.md, before this source. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

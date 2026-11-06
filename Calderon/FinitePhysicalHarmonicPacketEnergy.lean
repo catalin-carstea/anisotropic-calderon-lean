@@ -7,8 +7,8 @@ open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotationProjection
 
-/-! Full upfront: EXPANSION-v001.json. Existing physical Single1 finite packet,
-probability-L2 R1 graph, and checked selected shifted Casimir energy specialization. -/
+/-! Existing physical Single1 finite packet, probability-L2 R1 graph, and selected shifted
+Casimir energy specialization. -/
 
 lemma sphereSobolevCoefficientL_one_finite_packet
     (s : Finset ℕ) (u : ∀ k, harmonicSphereSubspace k) (l : ℕ) :

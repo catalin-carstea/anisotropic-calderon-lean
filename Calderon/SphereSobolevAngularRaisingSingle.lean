@@ -2,8 +2,7 @@ import Calderon.SphereAngularRaisingPolynomial
 import Calderon.ActualNativeMovingAdjointFiniteJ
 import Calderon.SphereSobolevSingleRotationAngleDerivative
 
-/-! Upfront: native-angular-raising-dictionary-author-oct16-v001/
-EXPANSION-native-single-v002.md. Exact canonical raising graph, no output premise. -/
+/-! Exact canonical raising graph, with no output premise. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial

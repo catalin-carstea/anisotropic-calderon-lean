@@ -1,7 +1,7 @@
 import Calderon.ActualTSFirstQuadraticOriginalIntegral
 import Calderon.ActualTSFirstLinearZeroIntegral
 
-/-! Complete original first-T/zero-S D10 integral assembly, unvalidated draft. -/
+/-! Complete original first-T/zero-S D10 integral assembly. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

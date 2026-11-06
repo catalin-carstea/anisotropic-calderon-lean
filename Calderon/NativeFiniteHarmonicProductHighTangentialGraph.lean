@@ -1,8 +1,7 @@
 import Calderon.NativeFiniteHarmonicProductHighRotationGraph
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-FINITE-PRODUCT-HIGH-TANGENTIAL-EXPANSION-v001.md. Actual tangential derivative after product. -/
+/-! Actual tangential derivative after product. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

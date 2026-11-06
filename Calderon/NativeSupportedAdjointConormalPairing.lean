@@ -12,8 +12,6 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion NativePolynomialBulkMoments
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Upfront: native-supported-adjoint-conormal-pairing-author-oct14-v001/EXPANSION-v001.json. -/
-
 lemma energyFormH1_test_eq_of_sub_mem_zero (a : MatrixField) (b : R3 → R3) (c : R3 → ℝ)
     (hcoeff : MemLp (fun x => TauCeti.PDE.energyIntegrand (a x) (b x) (c x)) ⊤
       ((volume : Measure R3).restrict ballOpens))

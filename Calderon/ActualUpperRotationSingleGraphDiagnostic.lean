@@ -8,8 +8,8 @@ open scoped ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotationProjection SpectralWeightedGraph
 
-/-! Full upfront: EXPANSION-v002.json. Focus only the actual single-input graph
-normalization, using typed value transports rather than rewriting the checked graph. -/
+/-! Focus only the actual single-input graph normalization, using typed value transports
+rather than rewriting the graph. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)

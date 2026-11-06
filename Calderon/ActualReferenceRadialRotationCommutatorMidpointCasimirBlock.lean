@@ -8,8 +8,7 @@ open scoped InnerProductSpace ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotationProjection
 
-/-! Full upfront argument: EXPANSION-v005.json. All finite blocks use actual
-physical coefficients and single injections. The second physical form term is retained;
+/-! All finite blocks use the physical coefficients and single injections. The second physical form term is retained;
 no adjoint, symmetry, quantitative Sylvester bound or cutoff premise is assumed. -/
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)

@@ -87,8 +87,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Fully expanded before source in EXPANSION-actual-radial-open-invertibility-locus-v001.json.
-Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
+/-! Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
 lemma referenceLowerRadialEndpointFamily_inclusion_eq_coarse_radial_of_isInvertible
     (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace) (p : ℝ × (R3 × ℝ))

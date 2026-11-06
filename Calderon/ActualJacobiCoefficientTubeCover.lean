@@ -1,7 +1,5 @@
 import Calderon.ActualNativeTraceGeometryRoom
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-actual-jacobi-coefficient-tube-cover-v036.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

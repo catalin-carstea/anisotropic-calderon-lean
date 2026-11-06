@@ -2,9 +2,7 @@ import Calderon.ActualLowerUSSecondRowCoefficients
 import Calderon.ActualFiniteHarmonicModelFirstAngularCoefficientJets
 
 /-!
-GPT-6.1 Sol authoring support. Before-code expansion:
-lower-u-s-nov03-v001/second-row-next-upfront.md.
-Original raw angular coefficient jets only; no physical endpoint cap premise.
+The raw angular coefficient jets only.
 -/
 set_option autoImplicit false
 set_option Elab.async false

@@ -14,7 +14,7 @@ open EnergyBridge DirichletFamily ExteriorSource Literature ConnectionError Metr
 
 /-- The exact same cutoff and density field may be bounded in the fixed-frame
 reference-base lift instead of Euclidean volume. The reference-base lift bound
-remains conditional and is not the manuscript moving-fiber density theorem. -/
+is a hypothesis; this is not the moving-fiber density theorem of the manuscript. -/
 theorem exists_actual_factory_one_dilation_bootstrap_of_referenceBaseLift_bound
     (hcalc : FixedSobolevCalculus) (hreg : FixedDirichletRegularity) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)

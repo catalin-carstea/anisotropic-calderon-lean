@@ -4,8 +4,7 @@ import Calderon.NormalMetricOperatorFirstJet
 import Calderon.CoordinateMetricCompatibility
 import Calderon.NearIdentityEllipticity
 
-/-! UNCOMPILED author proposal. EXPANSION.md E4--E7 was sealed first.
-One augmented-cutoff family is selected once, and all its original data are retained. -/
+/-! One augmented-cutoff family is selected once, and all its original data are retained. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

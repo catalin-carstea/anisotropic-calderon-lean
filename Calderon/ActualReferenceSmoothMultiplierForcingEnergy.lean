@@ -1,9 +1,7 @@
 import Calderon.NativeSmoothMultiplierForcingEnergy
 import Calderon.ActualReferenceSmoothMultiplierWeakDefectEnergy
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-energy-link-v004.md. Literal actual arbitrary multiplier forcing and
-weak-defect graph; H1_0 closure and the resulting H2/boundary gain remain open. -/
+/-! The forcing of an arbitrary smooth multiplier and its weak-defect graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

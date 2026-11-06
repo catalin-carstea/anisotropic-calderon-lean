@@ -8,11 +8,9 @@ import Calderon.ActualAdjacentGainedFiniteFamilyCaps
 import Mathlib.MeasureTheory.Integral.Bochner.Set
 import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
-/-! Actual physical Qrad signed self-row (author-only candidate, v008).
-Complete expansion: output/MATHEMATICS.md, written before these declarations.
-Uses ONLY the Root producers: first-output lifts, CL bracket, radial coefficient pivots,
-finite-family adjacent caps, plus the checked QradFourIndexNormIdentity/WeakForm.
-No compiler was run; no acceptance is claimed. -/
+/-! Actual physical Qrad signed self-row.
+Uses only first-output lifts, the CL bracket, radial coefficient pivots,
+finite-family adjacent caps, and QradFourIndexNormIdentity/WeakForm. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -207,7 +205,7 @@ theorem exists_reference_commonRadius_qrad_signed_selfRow_finite_input
       CLf i k (Ihi v) = LL i (RH k v) - RL k (LH i v) := fun i k v =>
     hBr (m i) (hm i) Km hKm (hmz i) t
       (commonSupportCoefficientFamily 3 (m k) (hm k) Km hKm (hmz k) t) q hq y hy r hrB v
-  -- genuine finite-input first-output representatives (Root producer, exact statement)
+  -- genuine finite-input first-output representatives
   have hRootSelected8 := hLift q hq y hy r hrL n
     (fun i => commonSupportCoefficientFamily 3 (m i) (hm i) Km hKm (hmz i) t) f
   rcases hRootSelected8 with ⟨rL,lL,hrLift,hlLift⟩
@@ -225,7 +223,7 @@ theorem exists_reference_commonRadius_qrad_signed_selfRow_finite_input
   have hCLc : ∀ i k, ‖CLf i k‖ ≤ Mall := fun i k =>
     ((hFamC i k (q,(y,r)) hpF t ht t ht).2.2.2.1).trans hMFle
   have hQc : ∀ i j, |Q i j| ≤ Mall := fun i j => (hQ i j).trans hMQle
-  -- §5 checked norm fold and checked 324 bound
+  -- §5 norm fold and 324 bound
   have hNorm := qradSignedWeakSelfExpression_eq_cubic_norm_difference
     RH LH RL LL CHf CLf hR hL hC hBracket hLAdj hRAdj Q r u rL lL hr' hl'
   have hAbs := abs_qradSignedWeakSelfExpression_le RH LH LL CHf CLf Q Mall hMall
@@ -244,7 +242,7 @@ theorem exists_reference_commonRadius_qrad_signed_selfRow_finite_input
   · rw [← hNorm]
     exact hAbs
 
-/-- Profile form at one point: `β ≥ 1`, `|r| β² ≤ θ ≤ 1` (checked highCore inequality). -/
+/-- Profile form at one point: `β ≥ 1`, `|r| β² ≤ θ ≤ 1` (highCore inequality). -/
 theorem qrad_signed_selfRow_profile_bound {D Cst r β θ N : ℝ} (hCst : 0 ≤ Cst) (hN : 0 ≤ N)
     (hD : |D| ≤ Cst * r^6 * N) (hβ : 1 ≤ β) (hrθ : |r| * β^2 ≤ θ) (hθ : θ ≤ 1) :
     |D| ≤ Cst * θ * β * N :=

@@ -6,9 +6,8 @@ import Calderon.ActualReferenceRadialEndpointOpenLocus
 import Calderon.ActualPhysicalDensityProductsOperatorIdentities
 import Calderon.PhysicalDensityProductsOperatorSmoothness
 
-/-! Actual Main M1 Products adjoint. Full nine-root before-code expansion and
-exact original definitions were reviewed before authoring. No quantitative
-Productsdag cap, finite-output assumption or intrinsic Half adjoint is used. -/
+/-! Actual Main M1 Products adjoint. No quantitative Productsdag cap, finite-output
+assumption or intrinsic Half adjoint is used. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

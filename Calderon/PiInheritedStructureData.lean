@@ -2,8 +2,8 @@ import Mathlib.Analysis.Normed.Operator.NormedSpace
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json precedes source. Exact original finite-Pi
-structures only; no replacement of the sup norm or pointwise algebra. -/
+/-! The original finite-Pi structures only; the sup norm and the pointwise algebra are not
+replaced. -/
 
 theorem pi_normedAddCommGroup_seminormedAddCommGroup_eq
     {ι : Type*} [Fintype ι] (G : ι → Type*) [∀ i, NormedAddCommGroup (G i)] :

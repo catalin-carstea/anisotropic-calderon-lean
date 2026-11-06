@@ -16,8 +16,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 include hData
 
-/-! Expanded before source in EXPANSION-actual-rotation-native-conormal-assembly-v001.json.
-Exactly one surface-mass inverse and literal drift coefficients. -/
+/-! Exactly one surface-mass inverse and literal drift coefficients. -/
 
 def referenceRotationWeakConormalFunctionalFamily (hcalc : FixedSobolevCalculus)
     (hF : SphereFischerInner) (i j : Fin 3) (t : ℝ × (ℝ × (R3 × ℝ))) :

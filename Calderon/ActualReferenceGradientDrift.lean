@@ -1,7 +1,6 @@
 import Calderon.ActualRescaledConformalGauge
 
-/-! Full upfront: day-oct13/actual-gradient-drift-author-oct15-v001/EXPANSION.md.
-Exact SAME coefficient and bulk-gradient graph; no gauge/adjoint conclusion assumed. -/
+/-! Exact same coefficient and bulk-gradient graph; no gauge/adjoint conclusion assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Set

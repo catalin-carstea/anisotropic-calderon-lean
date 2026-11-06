@@ -1,7 +1,7 @@
 import Calderon.ActualReferenceGaugeTangentHighMultiplierCommutator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-TANGENT-MULTIPLIER-COMMUTATOR-EXPANSION-v001.md. SAME actual tangent scalar fields. -/
+/-! Graph of the high tangent multiplier commutator, with the same actual tangent scalar
+fields. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

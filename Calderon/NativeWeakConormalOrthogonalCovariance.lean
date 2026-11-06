@@ -3,7 +3,6 @@ import Calderon.NativeWeakHalfLiftOrthogonalCovariance
 import Calderon.NativeOrthogonalZeroEnergyInvertibility
 import Calderon.SphereSobolevDualOrthogonalPullback
 
-/-! Expanded before source in EXPANSION-native-weak-conormal-orthogonal-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

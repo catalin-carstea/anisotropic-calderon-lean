@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeNormalReciprocalGraph
 import Calderon.NativeOrderOneCoefficientMultiplierTopology
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/reciprocal-graph-author-v001/
-EXPANSION-common-room-v002.md. One scalar, one open room, same genuine2/3 jets. -/
+/-! One scalar, one open room, the same genuine 2/3 jets. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

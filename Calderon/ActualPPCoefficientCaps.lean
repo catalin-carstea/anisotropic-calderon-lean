@@ -1,8 +1,7 @@
 import Calderon.ActualPPLowerRemainder
 import Calderon.ActualHigherSLeadingWeightedJetBounds
 
-/-! Author source after actual-pp-upfront-v001. UNCOMPILED.
-Actual four first-coefficient caps, independently using retained high AND low
+/-! Actual four first-coefficient caps, independently using retained high AND low
 endpoint caps. No cap callback occurs in the final actual producer statement. -/
 set_option autoImplicit false
 noncomputable section
@@ -96,7 +95,7 @@ theorem radius_squared_weighted_first_caps
 def FirstCaps (f : R3 → V) (R : R3 → ℝ) (beta : R3 → ℝ) (M : ℝ) (x : R3) : Prop :=
   ContDiffAt ℝ ∞ f x ∧ ‖f x‖ ≤ M*(R x)^2 ∧ ‖fderiv ℝ f x‖ ≤ M*(R x)^2*(beta x)
 
-/-- Independent enlargement of the already proved three generic cap conclusions. -/
+/-- Independent enlargement of the three generic cap conclusions. -/
 private lemma firstCaps_of_bounds (f : R3 → V) (R beta : R3 → ℝ)
     (x : R3) (C0 C1 M : ℝ) (hb : 0 ≤ beta x)
     (h : ContDiffAt ℝ ∞ f x ∧ ‖f x‖ ≤ C0*(R x)^2 ∧
@@ -184,7 +183,7 @@ attribute [local irreducible] canonicalHigh canonicalLow orderedReverseHigh orde
   ActualHigherSAdjointLeadingCoordinate.actualAdjointFirstCoordinateCoefficient
   ActualPPLowerRemainder.actualPPReverseFirstHigh sphereSobolevInclusionL
 
-/-- Function identity extracted from the checked physical contraction tuple. -/
+/-- Function identity extracted from the physical contraction tuple. -/
 private lemma actual_high_first_function (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : ℝ) (k : Fin 3) :
     (fun y => PH g2 dr Ar p q y k)=
       (fun y => (referenceRadius dr Ar p L y)^2 • ∑ i : Fin 3,

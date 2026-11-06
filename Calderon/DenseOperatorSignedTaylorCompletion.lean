@@ -6,8 +6,8 @@ open Set MeasureTheory
 open scoped ContDiff Topology
 namespace OAI.AnisotropicCalderon.DenseOperatorTaylorCompletion
 open ConnectionError
-/-! Full upfront EXPANSION-v001.json precedes this source. Generic dense
-input completion seams; their bounds remain actual caller obligations. -/
+/-! Generic dense input completion seams; their bounds are hypotheses supplied by the
+caller. -/
 variable {E G V : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
   [NormedAddCommGroup G] [NormedSpace ℝ G]
   [NormedAddCommGroup V] [NormedSpace ℝ V] [CompleteSpace V]

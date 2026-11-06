@@ -4,9 +4,8 @@ import Calderon.SphereSobolevSingleRotationAngleDerivative
 import Calderon.SphereSobolevShiftedPhysicalDegree
 import Calderon.ActualAngularMixedEndpointPrimitives
 
-/-! Source-only Sol author prerequisite for actual W/E. Upfront:
-generator-angular-before-v001. Physical B has eigenvalue k, including zero.
-This file is not the full W/E producer. -/
+/-! Angular gained rows of the canonical generator, used for the actual W/E.
+Physical B has eigenvalue k, including zero. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace ContDiff Topology

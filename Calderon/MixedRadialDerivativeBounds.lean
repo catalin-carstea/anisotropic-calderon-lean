@@ -2,8 +2,7 @@ import Calderon.MixedRadialJetCalculus
 import Lean.Elab.Tactic.Omega
 import Mathlib.Tactic.Linarith
 
-/-! UNCOMPILED author proposal. EXPANSION.md C6--C7 was sealed first.
-Nonradial jets decay quadratically; radial differentiation has its actual order. -/
+/-! Nonradial jets decay quadratically; radial differentiation has its actual order. -/
 set_option autoImplicit false
 noncomputable section
 open Set Function

@@ -1,18 +1,13 @@
-/- Root compilation candidate; original Opusv051 body preserved, native qualification pending. -/
-/- Reverse-E higher-lift author only; no trusted premise. -/
 import Calderon.ActualGeneratorEPairedGainedEndpoints
 import Calderon.ActualFullEZeroRowsSmoothGerms
 import Calderon.ActualGeneratorEndpointSmoothGerms
 import Calderon.ActualHigherSFormation
 
-/-! Source-only Opusv051 author, 30 October 2026. UNCOMPILED.
-Before-source mathematics: MATHEMATICS.md (same output directory).
-Actual genuine reverse-E (public `reverseEHigh`, `reverseELow`, `generatorReverseEHigh`):
+/-! Actual genuine reverse-E (public `reverseEHigh`, `reverseELow`, `generatorReverseEHigh`):
 ambient C^∞ germs at every closed parameter-room point on ANY retained W, the partner graph
 and high/low compatibility on the SAME W, and the explicit global finite-input Hi lift
 `Vrev_j = BesselOrder Half Hi (DGE(B,j) u + eH_j uB + eH_j u)` with global inclusion,
-global C^∞ and compact support. Physical degree B(k)=k including 0.
-NOT proved here: signed norm estimate, Sdag, coercivity, Main. -/
+global C^∞ and compact support. Physical degree B(k)=k including 0. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -266,7 +261,7 @@ lemma reverseEHigherLift_eq_zero (hreg : FixedDirichletRegularity) (δ0 : ℝ) (
 section Inclusion
 attribute [local irreducible] reverseEHigh reverseELow generatorReverseEHigh sphereSobolevInclusionL
 
-/-- Sol Bessel mechanism at one point from the B graph and the compatibility there. -/
+/-- Bessel mechanism at one point from the B graph and the compatibility there. -/
 lemma reverseEHigherLift_inclusion_of_graph (hreg : FixedDirichletRegularity) (δ0 : ℝ)
     (W : CoeffRoom δ0) (δr Ar : ℝ) (p : ℕ) (q : ℝ) (F0 : smoothCompactFiniteSphereCore hO hD)
     (j : Fin 3) (x : R3)

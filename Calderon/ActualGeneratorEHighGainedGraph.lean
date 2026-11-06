@@ -2,8 +2,8 @@ import Calderon.ActualCanonicalGeneratorAngularGainedRows
 import Calderon.ActualGeneratorRadialGainedRows
 import Calderon.ActualWeightedHorizontalActions
 
-/-! Source-only Sol author candidate. Exact upfront generator-E-high-before-v001.
-Actual HIGH graph only; full W/E reverse partner/paired low/caps are deferred. -/
+/-! The actual high graph of the generator E. The W/E reverse partner, the paired
+low graph and the caps are treated separately. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -219,7 +219,8 @@ def weightedAngularEHigh (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : Coef
       CGE hreg δ0 W (Sum.inl (aa,bb)) j t)+
     referenceRadiusHorizontalLogDerivative g L t.1.1 R t.1.2.1 i • CGE hreg δ0 W (Sum.inr ()) j t
 
-/-- Literal actual weighted Wsharp/E HIGH graph; LOW/smooth/caps are deferred. -/
+/-- Literal actual weighted Wsharp/E HIGH graph; the low graph, smoothness and caps are
+treated separately. -/
 private def actualWeightedAngularEHighFoldedContract (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : CoeffRoom δ0) : Prop :=
     ∃ δ : ℝ, 0 < δ ∧ δ ≤ δ0 ∧ δ ≤ ρ ∧
       ∀ (R : R3 → ℝ) (i j : Fin 3), ∀ t ∈ ParamRoom δ, ∀ u : Hi,

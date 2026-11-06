@@ -2,8 +2,8 @@ import Calderon.ActualReferenceExponentialGauge
 import Calderon.ActualReferenceRadialJets
 import Calderon.NativeBoundaryCoefficientFamilies
 
-/-! Full upfront: day-oct13/actual-gauge-boundary-jets-author-oct15-v001/EXPANSION.md.
-SAME actual gauge and coefficient. Only q in Icc and the retained finite base domain.
+/-! Boundary jets of the actual gauge and coefficient, for q in Icc only and on the retained
+finite base domain.
 No conormal, adjoint, divided Taylor, or coercivity conclusion is assumed. -/
 set_option autoImplicit false
 noncomputable section

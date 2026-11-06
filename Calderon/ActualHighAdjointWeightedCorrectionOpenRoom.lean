@@ -2,7 +2,7 @@ import Calderon.ActualHighAdjointWeightedQuotientOpenRoom
 import Calderon.ActualPairedRadialRemainderProfileLocalSmoothness
 import Calderon.JointRadialDerivativeLocalSmoothness
 
-/-! Full BEFORE-SOURCE dictionary declaration split v081. Actual open smoothness only; no word or gain premise. -/
+/-! Open smoothness only. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

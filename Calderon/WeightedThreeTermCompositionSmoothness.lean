@@ -1,6 +1,5 @@
 import Mathlib.Analysis.Calculus.ContDiff.Operations
 
-/-! Full upfront: WEIGHTED-THREE-TERM-COMPOSITION-UPFRONT-v001.md. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff

@@ -2,8 +2,7 @@ import Calderon.ActualReferenceSharpMidpointRadialDerivativeTransport
 import Calderon.ActualReferenceGaugeNormalMultiplierFirstJet
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-REPAIR-actual-K-certificate-factoring-v104.md. Actual derivative certificates, no K jet assumed. -/
+/-! Actual derivative certificates; no K jet is assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Set

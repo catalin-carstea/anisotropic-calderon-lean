@@ -12,8 +12,7 @@ open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 
-/-! Full upfront expansion: EXPANSION-native-smooth-full-energy-and-angle-family-v001.json.
-Generic finite composition is specialized before actual coefficient operators are inserted. -/
+/-! Generic finite composition is specialized before actual coefficient operators are inserted. -/
 
 lemma contDiff_nativeFullFiniteForcingEnergy
     {P : Type*} [NormedAddCommGroup P] [NormedSpace ℝ P]

@@ -2,8 +2,7 @@ import Calderon.NativeLowerTransposeSignedTaylor
 import Calderon.SphereSobolevShiftedPhysicalDegree
 import Calderon.ActualFirstCorrectionSobolevFamilies
 
-/-! Full upfront: full-physical-U-form-author-oct16-v001/
-native-adjoint-radial-jets-author-v001/EXPANSION.md. Physical k and genuine
+/-! Radial jets of the native adjoint: physical k and the genuine
 opposite-index radial drift transpose; no PDE/gain/jet premise. -/
 set_option autoImplicit false
 noncomputable section

@@ -1,9 +1,8 @@
 import Calderon.BoundedAngularShift
 import Calderon.NativeValueRadialTrace
 
-/-! Source-only completed-sphere first radial correction. Exact input-side
-spectral coefficient, degree-zero action and positive lowering shift are
-expanded/sealed first. No full moving-family Psi theorem is asserted. -/
+/-! First radial correction on the completed sphere: the input-side spectral
+coefficient, the degree-zero action and the positive lowering shift. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial Set MeasureTheory

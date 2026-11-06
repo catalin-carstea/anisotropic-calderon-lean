@@ -31,7 +31,7 @@ local notation "Qsharp" => referenceTwoAngleDegreeCommutatorHalfFamily
 local notation "Ω" => referenceRadialEndpointInvertibleLocus
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/-! ## Root draft (kept): negative-transpose low families and the explicit high lift -/
+/-! ## Negative-transpose low families and the explicit high lift -/
 
 local notation "Ct" => lowFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 local notation "Wt" => rotationDerivativeFamily
@@ -43,7 +43,7 @@ local notation "Gt" => gainedHighFamily
 local notation "Gt2" => gainedHighSecondRemainder
   g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0
 
-/-! ## Common-room helpers (MATHEMATICS.md §1.4, §2)
+/-! ## Common-room helpers
 
 `R_δ = Icc 0 1 ×ˢ (closedBall y0 ρ ×ˢ Icc (-δ) δ)`. The segment lemma is elementary. Each
 per-family cap bounds one jet on `R_δ` for any `δ` with `R_δ ⊆ Ω`; it is a direct application
@@ -85,7 +85,7 @@ private lemma rawDegreeFinal_cap_secondRemainder (δ : ℝ)
       g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0 p.1 p.2.1 p.2.2
       (rawDegreeFinal_segment g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 δ hRoom p hp)) N
 
-/-! ## Opaque common-room assembly (MATHEMATICS.md §1.4, §2)
+/-! ## Opaque common-room assembly
 
 Generic over the point type, the room family `R`, the locus `U`, the five pointwise
 predicates and the two real-valued jet-norm functions. One `δ` comes from the radius
@@ -156,9 +156,5 @@ theorem exists_reference_commonRadius_rawAdjointDegree_compact_caps :
       g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0 p.1 p.2.1 p.2.2 hs)
     (rawDegreeFinal_cap_gainedHigh g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0)
     (rawDegreeFinal_cap_secondRemainder g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0)
-
-/- Not claimed here (next targets): the primal-constant rewrite of the norm bound,
-[a,T] and [A,S] high mixed gains, the actual Pi mixed gains, D_Q, physical coercivity,
-Products. -/
 
 end OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.RawAdjointDegreeGainDraft

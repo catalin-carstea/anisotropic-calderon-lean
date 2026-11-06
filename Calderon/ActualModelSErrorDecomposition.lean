@@ -55,7 +55,7 @@ def nativeULowerSCrossDensity (F : smoothCompactFiniteSphereCore hO hD) (x : R3)
 local notation "Lo" => nativeULowerSCrossDensity
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data g2 hg2 dr Ar p hdr hAr q
 
-/-- Exactly Main's reserved lower S-self remainder plus the two still unestimated Root groups. -/
+/-- The reserved lower S-self remainder plus the two remaining error groups. -/
 def actualModelSUnestimatedDensity (F : smoothCompactFiniteSphereCore hO hD) (x : R3) : ℝ :=
   (‖SO F x‖^2-‖SD F x‖^2-⟪F.val x,Lead F x⟫_ℝ)+
     4*(⟪(TF F).val x,SO F x⟫_ℝ-⟪((TD F)+(ZZ F)).val x,SD F x⟫_ℝ)+2*Lo F x

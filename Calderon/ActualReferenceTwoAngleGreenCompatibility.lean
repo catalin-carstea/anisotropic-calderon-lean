@@ -5,8 +5,7 @@ import Calderon.ActualReferenceTwoAngleWeakConormalCore
 import Calderon.NativeHarmonicHalfCoarseDualPairing
 import Calderon.NativeHalfTraceRightInverse
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-Green-compatibility-v015.md. SAME actual Green and trace graphs. -/
+/-! SAME actual Green and trace graphs. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleDegreeFiniteCasimir
 import Calderon.ActualReferenceTwoAngleFirstAdjointMidpointDerivative
 import Calderon.PhysicalDegreeCasimirCompatibilitySpace
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-closed-degree-data-v119.md. Actual data, no desired gain premise. -/
+/-! Actual data, no desired gain premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set

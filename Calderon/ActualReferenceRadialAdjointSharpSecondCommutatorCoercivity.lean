@@ -11,9 +11,6 @@ import Calderon.NativeThreeHalfBoundaryMultiplierLocalSmoothness
 import Calderon.NativeBoundaryMultiplierLocalSmoothness
 import Calderon.ActualAdjointRadialSmoothMultiplierNegativeFactor
 
-/-! Exact full before-code22 inventory/expansion and38 native APIs:
-actual-radial-adjoint-sharp-second-commutator-author-oct19-v001/BEFORE-SOURCE-RECEIPT.json.
-HELD development source. All22 roots mandatory; no coercivity assertion. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter MeasureTheory Metric

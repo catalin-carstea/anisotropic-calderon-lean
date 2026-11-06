@@ -6,8 +6,7 @@ import Calderon.NativeCompletedHarmonicLiftTopology
 import Calderon.NativeHighSmoothMultiplierCompletedForcingTopology
 import Calderon.NativeHighSmoothMultiplierInverseCompletedForcingTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. Actual high gain norm smoothness on finite inverse room. -/
+/-! Smoothness in norm of the actual high gain on the finite inverse room. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

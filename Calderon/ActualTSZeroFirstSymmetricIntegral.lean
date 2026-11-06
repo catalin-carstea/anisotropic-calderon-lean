@@ -1,11 +1,8 @@
 import Calderon.ActualTSZeroFirstBilinearCaps
 import Calderon.ActualTSZeroFirstPointwise
 
-/-! Genuine weighted Green integrals for every one of the 270 original D01
-symmetric triples. Before code: ../UPFRONT.md, ../integral-UPFRONT.md and
-../weighted-API-SPEC.txt. The same original room supplies all coefficient caps.
-Root authored this factory; d01_scalar repaired canonical instance boundaries.
-Repair expansion: ../symmetric-integral-repair-UPFRONT.md; model/effort unexposed. -/
+/-! Weighted Green integrals for every one of the 270 D01 symmetric triples.
+The same room supplies all coefficient caps. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

@@ -1,6 +1,3 @@
--- PRIVATE WORKING; exact witness code approved by Root.         
--- Complete independent witness argument; no physical-coercivity proof.
--- No native/semantic/final grant; Root owns later checks.         
 import Calderon.ActualNativeValueTraceExistence
 import Calderon.CollaboratorUnitBallValueTraceKernelOct17
 import Calderon.ActualFullEPhysicalEndpoints

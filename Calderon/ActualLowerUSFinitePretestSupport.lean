@@ -1,8 +1,6 @@
 import Calderon.ActualLowerUSLowerWordAdjoints
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jq-upfront.md.
-Support preservation for the genuine finite pretests in quadratic JQ.
-Separate new source preserves earlier frozen source bytes. No compilation. -/
+/-! Support preservation for the genuine finite pretests in quadratic JQ. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

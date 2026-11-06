@@ -1,10 +1,8 @@
 import Calderon.ActualLowerUSZeroAngularLocality
 import Calderon.ActualLowerUSAdjointPresentation
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jq-upfront.md.
-Exact finite-sum reduction of the full physical zero output. The coefficient
-presentation may be selected at the point where its mass is bounded.
-Source-only pending Root's coherent qualification; no compilation by author. -/
+/-! Exact finite-sum reduction of the full physical zero output. The coefficient
+presentation may be selected at the point where its mass is bounded. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

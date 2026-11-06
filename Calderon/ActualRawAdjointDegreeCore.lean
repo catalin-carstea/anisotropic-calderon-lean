@@ -40,12 +40,12 @@ local notation "Qsharp" => referenceTwoAngleDegreeCommutatorHalfFamily
 local notation "Ω" => referenceRadialEndpointInvertibleLocus
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/-! ## Same-map normed outer view (MATHEMATICS.md §1-§2)
+/-! ## Same-map normed outer view
 
 The existing `sphereLowerDistributionalTransposeL` is packaged with the topological CLM data
 on its carrier, which `hasFDerivAt`/`contDiff` do not accept. Proof-locally we repackage the
 SAME pointwise map `sphereLowerDistributionalTranspose` with `LinearMap.mkContinuous` (bound
-`1` from `adjoint.norm_map`), exactly as in repair-api/NativeLowerTransposeDerivative.lean;
+`1` from `adjoint.norm_map`), exactly as in `Calderon.NativeLowerTransposeDerivative`;
 `hApply` is the pointwise link to the original map. -/
 
 private lemma rawDegreeLowerTranspose_hasDerivAt
@@ -145,7 +145,7 @@ private lemma rawDegreeLowerTranspose_neg_contDiffAt
     Filter.Eventually.of_forall (fun y => congrArg Neg.neg (hApply (F y)).symm)
   exact hT.congr_of_eventuallyEq hEq
 
-/-! ## Root draft (kept): negative-transpose low families and the explicit high lift -/
+/-! ## Negative-transpose low families and the explicit high lift -/
 
 def lowFamily (p : ℝ × (R3 × ℝ)) : Half →L[ℝ] NegH :=
   -sphereLowerDistributionalTranspose (Csharp p)
@@ -210,7 +210,7 @@ lemma distribution_witness (k l : Fin 3) (p : ℝ × (R3 × ℝ))
       congrArg (fun T : Half →L[ℝ] NegH => T f) ht
   have hRaw := sphereSobolev_local_rotation_derivative_distribution
     hO hD (1/2 : ℝ) (-(1/2 : ℝ)) k l Q (Ct p) (Wt k l p) hQ hCov u
-  -- Order transport at the operator level (MATHEMATICS.md §2-§3): the orders sit in the CLM
+  -- Order transport at the operator level: the orders sit in the CLM
   -- types, so `simp` cannot rewrite them; the carriers are the same fixed `lp` space.
   have hInc : ∀ (s r : ℝ) (h₁ : (1/2 : ℝ) ≤ s) (h₂ : (1/2 : ℝ) ≤ r), s = r →
       sphereSobolevInclusionL s (1/2 : ℝ) h₁ = sphereSobolevInclusionL r (1/2 : ℝ) h₂ := by
@@ -307,7 +307,7 @@ lemma contDiffAt_gainedHighFamily (p : ℝ × (R3 × ℝ)) (hp : p ∈ Ω) :
     exact contDiffAt_const.clm_comp
       ((hC.clm_comp contDiffAt_const).add ((hW k l).clm_comp contDiffAt_const))
 
-/-! ## RAW actual adjoint radial degree graph (MATHEMATICS.md §3, Theorem R)
+/-! ## RAW actual adjoint radial degree graph (Theorem R)
 
 For p in the SAME original locus: J (Gt p u) = Bhalf (Th p u) - Tl p (Bhigh u), where
 Th/Tl are the actual raw adjoint radial families. The proof tests against the raw pivot

@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalMetricNormalization
 import Calderon.PositiveConformalMetric
 
-/-! Full upfront: EXPANSION-actual-fiber-physical-coefficient-normalization-v001.json.
-Literal first-metric physical coefficient and volume retain all conformal factors. -/
+/-! Literal first-metric physical coefficient and volume retain all conformal factors. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

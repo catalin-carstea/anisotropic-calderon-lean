@@ -2,8 +2,6 @@ import Calderon.ActualReferenceTwoAngleAdjointStrongInverse
 import Calderon.NativeH2AffineStrongKernel
 import Calderon.NativeH2HarmonicAffineBoundary
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-H2-lift-v047.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

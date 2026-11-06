@@ -1,7 +1,5 @@
 import Calderon.RadiusTwoNativeSourceFoundation
 
-/-! HELD Main terminal adapter. Full upfront expansion was preserved before source.
-The actual interior metric identity remains an explicit missing Main obligation. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter TopologicalSpace

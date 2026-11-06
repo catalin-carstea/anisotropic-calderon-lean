@@ -3,8 +3,7 @@ import Calderon.NativeFiniteHarmonicProductHighTangentialGraph
 import Calderon.NativeThreeHalfUnitCoefficient
 import Calderon.ActualHighMovingBoundaryAction
 
-/-! Full upfront: actual-primal-moving-adjoint-domain-author-oct16-v001/EXPANSION-v001.md.
-Original uncompressed finite primal coordinate action; no new PDE or image premise. -/
+/-! The original uncompressed finite primal coordinate action; no PDE or image premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set

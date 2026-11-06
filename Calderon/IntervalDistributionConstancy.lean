@@ -18,8 +18,6 @@ open MeasureTheory Set Filter Topology intervalIntegral
 open scoped ContDiff
 variable {F : Type*} [NormedAddCommGroup F] [NormedSpace ℝ F]
 
-/-! Upfront expansion: EXPANSION-interval-distribution-constancy-v001.json. -/
-
 /-- **The primitive of a mean-zero test function is a test function.** If `φ : ℝ → ℝ` is smooth
 with `tsupport φ ⊆ Ioo a b` and `∫ φ = 0`, then `φ` is the derivative of a smooth compactly
 supported function `ψ` with `tsupport ψ ⊆ Ioo a b`. -/

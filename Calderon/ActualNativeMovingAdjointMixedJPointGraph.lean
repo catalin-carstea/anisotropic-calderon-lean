@@ -1,8 +1,7 @@
 import Calderon.ActualNativeMovingAdjointMixedJBound
 import Calderon.SphereSobolevZeroLiftNegativeGraph
 
-/-! Full before-source: day-oct13/actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-actual-mixed-J-all-point-graph-v068.md. Same original actual native graph. -/
+/-! The actual mixed J graph at all points: the same original actual native graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

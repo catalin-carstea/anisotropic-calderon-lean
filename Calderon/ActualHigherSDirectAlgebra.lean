@@ -1,6 +1,5 @@
 import Calderon.ActualHigherSPhysicalPairing
-/-! Typed direct-term algebra. Author source UNCOMPILED.
-Full actual before-code contract: direct-lower-upfront-v001. -/
+/-! Typed direct-term algebra. -/
 noncomputable section
 set_option autoImplicit false
 open Set Metric MeasureTheory

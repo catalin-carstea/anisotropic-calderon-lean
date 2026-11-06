@@ -1,8 +1,7 @@
 import Calderon.ClosedCoefficientMultiplier
 import Calderon.NativeSmoothOperatorRealization
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-SMOOTH-BALL-FAMILY-EXPANSION-v001.md. Same native graph elements, no chosen-jet premise. -/
+/-! The same native graph elements, without a hypothesis on chosen jets. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

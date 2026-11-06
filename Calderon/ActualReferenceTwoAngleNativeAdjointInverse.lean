@@ -3,8 +3,6 @@ import Calderon.ActualReferenceTwoAngleWeakCovariance
 import Calderon.ActualReferenceRotationPrincipalEllipticity
 import Calderon.NativeSupportedAdjointStrongInvertibility
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-native-adjoint-inverse-v031.md. Genuine SAME native adjoint inverses. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

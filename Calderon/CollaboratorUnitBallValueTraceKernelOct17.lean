@@ -2,7 +2,7 @@ import Calderon.UnitBallValueTraceKernel
 import Calderon.CollaboratorTraceKernelHelpersOct17
 import Calderon.CollaboratorSmoothDensityBallOct17
 
-/-! Task 11 (see 11-value-trace-kernel.md). The kernel of the value trace is `H¹₀(B)`.
+/-! The kernel of the value trace is `H¹₀(B)`.
 
 `(⇐)`: test-function jets are jets of globally smooth functions vanishing on the sphere, so the
 trace vanishes on them; the kernel is closed.

@@ -4,8 +4,7 @@ import Calderon.ActualTSZeroLiteralRegularity
 import Calderon.ActualTSPrincipalLowerReferenceOrders
 
 /-! Exact first-T / linear-zero-S component of original D10.
-The original quadratic component is retained explicitly and is not estimated here.
-Before-code: ../T-first-S-linear-zero-before-source-nov03-night-v001/. -/
+The original quadratic component is retained explicitly and is not estimated here. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -104,7 +103,7 @@ def firstLinearZeroCrossDensity (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : 
   4*⟪KL (TF q (UF F) x),KL (Z1 g2 dr Ar p q x (UF F x))⟫_ℝ-
     4*⟪KL (TD q (UF F) x),KL (T1 g2 dr Ar p q x (UF F x))⟫_ℝ
 
-/-- The exact remaining quadratic part, whose energy estimate is a separate obligation. -/
+/-- The exact remaining quadratic part, whose energy estimate is treated separately. -/
 def firstQuadraticZeroCrossDensity (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : ℝ)
     (F : smoothCompactFiniteSphereCore hO hD) (x : R3) : ℝ :=
   4*⟪KL (TF q (UF F) x),KL (Z2 g2 dr Ar p q F x)⟫_ℝ-

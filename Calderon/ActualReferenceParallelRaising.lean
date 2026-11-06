@@ -17,8 +17,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
   PrincipalCommutator ConformalDepth RadiusProfile SmoothAmbientAngularCasimir ReferenceDensityBounds
 
 /- Actual native reference angular connection and parallel covector-index raising.
-   Every raw composition is paid with its genuine all-degree maximal graph.
-   Source-only author candidate; ROOT alone checks and integrates. No full U/E/F claim. -/
+   Every raw composition is paid with its genuine all-degree maximal graph. -/
 
 def harmonicReferenceAngularConnection
     (g : MatrixField) (L lam : ℝ) (k : ℕ) (x X : R3) :

@@ -3,10 +3,8 @@ import Calderon.ActualLowerUSAdjointPresentation
 import Calderon.ActualLowerUSLowerWordAdjoints
 import Calderon.ActualHigherSLeadingBracketGain
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jp-upfront-v001.md.
-Exact genuine first-output contraction and complete physical J/P expansion.
-The fixed Js is identified before nonfinite physical output pairing.
-No analytic cap callback; no compiler by author. -/
+/-! The exact first-output contraction and the complete physical J/P expansion.
+The fixed Js is identified before the nonfinite physical output pairing. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -52,7 +50,7 @@ local notation "Js" => nativeULowerAdjointZeroSphereAdjointCore hO hD hF g g2 hg
 local notation "Word" => lowerQuadraticWord hO hD hF
 local notation "WordStar" => lowerQuadraticWordAdjoint hO hD hF
 
-/-- Exact physical J/P density used by the ordinary-row owner. -/
+/-- Exact physical J/P density used by the ordinary row. -/
 def nativeJPCommutatorDensity (j : Fin 3) (U V : smoothCompactFiniteSphereCore hO hD) (x : R3) : ℝ :=
   ⟪(Js U).val x,(Pout g2 dr Ar p q) j V x⟫_ℝ -
     ⟪U.val x,(Pout g2 dr Ar p q) j (J V) x⟫_ℝ

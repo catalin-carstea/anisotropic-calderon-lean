@@ -1,8 +1,5 @@
 import Calderon.ActualHighAdjointMovingBoundaryFamilyDefinition
 
-/-! Full upfront: day-oct13/actual-moving-boundary-family-author-oct15-v001/
-EXPANSION-high-moving-adjoint-split-v003.md. Same total actions/public statements;
-separate definition/equality and typed smoothness receipt boundary. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

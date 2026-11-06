@@ -5,9 +5,7 @@ import Calderon.SequenceLpNaturalStructureData
 import Calderon.InheritedNormedStructureData
 import Calderon.ClmInheritedStructureData
 
-/-! Full before-source: actual-high-first-output-domain-plan-oct16-v001/
-EXPANSION-actual-literal-paired-R2-pivot-domain-v005.md, section2.
-Literal genuine adjoint endpoints, fixed I/J Taylor transport on actual Omega. -/
+/-! Genuine adjoint endpoints, with fixed I/J Taylor transport on Omega. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

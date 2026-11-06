@@ -2,7 +2,6 @@ import Calderon.ActualReferenceConormalGreen
 import Calderon.ActualReferenceStrongWeakHalfCoherence
 import Calderon.NativeInvertibleWeakLiftUniqueness
 
-/-! Upfront expansion: EXPANSION-actual-reference-invertible-conormal-compatibility-v001.json. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

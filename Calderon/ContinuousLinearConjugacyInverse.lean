@@ -1,7 +1,6 @@
 import Mathlib.Analysis.Normed.Operator.Bilinear
 import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Invertible
 
-/-! Expanded first in EXPANSION-actual-rotation-normal-multiplier-inverse-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily

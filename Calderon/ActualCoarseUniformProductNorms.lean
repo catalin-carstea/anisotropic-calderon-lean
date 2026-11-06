@@ -1,7 +1,7 @@
 import Calderon.ActualInitialKernelUniformProductNorm
 import Calderon.ActualCoarseProductSeparation
 import Calderon.ActualCoarseProductsKnownCross
-import MixedKernelCurrentCrossBounds
+import Calderon.MixedKernelConstruction.MixedKernelCurrentCrossBounds
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

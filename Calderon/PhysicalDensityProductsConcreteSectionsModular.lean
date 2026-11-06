@@ -2,8 +2,7 @@ import Calderon.PhysicalDensityProductsOperatorSmoothness
 import Calderon.SupportedOperatorSection
 import Calderon.SphereSobolevHalfToL2
 
-/-! DATA-only concrete four-property section obligations. Upfront expansion:
-ProductsConcreteSupportedSections.EXPANSION.DATA.md. No check claimed. -/
+/-! The four properties of the concrete finite-core sections. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

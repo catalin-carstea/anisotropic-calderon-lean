@@ -1,7 +1,6 @@
 import Calderon.RadiusTwoNativeAllOrderSmoothValue
 import Mathlib.MeasureTheory.Measure.OpenPos
 
-/-! EXPANSION-local-identification.json precedes identification of the SAME selected value. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

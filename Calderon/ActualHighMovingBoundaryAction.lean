@@ -11,9 +11,8 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic NativeHarmonicLiftCompletion
   NativeCoefficientBoundaryMultiplier
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/
-EXPANSION-high-boundary-action.md. SAME actual coefficients and Dirichlet lift.
-Only the literal high/lower native endpoints and exact coarse graph are claimed. -/
+/-! SAME actual coefficients and Dirichlet lift. This file gives only the literal
+high/lower native endpoints and the exact coarse graph. -/
 
 attribute [local irreducible] referenceHarmonicLiftFamily harmonicLiftCompletion
   referenceJacobiBoundaryCoefficientJets referenceJacobiSphereCoefficient

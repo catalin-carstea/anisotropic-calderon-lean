@@ -3,8 +3,7 @@ set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic
-/-! Full upfront EXPANSION-v001.json precedes source. Two actual canonical
-projection equalities; original norm/action/topology and kernel are unchanged. -/
+/-! Two actual canonical projection equalities. -/
 
 lemma physicalDegreeCasimirCompatibleData_addCommMonoid_eq_standard
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) :

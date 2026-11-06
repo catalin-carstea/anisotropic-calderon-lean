@@ -4,8 +4,7 @@ import Calderon.ActualMetricWronskianDivergence
 import Calderon.ActualPhysicalBoundaryChainRule
 import Calderon.NativeCoefficientFluxTrace
 
-/-! Author draft. The exact endpoint and complete argument were expanded first
-in the adjacent UPFRONT.md. No harmonicity or inverse premise is used. -/
+/-! No harmonicity or inverse premise is used. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

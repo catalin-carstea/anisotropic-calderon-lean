@@ -37,7 +37,7 @@ local notation "Qsharp" => referenceTwoAngleDegreeCommutatorHalfFamily
 local notation "Ω" => referenceRadialEndpointInvertibleLocus
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/-! ## Root draft (kept): negative-transpose low families and the explicit high lift -/
+/-! ## Negative-transpose low families and the explicit high lift -/
 
 local notation "Ct" => lowFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 local notation "Wt" => rotationDerivativeFamily
@@ -49,7 +49,7 @@ local notation "Gt" => gainedHighFamily
 local notation "Gt2" => gainedHighSecondRemainder
   g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0
 
-/-! ## Typed per-family caps (MATHEMATICS.md §1.2)
+/-! ## Typed per-family caps
 
 Each cap is its own declaration, stated in this instance context, so its conclusion is
 literally the corresponding sub-formula of `exists_compact_rawAdjointDegree_jet_caps`.
@@ -90,7 +90,7 @@ private lemma rawDegreeCap_rotation (Kc : Set (ℝ × (R3 × ℝ)))
         (fun i _ => Finset.sum_nonneg (fun j _ => hMW i j)) (Finset.mem_univ k))
   exact (hWb k l n hn p hp).trans hkl
 
-/-! ## Opaque real-valued combination (MATHEMATICS.md §1.3, §2)
+/-! ## Opaque real-valued combination
 
 Generic over the point type and over the three real-valued jet-norm functions, so no
 physical term is ever destructured or re-checked. In the public theorem the implicit

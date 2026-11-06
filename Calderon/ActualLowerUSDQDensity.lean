@@ -1,8 +1,6 @@
 import Calderon.ActualLowerUSDPresentations
 
-/-! Author: GPT-6.1 Sol, author support only.
-Before-code: ../dq-density-module-boundary-upfront-v001.md.
-Exact definition-only extraction; no commutator graph or analytic bound. -/
+/-! The D/Q density, as a definition only; no commutator graph or analytic bound. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

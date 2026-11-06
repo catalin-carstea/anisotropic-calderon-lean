@@ -8,7 +8,6 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open DirichletFamily
 
-/-! Expansion: EXPANSION-native-H2-outward-trace-orthogonal-joint-v001.md, step 3. -/
 lemma sphereSobolevInclusionL_orthogonalPullback_apply
     (s t : ℝ) (hts : t ≤ s) (e : R3 ≃ₗᵢ[ℝ] R3) (u : SphereSobolev s) :
     sphereSobolevInclusionL s t hts (sphereSobolevOrthogonalPullbackL s e u) =

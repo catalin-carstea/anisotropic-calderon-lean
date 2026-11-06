@@ -9,8 +9,7 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeFullSharpHalfTrace
 
-/-! Expanded before source in EXPANSION-native-orthogonal-zero-half-trace-v001.json.
-SAME tau0 and the actual nativeH1 domain, with no H2 density assumption. -/
+/-! The same `tau0` on the native H1 domain, with no H2 density assumption. -/
 
 lemma nativeHalfTraceL_nativeH1OrthogonalPullback
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)

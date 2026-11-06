@@ -6,7 +6,7 @@ import Mathlib.Tactic
 
 /-!
 An actual high moving correction estimate from the selected weighted identity.
-The numerical current-point caps are conditional assembly inputs; this module
+The numerical current-point caps are hypotheses here; this module
 does not add hypotheses to the original uniform Products target.
 -/
 

@@ -1,7 +1,6 @@
 import Calderon.ActualLoweringEPairedEndpointConclusion
 
-/-! Complete variable-room assembly after separately checked exact geometry
-and physical projections. Getter absent; original literal boundary retained. -/
+/-! Variable-room assembly from the exact geometry and physical projections. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -117,7 +116,7 @@ theorem lowering_highRoom_paired_fields (δ0 d : ℝ)
   exact ⟨hSm.1,hSm.2,(hLowSm i j).1,(hLowSm i j).2⟩
 
 /-- Entire original endpoint conclusion on a variable original HighRoom,
-using only the already checked geometry/projections and paired-low bridge. -/
+using only the geometry/projections and the paired-low bridge. -/
 theorem lowering_paired_endpointConclusion_of_high_room (δ0 d : ℝ)
     (P : LoweringEHighRoom
       g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 δ0 d) :
@@ -132,8 +131,8 @@ theorem lowering_paired_endpointConclusion_of_high_room (δ0 d : ℝ)
     P.left P.right Ll Rl
     (lowering_highRoom_paired_fields g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 δ0 d P Ll Rl hLowSm hLowFacts hCaps)
 
-/-- Literal original public existential boundary; statement byte-identical to
-Assembly012, with only one application to the named-conclusion theorem. -/
+/-- The public existential form, obtained by one application of the
+named-conclusion theorem. -/
 theorem exists_retained_lowering_E_paired_endpoints_of_high_room
     (δ0 d : ℝ) (P : LoweringEHighRoom
       g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 δ0 d) :

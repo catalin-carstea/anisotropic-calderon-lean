@@ -10,10 +10,7 @@ import Calderon.SphereSobolevPairingInclusion
 import Calderon.ActualReferenceLowerBoundaryTranspose
 import Calderon.ActualReferenceAdjointRadialSignedRemainder
 
-/-! DRAFT NOT CHECKED (claude-actual-Pi-mixed-low-2026-10-29-v016, Claude Opus 5.5, author only,
-nothing compiled or run). Before-source mathematics: output/MATHEMATICS.md.
-
-Contents:
+/-! Contents:
 * §1 `v016TransposeL`: the continuous linear Riesz transpose `(Hi→Half) →L (Neg→H^{-3/2})`, its
   exact pairing identity, and `‖Dᵗ‖ ≤ ‖D‖`.
 * §2 Lemma A: a paired adjunction (repository pairing, no extra factor) gives balanced endpoint
@@ -21,11 +18,9 @@ Contents:
 * §3 a generic family theorem. Given smooth `C, D` on a UniqueDiffOn `S` with the adjunction on `S`,
   it builds the canonical low endpoint with `ContDiffOn ∞`, the upper graph `C_l ∘ IH = JL ∘ C`, the
   lower (weak) graph, and the midpoint norm. It uses only the relative kernel restriction.
-* §4 the uniform cap combiner over `i k` and two lower maps (v015 Lemma K).
+* §4 the uniform cap combiner over `i k` and two lower maps.
 * §5 the generic algebraic mixed adjunction `[a,TΠ]^† = [ΠS,A]` from the primitive identities,
-  plus the ACTUAL primitives (Tt), (Tc), (Sc) proved from exposed sources on the room.
-NOT claimed: the actual instantiation for v015's maps (it needs the primitives listed in
-MISSING-SOURCES.md), D_Q, absorption, coercivity, Main. -/
+  plus the actual primitives (Tt), (Tc), (Sc) proved on the room. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -50,7 +45,7 @@ local notation "I31" => sphereSobolevInclusionL (3/2 : ℝ) (-(1/2 : ℝ)) (by n
 local notation "I33" => sphereSobolevInclusionL (-(1/2 : ℝ)) (-(3/2 : ℝ)) (by norm_num)
 local notation "PP" => sphereSobolevDualPairing (1/2 : ℝ)
 
-/-! ### §5b ACTUAL primitives (Tt), (Tc), (Sc) on the room, from exposed sources -/
+/-! ### §5b Actual primitives (Tt), (Tc), (Sc) on the room -/
 
 variable (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)
   (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)

@@ -10,8 +10,7 @@ open Set
 open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic ClosedScalarCompatibility DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json. Universal original-space proof caches:
-normalize BEFORE any actual constraint family; inferred proof types are printed. -/
+/-! Universal original-space proof caches: normalize before any actual constraint family. -/
 
 def physicalDegreeCasimirRestrictionCoeNormalizedCache
     {X I : Type*} [NormedAddCommGroup X] [NormedSpace ℝ X] := id (by

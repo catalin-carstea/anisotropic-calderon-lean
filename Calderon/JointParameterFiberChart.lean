@@ -5,8 +5,7 @@ import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Invertible
 import Mathlib.Topology.Algebra.Module.Equiv.Basic
 import Mathlib.Tactic
 
-/-! Source-only generic joint chart construction. Full expansion C1--C3 and
-exact typed interfaces were sealed before authoring. ROOT owns checking. -/
+/-! Generic joint chart construction. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

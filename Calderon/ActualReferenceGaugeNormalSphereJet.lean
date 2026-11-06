@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceGaugeBoundaryCoefficientFamilies
 import Calderon.LocalSphereCurrying
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-native-boundary-multiplier-firstjet-v065.md. Sup-norm scalar boundary
-jet from the actual joint scalar field and compact sphere currying. -/
+/-! Sup-norm scalar boundary jet from the joint scalar field and compact sphere
+currying. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -4,8 +4,6 @@ set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 
-/-! Upfront expansion: EXPANSION-native-coefficient-weak-half-lift-factoring-repair-v001.json. -/
-
 variable {U V X : Type*} [NormedAddCommGroup U] [NormedSpace ℝ U]
   [NormedAddCommGroup V] [NormedSpace ℝ V]
   [NormedAddCommGroup X] [NormedSpace ℝ X]

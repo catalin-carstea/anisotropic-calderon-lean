@@ -11,8 +11,6 @@ open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap SphereHarmonic
   NativeCoefficientBoundaryMultiplier NativeBoundaryCoefficientFamilies NativeBoundaryNormalMultiplierInverse
 variable {H : Type} [NormedAddCommGroup H] [NormedSpace ℝ H] [FiniteDimensional ℝ H]
 
-/-! Expanded before source in EXPANSION-native-parameterized-boundary-multiplier-topology-v001.json. -/
-
 theorem exists_compact_contDiffOn_norm_bound
     {E V : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
     [NormedAddCommGroup V] [NormedSpace ℝ V]

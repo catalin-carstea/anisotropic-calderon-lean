@@ -4,9 +4,7 @@ import Calderon.ActualHigherSCoordinateWeightBounds
 import Calderon.ActualFiniteHarmonicModelBAngularPartUniform
 
 /-!
-GPT-6.1 Sol authoring support. The before-code expansion is
-lower-u-s-nov03-v001/first-row-expansion.md. This module concerns only
-the second-base lower U/S weak row, with full physical E coefficients.
+The second-base lower U/S weak row, with full physical E coefficients.
 -/
 set_option autoImplicit false
 set_option Elab.async false

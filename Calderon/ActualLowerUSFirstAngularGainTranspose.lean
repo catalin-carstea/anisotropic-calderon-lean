@@ -2,10 +2,8 @@ import Calderon.ActualLowerUSFirstAngularGainPair
 import Calderon.ActualLowerUSSecondRow
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-gain-transpose-upfront.md.
 Actual lower transpose of the same gain, true-adjoint high compatibility,
-and a producer with original parameter order and no cap callbacks.
+and a construction with the original parameter order and no cap hypotheses.
 -/
 set_option autoImplicit false
 set_option Elab.async false

@@ -1,7 +1,6 @@
 import Calderon.NativeCoordinateEnergyCancellation
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION.md. Arbitrary smooth bulk multiplication, with its actual gradient.
+/-! Arbitrary smooth bulk multiplication, with its gradient.
 No trace-kernel converse, strong defect gain, or boundary commutator is assumed. -/
 set_option autoImplicit false
 noncomputable section

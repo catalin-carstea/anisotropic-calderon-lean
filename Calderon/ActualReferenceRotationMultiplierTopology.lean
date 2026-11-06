@@ -14,8 +14,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Upfront expansion and full dependency plan: EXPANSION-actual-rotation-native-conormal-topology-v001.json.
-These actual multiplier topologies are derived from true coefficient jets, not boundary group opnorm topology. -/
+/-! These actual multiplier topologies are derived from true coefficient jets, not boundary group opnorm topology. -/
 
 def referenceRotationPrincipalMultiplierFamily (hcalc : FixedSobolevCalculus)
     (k : ℕ) (i j m n : Fin 3) (t : ℝ × (ℝ × (R3 × ℝ))) :

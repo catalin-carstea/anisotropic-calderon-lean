@@ -9,8 +9,6 @@ open scoped ENNReal Gradient
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic NativeHalfSmoothMultiplier
 
-/-! Upfront expansion: EXPANSION-actual-coordinate-defect-closure-joint-v001.md. -/
-
 theorem coordinateSmoothDatum_eq_smoothPolynomialData (k : Fin 3) :
     coordinateSmoothDatum k = smoothPolynomialData (X k) := by
   apply Subtype.ext

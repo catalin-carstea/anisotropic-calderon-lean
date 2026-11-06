@@ -1,6 +1,6 @@
 import Calderon.NativeValueRadialTrace
 
-/-! Source-only actual coordinate trace/first-variation geometry. All identities
+/-! Actual coordinate trace/first-variation geometry. All identities
 come from the native smooth coordinate derivative and the literal explicit
 zero-boundary polynomial; no boundary tangential trace premise is introduced. -/
 set_option autoImplicit false

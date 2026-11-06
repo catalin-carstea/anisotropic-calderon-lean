@@ -3,11 +3,7 @@ import Calderon.MetricHessianDivergence
 import Calderon.FixedExteriorSourceBall
 
 /-!
-UNADOPTED SOURCE-RESEARCH DRAFT. These are proposition definitions only. No
-inhabitant, axiom, proved source-separation assertion, or new Main hypothesis
-is introduced here. EXPANSION.json records the source and applicability map.
-This file has not been compiled. The parent must register exact inputs and
-obtain the configured independent applicability reviews before adoption.
+These are proposition definitions only. No inhabitant or axiom is introduced here.
 -/
 
 set_option autoImplicit false
@@ -33,17 +29,17 @@ def IsRadiusTwoSmoothSourceResponse
           (smoothRadiusTwoForcing ⟨(f : R3 → ℝ), f.contDiff⟩) : RadiusTwoH1) : R3 → ℝ)) ∧
     (∀ x : R3, ‖x‖ = 2 → response f x = 0)
 
-/-- A REQUIRED PROOF TARGET to prevent a vacuous separation application.
-The preferred proof uses the CURRENT regularity interfaces, patched interior
-representatives and the already checked Euclidean-collar boundary barrier.
-This proposition is NOT proposed as an additional literature assumption. -/
+/-- Existence of a smooth source response from the regularity interfaces; it rules
+out a vacuous separation application. The proof uses the regularity interfaces,
+interior representatives and the Euclidean-collar boundary barrier.
+This proposition is not a literature assumption. -/
 def RadiusTwoSmoothSourceResponseFromRegularity : Prop :=
   FixedDirichletRegularity → FixedSobolevCalculus →
     ∀ (g : MatrixField) (hg : IsAdmissibleMetric g),
       ∃ response : 𝓓(fixedExteriorSourceOpens, ℝ) → R3 → ℝ,
         IsRadiusTwoSmoothSourceResponse g hg response
 
-/-- Candidate exact A.7(a,b) consequence, with same native response witnesses.
+/-- The exact A.7(a,b) consequence, with same native response witnesses.
 Nonzero evaluation at an interior point is a separate consequence of part (a)
 by selecting a boundary point, where the response predicate gives zero. -/
 def RadiusTwoSourceSeparation : Prop :=
@@ -71,7 +67,7 @@ def nativeMetricJetFunctional (g : MatrixField) (p : R3)
       ξ (coordinateVector j) +
     principalCoefficient g p i j * H (coordinateVector i) (coordinateVector j)))
 
-/-- Candidate coordinate consequence of A.5 on a local ball with its full
+/-- The coordinate consequence of A.5 on a local ball with its full
 boundary as Gamma. No source-generated 2-jet endpoint is assumed here. -/
 def LocalMetricHarmonicTwoJets : Prop :=
   ∀ (g : MatrixField) (hg : IsAdmissibleMetric g) (p : R3) (r : ℝ),
@@ -82,9 +78,9 @@ def LocalMetricHarmonicTwoJets : Prop :=
         (∀ x ∈ ball p r, nativeMetricDifferential g u x = 0) ∧
         u p = a ∧ fderiv ℝ u p = ξ ∧ fderiv ℝ (fderiv ℝ u) p = H
 
-/-- Candidate A.6 specialized to smooth harmonic targets in native H^5.
+/-- A.6 specialized to smooth harmonic targets in native H^5.
 The Sobolev-to-jet evaluation map and finite-dimensional closed-range
-argument are NOT part of this premise; they remain proofs to implement.
+argument are not part of this statement.
 The geometric connected-complement and disjoint-closure conditions are
 retained literally and must be established at each application. -/
 def RadiusTwoSmoothTargetSourceRunge : Prop :=

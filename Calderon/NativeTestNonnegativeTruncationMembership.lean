@@ -1,7 +1,6 @@
 import Calderon.NativeTestNonnegativeTruncationValues
 import TauCeti.Analysis.Sobolev.W1p.CompactSupport
 
-/-! See upfront EXPANSION.json for exact proof partition and unaccepted prior receipt. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

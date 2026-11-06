@@ -5,9 +5,8 @@ import Calderon.ActualLowerUSZeroDerivativeGraph
 import Calderon.ActualHigherSCoordinateWeightBounds
 import Calderon.ActualHigherSZeroCoefficientFactorisation
 
-/-! Author GPT-6.1 Sol. Before-code ../lower-r-z-ordinary-rows-upfront.md.
-Actual ordinary R/Z products. Original native factories, true sphere adjoints,
-all scalar terms, and original profile caps are retained. No author compiler.
+/-! Actual ordinary R/Z products. Original native factories, true sphere adjoints,
+all scalar terms, and original profile caps are retained.
 -/
 set_option autoImplicit false
 set_option Elab.async false

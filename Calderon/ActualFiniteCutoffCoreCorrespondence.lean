@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteCoreSobolevLift
 import Calderon.SphereSobolevPartialSumOperator
 
-/-! Before-source expansion: actual-finite-cutoff-core-author-oct16-v001/EXPANSION-v001.md.
-The original compact smooth cutoff, with no moving-output image assumption. -/
+/-! The original compact smooth cutoff, with no moving-output image assumption. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff ENNReal

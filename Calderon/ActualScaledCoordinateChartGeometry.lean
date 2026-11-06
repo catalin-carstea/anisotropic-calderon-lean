@@ -1,5 +1,5 @@
 import Calderon.ActualCoordinateChartSeparation
-import TaskInterface
+import Calderon.MixedKernelConstruction.TaskInterface
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

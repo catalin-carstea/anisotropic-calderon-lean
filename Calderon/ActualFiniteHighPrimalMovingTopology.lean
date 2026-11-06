@@ -1,7 +1,6 @@
 import Calderon.ActualFiniteHighPrimalMoving
 
-/-! Full upfront: actual-primal-moving-adjoint-domain-author-oct16-v001/EXPANSION-v001.md.
-Primal moving coefficients act on the LEFT, on the SAME original finite input. -/
+/-! Primal moving coefficients act on the left, on the same finite input. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

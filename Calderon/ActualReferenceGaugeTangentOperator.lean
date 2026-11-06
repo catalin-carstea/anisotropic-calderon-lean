@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeTangentEndpoint
 import Calderon.ActualReferenceGaugeTangentRadialRemainder
 import Calderon.NativeBoundaryMultiplierLocalSmoothness
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/
-EXPANSION-factorization-v001.md. Sphere-only cancellation, SAME actual coefficients. -/
+/-! Sphere-only cancellation, SAME actual coefficients. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

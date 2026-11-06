@@ -1,8 +1,6 @@
 import Calderon.ActualLowerUSWeakAngularWords
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-quadratic-leibniz-upfront.md.
 One narrowly typed weak two-word telescoping identity. The concrete producer
 must supply its graph identities from actual same-germ endpoint rooms.
 -/

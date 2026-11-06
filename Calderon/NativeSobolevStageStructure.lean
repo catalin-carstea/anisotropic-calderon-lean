@@ -1,7 +1,6 @@
 import Calderon.NativeStrongDirichletInverseForcingComposition
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-SOBOLEV-STAGE-STRUCTURE-EXPANSION-v001.md. Same stored native graph structures, no stage expansion. -/
+/-! The stored native graph structures, with no stage expansion. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

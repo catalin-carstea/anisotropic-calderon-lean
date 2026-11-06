@@ -11,8 +11,7 @@ open EnergyBridge DirichletFamily ExteriorSource Literature SphereHarmonic Confo
 attribute [local irreducible] NativeFinitePhysicalCoerciveBound
 
 /-- A sufficient cofinal finite physical estimate, restricted to source-matched
-carriers of the literal ordered original metric pair. It is an unproved
-conditional input, not a literature adoption. Constants may depend on the
+carriers of the ordered original metric pair. Constants may depend on the
 carrier, cover, ordered geometric parameters, and the eventual cutoff, but
 are fixed before the final dilation and shrinking radius. -/
 def OriginalPairFinitePhysicalCoercivity

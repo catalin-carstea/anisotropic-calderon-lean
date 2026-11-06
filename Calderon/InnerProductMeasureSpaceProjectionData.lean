@@ -1,8 +1,6 @@
 import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
-/-! Before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-inner-product-measure-space-proof-data-v101.md.
-Only inherited measurable-space data and proof-coherent volume projections. -/
+/-! Only inherited measurable-space data and proof-coherent volume projections. -/
 set_option autoImplicit false
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 

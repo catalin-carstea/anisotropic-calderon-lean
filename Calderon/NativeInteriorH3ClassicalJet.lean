@@ -1,8 +1,7 @@
 import Calderon.NativeInteriorH2ContinuousRepresentative
 import Calderon.LocalContinuousWeakDerivativeClassical
 
-/-! Full upfront: EXPANSION-native-interior-H3-classical-jet-v001.json.
-Native H3 yields an actual local continuous classical first jet; no C∞ claim. -/
+/-! Native H3 yields an actual local continuous classical first jet; no C∞ claim. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter Metric TopologicalSpace

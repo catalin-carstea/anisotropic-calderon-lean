@@ -1,7 +1,6 @@
 import Calderon.ActualHigherSCoefficientExtraction
 
-/-! Forward-only exact native source constructor transport. Author source;
-conditional until focused/native/closure checking. No reverse or zero split. -/
+/-! Forward-only exact native source constructor transport. No reverse or zero split. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

@@ -13,8 +13,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
   ScalarBaseAdjoint PrincipalCommutator ReferenceDensityBounds NaturalAngularAdjoint
   ActualUnboundedFirstPrincipalFormBound ActualPerturbedDefect SmoothMetricFrame ConformalDepth RadiusProfile
 
-/- Source-only native graph-domain adjunction. The input expansion was sealed
-   before this proof-body candidate. Raw W1/W2 are never declared L2 bounded. -/
+/- Native graph-domain adjunction. Raw W1/W2 are never declared L2 bounded. -/
 
 lemma spectralGraph_preserving_inner_adjoint
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

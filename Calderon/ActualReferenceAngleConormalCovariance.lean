@@ -12,8 +12,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic NativeHarmonicH1LiftCompletion SmoothSphereRotation
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Full original expansion and focused repair: EXPANSION-v003.json.
-No invariance or symmetry of the actual drift energy is assumed. -/
+/-! No invariance or symmetry of the actual drift energy is assumed. -/
 
 attribute [local irreducible] nativeZeroCoefficientEnergyL
   referenceWeakDirichletEnergyFamily referenceRotationWeakDirichletEnergyFamily

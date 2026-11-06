@@ -18,17 +18,13 @@ import Calderon.ActualHorizontalGeometry
 import Calderon.ReferenceRadiusScaling
 import Calderon.ActualScalarPrincipalAdjoint
 
-/-! Source-only authors: Opusv038 (formation) and Opusv039 (API repair + membership-only uniform
-contract), 29 October 2026. UNCOMPILED.
-Before-source mathematics: HIGHER-S-FORMATION-MATHEMATICS.md (same output directory).
-Actual higher-S output formation only: explicit degree-based Hi lift (Sol Bessel lemmas),
+/-! Actual higher-S output formation: explicit degree-based Hi lift (Bessel lemmas),
 global value identity by cases on support, smooth/support glue, literal Second/Angular/Double
 Half fields, literal negative graph, actual SphereL2 output, support and weighted
-integrability. v039: Gamma smoothness via the checked joint connection API, qualified radius
-APIs, log-derivative with `hg`, and the final contract `higherSUniformFormationContract_proof`
-whose room witnesses precede every profile parameter and whose only geometric premise on the
-input is `T(x) ∈ ParamRoom δ` on the input support.
-NOT proved here: signed S estimate, reverse/Sdag, coercivity, Main. -/
+integrability. Gamma smoothness comes from the joint connection API, the log-derivative uses
+`hg`, and the final contract `higherSUniformFormationContract_proof` has room witnesses that
+precede every profile parameter and whose only geometric premise on the input is
+`T(x) ∈ ParamRoom δ` on the input support. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -65,7 +61,7 @@ lemma finiteCoreSobolevLift_eq_zero_of_eq_zero (s t : ℝ)
   rw [sphereSobolevCoefficientL_finiteCoreSobolevLift,
     ← sphereSobolevCoefficientL_finiteCoreSobolevLift hO hD t G x k, h, map_zero, map_zero]
 
-/-- Pointwise zero input gives zero lift (v039: by coefficients, no unfolding of the lift). -/
+/-- Pointwise zero input gives zero lift (by coefficients, without unfolding the lift). -/
 lemma finiteCoreSobolevLift_eq_zero_of_eval (s : ℝ)
     (G : smoothCompactFiniteSphereCore hO hD) (x : R3) (h : G.val x = 0) :
     finiteCoreSobolevLift hO hD s G x = 0 := by
@@ -148,7 +144,7 @@ lemma referenceHighWeightedHorizontalAction_eq_zero_of_eventually (g : MatrixFie
         (sphereSobolevShiftedDegreeL (3/2 : ℝ) (V z) : Half) = 0
   simp only [hd, hz, ContinuousLinearMap.zero_apply, map_zero, smul_zero, add_zero]
 
-/-- Gamma smoothness from the checked joint connection API (v039; no invented field lemma). -/
+/-- Gamma smoothness from the joint connection API. -/
 lemma contDiff_referenceGramConnectionSlice (g : MatrixField) (hg : IsAdmissibleMetric g)
     (L q : ℝ) (i j k : Fin 3) :
     ContDiff ℝ ∞ (fun y : R3 => referenceFrameConnectionCoefficient g L q y
@@ -352,7 +348,7 @@ lemma contDiff_higherSParam : ContDiff ℝ ∞ T := by
   exact (contDiff_const.prodMk (contDiff_id.prodMk hR)).prodMk
     (hR.fderiv_right (m := ∞) (by simp))
 
-/-- v039: the three geometric fields of `HigherSRoomAt` from parameter-room membership ALONE,
+/-- The three geometric fields of `HigherSRoomAt` from parameter-room membership ALONE,
 using the original segment lemma on `commonRoom δ0 ⊆ Ω` and the original guard's JacobiInv. -/
 lemma higherSRoomAt_of_mem_paramRoom (δ0 δ dG : ℝ) (hδ0 : δ ≤ δ0) (hδG : δ ≤ dG)
     (hΩ0 : commonRoom y0 ρ δ0 ⊆ Ω)
@@ -439,7 +435,7 @@ lemma higherSLift_eventually_zero (hreg : FixedDirichletRegularity) (δ0 : ℝ) 
 
 attribute [local irreducible] canonicalHigh canonicalLow generatorEHigh sphereSobolevInclusionL
 
-/-- Exact Sol Bessel mechanism at one room point: `I V_j = Ehi_j u`. -/
+/-- Exact Bessel mechanism at one room point: `I V_j = Ehi_j u`. -/
 lemma higherSLift_inclusion_of_graph (hreg : FixedDirichletRegularity) (δ0 : ℝ)
     (W : CoeffRoom δ0) (F0 : smoothCompactFiniteSphereCore hO hD) (j : Fin 3) (x : R3)
     (hGraph : ∀ v : Hi, JL (CGE hreg δ0 W (Sum.inr ()) j (T x) v) =
@@ -471,7 +467,7 @@ lemma movingQuotient_eq_canonical_of_room (hreg : FixedDirichletRegularity)
     (by rw [mem_closedBall, dist_eq_norm]; exact hx.1)
     (ne_of_gt (referenceRadius_pos δr Ar p L x hδr hAr)) hx.2.1 hx.2.2.1 i
 
-/-- Original low quotient on included data, via the checked compatibility. -/
+/-- Original low quotient on included data, via the compatibility. -/
 lemma lowerQuotient_inclusion_of_room (hreg : FixedDirichletRegularity)
     (hq : q ∈ Icc (0 : ℝ) 1) (δ : ℝ) (x : R3) (hx : Room δ x) (i : Fin 3) (v : Hi) :
     LQ q RR x i (IH v) = JL (EH i (T x) v) := by
@@ -870,7 +866,7 @@ theorem integrable_density_nativeHigherSOut (hreg : FixedDirichletRegularity) (�
     ((contDiff_referenceDensityFamily g hg L).continuous.comp
       (continuous_const.prodMk continuous_id))
 
-/-! ### v039: bundled per-profile output conclusions -/
+/-! ### Bundled per-profile output conclusions -/
 
 /-- Every actual output claim for one profile and one finite input (no finiteness of output,
 no cut, no callback): Hi identity/CDF/support, Half CDF, Half and SphereL2 negative graphs,
@@ -916,9 +912,9 @@ theorem higherSOutputConclusions_of_facts (hreg : FixedDirichletRegularity)
     integrable_density_nativeHigherSOut hF hO hD g L y0 Φ B ε C ρ H a w hData hg hcalc τ0
       δr Ar p hδr hAr q hreg δ0 W δ hFacts g2 hg2 F0 hRoom⟩
 
-/-! ## 4. Discharging the parent facts on ONE common room (v038 profile-dependent form) -/
+/-! ## 4. Discharging the parent facts on ONE common room (profile-dependent form) -/
 
-/-- Folded v038 contract (kept). It is profile-dependent: δr Ar p q are section variables.
+/-- Folded contract. It is profile-dependent: δr Ar p q are section variables.
 The stronger uniform, membership-only contract is `HigherSUniformFormationContract` below. -/
 def HigherSFormationContract (hreg : FixedDirichletRegularity) (hq : q ∈ Icc (0 : ℝ) 1)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) : Prop :=
@@ -995,7 +991,7 @@ theorem higherSFormationContract_proof (hreg : FixedDirichletRegularity)
 
 end Formation
 
-/-! ## 5. v039 FINAL: uniform room before profile, membership-only input premise -/
+/-! ## 5. Uniform room before profile, membership-only input premise -/
 
 /-- Room witnesses `δ0, W, δ` are chosen from the original geometry ONLY; then for EVERY
 radius profile `(δr,Ar,p)`, every `q ∈ [0,1]` and every finite input `F0` whose profile map

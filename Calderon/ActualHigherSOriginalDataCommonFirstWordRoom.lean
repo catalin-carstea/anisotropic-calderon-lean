@@ -1,9 +1,8 @@
 import Calderon.ActualLowerSSelfFormation
 import Calderon.ActualCommonFirstWordQuadraticAdjoint
 
-/-! Original-data specialization of the already native common first-word room producer.
-No new room, germ, estimate, norm, or analytic premise is supplied. Source-only
-structural repair; all source/API/body/norm/literature37/model holds remain. -/
+/-! Original-data specialization of the native common first-word room.
+No new room, germ, estimate, norm, or analytic premise is introduced. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

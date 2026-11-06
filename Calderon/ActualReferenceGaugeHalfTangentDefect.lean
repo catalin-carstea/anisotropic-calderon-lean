@@ -3,8 +3,7 @@ import Calderon.ActualReferenceGaugeAdjointIdentity
 import Calderon.ActualReferenceGaugeNormalHalfCommutator
 import Calderon.ActualReferenceGaugeTangentOperator
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-half-tangent-defect-v018.md. SAME actual operators, right inverse. -/
+/-! SAME actual operators, right inverse. -/
 set_option autoImplicit false
 noncomputable section
 open Set

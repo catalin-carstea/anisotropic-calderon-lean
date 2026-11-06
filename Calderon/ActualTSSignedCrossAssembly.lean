@@ -4,7 +4,7 @@ import Calderon.ActualTSZeroLiteralIntegral
 import Calderon.ActualZSAdjointFixedDataIntegral
 import Calderon.ActualTSFullLowerAssembly
 
-/-! Exact original signed T/S assembly, explicitly conditional on original D01 until third delivery. -/
+/-! Signed T/S assembly, taking the D01 integral estimate as a hypothesis. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -130,7 +130,7 @@ private lemma profile_integral_bound_add {f₁ f₂ : Row} (h₁ : PB f₁) (h�
 local notation "BA" => profile_integral_bound_add
   hF hO hD g L y0 Φ B ε C ρ H a w hData hg hcalc τ0 Room hreg data
 
-/-- Exact original lower T/S estimate, pending only the third thread's literal D01. -/
+/-- The lower T/S estimate, from the D01 integral estimate. -/
 theorem original_lower_TS_integral_bound_of_D01
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
@@ -154,8 +154,8 @@ theorem original_lower_TS_integral_bound_of_D01
       Room hreg data g2 dr Ar p hdr hAr q F x
   exact hEq.symm ▸ hAll
 
-/-- Complete physical signed T/S assembly CONDITIONAL on the exact original D01
-integral estimate. No D01 proof or acceptance is asserted by this theorem. -/
+/-- Complete physical signed T/S assembly, taking the D01 integral estimate as a
+hypothesis. -/
 theorem original_signed_TS_integral_bound_of_D01
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)

@@ -4,9 +4,7 @@ import Mathlib.Analysis.Calculus.BumpFunction.Convolution
 import Mathlib.Analysis.Calculus.UniformLimitsDeriv
 import Mathlib.Analysis.SpecificLimits.Basic
 
-/-! Full upfront: EXPANSION-continuous-weak-derivative-classical-v001.json.
-Explicit mollification derives a classical derivative from continuous weak data.
-Actual native compact localization/AE reconstruction remains to be specialized. -/
+/-! Explicit mollification derives a classical derivative from continuous weak data. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Filter Set Metric ContinuousLinearMap TopologicalSpace

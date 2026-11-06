@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeTangentHighMultiplierCommutator
 import Calderon.NativeOrderOneCoefficientMultiplierTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-TANGENT-MULTIPLIER-TOPOLOGY-EXPANSION-v001.md. Exact compact actual coefficient topology. -/
+/-! Exact compact actual coefficient topology. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

@@ -2,8 +2,7 @@ import Calderon.SphereSobolevTangentialEndpointCompatibility
 import Calderon.ActualConformalGramAngularVelocity
 import Calderon.ActualHorizontalGraph
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/EXPANSION.md.
-Actual reference connection on the compatible high/half/negative endpoints. -/
+/-! Actual reference connection on the compatible high/half/negative endpoints. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

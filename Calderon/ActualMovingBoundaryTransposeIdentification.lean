@@ -9,9 +9,6 @@ open Set MeasureTheory
 open scoped ContDiff ENNReal InnerProductSpace Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/
-EXPANSION-adjoint-moving-transpose-identification.md. -/
-
 attribute [local irreducible] sphereSobolevRadialDriftL
 
 theorem sphereSobolevDualPairing_linearCoordinate_half_duality

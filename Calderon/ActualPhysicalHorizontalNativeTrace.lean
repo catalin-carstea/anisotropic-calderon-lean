@@ -2,8 +2,7 @@ import Calderon.ActualPhysicalNativeTraceFamilies
 import Calderon.ActualHorizontalNativeTraceGraph
 import Calderon.ActualNativeMovingRadiusTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-PHYSICAL-HORIZONTAL-GRAPH-EXPANSION-v001.md. Same endpoint and native horizontal trace. -/
+/-! Same endpoint and native horizontal trace. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

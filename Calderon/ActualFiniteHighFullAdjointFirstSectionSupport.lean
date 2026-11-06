@@ -1,7 +1,6 @@
 import Calderon.ActualFiniteHighFullAdjointFirstSection
 
-/-! Full AUTHOR upfront: actual-primal-moving-adjoint-domain-author-oct16-v001/
-EXPANSION-same-section-support-global-v008.md. SAME explicit uncompressed Y section. -/
+/-! Support of the explicit uncompressed Y section. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

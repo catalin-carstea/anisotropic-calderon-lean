@@ -1,10 +1,7 @@
 import Calderon.ActualSFirstPhysicalDictionary
 import Calderon.ActualLowerSSelfPhysicalDecomposition
 
-/-! Exact original S-zero physical dictionary.
-Before-code: ../S-zero-physical-dictionary-before-source-nov03-night-v001/.
-This is retained T/S interface matching; no new S-self or coercivity proof.
--/
+/-! The S-zero physical dictionary: matching of the T/S interface. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

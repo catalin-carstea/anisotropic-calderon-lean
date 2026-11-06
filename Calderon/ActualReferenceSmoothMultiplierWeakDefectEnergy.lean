@@ -1,8 +1,7 @@
 import Calderon.NativeSmoothMultiplierEnergyCancellation
 import Calderon.ActualReferenceCoordinateDefectGain
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION.md. The actual arbitrary smooth multiplier weak defect and its exact
+/-! The actual arbitrary smooth multiplier weak defect and its exact
 energy graph. This module does not assert that the defect is in H1_0 or H2. -/
 set_option autoImplicit false
 noncomputable section

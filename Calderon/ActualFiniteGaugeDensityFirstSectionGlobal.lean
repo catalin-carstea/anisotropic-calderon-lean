@@ -1,8 +1,8 @@
 import Calderon.ActualFiniteGaugeDensityFirstSectionSupport
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-GAUGE-DENSITY-FIRST-SECTION-GLOBAL-UPFRONT-v001.md. SAME eta, common choices before cutoff. -/
+/-! The global first section of the actual gauge density, with the same eta and common choices
+made before the cutoff. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

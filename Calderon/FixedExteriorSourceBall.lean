@@ -1,7 +1,6 @@
 import Calderon.ActualTwoMetricCommonExteriorResponse
 import Calderon.MetricVolumeTestEquiv
 
-/-! The full upfront expansion precedes this literal fixed-source geometry. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric TopologicalSpace

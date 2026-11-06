@@ -5,8 +5,7 @@ import Calderon.ClmInheritedStructureData
 import Calderon.ClmNaturalStructureData
 import Calderon.SubmoduleRealNaturalStructureData
 
-/-! Exact canonical native weak operator structures. Full upfront:
-weak-native-instance-repair-author-oct16-v001/EXPANSION-native-header-partition-v014.md. -/
+/-! Exact canonical native weak operator structures. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

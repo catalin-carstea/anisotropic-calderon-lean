@@ -2,7 +2,6 @@ import Calderon.ActualTSZeroWeightedScalar
 import Calderon.ActualHigherSQuadraticZeroNegativeProfileGraphs
 
 /-!
-Before-code: ../T-S-L00-weighted-assembly-before-source-nov03-night-v001/.
 Original quadratic S forward/reverse negative-value budget, needed for the
 retained raw T-adjoint correction. No quadratic Hi->Half cap is asserted.
 -/

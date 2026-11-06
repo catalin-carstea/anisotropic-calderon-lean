@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSFirstPhysicalCommutatorGraph
 
-/-! Author-support GPT-6.1 Sol; before-code ../gained-jp-upfront-v001.md.
-Single public factory for the genuine selected physical first-coordinate P_j.
-No output finiteness or analytic hypothesis. No compiler by author. -/
+/-! A single public construction of the genuine physical first-coordinate P_j,
+without output finiteness or analytic hypotheses. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

@@ -1,8 +1,8 @@
 import Calderon.ActualFiniteGaugeAdjointRadialFamily
 import Calderon.NativeRepackedCoefficientMultiplierTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-GAUGE-ADJOINT-VALUE-GRAPH-TOPOLOGY-EXPANSION-v001.md. Derive SAME moving coefficient norm topology. -/
+/-! The finite-gauge adjoint value-graph topology, derived from the same moving coefficient norm
+topology. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

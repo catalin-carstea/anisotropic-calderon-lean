@@ -1,7 +1,6 @@
 import Calderon.SequenceLpInheritedStructureData
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-SEQUENCE-LP-EXPLICIT-NATURAL-STRUCTURE-EXPANSION-v001.md. Explicit existing natural constructors, no replacement structures. -/
+/-! Explicit existing natural constructors, no replacement structures. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ENNReal

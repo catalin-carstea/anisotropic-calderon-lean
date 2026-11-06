@@ -1,8 +1,7 @@
 import Calderon.ClmNaturalStructureData
 import Mathlib.Analysis.InnerProductSpace.Basic
 
-/-! Full upfront: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-submodule-real-natural-data-v011.md. Exact inherited data only, no replacement structures. -/
+/-! Inherited data only, with no replacement structures. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

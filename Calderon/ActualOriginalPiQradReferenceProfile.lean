@@ -7,11 +7,9 @@ import Calderon.ActualDensityPrincipalFrameSmoothness
 import Calderon.ActualFiniteCoreSobolevRepresentation
 import Calderon.ActualMixedDensityScalarZeroFactorSmoothness
 
-/-! Original-Pi / SAME reference-profile Qrad signed self row (author-only successor, v009).
-Complete expansion: output/MATHEMATICS.md, written before these declarations.
-Imports the proposed parent `Calderon.ActualQradSignedSelfRow` (Root partition of v008) and
-Root's profile helper `Calderon.ActualQradReferenceProfileEnergy`; no parent/helper is redone.
-No compiler was run; no acceptance is claimed. -/
+/-! Original-Pi / same reference-profile Qrad signed self row. Builds on
+`Calderon.ActualQradSignedSelfRow` and the profile helper
+`Calderon.ActualQradReferenceProfileEnergy`. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -180,7 +178,7 @@ theorem exists_reference_commonRadius_originalPi_qrad_signed_selfRow_referencePr
   have hddS : d ≤ dS := by rw [hdDef]; exact min_le_left _ _
   have hddI : d ≤ dI := by rw [hdDef]; exact (min_le_right _ _).trans (min_le_left _ _)
   have hddPi : d ≤ dPi := by rw [hdDef]; exact (min_le_right _ _).trans (min_le_right _ _)
-  -- the exact compact Pi parameter set (same factory proof as the germ owner)
+  -- the exact compact Pi parameter set
   have hKt : IsCompact ((Icc (0 : ℝ) 1 ×ˢ (closedBall y0 ρ ×ˢ Icc (-dPi) dPi)) ×ˢ
       closedBall (0 : R3 →L[ℝ] ℝ) 1) :=
     (isCompact_Icc.prod ((isCompact_closedBall _ _).prod isCompact_Icc)).prod (isCompact_closedBall _ _)
@@ -272,7 +270,7 @@ theorem exists_reference_commonRadius_originalPi_qrad_signed_selfRow_referencePr
       (htK y hy) (Qy y) (hQ3 y) n (u y) (hcut y)
     rcases hRootSelected7 with ⟨rL,lL,-,-,-,-,hNorm,hAbs⟩
     exact (congrArg abs hNorm).trans_le hAbs
-  -- M7: Root's SAME-density profile integration helper
+  -- M7: the same-density profile integration helper
   have hHelper := integrable_referenceProfile_signed_radius_six_gain hO hD g hg L q δ A p
     hL hδ hA hp (tsupport F.val) Cst θ hCst hθ0 hθ1
     (fun y hy => (hProf y hy).2.1) (fun y hy => (hProf y hy).2.2.1) F W hWmeas hWzero hBoundK

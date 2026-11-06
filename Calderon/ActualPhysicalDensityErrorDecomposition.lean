@@ -2,10 +2,7 @@ import Calderon.ActualPhysicalDensityLeadingDecomposition
 import Calderon.ActualDensityCorrectionRemainderSplitting
 import Calderon.ActualNativeMovingAdjointMixedJNegativeInclusion
 
-/-! Full before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-actual-physical-full-error-assembly-v020.md, with
-actual-covariant-leading-algebra-author-oct16-v001/EXPANSION-physical-error-implementation-v015.md.
-Literal full ordered error; no quantitative claim. -/
+/-! The literal full ordered error. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

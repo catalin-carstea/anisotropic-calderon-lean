@@ -1,8 +1,6 @@
 import Calderon.ActualPiMixedWeakEndpointCore
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-upfront.md.
 Only the two concrete typed word constructors needed for actual R/Z.
 Their arguments are operator coefficients, not hypotheses supplying analytic caps.
 -/

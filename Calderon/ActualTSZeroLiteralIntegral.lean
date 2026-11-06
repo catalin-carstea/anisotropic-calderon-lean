@@ -4,7 +4,6 @@ import Calderon.ReferenceWeightedApproximation
 
 /-!
 Genuine integral estimate for the exact original signed T/S zero/zero row.
-Before-code: ../T-S-zero-literal-integral-before-source-nov03-night-v001/.
 Both grouped integrands are genuinely integrable; no termwise integral split.
 -/
 set_option autoImplicit false

@@ -9,8 +9,7 @@ open scoped ContDiff InnerProductSpace Matrix Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError MetricOperator MetricVolume SmoothSphereRotation
 
-/-! Upfront expansion: EXPANSION-actual-reference-rotation-angle-coefficient-jets-v001.json.
-True angular coefficient family, not a reparameterization of the original coefficient family. -/
+/-! True angular coefficient family, not a reparameterization of the original coefficient family. -/
 
 def coordinateRotationMatrix (i j : Fin 3) (θ : ℝ) : Matrix (Fin 3) (Fin 3) ℝ :=
   operatorMatrixMap (coordinateRotationIsometry i j θ).toContinuousLinearEquiv.toContinuousLinearMap

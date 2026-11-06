@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceDegreeRotationWitness
 import Calderon.SphereSobolevRotationCommutatorHighLift
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-actual-degree-rotation-witness-and-high-gain-v132.md. Genuine native high degree endpoint. -/
+/-! Genuine native high degree endpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

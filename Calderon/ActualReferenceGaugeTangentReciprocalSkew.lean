@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeReciprocalRotationJets
 import Calderon.ActualReferenceGaugeTangentDivergenceEndpoints
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/actual-reciprocal-tangent-author-v001/
-EXPANSION-actual-skew-residual-v002.md. Same actual reciprocal, true pivot skew part. -/
+/-! Same actual reciprocal, true pivot skew part. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

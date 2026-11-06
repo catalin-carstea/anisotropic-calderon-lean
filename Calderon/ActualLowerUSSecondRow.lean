@@ -1,9 +1,8 @@
 import Calderon.ActualLowerUSSecondRowCoefficients
 
 /-!
-GPT-6.1 Sol authoring support. The before-code expansion is
-lower-u-s-nov03-v001/first-row-expansion.md. This module concerns only
-the second-base lower U/S weak row, with full physical E coefficients.
+This module concerns only the second-base lower U/S weak row, with full physical
+E coefficients.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -95,7 +94,7 @@ theorem exists_lowerUSSecondCoefficient_joint_bound (mixed : MRoom) (δ : ℝ) (
 
 /-- Fixed second metric intermediate, with constants before every actual
 profile, base point, compact support and finite/angular input. The parameter
-memberships expose the exact callback-free domain of the graph above. -/
+memberships expose the exact domain of the graph above. -/
 def SecondRowUniformProfileBound (mixed : MRoom) (δ : ℝ) (gen : GRoom δ)
     (g2 : MatrixField) : Prop :=
   ∃ C2 : ℝ, 0 < C2 ∧ ∃ eta2 : ℝ, 0 < eta2 ∧ eta2 ≤ data.eta0 ∧ eta2 ≤ 1 ∧

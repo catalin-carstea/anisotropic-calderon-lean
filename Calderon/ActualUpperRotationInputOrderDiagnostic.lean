@@ -5,8 +5,7 @@ noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open SphereHarmonic SmoothSphereRotationProjection
 
-/-! Full upfront diagnostic argument: EXPANSION-v002.json. Actual map values,
-not equality of erased-order carriers, are compared component by component. -/
+/-! Actual map values, not equality of erased-order carriers, are compared component by component. -/
 lemma sphereSobolevRotationL_upper_rotation_input_order_diagnostic (i j : Fin 3) :
     sphereSobolevRotationL ((3/2:ℝ)+1) i j = sphereSobolevRotationL (5/2:ℝ) i j := by
   apply ContinuousLinearMap.ext

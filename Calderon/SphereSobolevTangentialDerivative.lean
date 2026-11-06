@@ -11,8 +11,6 @@ open SmoothSphereRotation SmoothSphereRotationProjection SmoothAngularCasimir
   NativeFullSharpHalfTrace SpectralCoreRegularity HarmonicPolynomialGreen
   NativeHarmonicBulkDerivativeMoments DirichletFamily EnergyBridge MetricVolume
 
-/-! Expanded before source in EXPANSION-sphere-half-tangential-derivative-v001.json. -/
-
 def sphereTangentialDerivativeL (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (i : Fin 3) :
     SphereSobolev (1/2 : ℝ) →L[ℝ] SphereSobolev (-1/2 : ℝ) :=

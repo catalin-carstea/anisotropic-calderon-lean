@@ -1,8 +1,7 @@
 import Calderon.NativeSmoothMultiplierForcing
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-coefficients-v003.md. Literal principal-gradient and drift-gradient
-coefficients of the arbitrary smooth multiplier forcing; no free output bound. -/
+/-! The principal-gradient and drift-gradient coefficients of the forcing of an
+arbitrary smooth multiplier. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

@@ -1,7 +1,6 @@
 import Calderon.ActualReferenceTwoAngleFirstMidpointHarmonicGraph
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-first-derivative-single-angle-block-v113.md. Actual degree-data block. -/
+/-! Actual degree-data block. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

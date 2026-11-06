@@ -9,8 +9,7 @@ import Calderon.ActualNormalizedSecondMetricDrift
 import Calderon.ActualRadiusThreeJetProfileRoom
 import Calderon.SphereSobolevInclusion
 
-/-! Author: Claude (Opus 5.5), v033. Expansion: output/MATHEMATICS.md.
-I3 (chain/product), I4 (frame/coordinate derivative), I5 (graph identity of the core input),
+/-! I3 (chain/product), I4 (frame/coordinate derivative), I5 (graph identity of the core input),
 the six literal word bounds and the uniform pointwise cap of the actual `nativeUFirstOut`.
 All caps are produced internally from existing producers; no callback or new hypothesis. -/
 set_option autoImplicit false
@@ -38,7 +37,7 @@ attribute [local irreducible] sphereSobolevInclusionL sphereSobolevZeroEquiv
   nativeOneHorizontalAngularL nativeOneShiftedDegreeL nativeOneWeightedHorizontalAction
   nativeFirstCorrectionLift nativeUFirstWord nativeUFirstOut
 
--- Root reuses actualSol validated prelude: cache only the original canonical class data; do not replace norms or metrics.
+-- Cache only the original canonical class data; do not replace norms or metrics.
 @[instance_reducible] private def pointwiseOriginalParameterNormed :
     NormedAddCommGroup ((ℝ × R3) × (R3 →L[ℝ] ℝ)) := inferInstance
 @[instance_reducible] private def pointwiseOriginalParameterModule :
@@ -64,7 +63,7 @@ private theorem pointwiseParameterModule_canonical : pointwiseParameterModule = 
 private theorem pointwiseCorrectionNormed_canonical : pointwiseCorrectionNormed = pointwiseOriginalCorrectionNormed := rfl
 private theorem pointwiseCorrectionModule_canonical : pointwiseCorrectionModule = pointwiseOriginalCorrectionModule := rfl
 
--- Root caches original value and first spatial-derivative structures, with exact rfl bridges.
+-- Cache the original value and first spatial-derivative structures, with exact rfl bridges.
 @[instance_reducible] private def pointwiseOriginalValueNormed :
     NormedAddCommGroup (SphereSobolev 1) := inferInstance
 @[instance_reducible] private def pointwiseOriginalValueModule :
@@ -116,7 +115,7 @@ lemma ufirstDegreeNorm_nonneg : 0 ≤ ufirstDegreeNorm := norm_nonneg _
 lemma ufirstDirectionNorm_nonneg : 0 ≤ ufirstDirectionNorm :=
   Finset.sum_nonneg fun _ _ => norm_nonneg _
 
-/-- Coefficient of `β m` in the word bound (MATHEMATICS.md, "Six words"). -/
+/-- Coefficient of `β m` in the word bound. -/
 def ufirstWordCoeff (M Mg P Cc : ℝ) : ℝ :=
   M * (1 + P) * (Mg * ufirstDirectionNorm) * ufirstInclusionNorm +
     2 * (M * Mg * ufirstAngularNorm) + 3 * (Mg * ufirstInclusionNorm * M) +

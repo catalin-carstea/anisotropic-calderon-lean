@@ -5,8 +5,8 @@ noncomputable section
 open Set Filter
 open scoped ContDiff Topology
 namespace OAI.AnisotropicCalderon.DenseOperatorJetTransport
-/-! Full upfront EXPANSION-v001.json. Derive differentiated operator high graph
-from original undifferentiated identity. Actual parents must discharge the seams. -/
+/-! Derive differentiated operator high graph from original undifferentiated identity.
+Actual parents must discharge the seams. -/
 lemma iteratedFDeriv_operator_high_graph
     {X E G V : Type*} [NormedAddCommGroup X] [NormedSpace ℝ X]
     [NormedAddCommGroup E] [NormedSpace ℝ E]

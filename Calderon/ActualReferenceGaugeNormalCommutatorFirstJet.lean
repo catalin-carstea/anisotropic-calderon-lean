@@ -4,9 +4,8 @@ import Calderon.NativeFirstCorrectionDegreeCommutator
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 import Calderon.NormalCommutatorRightProductJet
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-gauge-normal-commutator-firstjet-v068.md. Actual normal
-commutator, right HALF inverse, and the nonzero F0dag-F0 linear subtraction. -/
+/-! Actual normal commutator, right HALF inverse, and the nonzero F0dag-F0 linear
+subtraction. -/
 set_option autoImplicit false
 noncomputable section
 open Set

@@ -9,8 +9,6 @@ open scoped ContDiff
 namespace OAI.AnisotropicCalderon.GreenRadialTrace
 open SmoothAngularCasimir
 
-/-! Expanded before source in EXPANSION-orthogonal-polynomial-harmonic-preservation-v001.json. -/
-
 lemma analyticLaplacian_eq_euclideanLaplacian (f : R3 → ℝ) (hf : ContDiff ℝ ∞ f) (x : R3) :
     Laplacian.laplacian f x = euclideanLaplacian f x := by
   rw [InnerProductSpace.laplacian_eq_iteratedFDeriv_orthonormalBasis f

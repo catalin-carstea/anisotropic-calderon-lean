@@ -1,7 +1,6 @@
 import Calderon.NativeSmoothMultiplierEnergyCancellation
 
-/-! Full upfront: day-oct13/actual-gradient-drift-author-oct15-v001/
-EXPANSION-native-gauge-energy-v003.md. Exact second-slot native product identity. -/
+/-! Exact second-slot native product identity. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

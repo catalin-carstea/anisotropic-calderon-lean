@@ -3,8 +3,7 @@ import TauCeti.Analysis.Sobolev.Embedding
 import TauCeti.Analysis.Sobolev.W1p.CompactSupport
 import TauCeti.Analysis.Sobolev.W1p.HolderEmbedding
 
-/-! Expanded first in EXPANSION-native-interior-H2-continuous-representative-v001.json.
-Critical L6 embedding and Morrey give an actual local continuous representative.
+/-! Critical L6 embedding and Morrey give an actual local continuous representative.
 No C-infinity representative or physical harmonic density is assumed. -/
 set_option autoImplicit false
 noncomputable section

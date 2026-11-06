@@ -3,8 +3,7 @@ import Calderon.NativeLinearCoordinateMultiplierIdentification
 import Calderon.NativeThreeHalfCoefficientMultiplier
 import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 
-/-! Actual Pi scalar and coordinate identifications; complete upfront P1/P2 in
-Opus v006 MATHEMATICS.md, with Root-authored proofs. No radius at zero is used. -/
+/-! Actual Pi scalar and coordinate identifications P1/P2. No radius at zero is used. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

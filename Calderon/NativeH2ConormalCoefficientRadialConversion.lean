@@ -2,8 +2,7 @@ import Calderon.NativeH2ConormalRadialConversion
 import Calderon.NativeCoefficientBoundaryMultiplier
 import Calderon.ActualReferenceRadialEndpointCompatibility
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/suffix-repairs-v001/
-EXPANSION-suffix-typed-parent-proofs-v001.md. Exact generic actual coefficient data graphs. -/
+/-! Generic actual coefficient data graphs. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

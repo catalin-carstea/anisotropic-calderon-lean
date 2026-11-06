@@ -7,9 +7,8 @@ open scoped InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotationProjection ActualNormalizedSphereRotation SpectralCoreRegularity
 
-/-! Full upfront argument: EXPANSION-v002.json. The zero equivalence decodes the
-actual H1 inclusion and actual R1 into probability-L2 vectors. Their genuine rotation
-graph memberships imply physical skew adjunction, including degree zero. -/
+/-! The zero equivalence decodes the H1 inclusion and R1 into probability-L2 vectors.
+Their rotation graph memberships imply physical skew adjunction, including degree zero. -/
 
 lemma inner_sphereSobolevRotationL_one_zeroEquiv_skew
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

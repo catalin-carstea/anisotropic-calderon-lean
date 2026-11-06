@@ -6,8 +6,7 @@ import Mathlib.Topology.Algebra.Monoid
 import Mathlib.Topology.Algebra.Module.FiniteDimension
 import Mathlib.Analysis.Normed.Module.FiniteDimension
 
-/-! Complete background cap v003 with opaque component assembly. Full upfront SHA256 8d3969fe9edf6a51835cb29f0f141a0082b84d5be22cdc8aab60072f9f73211b
-was written before this source. Bounded Root225 proposal; native unrun. -/
+/-! Complete background cap with opaque component assembly. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

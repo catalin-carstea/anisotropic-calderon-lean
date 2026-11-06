@@ -1,9 +1,8 @@
 import Calderon.NativeCoordinateTraceVariation
 import Calderon.ActualBoundedNativeRadialCorrection
 
-/-! Source-only bounded actual coordinate first correction. The completed-space
-operator bound and actual native constant/positive core derivative identities
-are distinct from the still-open full moving-family symbol/completion theorem. -/
+/-! Bounded actual coordinate first correction: the completed-space operator bound
+and the actual native constant/positive core derivative identities. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

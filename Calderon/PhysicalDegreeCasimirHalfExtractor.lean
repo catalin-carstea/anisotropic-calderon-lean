@@ -11,7 +11,7 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic DirichletFamily.DriftBootstrap DenseOperatorTaylorCompletion
-/-! Full upfront EXPANSION-v001.json. GENUINELY derived canonical bounded-linear
+/-! GENUINELY derived canonical bounded-linear
 half extractor. No desired bound, adjunction, or existence is assumed. -/
 
 lemma norm_compatibleDegreeRawHighL_le_half_input

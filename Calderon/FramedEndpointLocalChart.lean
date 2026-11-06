@@ -10,8 +10,7 @@ open Set
 open scoped ContDiff Topology InnerProductSpace
 namespace OAI.AnisotropicCalderon.ConnectionError
 
-/-- Source: exact framed normalized endpoint definitions and inner identity.
-Expansion: EXPANSION-v001.md E1. Status: UNCOMPILED author proposal. -/
+/-- From the exact framed normalized endpoint definitions and inner identity. -/
 theorem framedNormalizedEndpointMetric_eq_gram
     (Θ : R3 × R3 → R3) (M F : R3 → R3 →L[ℝ] R3) (p : (R3 × ℝ) × R3) :
     framedNormalizedEndpointMetric Θ M F p =
@@ -26,8 +25,7 @@ theorem framedNormalizedEndpointMetric_eq_gram
       (M (framedScaledEndpoint Θ F p) (framedNormalizedEndpointDerivative Θ F p u))) v
   rw [framedNormalizedEndpointMetric_inner,ContinuousLinearMap.adjoint_inner_left]
 
-/-- Source: elementary kernel argument; no premise on invertibility of J.
-Expansion: EXPANSION-v001.md E2. Status: UNCOMPILED author proposal. -/
+/-- Elementary kernel argument; no premise on invertibility of J. -/
 theorem injective_of_positive_gram_lower_bound
     (J A : R3 →L[ℝ] R3) (c : ℝ) (hc : 0 < c)
     (hbound : ∀ u : R3, c * ‖u‖ ^ 2 ≤ inner ℝ (A (J u)) (J u)) :
@@ -42,8 +40,7 @@ theorem injective_of_positive_gram_lower_bound
     exact (not_lt_of_ge hh) hp
   exact sub_eq_zero.mp hz
 
-/-- Source: pinned finite-dimensional surjectivity and continuous linear equivalence APIs.
-Expansion: EXPANSION-v001.md E2. Status: UNCOMPILED author proposal. -/
+/-- From finite-dimensional surjectivity and continuous linear equivalences. -/
 theorem isInvertible_of_injective_endomorphism (J : R3 →L[ℝ] R3)
     (hJ : Function.Injective J) : J.IsInvertible := by
   have hbij : Function.Bijective J.toLinearMap :=
@@ -53,8 +50,7 @@ theorem isInvertible_of_injective_endomorphism (J : R3 →L[ℝ] R3)
   intro u
   rfl
 
-/-- Source: actual framedNormalizedEndpointMetric_inner, specialized to the literal J and E.
-Expansion: EXPANSION-v001.md E3. Status: UNCOMPILED author proposal. -/
+/-- `framedNormalizedEndpointMetric_inner`, specialized to the literal J and E. -/
 theorem framedNormalizedEndpointDerivative_injective_of_lower_bound
     (Θ : R3 × R3 → R3) (M F : R3 → R3 →L[ℝ] R3) (p : (R3 × ℝ) × R3)
     (c : ℝ) (hc : 0 < c)
@@ -65,8 +61,7 @@ theorem framedNormalizedEndpointDerivative_injective_of_lower_bound
   intro u
   simpa only [framedNormalizedEndpointMetric_inner] using hbound u
 
-/-- Source: nonzero real scalar cancellation and finite-dimensional injection/surjection.
-Expansion: EXPANSION-v001.md E3. Status: UNCOMPILED author proposal. -/
+/-- Nonzero real scalar cancellation and finite-dimensional injection/surjection. -/
 theorem smul_isInvertible_of_injective_endomorphism (J : R3 →L[ℝ] R3)
     (hJ : Function.Injective J) (r : ℝ) (hr : r ≠ 0) : (r • J).IsInvertible := by
   apply isInvertible_of_injective_endomorphism
@@ -76,8 +71,7 @@ theorem smul_isInvertible_of_injective_endomorphism (J : R3 →L[ℝ] R3)
   have hcancel := congrArg (fun w : R3 => r⁻¹ • w) hscaled
   simpa only [smul_smul,inv_mul_cancel₀ hr,one_smul] using hcancel
 
-/-- Source: pinned ContDiff inverse theorem, openness of operator invertibility, and restrOpen.
-Expansion: EXPANSION-v001.md E4. Status: UNCOMPILED author proposal. -/
+/-- From the ContDiff inverse theorem, openness of operator invertibility, and restrOpen. -/
 theorem exists_smooth_local_chart_of_isInvertible_fderiv (f : R3 → R3)
     (hf : ContDiff ℝ ∞ f) (z : R3) (hD : (fderiv ℝ f z).IsInvertible) :
     ∃ e : OpenPartialHomeomorph R3 R3,
@@ -112,8 +106,8 @@ theorem exists_smooth_local_chart_of_isInvertible_fderiv (f : R3 → R3)
       e.contDiffAt_symm hq hdq hf.contDiffAt
     exact hsq.contDiffWithinAt
 
-/-- Source: actual framed metric lower bound, exact physical slice derivative and pinned IFT.
-Expansion: EXPANSION-v001.md E3-E4. Status: UNCOMPILED author proposal. -/
+/-- From the framed metric lower bound, the exact physical slice derivative and the implicit
+function theorem. -/
 theorem exists_framedScaledEndpoint_local_chart_of_lower_bound
     (Θ : R3 × R3 → R3) (M F : R3 → R3 →L[ℝ] R3)
     (hΘ : ContDiff ℝ ∞ Θ) (y z : R3) (r c : ℝ) (hr : r ≠ 0) (hc : 0 < c)

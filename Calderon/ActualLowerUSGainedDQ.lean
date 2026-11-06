@@ -9,10 +9,8 @@ import Calderon.ActualLowerUSIndexedAngularGraphs
 import Calderon.ActualLowerUSAdjointCore
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-dq-contraction-upfront.md.
 Exact native D/Q contraction, including scalar cancellation before its angular
-mass estimate. No physical Q output is asserted finite. No author compilation.
+mass estimate. No physical Q output is asserted finite.
 -/
 set_option autoImplicit false
 set_option Elab.async false

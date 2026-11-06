@@ -5,7 +5,6 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic SmoothSphereRotationProjection
-/-! Exact original mathematical blocks partitioned in EXPANSION-PARTITION-v002.json. -/
 
 def degreeFiniteCasimirScalarL
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

@@ -23,7 +23,7 @@ noncomputable section
 open Set Filter Metric
 open scoped ContDiff ENNReal Topology InnerProductSpace
 
-/-! ## Generic typed finite cancellations and within-jet caps (MATHEMATICS.md §3–§5) -/
+/-! ## Generic typed finite cancellations and within-jet caps -/
 
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualAngularHighDraft
 
@@ -32,7 +32,7 @@ section GenericV025
 variable {E F N : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
   [NormedAddCommGroup F] [NormedSpace ℝ F] [NormedAddCommGroup N] [NormedSpace ℝ N]
 
-/-- MATHEMATICS.md §1: generic lowering cancellation. -/
+/-- Generic lowering cancellation. -/
 private lemma loweringCancelV025 (J : F →L[ℝ] N) (Th : E →L[ℝ] F) (Tl : F →L[ℝ] N)
     (Rh : Fin 3 → E →L[ℝ] F) (Rl : Fin 3 → F →L[ℝ] N) (Bh : E →L[ℝ] F) (Bl : F →L[ℝ] N)
     (Ml : Fin 3 → F →L[ℝ] F) (Mn : Fin 3 → N →L[ℝ] N) (Cr : Fin 3 → E →L[ℝ] F)
@@ -51,7 +51,7 @@ private lemma loweringCancelV025 (J : F →L[ℝ] N) (Th : E →L[ℝ] F) (Tl : 
   simp only [Finset.sum_sub_distrib]
   abel
 
-/-- MATHEMATICS.md §2: generic raising cancellation. -/
+/-- Generic raising cancellation. -/
 private lemma raisingCancelV025 (I : E →L[ℝ] F) (J : F →L[ℝ] N) (Sh : E →L[ℝ] F)
     (Sl : F →L[ℝ] N) (Rh : Fin 3 → E →L[ℝ] F) (Rl : Fin 3 → F →L[ℝ] N) (Bh : E →L[ℝ] F)
     (Bl : F →L[ℝ] N) (Mh : Fin 3 → E →L[ℝ] E) (Ml : Fin 3 → F →L[ℝ] F)
@@ -70,7 +70,7 @@ private lemma raisingCancelV025 (I : E →L[ℝ] F) (J : F →L[ℝ] N) (Sh : E 
   simp only [Finset.sum_sub_distrib, map_sub]
   abel
 
-/-- MATHEMATICS.md §4: generic within-jet caps on a compact set. -/
+/-- Generic within-jet caps on a compact set. -/
 private lemma compactJetCapV025 {P W : Type*} [NormedAddCommGroup P] [NormedSpace ℝ P]
     [NormedAddCommGroup W] [NormedSpace ℝ W] (f : P → W) (s : Set P) (hs : IsCompact s)
     (hU : UniqueDiffOn ℝ s) (hf : ContDiffOn ℝ ∞ f s) (N : ℕ) :
@@ -95,7 +95,7 @@ private lemma compactJetCapV025 {P W : Type*} [NormedAddCommGroup P] [NormedSpac
       subst hnN
       exact (hCN p hp).trans (le_max_right _ _)
 
-/-- MATHEMATICS.md §5: generic common-room assembly. All destructuring happens on free
+/-- Generic common-room assembly. All destructuring happens on free
 variables of this abstract goal. -/
 private theorem roomAssemblyV025 {P V W : Type*} [NormedAddCommGroup P] [NormedSpace ℝ P]
     [NormedAddCommGroup V] [NormedSpace ℝ V] [NormedAddCommGroup W] [NormedSpace ℝ W]
@@ -209,7 +209,7 @@ def adjointRotationGain (j i : Fin 3) (p : Pphys) : Hi →L[ℝ] Half :=
   secondTaylorRemainder (fun z : ℝ => referenceAdjointHighAngleDerivativeFamily
     g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 j i (p.1,(p.2.1,z))) p.2.2
 
-/-- v011 adjoint degree gain `CdT`. -/
+/-- The adjoint degree gain `CdT`. -/
 def adjointDegreeGain (p : Pphys) : Hi →L[ℝ] Half :=
   RawAdjointDegreeGainDraft.gainedHighSecondRemainder
     g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0 p.1 p.2.1 p.2.2
@@ -302,7 +302,7 @@ lemma contDiffAt_adjointRotationGain (j i : Fin 3) (p : Pphys)
 
 /-! ### §4 Final actual theorem: one common room, exact graphs, smoothness, caps -/
 
-/- Gains facade (MATHEMATICS.md §5): the canonical coordinate Half→Half gains on one room,
+/- Gains facade: the canonical coordinate Half→Half gains on one room,
 with the upper graph everywhere and the lower graph (h4) under the segment condition. -/
 include hreg hKernel in
 private lemma exists_coordinateGains_v025 :
@@ -575,11 +575,10 @@ theorem exists_reference_commonRadius_loweringAngularHigh_graph_caps :
         (isCompact_commonRoom y0 ρ δ) (uniqueDiffOn_commonRoom y0 ρ hρ hδ) (hCaTOn i) N
 -/
 
-/-! ### §5 Raising commutator `[A,S]`: actual definition and REDUCTION (not final)
+/-! ### §5 Raising commutator `[A,S]`: definition and reduction
 
-The only hypothesis `hSharpMultiplier` is literally the graph of the unexposed owner
-`ActualHighSmoothMultiplierSecondRadialRemainderGraph` for the fixed coordinate jets.
-See MISSING-SOURCES.md. -/
+The only hypothesis `hSharpMultiplier` is the sharp multiplier graph for the fixed
+coordinate jets. -/
 
 /-- Formula (1): `CAS_i = Σ_j (Rh_{ji} Gh_j - CrS_{ji} Mh_j) - Bh Gh_i + CdS Mh_i`. -/
 def raisingAngularHighCommutator (i : Fin 3) (q : ℝ) (y : R3) (r : ℝ) : Hi →L[ℝ] Half :=

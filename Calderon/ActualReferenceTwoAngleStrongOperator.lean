@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceTwoAngleMultipliers
 import Calderon.OrdinaryWeightedDriftOperator
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-native-two-angle-operators-v003.md. Genuine native strong operator
-of nested rotated actual coefficients, and its literal inverse room. -/
+/-! Genuine native strong operator of nested rotated actual coefficients, and its
+literal inverse room. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

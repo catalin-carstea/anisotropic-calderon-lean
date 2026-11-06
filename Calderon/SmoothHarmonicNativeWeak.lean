@@ -1,8 +1,7 @@
 import Calderon.CollaboratorSourceJetWeakEstimatesOct17
 import Calderon.CollaboratorDilationCorrectionEqOct17
 
-/-! Exact SAME smooth solution to native weak energy witness for Main M1.
-Full before-code expansion: UPFRONT-SAME-SMOOTH-HARMONIC-NATIVE-WEAK-v001.md. -/
+/-! Exact SAME smooth solution to native weak energy witness for Main M1. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Metric Set TopologicalSpace

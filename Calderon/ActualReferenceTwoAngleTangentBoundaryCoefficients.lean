@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleCoefficientJets
 import Calderon.ActualReferenceTwoAngleNormalCovariance
 import Calderon.SphereSobolevTangentialDerivative
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-tangent-pairing-partition-v099.md. Exact coefficient partition. -/
+/-! Exact coefficient partition. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

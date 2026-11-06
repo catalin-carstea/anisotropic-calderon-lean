@@ -10,9 +10,7 @@ import Calderon.ActualHigherSZeroAtomDictionary
 import Calderon.ActualHigherSFiniteWordPolarization
 import Calderon.ActualHigherSZeroAtomTransport
 
-/-! Author actual207-word specialization. Conditional own Words003/AllRoom002/
-FixedLift001 imports are NOT qualified provider grants. Exact before-code contract
-is archived in upfront-v001. No analytic bound or canonical acceptance is claimed here. -/
+/-! Actual 207-word specialization. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

@@ -2,8 +2,7 @@ import Calderon.NativeLowerOrderProjection
 import Calderon.SharpRadialHarmonicCoefficientCore
 import Calderon.NativeH2ThreeHalfValueTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-FINITE-HARMONIC-H3-EXTENSION-EXPANSION-v001.md. Fixed-cutoff native extension, no uniform cutoff bound. -/
+/-! Native extension at a fixed cutoff, without a bound uniform in the cutoff. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

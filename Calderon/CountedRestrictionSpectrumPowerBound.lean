@@ -1,4 +1,4 @@
-import C3Spectral
+import Calderon.MixedKernelConstruction.C3Spectral
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

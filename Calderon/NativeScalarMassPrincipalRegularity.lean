@@ -11,9 +11,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge MetricVolume
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in
-work/day-oct13/native-scalar-mass-regularity-author-oct14-v001/EXPANSION-v001.json.
-The only regularity premise is the existing FixedDirichletRegularity. The new
+/-! The only regularity premise is FixedDirichletRegularity. The
 mass forcing is an actual L2 multiplier of the same native H1 value. -/
 
 def nativeCoefficientMassL (hcalc : FixedSobolevCalculus) (M : SmoothCoefficientJets 1) :

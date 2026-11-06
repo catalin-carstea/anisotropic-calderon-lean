@@ -1,8 +1,7 @@
 import Calderon.ActualWeightedHorizontalActions
 import Calderon.ActualNativeMovingLocalRemainder
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-first-action-normal-form-v002.md. Literal original X=D+V+IF+rE. -/
+/-! Normal form of the first action, X = D + V + IF + rE. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

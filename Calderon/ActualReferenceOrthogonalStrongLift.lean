@@ -2,7 +2,6 @@ import Calderon.NativeH2OutwardTraceOrthogonalCovariance
 import Calderon.ActualReferenceSharpBoundaryIdentity
 import Calderon.ActualReferenceSharpUpperTrace
 
-/-! Expanded first in EXPANSION-actual-reference-orthogonal-strong-lift-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

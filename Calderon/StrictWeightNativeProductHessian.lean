@@ -5,9 +5,8 @@ import Mathlib.LinearAlgebra.Basis.Prod
 import Mathlib.LinearAlgebra.Matrix.BilinearForm
 import Mathlib.Topology.Algebra.Module.FiniteDimension
 
-/-! Exact original native product-Hessian root9. Full before-source authority d9ce9b08.
-The actual original Root8 ordinary parent is a mandatory genuine-production guard.
-This pointwise selection does not provide the Main source-geometric criterion or uniformity. -/
+/-! Native product Hessian for a strict weight, at a single point; the
+source-geometric criterion and uniformity are not part of this pointwise statement. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Matrix Filter Topology

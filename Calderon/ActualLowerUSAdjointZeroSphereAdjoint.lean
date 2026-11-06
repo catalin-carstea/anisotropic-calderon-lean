@@ -3,8 +3,6 @@ import Calderon.ActualFiniteHarmonicModelQuadraticAngularAdjoint
 import Calderon.ActualPerturbedModelSupport
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-upfront.md.
 Actual finite-core angular adjoint of the complete original J, for weak tests.
 No analytic premise or lower-only adjoint-closure assertion is introduced.
 -/

@@ -4,9 +4,6 @@ import Calderon.NormalizedMetricMatrix
 import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 import Mathlib.LinearAlgebra.Matrix.Adjugate
 import Mathlib.Tactic
-/-! Source-only author C3 stage. Actual coordinate conventions and the full
-adjugate/Hessian expansion were sealed before body authoring. No check or
-physical/native covariance completion is claimed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

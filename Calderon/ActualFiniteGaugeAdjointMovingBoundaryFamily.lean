@@ -3,8 +3,8 @@ import Calderon.ActualJacobiCompactExtensionRoom
 import Calderon.NativeThreeHalfUnitCoefficient
 import Calderon.ActualHighAdjointMovingBoundaryFamilyDefinition
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-GAUGE-ADJOINT-COORDINATE-MOVING-DOMAIN-EXPANSION-v001.md. Same actual Jacobi coefficient order and genuine adjoint. -/
+/-! The finite-gauge adjoint on the coordinate moving domain, with the actual Jacobi coefficient
+order and the genuine adjoint. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

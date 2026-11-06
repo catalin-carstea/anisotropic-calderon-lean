@@ -7,8 +7,7 @@ open scoped ContDiff Gradient
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeFullSharpHalfTrace NativeNegativeHalfSmoothMultiplier
 
-/-! Expansion: EXPANSION-actual-radial-open-invertibility-locus-v001.json.
-Exact algebraic cancellation needs only the actual normal operator invertible. -/
+/-! The algebraic cancellation needs only invertibility of the normal operator. -/
 
 theorem nativeH2_radial_eq_inverse_conormal_sub_tangent_of_isInvertible
     (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)

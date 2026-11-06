@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalUFirstIntegralCap
 import Calderon.ActualMixedJProfileAbsorption
 
-/-! Root continuation, before-source expansion in the UFirst integral Root archive.
-The exact native mixed correction already includes the model drift. This sum is
+/-! The exact native mixed correction already includes the model drift. This sum is
 therefore relative to nativeModelRaising, not a second copy of normalized drift.
 No physical graph is asserted by this integral estimate. -/
 set_option autoImplicit false

@@ -22,24 +22,16 @@ import Calderon.NativeNegativeHalfCoefficientCoordinateProduct
 import Calderon.SphereSobolevInclusion
 import Calderon.ActualPiNativeOperatorGerms
 
-/-! DRAFT NOT CHECKED (claude-actual-angular-Pi-2026-10-28-v013, Claude Opus 5.5, author
-only, nothing compiled or run). Full before-source mathematics: output/MATHEMATICS.md.
-v025 repair (author only, not compiled): explicit equality elimination replaces the
-coordinate-jet `rw … at h`, `obtain` acts only on free variables, and the sharp rotation
-smoothness uses an explicit function equality instead of `simpa [comp_def]`.
-
-* Part I (namespace `ActualAngularHighDraft`, provisional parent reused): successor of the
-  exposed sharp multiplier graph (the original definition owner collides with the Coercivity
-  owner, so the signed transport is reproduced), and the UNCONDITIONAL actual `[A,S]` ALL-Hi
-  graph, joint smoothness and compact within-jet caps on ONE common room, intersected with
-  the parent `[a,T]` room. The `[a,T]` gains/graphs are retained, and their caps recomputed
+/-!
+* Part I (namespace `ActualAngularHighDraft`): the sharp multiplier graph (the signed
+  transport is reproduced here), and the actual `[A,S]` all-Hi graph, joint smoothness and
+  compact within-jet caps on one common room, intersected with the `[a,T]` room of
+  `ActualAngularHighDraft`. The `[a,T]` gains and graphs are kept, and their caps recomputed
   on the shared room.
 * Part II (namespace `ActualAngularPiDraft`): raw zero-radial degree–multiplier producers,
   raw sharp zero = shifted degree, rotation-derivative jets, coordinate commutation, the true
   `E[a,Pi] : Hi → Hi` and `E[Pi,A] : Half → Half`, and the two mixed high maps with literal
-  graphs for the ACTUAL Pi coefficient frozen at the current `(p, ℓ)`, `‖ℓ‖ ≤ 1`.
-* NOT claimed: caps for the Pi mixed maps (MISSING-SOURCES §2), D_Q, L, cross, coercivity,
-  density, Main. -/
+  graphs for the actual Pi coefficient frozen at the current `(p, ℓ)`, `‖ℓ‖ ≤ 1`. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -95,7 +87,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
 local notation "Ω" => referenceRadialEndpointInvertibleLocus
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/-! ### §1 Finite physical room guard and the successor sharp multiplier graph -/
+/-! ### §1 Finite physical room guard and the sharp multiplier graph -/
 
 /-- The five conjuncts of `exists_reference_commonRadius_finitePhysicalDomain_room`. -/
 abbrev finiteRoomGuard (lam Lam : ℝ) (p : Pphys) : Prop :=
@@ -120,8 +112,8 @@ attribute [local irreducible] referenceHighSmoothMultiplierBoundaryCommutatorFam
   referenceStrongDriftFamily referenceSharpRadialTraceFamily
 
 include hreg hKernel in
-/-- Lemma S1: successor of `exists_reference_commonRadius_highSmoothMultiplierSecondRemainder_sharp_graph`,
-against the Coercivity definition owner, with the strict radius stated directly. -/
+/-- Lemma S1: the sharp multiplier remainder graph on the finite physical room, with the strict
+radius stated directly. -/
 lemma sharpMultiplierRemainder_graph_of_guard (lam Lam d : ℝ)
     (hFin : ∀ p ∈ commonRoom y0 ρ d, Guard lam Lam p)
     (q : ℝ) (hq : q ∈ Icc (0 : ℝ) 1) (y : R3) (hy : y ∈ closedBall y0 ρ) (r : ℝ) (hr : |r| < d)
@@ -189,12 +181,12 @@ lemma sharpMultiplierRemainder_graph_of_guard (lam Lam d : ℝ)
 
 /-! ### §2 Actual `[A,S]` pieces as functions of the room point -/
 
-/-- The sharp Hi→Hi coordinate multiplier gain `Gh_j(p)` (Coercivity owner). -/
+/-- The sharp Hi→Hi coordinate multiplier gain `Gh_j(p)`. -/
 def sharpMultiplierGain (j : Fin 3) (p : Pphys) : Hi →L[ℝ] Hi :=
   referenceHighSmoothMultiplierBoundaryCommutatorSecondRemainder
     g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 (coordinateJets j) p.1 p.2.1 p.2.2
 
-/-- Formula (1) of the parent, as a function of the room point. -/
+/-- Formula (1) of `raisingAngularHighCommutator`, as a function of the room point. -/
 def raisingCommutator (i : Fin 3) (p : Pphys) : Hi →L[ℝ] Half :=
   raisingAngularHighCommutator hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg
     i p.1 p.2.1 p.2.2
@@ -297,7 +289,7 @@ theorem exists_reference_commonRadius_angularHigh_both_graph_caps :
         ∀ N : ℕ, ∃ M : ℝ, 0 ≤ M ∧ ∀ n : ℕ, n ≤ N → ∀ p ∈ commonRoom y0 ρ δ,
           ‖iteratedFDerivWithin ℝ n (CAS i) (commonRoom y0 ρ δ) p‖ ≤ M := by
   have hρ : 0 < ρ := hData.1.2.1
-  -- the parent `[a,T]` room and its exact gains, retained (destructured as a free variable)
+  -- the `[a,T]` room and its exact gains, retained (destructured as a free variable)
   have hParent := exists_reference_commonRadius_loweringAngularHigh_graph_caps
     hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg hg hKernel
   obtain ⟨δ1,hδ1,hδ1ρ,hRoom1,G,hGOn1,hGg1,hCaT1⟩ := hParent
@@ -419,7 +411,7 @@ local instance v013PiNegativeComplete : CompleteSpace (SphereSobolev (-(1/2 : �
     instCompleteSpaceHarmonicSphereSubspace
   exact lp.completeSpace
 
-/-! ### Generic typed cancellations (MATHEMATICS.md §6–§7) -/
+/-! ### Generic typed cancellations -/
 
 
 
@@ -729,7 +721,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_graphs :
           JL (raisingMixed hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg Q i p u) =
             PiN k (p,ell) (SlS p (raisingHigh hF hO hD i u)) -
               raisingLow hF hO hD i (PiL k (p,ell) (ShS p u))) := by
-  -- v025: every existential producer is first bound to a free variable, then destructured
+  -- every existential producer is first bound to a free variable, then destructured
   have hBoth := exists_reference_commonRadius_angularHigh_both_graph_caps
     hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg hg hKernel
   obtain ⟨δA,hδA,hδAρ,hRoomA,G,_hGOn,_hGlow,hCaT,_hGh,hCAS⟩ := hBoth

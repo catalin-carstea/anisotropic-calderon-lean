@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeWeakPairing
 import Calderon.ActualReferenceWeakConormalEndpoint
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-conormal-endpoint-v007.md. SAME original weak lifts. -/
+/-! Weak conormal endpoint of the gauge, with the same original weak lifts. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

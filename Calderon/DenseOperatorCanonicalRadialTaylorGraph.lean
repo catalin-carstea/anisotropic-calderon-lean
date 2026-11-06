@@ -7,8 +7,7 @@ open Set MeasureTheory
 open scoped ContDiff Topology
 namespace OAI.AnisotropicCalderon.DenseOperatorTaylorGraph
 open ConnectionError DenseOperatorTaylorCompletion DenseOperatorJetTransport
-/-! Full upfront EXPANSION-v001.json precedes this source. Exact canonical
-and signed radial graph transport. Actual original family seams remain obligations. -/
+/-! Exact canonical and signed radial graph transport. -/
 variable {Q P E G V : Type*}
   [NormedAddCommGroup Q] [NormedSpace ℝ Q]
   [NormedAddCommGroup P] [NormedSpace ℝ P]

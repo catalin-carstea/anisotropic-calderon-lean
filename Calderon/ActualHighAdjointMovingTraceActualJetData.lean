@@ -2,8 +2,6 @@ import Calderon.ActualHighAdjointMovingBoundaryFamilyDefinition
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 import Calderon.SignedOperatorTaylorRemainder
 
-/-! Full upfront: raw-moving-adjoint-split-author-oct16-v001/EXPANSION.md.
-Exact unchanged selected declarations from compiled-only a974 Raw7. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

@@ -4,7 +4,7 @@ import Calderon.ClosedCoefficientMultiplier
 import Calderon.ParametricWeightedForcing
 import Calderon.ActualReferenceWeakEnergyApply
 
-/-! Full-test actual energy, expanded before source in EXPANSION-actual-reference-full-weak-energy-author-v001.json. -/
+/-! Full-test actual energy. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

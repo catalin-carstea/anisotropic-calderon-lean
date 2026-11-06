@@ -6,8 +6,7 @@ import Calderon.ActualFinitePhysicalDomainCommonRoom
 import Calderon.ActualReferenceWeakHalfLift
 import Calderon.SphereSobolevHalfNegativeInclusionZero
 
-/-! Full AUTHOR upfront034, actual-Y-second-action-domain-author-oct16-v001.
-The SAME G/E on the larger original tube; actual uncompressed second-word graph. -/
+/-! The same G/E on the larger tube; the uncompressed second-word graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

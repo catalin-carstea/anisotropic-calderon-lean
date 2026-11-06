@@ -2,7 +2,6 @@ import Calderon.ActualReferenceWeakHalfLiftTopology
 import Calderon.ActualReferenceWeakEnergyNativeTopology
 import Calderon.NativeInvertibleWeakLiftTopology
 
-/-! Upfront argument: EXPANSION-invertible-weak-endpoint-topology-author-v001.json. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -5,7 +5,6 @@ import Calderon.InheritedNormedStructureData
 import Calderon.ClmInheritedStructureData
 import Calderon.LpInheritedStructureData
 
-/-! Upfront expansion: EXPANSION-native-orthogonal-zero-energy-invertibility-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleGreenCompatibility
 import Calderon.ActualReferenceTwoAngleLowerRadialEndpointCore
 import Calderon.ActualReferenceRotationRadialCompatibility
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-endpoint-compatibility-v016.md. Genuine SAME upper/lower DN graph. -/
+/-! Genuine SAME upper/lower DN graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

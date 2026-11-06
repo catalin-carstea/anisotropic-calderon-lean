@@ -11,8 +11,7 @@ namespace OAI.AnisotropicCalderon.NativeFullSharpHalfTrace
 open NativeSmoothSharpTraceCompletion NativeHarmonicH1LiftCompletion NativePolynomialBulkMoments
   SphereHarmonic SpectralCoreRegularity SpectralWeightedGraph DirichletFamily EnergyBridge
 
-/-! Expanded before source in EXPANSION-native-full-H1-sharp-half-trace-v001.json.
-Actual smooth density is an imported theorem, never a replacement premise. -/
+/-! Smooth density enters as an imported theorem, not as a hypothesis. -/
 
 lemma sum_half_weight_norm_sq_nativeTrace_le
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)

@@ -419,7 +419,6 @@ lemma norm_adjointZeroCoefficient_le (r : ℝ) (Q : Fin 3 → Fin 3 → ℝ) (b 
       _ = M^4 := by ring
   have k4 := mul_le_mul_of_nonneg_right m34 hr0
   exact hz.trans (by nlinarith [k1,k2,k3,k4,mul_nonneg hM4 hr0])
-/- Generic sum and chain bounds reuse the checked G (Opus/Root) proof patterns; adjoint-specific arguments below are Root. -/
 /-- Norm of the angular-map shape `½ Σ_ab c_ab T_ab`. -/
 private lemma norm_half_double_sum_le {E F : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
     [NormedAddCommGroup F] [NormedSpace ℝ F]
@@ -595,7 +594,7 @@ theorem exists_actual_adjoint_zero_coefficient_uniform_bound (hreg : FixedDirich
   have hGeoFull := ActualHorizontalNormBridge.exists_reference_geometry_uniform_bounds g hg L
     (closedBall y0 ρ) hKx
   rcases hGeoFull with ⟨MG,hMG,hGeo⟩
-  -- (5-6) reuse the separately checked original reverse value/ambient-jet caps
+  -- (5-6) reuse the original reverse value/ambient-jet caps
   have hCapsFull := exists_retained_reverse_uniform_caps g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
     hreg δ0 W δ Cm
   rcases hCapsFull with ⟨CH,CE,CH1,hCH,hCE,hCH1,hEHc,hELc,hdEHc⟩

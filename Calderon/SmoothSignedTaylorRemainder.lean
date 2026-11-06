@@ -2,9 +2,8 @@ import Calderon.SignedTaylorFixedLinearTransport
 import Calderon.BoundedParameterSmoothness
 import Calderon.FiniteDimensionalLocalSmoothExtension
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-smooth-signed-remainder-fixed-topology-v035.md. Joint smoothness
-is derived in the genuine Banach topology from actual fixed-interval integration. -/
+/-! Joint smoothness is derived in the genuine Banach topology from actual fixed-interval
+integration. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory Filter Function

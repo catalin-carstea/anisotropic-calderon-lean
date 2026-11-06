@@ -1,7 +1,6 @@
 import Calderon.ActualReferenceDDHigherGeometryJets
 
-/-! GPT-6.1 Sol. Before-code ../full-first-norm-isolation-upfront-v001.md.
-Opaque finite-family norm budget for the actual D proof. No author compiler. -/
+/-! Opaque finite-family norm budget for the actual D proof. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualLowerUSSecondRow

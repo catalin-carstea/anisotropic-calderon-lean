@@ -1,7 +1,7 @@
 import Calderon.ReferenceRadiusScaling
 import Calderon.CoordinateBootstrapJets
 import Calderon.NormalizedPrincipalMetricSmooth
-import MixedKernelCylinderBoundary
+import Calderon.MixedKernelConstruction.MixedKernelCylinderBoundary
 import Mathlib.Topology.Order.LeftRightNhds
 
 set_option autoImplicit false
@@ -52,8 +52,8 @@ theorem matrixField_eq_zero_of_coordinateH8_eq_zero
   rw [canonicalCoordinatePartial_zero, hh] at hi
   exact abs_eq_zero.mp (le_antisymm hi (abs_nonneg _))
 
-/-- Conditional endpoint of the actual all-delta bootstrap: the SAME fixed
-matrix field vanishes on the negative-depth part of the cylinder. -/
+/-- Endpoint of the actual all-delta bootstrap: given the bound for every delta, the
+SAME fixed matrix field vanishes on the negative-depth part of the cylinder. -/
 theorem eqOn_zero_on_negative_depth_of_coordinateH8_forall_delta
     (h : MatrixField) (L R eps : ℝ) (p : ℕ)
     (hR : 0 ≤ R) (heps : 0 ≤ eps) (hp : 1 ≤ p)

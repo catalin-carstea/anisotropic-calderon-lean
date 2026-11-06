@@ -1,6 +1,5 @@
 import Calderon.SphereSobolevCoordinateOrthogonalCovariance
 
-/-! Expanded first in EXPANSION-actual-rotation-lower-radial-dense-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

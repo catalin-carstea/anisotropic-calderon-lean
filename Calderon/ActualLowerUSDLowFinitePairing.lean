@@ -1,9 +1,7 @@
 import Calderon.ActualLowerUSDPresentations
 import Calderon.ActualLowerUSFirstCoefficientJets
 
-/-! Delegated GPT-6.1 Sol; before code ../t-finite-domain-upfront-v001.md.
-Actual full scalar/angular D on finite tests, against arbitrary Half outputs.
-No author compilation. Root owns coherent diagnostics/native qualification. -/
+/-! The full scalar/angular D on finite tests, against arbitrary Half outputs. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

@@ -2,8 +2,8 @@ import Calderon.ActualHigherSCoefficientExtraction
 import Calderon.ActualZeroCoefficientLinearity
 import Calderon.ClmInheritedStructureData
 
-/-! Native forward collected-zero algebra on opaque Sobolev CLMs only.
-Author source; no physical endpoint/profile context or actual split declaration. -/
+/-! Native forward collected-zero algebra on opaque Sobolev CLMs only, with no physical
+endpoint or profile context. -/
 noncomputable section
 set_option autoImplicit false
 open scoped BigOperators

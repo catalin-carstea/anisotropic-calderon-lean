@@ -3,10 +3,11 @@ import Calderon.RadiusTwoSmoothSourceInteriorSmoothRepresentative
 import Calderon.LocalAEContinuousRepresentativeGluing
 import Calderon.RadiusTwoNativeFixedCollarBoundaryZero
 
-/-! The full upfront expansion precedes the SAME actual smooth-source representative.
+/-! A global representative of the actual smooth source.
 Interior smoothness is patched from existing native representatives. The actual
-zero-Dirichlet solution, homogeneous Euclidean collar, and checked barrier yield
-a continuous zero extension. No boundary smoothness or new PDE premise is claimed. -/
+zero-Dirichlet solution, homogeneous Euclidean collar, and barrier yield
+a continuous zero extension. No boundary smoothness is asserted and no new PDE premise is
+assumed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

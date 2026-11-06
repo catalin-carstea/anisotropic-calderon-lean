@@ -1,8 +1,7 @@
 import Calderon.NativeThreeHalfCoefficientMultiplier
 import Calderon.NativeCoefficientRotationProductRule
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-HIGH-ROTATION-MULTIPLIER-GAIN-EXPANSION-v001.md. Same scalar-value graph on all H3half. -/
+/-! Gain of the high rotation multiplier: the same scalar-value graph on all of H3half. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.NativeThreeHalfCoefficientMultiplier

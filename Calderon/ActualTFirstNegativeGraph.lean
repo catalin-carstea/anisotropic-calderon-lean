@@ -2,8 +2,7 @@ import Calderon.ActualTZeroNegativeGraph
 import Calderon.ActualTSPrincipalWeightedCaps
 
 /-! Exact original first-T negative graphs and uniform included-derivative bounds.
-Before-code: ../T-first-S-linear-zero-before-source-nov03-night-v001/.
-These support the linear-zero S part, not the complete lower T/S estimate. -/
+These support the linear-zero S part of the lower T/S estimate. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceTwoAngleWeakOperator
 import Calderon.NativeCoefficientWeakEnergy
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-native-two-angle-weak-lift-v007.md. SAME native energy and zero space. -/
+/-! SAME native energy and zero space. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

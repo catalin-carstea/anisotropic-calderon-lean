@@ -7,8 +7,6 @@ open scoped ContDiff Matrix Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open SphereHarmonic SmoothSphereRotation
 
-/-! Full upfront expansion: EXPANSION-coordinate-rotation-smooth-composition-repair-v001.json. -/
-
 lemma contDiff_coordinateRotation_of_smooth
     {E : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
     (i j : Fin 3) (θ : E → ℝ) (X : E → R3)

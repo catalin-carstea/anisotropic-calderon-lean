@@ -1,6 +1,6 @@
 import TauCeti.Analysis.PDE.DirichletProblem
 
-/-! See upfront EXPANSION.json: the pinned compact-test density argument needs no zero membership of the fixed function. -/
+/-! The compact-test density argument needs no zero membership of the fixed function. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

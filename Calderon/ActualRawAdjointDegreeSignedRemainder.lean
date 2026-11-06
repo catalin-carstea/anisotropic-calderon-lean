@@ -37,7 +37,7 @@ local notation "Qsharp" => referenceTwoAngleDegreeCommutatorHalfFamily
 local notation "Ω" => referenceRadialEndpointInvertibleLocus
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/-! ## Root draft (kept): negative-transpose low families and the explicit high lift -/
+/-! ## Negative-transpose low families and the explicit high lift -/
 
 local notation "Ct" => lowFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 local notation "Wt" => rotationDerivativeFamily
@@ -177,7 +177,7 @@ lemma contDiffAt_gainedHighSecondRemainder_of_segment (q : ℝ) (y : R3) (r : �
     ((contDiffAt_fst.prodMk contDiffAt_snd.fst).prodMk contDiffAt_snd.snd)
   simpa only [gainedHighSecondRemainder,Function.comp_def,F] using hOut
 
-/-! ## Uniform compact caps (MATHEMATICS.md §5)
+/-! ## Uniform compact caps
 
 All constants depend only on the fixed geometry and witnesses, the compact room and the
 jet order. They are chosen before any q, profile, input or cutoff. -/

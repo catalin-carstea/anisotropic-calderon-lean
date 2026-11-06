@@ -1,9 +1,6 @@
 import Calderon.ActualAdjointMovingBoundaryFamilyFoundation
 import Calderon.ActualJacobiThreeHalfBoundaryMultiplierFamily
 
-/-! Full upfront: day-oct13/actual-moving-boundary-family-author-oct15-v001/
-EXPANSION-high-adjoint-family-split-v002.md. Unchanged six high-family public
-roots and proofs; only Jacobi/moving receipt boundaries are decomposed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

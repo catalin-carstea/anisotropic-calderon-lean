@@ -2,9 +2,8 @@ import Calderon.ActualReferenceGaugeNormalSphereJet
 import Calderon.NativeCoefficientMultiplierBoundaryDerivative
 import Calderon.ActualReferenceGaugeNormalMultiplierInverse
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-native-boundary-multiplier-firstjet-v065.md. SAME actual alpha native
-multipliers: zero is Id and radial derivative is spectral M_(c dot nu). -/
+/-! The actual alpha native multipliers: the zero jet is Id and the radial
+derivative is the spectral M_(c dot nu). -/
 set_option autoImplicit false
 noncomputable section
 open Set

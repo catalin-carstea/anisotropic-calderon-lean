@@ -9,7 +9,6 @@ import Calderon.ParametricWeightedForcing
 import Calderon.ActualReferenceWeakEnergyConstruction
 import Calderon.FiniteForcingEnergy
 
-/-! Exact diagnostic partition of immutable weak-energy efd9; declaration blocks/context unchanged. Parent checking pending. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

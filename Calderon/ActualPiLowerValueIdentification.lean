@@ -2,8 +2,7 @@ import Calderon.ActualPiNativeValueIdentification
 import Calderon.NativeOrderOneCoefficientMultiplier
 import Calderon.NativeLinearCoordinateMultiplierIdentification
 
-/-! Exact original Pi identities at Half and Neg. P4 of the preserved Opus v006
-expansion; Root proof. Half uses dense high inclusion, Neg dense zero inclusion. -/
+/-! Exact original Pi identities at Half and Neg. Half uses dense high inclusion, Neg dense zero inclusion. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

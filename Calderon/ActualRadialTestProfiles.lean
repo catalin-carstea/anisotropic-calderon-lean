@@ -7,8 +7,6 @@ open Set Filter
 open scoped Topology ContDiff
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 
-/-! Expanded before source in EXPANSION-actual-radial-test-profiles-v001.json. -/
-
 def normSquareRadialProfile (ψ : ℝ → ℝ) (t : ℝ) : ℝ := ψ (Real.sqrt t)
 
 theorem contDiff_normSquareRadialProfile (ψ : ℝ → ℝ)

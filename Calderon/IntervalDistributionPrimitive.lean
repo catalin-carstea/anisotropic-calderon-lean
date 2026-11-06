@@ -9,8 +9,6 @@ open scoped ContDiff Distributions Topology
 namespace OAI.AnisotropicCalderon.IntervalDistributionPrimitive
 open IntervalDistributionConstancy
 
-/-! Expanded before source in EXPANSION-interval-distribution-primitive-v001.json. -/
-
 def intervalPrimitive (D : ℝ → ℝ) (r : ℝ) : ℝ := ∫ s in (0 : ℝ)..r, D s
 
 theorem continuousOn_intervalPrimitive (D : ℝ → ℝ) (R : ℝ) (hR : 0 ≤ R)

@@ -1,7 +1,6 @@
 import Calderon.SphereSobolevCompletion
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-STRONG-PUBLIC-DEF_EQ-METADATA-UPFRONT-v001.md. Same existing inherited data, public rfl rules. -/
+/-! Same existing inherited data, public rfl rules. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

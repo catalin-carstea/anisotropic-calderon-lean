@@ -2,7 +2,6 @@ import Calderon.CoordinateHarmonicProductDecomposition
 import Calderon.NativeHarmonicPolynomialHalfProjection
 import Calderon.NativeHalfSmoothMultiplier
 
-/-! Expanded before source in EXPANSION-native-coordinate-harmonic-defect-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial Set MeasureTheory

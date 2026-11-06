@@ -2,9 +2,7 @@ import Calderon.ActualTSSymmetricFirstGreen
 import Calderon.ActualTSFirstQuadraticTriple
 
 /-! Exact ordered triple bilinear coefficient with within-smoothness and genuine
-within first derivatives. Generic support; actual closed-room physical pullback
-and original207 coefficient matching remain required.
-Before-code: ../T-S-triple-bilinear-coefficient-before-source-nov03-night-v001/. -/
+within first derivatives, for generic coefficients. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

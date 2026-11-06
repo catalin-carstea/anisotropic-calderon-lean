@@ -1,7 +1,6 @@
 import Calderon.ActualDoubleBallPhysicalHarmonicCovariance
 
-/-! Full upfront: EXPANSION-actual-double-ball-harmonic-equivalence-v001.json.
-Actual nonzero Jacobian factor and bidirectional PDE equivalence, same double-ball room. -/
+/-! Actual nonzero Jacobian factor and bidirectional PDE equivalence, same double-ball room. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

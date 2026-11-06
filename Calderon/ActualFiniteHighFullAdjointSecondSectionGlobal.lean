@@ -2,9 +2,8 @@ import Calderon.ActualFullAdjointFirstActionRegularity
 import Calderon.ActualFiniteHighFullAdjointFirstSectionGlobal
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-global-uncompressed-second-section-v010.md. Literal second Y section,
-no smooth choice of the pointwise existential domain witness. -/
+/-! The global uncompressed second Y section, with no smooth choice of the pointwise
+existential domain witness. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

@@ -9,8 +9,7 @@ open scoped ContDiff Gradient InnerProductSpace
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError MetricOperator
 
-/-! Expanded before source in EXPANSION-native-orthogonal-smooth-energy-covariance-v001.json.
-Pullback convention is f(e x), with actual e a real linear isometry equivalence. -/
+/-! Pullback convention is f(e x), with e a real linear isometry equivalence. -/
 
 def orthogonalSmoothPullback (e : R3 ≃ₗᵢ[ℝ] R3) (f : SmoothData) : SmoothData :=
   ⟨f.1 ∘ e,f.2.comp e.toContinuousLinearEquiv.toContinuousLinearMap.contDiff⟩

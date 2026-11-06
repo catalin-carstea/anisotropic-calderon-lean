@@ -1,6 +1,6 @@
 import Calderon.MovingRadiusChainRule
 
-/-! Additive source-only actual moving-profile identity. The genuine radial
+/-! Additive actual moving-profile identity. The genuine radial
 profile derivative and frame connection direction are retained. No Psi/E/F
 operator claim or harmonic-PDE transport assumption is made. -/
 set_option autoImplicit false

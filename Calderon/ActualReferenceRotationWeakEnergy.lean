@@ -11,8 +11,8 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Expanded before source in EXPANSION-actual-rotation-weak-energy-restriction-v001.json.
-The inverse locus is for the actual coefficient energy, without symmetry or ellipticity assumptions. -/
+/-! The inverse locus is for the actual coefficient energy, without symmetry or
+ellipticity assumptions. -/
 
 lemma contDiff_nativeRotationFamily_congr
     {P W : Type*} [NormedAddCommGroup P] [NormedSpace ℝ P]

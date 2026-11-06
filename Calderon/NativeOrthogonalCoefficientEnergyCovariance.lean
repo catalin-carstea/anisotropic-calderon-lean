@@ -7,8 +7,7 @@ open scoped ContDiff Gradient InnerProductSpace Matrix Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError MetricOperator
 
-/-! Expanded before source in EXPANSION-native-orthogonal-smooth-energy-covariance-v001.json.
-This is the full bilinear energy, including the actual nonsymmetric drift. -/
+/-! This is the full bilinear energy, including the actual nonsymmetric drift. -/
 
 def orthogonalPrincipalCoefficient (e : R3 ≃ₗᵢ[ℝ] R3) (a : MatrixField) : MatrixField :=
   fun x => operatorMatrixMap (e.symm.toContinuousLinearEquiv.toContinuousLinearMap.comp

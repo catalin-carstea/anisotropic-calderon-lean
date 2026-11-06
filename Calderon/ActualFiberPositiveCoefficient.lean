@@ -1,8 +1,7 @@
 import Calderon.ActualFiberPhysicalCoefficientNormalization
 import Calderon.SmoothPositiveCoefficientNativeCoercivity
 
-/-! Full upfront: EXPANSION-actual-fiber-positive-coefficient-v002.json.
-Actual exp(depth)-weighted principal coefficient; compact derived native coercivity. -/
+/-! Actual exp(depth)-weighted principal coefficient; compact derived native coercivity. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

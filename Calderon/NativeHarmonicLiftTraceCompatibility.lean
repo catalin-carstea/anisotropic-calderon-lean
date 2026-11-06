@@ -10,8 +10,7 @@ open NativeHarmonicLiftCompletion SphereHarmonic SphereHilbertDecomposition
   SpectralCoreRegularity DirichletFamily EnergyBridge
 
 /-! Exact same-trace compatibility and native harmonicity of the completed
-Euclidean H2 lift. Expanded before source in
-EXPANSION-native-harmonic-H2-trace-compatibility-v001.json. -/
+Euclidean H2 lift. -/
 
 theorem strongValueTraceL_polynomialBallSobolev (τ0 : UnitBallValueTrace)
     (p : MvPolynomial (Fin 3) ℝ) :

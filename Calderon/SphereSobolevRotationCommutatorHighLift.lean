@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevLowerRotationReconstruction
 
-/-! Full upfront: full-physical-U-form-author-oct16-v001/
-rotation-commutator-high-lift-author-v001/EXPANSION.md. Explicit finite CLM,
-true lower distribution witnesses, no assumed high gain or output realization. -/
+/-! Explicit finite CLM with the lower distribution witnesses; no high gain or output
+realization is assumed. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ENNReal InnerProductSpace

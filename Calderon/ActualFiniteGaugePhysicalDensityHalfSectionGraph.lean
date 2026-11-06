@@ -2,8 +2,7 @@ import Calderon.ActualFiniteGaugePhysicalDensityHalfSection
 import Calderon.ActualFiniteGaugeDensityFirstSectionGraph
 import Calderon.ActualPhysicalDensityHigherFirstSectionDomain
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-GAUGE-PHYSICAL-HALF-SECTION-GRAPH-UPFRONT-v001.md. SAME W, actual derived local eta graph. -/
+/-! SAME W, actual derived local eta graph. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

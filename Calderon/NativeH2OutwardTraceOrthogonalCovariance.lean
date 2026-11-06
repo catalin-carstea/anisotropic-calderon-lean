@@ -12,7 +12,6 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeFullSharpHalfTrace NativeFullHalfRadialTrace
 
-/-! Expansion: EXPANSION-native-H2-outward-trace-orthogonal-joint-v001.md, steps 4–5. -/
 lemma continuousLinearMap_fin3_sum_smul_apply
     {V W : Type*} [NormedAddCommGroup V] [NormedSpace ℝ V]
     [NormedAddCommGroup W] [NormedSpace ℝ W]

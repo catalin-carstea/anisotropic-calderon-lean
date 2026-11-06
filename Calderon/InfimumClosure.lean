@@ -1,4 +1,4 @@
-import ComparatorChallenges.AnisotropicCalderon
+import OAI.Analysis.AnisotropicCalderon.Defs
 
 namespace OAI.AnisotropicCalderon.EnergyBridge
 

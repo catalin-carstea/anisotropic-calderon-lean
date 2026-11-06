@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevZeroEquivIdentities
 import Calderon.SphereSobolevHalfZeroNegativeInclusion
 
-/-! Full before-source: day-oct13/actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-zero-lift-negative-graph-v061.md. Original native cancellation and inclusion only. -/
+/-! Original native cancellation and inclusion only. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

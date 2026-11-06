@@ -1,7 +1,6 @@
 import Calderon.NativeSmoothCoordinateDerivative
 import Calderon.OrdinaryWeightedDriftOperator
-/-! Source-only author C5 calculus stage. Full exact native realization
-derivation and interfaces were sealed first. No physical harmonic/kernel
+/-! Native realization of the smooth operator. No physical harmonic/kernel
 premise or full moving-trace topology is introduced. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

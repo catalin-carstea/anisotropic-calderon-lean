@@ -3,7 +3,6 @@ import Calderon.ActualReferenceBoundaryCoefficientFamilies
 import Calderon.NativeNormalCoefficientOrthogonalCovariance
 import Calderon.NativeCoefficientMultiplierOrthogonalCovariance
 
-/-! Expanded first in EXPANSION-actual-rotation-normal-multiplier-inverse-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

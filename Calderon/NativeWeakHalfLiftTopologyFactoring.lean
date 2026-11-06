@@ -10,9 +10,6 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Expanded before source in EXPANSION-native-weak-half-lift-topology-factoring-v001.json.
-Exact native norms and actual completed harmonic lift are unchanged. -/
-
 lemma contDiffAt_nativeZeroWeakFunctionalInverse_of_isInvertible
     (A : (ℝ × (R3 × ℝ)) → BallH1Zero →L[ℝ] StrongDual ℝ BallH1Zero)
     (p : ℝ × (R3 × ℝ)) (hA : ContDiffAt ℝ ∞ A p) (hi : (A p).IsInvertible) :

@@ -6,9 +6,6 @@ import Mathlib.Tactic.Linarith
 import Mathlib.Tactic.Positivity
 import Mathlib.Tactic.Ring
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-profile-local-C3-helper-and-actual-implementation-v020.md;
-exact imports/controls: EXPANSION-local-signed-radius-calculus-imports-v021.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

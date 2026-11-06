@@ -121,7 +121,7 @@ theorem firstCoordinateFactor_eq_contracted (g2 : MatrixField) (l : Fin 3) (t : 
     (fun i j => referenceDensityPrincipalFrameCoefficient g g2 L t.1.1 t.1.2.1 i j)
     (fun k => EL k t)
 
-/-- Expected ordered leading reverse factor; extraction from the complete S-adjoint remains open. -/
+/-- Ordered leading reverse factor. -/
 def orderedReverseFirstCoordinateFactorHigh (g2 : MatrixField) (l : Fin 3) (t : Tpar) : Hi →L[ℝ] Half :=
   ∑ k : Fin 3, firstCoordinateWeight g g2 L l k t • eH k t
 

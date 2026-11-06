@@ -1,6 +1,5 @@
 import Calderon.ActualPhysicalDensityProductsWeightedAdjunction
 
-/-! DATA-only candidate; full upfront expansion is EXPANSION.md. No native check claimed. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

@@ -4,9 +4,7 @@ import Mathlib.Analysis.Convex.KreinMilman
 import Mathlib.LinearAlgebra.Dimension.Constructions
 import Mathlib.Analysis.InnerProductSpace.PiL2
 
-/-! Exact product moment compactness, full covariance, and rank-one minimization.
-All five ordinary roots are mandatory. Actual first-six parent remains guarded.
-Before-source authority: Root b8ffd09f and complete original ALL14 inventory. -/
+/-! Product moment compactness, full covariance, and rank-one minimization. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Matrix Filter Topology

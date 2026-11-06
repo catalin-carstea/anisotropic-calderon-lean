@@ -8,8 +8,6 @@ open scoped ContDiff InnerProductSpace Topology
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 open SphereHarmonic
 
-/-! Expanded before source in EXPANSION-actual-sphere-flux-distribution-v001.json. -/
-
 def sphereFlux (V : R3 → R3) (r : ℝ) : ℝ :=
   r^2 * ∫ «ω» : UnitSphere, ⟪«ω».val,V (r • «ω».val)⟫_ℝ ∂surfaceMeasure
 

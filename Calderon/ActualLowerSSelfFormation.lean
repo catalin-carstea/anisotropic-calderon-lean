@@ -3,11 +3,10 @@ import Calderon.ActualHigherSAdjointFormation
 import Calderon.FixedParameterProfilePullback
 import Calderon.FiniteCoreH1BesselNorm
 
-/-! Author source after archived upfront expansion. UNCHECKED in this artifact.
-Same data.delta0/data.germs; one profile-independent smaller threshold.
-No finite angular output premise and no cap/adjunction callback.
-This proves only formation and the exact original-energy domination prerequisite,
-not the assigned first/zero/quartic remainder or Transfer's leading identity. -/
+/-! Same data.delta0/data.germs; one profile-independent smaller threshold.
+No finite angular output premise.
+This proves formation and the exact original-energy domination; the
+first/zero/quartic remainders and the leading identity are treated elsewhere. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -93,7 +92,7 @@ theorem exists_uniform_same_packet_higherS_formation (hL : 0 < L)
   exact ⟨hout, hAO, hcAO, hout.2.2.2.2.2.2.2, hreverse⟩
 
 /-- The original energy already contains beta times the exact three-half input
-norm; this is the checked finite-core Bessel norm identity, with no size factor. -/
+norm; this is the finite-core Bessel norm identity, with no size factor. -/
 lemma beta_mul_norm_higherSInput_sq_le_referenceProfileEnergy (q beta : ℝ)
     (hb : 0 ≤ beta) (F : smoothCompactFiniteSphereCore hO hD) (x : R3) :
     beta * ‖ActualHigherSFormation.higherSInput hO hD F x‖^2 ≤

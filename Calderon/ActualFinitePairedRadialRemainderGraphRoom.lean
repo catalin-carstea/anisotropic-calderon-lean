@@ -1,9 +1,7 @@
 import Calderon.ActualFiniteHarmonicProductRadialRemainderGraph
 import Calderon.ActualFiniteGaugeAdjointRemainderGraph
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-paired-actual-graph-room-record-v016.md.
-The nominal room is constructed from both exact actual parent graphs. -/
+/-! The nominal room is constructed from both parent graphs. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

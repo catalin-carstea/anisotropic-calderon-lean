@@ -1,9 +1,7 @@
 import Calderon.ActualReferenceSmoothMultiplierWeakDefectEnergy
 import Calderon.ActualReferenceSharpBoundaryIdentity
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-zero-value-trace-v005.md. Actual half and value trace zero, derived
-from the SAME weak lift and multiplication graphs. No trace-kernel converse. -/
+/-! Actual half and value traces are zero, derived from the same weak lift and multiplication graphs. No trace-kernel converse. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

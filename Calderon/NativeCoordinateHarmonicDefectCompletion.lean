@@ -1,7 +1,6 @@
 import Calderon.NativeCoordinateHarmonicDefect
 import Calderon.NativeWeakMultiplicationDefectReduction
 
-/-! Expanded before source in EXPANSION-native-coordinate-harmonic-defect-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial Set MeasureTheory

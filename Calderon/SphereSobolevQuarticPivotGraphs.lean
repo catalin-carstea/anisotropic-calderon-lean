@@ -1,8 +1,7 @@
 import Calderon.RealPivotDifferenceCancellation
 import Calderon.SphereSobolevPairingInclusion
 
-/-! Upfront: full-quartic-form-author-oct15-v001/REPAIR-v009.md.
-Necessary exact native pivot intermediate graphs, no analytic output premise. -/
+/-! The intermediate graphs of the native pivots. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

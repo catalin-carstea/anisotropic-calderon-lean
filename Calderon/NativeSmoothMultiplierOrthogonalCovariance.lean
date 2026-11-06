@@ -3,7 +3,6 @@ import Calderon.NativeHarmonicFirstOrderOrthogonalPullback
 import Calderon.NativeHalfTraceOrthogonalPullback
 import Calderon.NativeHalfSmoothMultiplier
 
-/-! Expanded first in EXPANSION-native-scalar-multiplier-orthogonal-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

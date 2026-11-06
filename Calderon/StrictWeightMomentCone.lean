@@ -10,8 +10,6 @@ import Mathlib.Analysis.Normed.Module.FiniteDimension
 import Mathlib.Topology.Order.Compact
 
 /-! Native physical-coordinate factor moment cones for the original product Hessian split.
-Before-source authority: Root7156253f; exact ALL14 inventory and weighted expansion v004–v006.
-This coherent owner has exactly three definitions and three ordinary proof roots.
 The product covariance/rank-one/K/native endpoint remains a separate explicit remainder. -/
 set_option autoImplicit false
 noncomputable section

@@ -4,16 +4,8 @@ import Calderon.ActualLowerUSTWeightedIBP
 import Calderon.ActualLowerUSRZEnergy
 
 /-!
-Author-support GPT-6.1 Sol, Root/lower_jq_gained. Actual backend/version/tokens unknown.
-Full before-code expansion: ../lower-us-final-original-energy-upfront-v001.md.
-Governing resumed expansion: ../UPFRONT-RESUMED-v002.md.
-ONLY local lower U/S bound and exact full/scalar split, no final paper assembly.
-TARGET proposition declarations below are copied literally from TARGET.lean
-SHA256 e7df98468b98f1093497ed2b4941ea9541c960179a75c84626fd15c4e133f92f.
-Fix the ORIGINAL ordered metric pair; constants precede every q/profile/input.
-Source-uniformity clarification: ../METRIC-UNIFORMITY-SOURCE-RESOLUTION-v001.json.
-No analytic cap callback among final producer premises. No author compiler.
-Exact formal/review status is recorded in the bound delivery receipts; canonical Main is separate.
+The local lower U/S bound and the exact full/scalar split.
+The ordered metric pair is fixed; constants precede every q/profile/input.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -39,7 +31,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (hreg : FixedDirichletRegularity)
   (data : FullEPhysicalEndpointRoom g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg)
 
-/-- The literal integral statement, including the source factor two and original energy. -/
+/-- The integral statement, including the factor two and the original energy. -/
 def LowerUSOriginalEnergyConclusion (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (dr Ar : ℝ) (p : ℕ) (hdr : 0 < dr) (hAr : 0 < Ar) (q C_US eta : ℝ)
     (F : smoothCompactFiniteSphereCore hO hD) : Prop :=
@@ -54,9 +46,8 @@ def LowerUSOriginalEnergyConclusion (g2 : MatrixField) (hg2 : IsAdmissibleMetric
     (∫ x, mu x * finiteCoreReferenceProfileEnergy hO hD g hg L q
       (actualReferenceBeta g L q dr Ar p x) F x)
 
-/-- Selected fixed-original-pair obligation. All profile hypotheses are exactly those of
-`exists_actual_model_S_error_decomposition`; constants and threshold precede every profile/input.
-The original standing hypotheses hL and hKernel must be retained by its producer. -/
+/-- The bound for a fixed metric pair. All profile hypotheses are exactly those of
+`exists_actual_model_S_error_decomposition`; constants and threshold precede every profile/input. -/
 def FixedMetricLowerUSOriginalEnergyBound (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) : Prop :=
   ∃ C_US : ℝ, 0 < C_US ∧ ∃ etaUS : ℝ, 0 < etaUS ∧ etaUS ≤ data.eta0 ∧ etaUS ≤ 1 ∧
     ∀ q ∈ Icc (0 : ℝ) 1, ∀ dr : ℝ, ∀ hdr : 0 < dr, dr ≤ 1 →
@@ -71,15 +62,16 @@ def FixedMetricLowerUSOriginalEnergyBound (g2 : MatrixField) (hg2 : IsAdmissible
     LowerUSOriginalEnergyConclusion g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
       Room hreg data g2 hg2 dr Ar p hdr hAr q C_US eta F
 
-/-- Exact desired fixed-metric theorem type as a proposition; not an inhabitant/proof. -/
+/-- The fixed-metric bound under the standing hypotheses `0 < L` and the trace kernel, as a
+proposition. -/
 def FixedMetricLowerUSOriginalEnergyProducer (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) : Prop :=
   0 < L → UnitBallValueTraceKernel τ0 →
     FixedMetricLowerUSOriginalEnergyBound g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
       Room hreg data g2 hg2
 
 
-/-- Literal full physical U/S contribution minus the already checked scalar/S
-contribution. This definition retains the original common data/germs and factor two. -/
+/-- The full physical U/S contribution minus the scalar/S contribution, with the
+common data/germs and the factor two. -/
 def FullUSScalarDifferenceConclusion (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (dr Ar : ℝ) (p : ℕ) (hdr : 0 < dr) (hAr : 0 < Ar) (q C_US eta : ℝ)
     (F : smoothCompactFiniteSphereCore hO hD) : Prop :=
@@ -98,8 +90,7 @@ def FullUSScalarDifferenceConclusion (g2 : MatrixField) (hg2 : IsAdmissibleMetri
     C_US*eta*(∫ x, mu x*finiteCoreReferenceProfileEnergy hO hD g hg L q
       (actualReferenceBeta g L q dr Ar p x) F x)
 
-/-- Pure bookkeeping using the QUALIFIED literal native split. This does not
-reprove the principal scalar estimate or add an analytic assumption to a producer. -/
+/-- Pure bookkeeping using the native integral split. -/
 lemma fullUSScalarDifference_of_lower_and_split
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (dr Ar : ℝ) (p : ℕ) (hdr : 0 < dr) (hAr : 0 < Ar) (q C_US eta : ℝ)
@@ -118,9 +109,9 @@ lemma fullUSScalarDifference_of_lower_and_split
   rw [hTwiceSplit,add_sub_cancel_left]
   exact hLower.2.2.2
 
-/-- Complete actual local assembly, including original integrability, exact
-factor two, qualified integral split and the literal full-minus-scalar bound.
-All actual row/cap factories are invoked internally, before every profile. -/
+/-- Complete local assembly, including integrability, the exact factor two, the
+integral split and the full-minus-scalar bound. All row and cap constructions are
+invoked internally, before every profile. -/
 theorem exists_actual_lower_US_original_energy_bound_and_split
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0) :
@@ -236,9 +227,8 @@ theorem exists_actual_lower_US_original_energy_bound_and_split
     g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data
     g2 hg2 dr Ar p hdr hAr q C_US eta F hConclusion hSplitKeep
 
-/-- The exact selected TARGET, derived from actual T/R/Z and qualified split
-factories, with no analytic cap callback among its hypotheses. The ORIGINAL ordered
-metric pair is fixed; constants precede every q/profile/input. -/
+/-- The fixed-metric bound, derived from the T/R/Z estimates and the integral split.
+The ordered metric pair is fixed; constants precede every q/profile/input. -/
 theorem exists_actual_lower_US_original_energy_bound
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0) :
@@ -251,7 +241,7 @@ theorem exists_actual_lower_US_original_energy_bound
   intro q hq dr hdr hdr1 Ar hAr p hp eta heta hetaUS K hK hBall F hSupp hb hs hH8
   exact (hBound q hq dr hdr hdr1 Ar hAr p hp eta heta hetaUS K hK hBall F hSupp hb hs hH8).1
 
-/-- Public inhabitant of the exact original fixed-metric producer proposition. -/
+/-- Proof of `FixedMetricLowerUSOriginalEnergyProducer`. -/
 theorem fixedMetricLowerUSOriginalEnergyProducer
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) :
     FixedMetricLowerUSOriginalEnergyProducer

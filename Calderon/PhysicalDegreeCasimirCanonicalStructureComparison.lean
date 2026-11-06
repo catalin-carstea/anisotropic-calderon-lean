@@ -5,8 +5,8 @@ noncomputable section
 open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic
-/-! Full upfront EXPANSION-v001.json precedes source. Exact same-structure
-comparisons only; no alternative norm or assumed canonical dictionary equality. -/
+/-! Comparisons within the same structure only; no alternative norm or assumed
+canonical dictionary equality. -/
 
 def physicalDegreeCasimirData_module : Module ℝ PhysicalDegreeCasimirData :=
   (inferInstance : NormedSpace ℝ PhysicalDegreeCasimirData).toModule

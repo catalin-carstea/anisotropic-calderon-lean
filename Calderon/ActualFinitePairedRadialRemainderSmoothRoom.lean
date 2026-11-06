@@ -1,9 +1,7 @@
 import Calderon.ActualFinitePairedRadialRemainderGraphRoom
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-paired-smooth-section-common-room-v022.md.
-The original paired graph room and high strong-inverse tube determine one exact common radius. -/
+/-! The original paired graph room and high strong-inverse tube determine one exact common radius. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

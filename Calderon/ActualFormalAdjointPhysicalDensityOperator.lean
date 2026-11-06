@@ -1,9 +1,8 @@
 import Calderon.ActualFullAdjointFirstActions
 import Calderon.ActualDensityAngularBoundaryAction
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-literal-formal-physical-adjoint-definition-v014.md.
-Formal expression only; genuine weighted adjunction and finite L2 domain are separate. -/
+/-! The formal physical adjoint as an expression only; the genuine weighted adjunction and the
+finite L2 domain are treated separately. -/
 set_option autoImplicit false
 noncomputable section
 open Set

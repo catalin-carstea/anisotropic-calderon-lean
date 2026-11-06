@@ -16,9 +16,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic MetricVolume InnerProductSpace
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in
-work/day-oct13/native-zero-energy-adjoint-inverse-author-oct14-v001/EXPANSION-v001.json.
-Actual adjoint invertibility and the same coercivity constant are consequences,
+/-! Actual adjoint invertibility and the same coercivity constant are consequences,
 not extra hypotheses on the formal adjoint. -/
 
 section

@@ -1,5 +1,4 @@
 import Calderon.ActualOriginalSDirectPhysicalFormBounds
-/- Root authored; UPFRONT.md precedes this source. Opus v087 delivered no proof. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

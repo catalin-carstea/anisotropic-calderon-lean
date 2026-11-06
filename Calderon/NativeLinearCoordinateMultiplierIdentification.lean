@@ -2,9 +2,8 @@ import Calderon.NativeNegativeHalfCoefficientCoordinateProduct
 import Calderon.NativeOrderOneCoefficientMultiplier
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-native-linear-scalar-identification-v055.md. Exact scalar graph
-identifies existing native maps; actual gauge operator firstjet is separate. -/
+/-! The exact scalar graph identifies the native linear coordinate multipliers; the first jet of
+the actual gauge operator is treated separately. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

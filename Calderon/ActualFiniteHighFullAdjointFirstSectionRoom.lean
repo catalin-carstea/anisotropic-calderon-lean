@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteHighFullAdjointFirstSection
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 
-/-! Upfront: actual-primal-moving-adjoint-domain-author-oct16-v001/
-EXPANSION-actual-common-room-germ-v002.md. ACTUAL common-radius Y germ, no hNear/domain premise. -/
+/-! ACTUAL common-radius Y germ, no hNear/domain premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

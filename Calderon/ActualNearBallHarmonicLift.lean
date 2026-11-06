@@ -1,9 +1,7 @@
 import Calderon.LocalSmoothAmbientExtension
 import Calderon.ActualPhysicalHarmonicCovariance
-/-! Source-only author original near-ball datum bridge. Genuine local
-extension and exact actual harmonic/value/radial correspondence were sealed
-first. No global smooth premise is substituted into the manuscript target,
-and no full moving-family/Psi closure or acceptance is claimed. -/
+/-! Near-ball datum bridge: a local extension and the exact harmonic/value/radial
+correspondence. No global smoothness premise is substituted into the target. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

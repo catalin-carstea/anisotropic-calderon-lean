@@ -2,8 +2,7 @@ import Calderon.NativeCoefficientMultiplierOrderCoherence
 import Calderon.NativeOrderOneCoefficientMultiplierTopology
 import Calderon.CoefficientFirstJetsCommonSupport
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. Topology from actual scalar functions. -/
+/-! Topology of the repacked coefficient multipliers, from the actual scalar functions. -/
 set_option autoImplicit false
 noncomputable section
 open Set

@@ -15,9 +15,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Expanded before source in EXPANSION-actual-rotation-native-weak-lift-topology-v001.json.
-Proof-only repair expanded in work/day-oct13/weak-lift-native-helper-repair-oct14-v001/EXPANSION-v001.json.
-Arbitrary parameter space, exact native zero-space and completed harmonic lift. -/
+/-! Arbitrary parameter space, exact native zero-space and completed harmonic lift. -/
 
 attribute [local irreducible] functionalInverse nativeZeroFunctionalInverse harmonicFirstOrderLiftCompletion
 

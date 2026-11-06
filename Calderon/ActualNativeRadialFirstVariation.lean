@@ -1,8 +1,7 @@
 import Calderon.RelativeNativeFirstVariation
 import Calderon.NativeValueRadialTrace
 
-/-! UNCOMPILED additive author proposal. EXPANSION-v001 and literal interfaces
-were sealed before candidate assembly. The full actual joint witness is retained. -/
+/-! The full actual joint witness is retained. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

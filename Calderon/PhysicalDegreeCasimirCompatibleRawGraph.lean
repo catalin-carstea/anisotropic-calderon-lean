@@ -6,8 +6,8 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic
-/-! Full upfront EXPANSION-v001.json. Exact original physical degree raw graph
-on the original compatible data; no bounded extraction/smoothness premise. -/
+/-! Exact original physical degree raw graph on the original compatible data; no bounded
+extraction/smoothness premise. -/
 
 lemma compatibleDegreeEndpointDefect_eq_zero
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

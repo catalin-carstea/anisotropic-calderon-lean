@@ -3,10 +3,7 @@ import Calderon.AmbientReferenceRaising
 import Calderon.ReferenceRaisingAdjunctionEndpoint
 
 /-!
-Source-only candidate: derived zero part of the actual reference raising adjoint.
-Frozen target: OAI.AnisotropicCalderon.main, d1205fb493b3fbe04e55f72b76c6ff0761fb5a03.
-Expansion frozen before authoring in EXPANSION.md and expansion-freeze.json.
-No compilation, kernel, foundation, semantic-review or acceptance claim.
+Derived zero part of the reference raising adjoint.
 This coefficient is not identified with the full physical U†−U zero defect.
 -/
 

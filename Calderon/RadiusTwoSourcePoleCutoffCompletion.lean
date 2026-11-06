@@ -1,8 +1,8 @@
 import Calderon.RadiusTwoSourcePoleCutoffCauchy
 import Calderon.RadiusTwoNativeZeroSequenceCompletion
 
-/-! EXPANSION.json distinguishes this genuine conditional completion auxiliary
-from the separate actual smooth-delta discharge. -/
+/-! A conditional completion auxiliary, separate from the actual smooth-delta
+discharge. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

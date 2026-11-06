@@ -1,8 +1,7 @@
 import Calderon.PhysicalDensityProductsFiniteCorePairing
 import Calderon.SphereSobolevHalfToL2
 
-/-! DATA-only two-theorem projection boundary. Upfront expansion:
-ProductsFiniteCoreProjection.EXPANSION.DATA.md. No native check claimed. -/
+/-! Two-theorem finite-core projection for the density products. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

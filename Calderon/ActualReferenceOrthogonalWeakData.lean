@@ -2,8 +2,7 @@ import Calderon.ActualReferenceNativeWeakHalfLift
 import Calderon.NativeWeakHalfLiftOrthogonalCovariance
 import Calderon.NativeOrthogonalZeroEnergyInvertibility
 
-/-! Expanded first in EXPANSION-actual-reference-orthogonal-strong-lift-author-v001.json.
-This is the small coefficient-data part of its strong/weak coherence block. -/
+/-! The coefficient-data part of the orthogonal strong/weak coherence. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

@@ -2,8 +2,6 @@ import Calderon.ActualReferenceTwoAngleDegreeExtraction
 import Calderon.ActualReferenceDegreeHalfChosenSmoothness
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-degree-zero-identification-v131.md. SAME original chosen C. -/
 set_option autoImplicit false
 noncomputable section
 open Set

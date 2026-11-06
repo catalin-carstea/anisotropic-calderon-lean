@@ -16,7 +16,7 @@ open EnergyBridge DirichletFamily ExteriorSource Literature ConnectionError Metr
 /-- The exact same cutoff and density field may be bounded in the fixed-frame
 reference-base lift for sufficiently small dilations, with that positive
 threshold chosen after the cutoff; the local frontier follows from all radii.
-The lift bound remains conditional and is not a moving-fiber density theorem. -/
+The lift bound is a hypothesis of this theorem. -/
 theorem exists_actual_factory_one_dilation_local_frontier_of_referenceBaseLift_bound_with_small_dilation_cap_of_source_free_room
     (hcalc : FixedSobolevCalculus) (hreg : FixedDirichletRegularity) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)

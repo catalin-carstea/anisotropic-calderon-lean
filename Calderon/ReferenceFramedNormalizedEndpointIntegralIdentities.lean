@@ -1,7 +1,6 @@
 import Calderon.SmoothReferenceFramedNormalizedEndpoint
 
-/-! Source-only author supplement, expanded and exactly typed before source.
-These are identities for the same original physical endpoint and actual spatial
+/-! These are identities for the same original physical endpoint and actual spatial
 Jacobian on the precise original normalization domain. -/
 set_option autoImplicit false
 noncomputable section

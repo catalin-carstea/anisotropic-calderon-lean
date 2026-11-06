@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleDegreeCasimirData
 import Calderon.ActualReferenceTwoAngleLowerRadialEndpoint
 import Mathlib.Analysis.Calculus.ContDiff.Operations
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-closed-degree-data-topology-v120.md. Actual finite inverse intersection. -/
+/-! Actual finite inverse intersection. -/
 set_option autoImplicit false
 noncomputable section
 open Set

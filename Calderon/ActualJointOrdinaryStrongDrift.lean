@@ -4,9 +4,8 @@ import Calderon.ActualReferenceInverseConsistency
 import Calderon.SmoothCommonSupportStrongOperator
 import Calderon.CompactInverseDerivativeBounds
 
-/-! Source-only exact joint actual inverse topology on the same common weak
-room. Joint coefficient maps are the native maps of the identical evaluated
-spatial functions. No new operator or desired uniform inverse premise. -/
+/-! Joint inverse topology on the same common weak room. Joint coefficient maps
+are the native maps of the identical evaluated spatial functions. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -1,11 +1,7 @@
 import Calderon.ActualFullEGainedHighCore
 
-/-! Source-only Sol author candidate. Full upfront: full-finite-assembly-before-v001.
-All maps below use the actual retained coefficient germs. This file assembles the
-literal full E/E HIGH graph, smooth paired LOW endpoint, and finite joint
-jet caps. The new
-ordinary reverse adapters are a declared unqualified dependency; no analytic
-callback is added. -/
+/-! All maps below use the actual retained coefficient germs. This file assembles the
+full E/E high graph, the smooth paired low endpoint, and finite joint jet caps. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -71,8 +67,8 @@ local notation "Ω" => referenceRadialEndpointInvertibleLocus g L y0 Φ B ε C �
 local notation "PiL" => referencePiHalfMultiplier g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 local notation "PiN" => referencePiNegativeHalfMultiplier g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-- Candidate dependency: Root's explicit ordinary endpoint wrappers, not yet
-checked. These transports retain the same W and the genuine ordered reverse. -/
+/-- The swapped gained pairing, through the explicit ordinary endpoint wrappers.
+These transports keep the same W and the genuine ordered reverse. -/
 theorem full_gained_swapped_pairing
     (hreg : FixedDirichletRegularity)
     (Gcoord : Fin 3 → Pphys → Half →L[ℝ] Half) (GN : Fin 3 → Fin 3 → Pphys → Half →L[ℝ] Half)
@@ -144,9 +140,8 @@ private theorem fullBalancedLow_exists (Ch Dh : Hi →L[ℝ] Half)
   have hNT := norm_v016TransposeL_apply_le Dh
   exact ⟨B,hUp,hLo,hN.trans (by linarith)⟩
 
-/-- Actual FULL high/low E/E weak endpoint family, using actual paired/balanced
-construction on the same W. Joint full-family smoothness/caps remain unfinished.
-The Root ordinary explicit adapters are a declared unqualified dependency. -/
+/-- Actual full high/low E/E weak endpoint family, using the actual paired/balanced
+construction on the same W. -/
 theorem exists_commonRoom_fullGained_paired_endpoints
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :

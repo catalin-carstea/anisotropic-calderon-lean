@@ -5,8 +5,7 @@ import Calderon.ActualReferenceTwoAngleNormalEndpointInverseFamilies
 import Calderon.NativeHalfTraceRightInverse
 import Calderon.NativeZeroValueTrace
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-high-adjoint-v098.md. RIGHT ordinary normal reciprocal. -/
+/-! Two-angle actual high adjoint, with the ordinary normal reciprocal on the right. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

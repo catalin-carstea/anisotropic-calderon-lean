@@ -1,8 +1,7 @@
 import Calderon.NativeSobolevCoordinateDerivativeCoherence
 import Calderon.InheritedNormedStructureData
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-LOWER-ORDER-WRAPPER-EXPANSION-v001.md. The same Tau lowering in the native graph norm. -/
+/-! The same Tau lowering in the native graph norm. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

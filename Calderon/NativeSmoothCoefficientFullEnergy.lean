@@ -11,8 +11,7 @@ open scoped ENNReal InnerProductSpace Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 
-/-! Full upfront expansion: EXPANSION-native-smooth-full-energy-and-angle-family-v001.json.
-All tests are actual BallH1; c=0 is literal selected mass-zero energy. -/
+/-! All tests are actual BallH1; c=0 is literal selected mass-zero energy. -/
 
 def nativeSmoothDriftField (G : Fin 3 → SmoothCoefficientJets 1) : R3 → R3 :=
   fun x => WithLp.toLp 2 (fun i => coefficientValue 1 (G i) x)

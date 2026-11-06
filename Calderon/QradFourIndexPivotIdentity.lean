@@ -3,7 +3,7 @@ import Calderon.SphereSobolevPairingInclusion
 import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! Exact four-index pivot cancellation on genuine first-output representatives.
-Root complete upfront precedes source. All physical graph premises remain explicit. -/
+All physical graph premises are explicit hypotheses. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

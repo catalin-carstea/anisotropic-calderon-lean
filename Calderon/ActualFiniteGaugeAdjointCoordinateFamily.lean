@@ -2,8 +2,7 @@ import Calderon.ActualFiniteGaugeAdjointRadialFamily
 import Calderon.NativeFiniteHarmonicProductHighRotationGraph
 import Calderon.NativeThreeHalfCoefficientCoordinateProduct
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-GAUGE-ADJOINT-COORDINATE-MOVING-DOMAIN-EXPANSION-v001.md. Actual derivative AFTER coordinate product. -/
+/-! The actual derivative taken after the coordinate product. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -9,7 +9,7 @@ open SphereHarmonic ExteriorSource WeightedBaseSpectral ConformalDepth
 
 /-- A finite fixed-frame reference-base lift bound gives the exact Euclidean
 cutoff density norm required by the source-matched Taylor/L² interpolation.
-The lift bound itself remains a separate conditional input. -/
+The lift bound itself is a hypothesis. -/
 theorem exists_uniform_cutoff_density_Euclidean_le_real_referenceBaseLift
     (g : MatrixField) (hg : IsAdmissibleMetric g) (L : ℝ)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) :

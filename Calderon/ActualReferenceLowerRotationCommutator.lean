@@ -11,9 +11,8 @@ open scoped ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotation
 
-/-! Full upfront argument is EXPANSION-v002.json in this immutable author directory.
-Actual alpha inverse and surface normalization are inherited unchanged. The midpoint
-is the primal H1 to L2 derivative; the corresponding adjoint estimate remains separate. -/
+/-! Actual alpha inverse and surface normalization are inherited unchanged. The midpoint
+is the primal H1 to L2 derivative; the corresponding adjoint estimate is treated separately. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)

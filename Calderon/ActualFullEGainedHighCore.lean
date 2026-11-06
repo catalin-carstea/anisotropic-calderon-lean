@@ -1,11 +1,8 @@
 import Calderon.ActualPiJacobiRadialGainedRows
 
-/-! Source-only Sol author candidate. Full upfront: full-finite-assembly-before-v001.
-All maps below use the actual retained coefficient germs. This file assembles the
+/-! All maps below use the actual retained coefficient germs. This file assembles the
 literal full E/E HIGH graph, smooth paired LOW endpoint, and finite joint
-jet caps. The new
-ordinary reverse adapters are a declared unqualified dependency; no analytic
-callback is added. -/
+jet caps. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -181,8 +178,7 @@ attribute [local irreducible] fullGainedHigh retainedAdjacentHigh radialAngularH
   jacobiAngularHigh commonRoom referenceRadialEndpointInvertibleLocus
 
 /-- Select only the actual high R/R graph used below, retaining the original
-room and the ordinary owner's SAME W. All cap/smoothness data remain in its
-native producer; this typed projection adds no premise. -/
+room and the same W as the ordinary producer. This typed projection adds no premise. -/
 private theorem exists_retained_actualPi_high_graph_only
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :
@@ -202,8 +198,7 @@ private theorem exists_retained_actualPi_high_graph_only
   exact ⟨δ,hδ,hδ0le,hδρ,hGraph⟩
 
 /-- Actual undifferentiated FULL E/E high graph on one common retained witness
-set. The concluding graph contains every R/R, R/H1, H1/R, H1/H1 and H0 row.
-This theorem does not yet claim the outstanding joint mixed smoothness/low cap producer. -/
+set. The concluding graph contains every R/R, R/H1, H1/R, H1/H1 and H0 row. -/
 theorem exists_commonRoom_fullGainedHigh_graph
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :

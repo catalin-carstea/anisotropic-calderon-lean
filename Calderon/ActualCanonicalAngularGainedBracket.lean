@@ -3,10 +3,8 @@ import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.ActualAngularCommutatorHalfForm
 import Calderon.SectionFiveErrorForms
 
-/-! Sol author candidate. Upfront: before-canonical-bracket-v001/MATHEMATICS.md.
-Literal canonical [a_i,A_j] graph and independently constructed Hi/Half endpoints.
-Physical degree remains k; normalization of the historical bounded operator is k+1.
-No compiler run or semantic acceptance is claimed. -/
+/-! Literal canonical [a_i,A_j] graph and independently constructed Hi/Half endpoints.
+Physical degree remains k; normalization of the historical bounded operator is k+1. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

@@ -1,8 +1,6 @@
 import Calderon.StrictWeightHessianDictionary
 
-/-! Exact source metric-unit strictness implies the native raw condition.
-Prior expansion: UPFRONT-METRIC-UNIT-TO-RAW-STRICTNESS-v001.md.
-The native Hessian dictionary is a future genuine-parent guard. -/
+/-! Exact source metric-unit strictness implies the native raw condition. -/
 set_option autoImplicit false
 noncomputable section
 open Filter

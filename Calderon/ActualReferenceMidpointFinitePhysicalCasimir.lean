@@ -8,8 +8,7 @@ open scoped InnerProductSpace ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotationProjection
 
-/-! Full upfront: EXPANSION-v001.json. ACTUAL unbalanced finite probability-L2
-Casimir identity. Cmid outputs remain unrestricted; actual Csharp is not assumed. -/
+/-! Actual unbalanced finite probability-L2 Casimir identity. Cmid outputs remain unrestricted; actual Csharp is not assumed. -/
 attribute [local irreducible] referenceRadialRotationCommutatorMidpointFamily
   referenceSharpRadialHarmonicBlockL referenceRadialRotationCommutatorMidpointHarmonicBlockL
 

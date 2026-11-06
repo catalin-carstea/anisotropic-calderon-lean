@@ -2,7 +2,7 @@ import Mathlib.Analysis.Normed.Module.Basic
 import Mathlib.Topology.Instances.RealVectorSpace
 import Mathlib.Analysis.Calculus.ContDiff.Defs
 
-/-! Author diagnostic, 28 October 2026. No replacement structures or instances.
+/-! No replacement structures or instances.
 For one fixed NormedAddCommGroup, two real NormedSpace structures coincide:
 the continuous additive identity is real linear. This proof never unfolds
 any concrete NormedSpace value. -/

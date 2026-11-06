@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteGaugeDensityFirstSectionSupport
 import Calderon.ActualPhysicalDensityOperatorLocality
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-GAUGE-PHYSICAL-HALF-SECTION-UPFRONT-v001.md. ONE literal W; unconditional support. -/
+/-! One literal W; unconditional support. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

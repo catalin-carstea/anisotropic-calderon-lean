@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalBoundaryChainRule
 import Mathlib.Analysis.SpecialFunctions.Log.Deriv
 
-/-! Source-only generic radius-profile chain rule. The physical profile
-expansion and literal interfaces were sealed before proof source. -/
+/-! Generic radius-profile chain rule. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

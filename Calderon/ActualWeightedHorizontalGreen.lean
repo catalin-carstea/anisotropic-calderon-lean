@@ -8,8 +8,7 @@ import Calderon.SphereSobolevHalfDualRotationPairing
 import Mathlib.Analysis.InnerProductSpace.PiL2
 import Mathlib.Analysis.Calculus.ContDiff.WithLp
 
-/-! Before-source: output/WEIGHTED-GREEN-MATHEMATICS.md.
-Actual R3 weighted horizontal Green identity for arbitrary smooth full-output fields
+/-! Actual R3 weighted horizontal Green identity for arbitrary smooth full-output fields
 (`v` compactly supported), proved from the generic compact Hilbert API `BaseDensityAdjoint`. -/
 set_option autoImplicit false
 noncomputable section

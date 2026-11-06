@@ -7,16 +7,13 @@ import Calderon.ActualPiNativeOperatorGerms
 import Calderon.NativeOrderOneCoefficientMultiplierTopology
 import Calderon.NativeSmoothMultiplierCommonSupportJets
 
-/-! DRAFT NOT CHECKED (claude-actual-Pi-caps-2026-10-29-v015, Claude Opus 5.5, author only,
-nothing compiled or run). Before-source mathematics: output/MATHEMATICS.md.
-
-ONE theorem: one room `δ = min δA dP` and ONE set of witnesses `G` (angular theorem, obtained
-once) and `m, Km` (germ theorem, obtained once) carry
-* the literal actual Pi graphs (v013 body, re-run on these witnesses, NOT by calling the
-  existential `exists_reference_commonRadius_actualPi_mixed_graphs`),
+/-! One theorem: one room `δ = min δA dP` and one set of witnesses `G` (from the angular theorem,
+obtained once) and `m, Km` (from the germ theorem, obtained once) carry
+* the actual Pi graphs, proved on these witnesses rather than obtained from the
+  existential `exists_reference_commonRadius_actualPi_mixed_graphs`,
 * joint `ContDiffOn ℝ ∞` of the four exact maps on `S = commonRoom y0 ρ δ ×ˢ closedBall 0 1`,
-* for every `N`, ONE nonnegative cap for all within-jets of order `≤ N`, all `i k`, all four maps.
-NOT claimed: D_Q, L, cross pairs, absorption, coercivity, density, Main. -/
+* for every `N`, one nonnegative cap for all within-jets of order `≤ N`, all `i k`, all four maps.
+-/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -128,8 +125,8 @@ local notation "CPiSAMap" => v015RaisingMixedMap hcalc hF hO hD τ0 g L y0 Φ B 
   hreg
 local notation "PiRoom" δ:max => Set.prod (commonRoom y0 ρ δ) (closedBall (0 : R3 →L[ℝ] ℝ) 1)
 
--- actualSol: keep already checked native operator implementations opaque to elaboration.
--- Their mathematical interfaces and definitions remain unchanged.
+-- Keep the native operator implementations opaque to elaboration.
+-- This does not change their mathematical interfaces or definitions.
 attribute [local irreducible] nativeThreeHalfCoefficientMulL nativeHalfCoefficientMulL
   nativeNegativeHalfCoefficientMulL sphereSobolevRotationL sphereSobolevShiftedDegreeL
   sphereSobolevLinearCoordinateMulL
@@ -293,7 +290,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_graph_caps :
         ‖iteratedFDerivWithin ℝ n (CaTPiMap G m hm Km hKm hmz i k) (PiRoom δ) z‖ ≤ M ∧
         ‖iteratedFDerivWithin ℝ n (CPiSAMap m hm Km hKm hmz i k) (PiRoom δ) z‖ ≤ M := by
   have hρ : 0 < ρ := hData.1.2.1
-  -- witnesses obtained ONCE (MATHEMATICS.md §0)
+  -- witnesses obtained once
   have hBoth := exists_reference_commonRadius_angularHigh_both_graph_caps
     hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg hg hKernel
   obtain ⟨δA,hδA,hδAρ,hRoomA,G,hGOn,hGlow,hCaT,_hGh,hCAS⟩ := hBoth
@@ -373,7 +370,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_graph_caps :
   refine ⟨δ,hδ,(min_le_left _ _).trans hδAρ,hSubA.trans hRoomA,G,
     fun j => (hGOn j).mono hSubA,fun j p hp v => hGlow j p (hSubA hp) v,
     m,hm,Km,hKm,hmz,?_,fun i k => ⟨hE1On i k,hE2On i k,hC1On i k,hC2On i k⟩,hCaps⟩
-  -- the literal graphs: v013 body, run on the SAME witnesses
+  -- the graphs, on the same witnesses
   intro i k p hp ell hell Q
   have hpA := hSubA hp
   have hSeg := segment_of_mem_commonRoom hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData

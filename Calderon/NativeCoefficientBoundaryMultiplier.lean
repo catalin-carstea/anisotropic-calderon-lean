@@ -12,8 +12,6 @@ open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap SphereHarmonic
   NativeFullSharpHalfTrace NativeHarmonicH1LiftCompletion NativeHalfSmoothMultiplier
   NativeNegativeHalfSmoothMultiplier
 
-/-! Expanded before source in EXPANSION-native-parameterized-boundary-multiplier-topology-v001.json. -/
-
 def realHilbertOperatorAdjointL
     (V : Type*) [NormedAddCommGroup V] [InnerProductSpace ℝ V] [CompleteSpace V] :
     (V →L[ℝ] V) →L[ℝ] (V →L[ℝ] V) :=

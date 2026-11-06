@@ -2,8 +2,7 @@ import Calderon.MixedRadialDerivativeBounds
 import Mathlib.Analysis.Calculus.MeanValue
 import Mathlib.Analysis.Normed.Module.FiniteDimension
 
-/-! UNCOMPILED author proposal. EXPANSION.md D6 was saved before source.
-Only nonradial jets decay linearly; radial prefixes are uniformly bounded. -/
+/-! Only nonradial jets decay linearly; radial prefixes are uniformly bounded. -/
 set_option autoImplicit false
 noncomputable section
 open Set Function

@@ -3,8 +3,7 @@ import Calderon.ActualReferenceRotationUpperCovariance
 import Calderon.SphereSobolevDenseEndpointCovariance
 import Calderon.SphereSobolevShiftedDegreeOrthogonalCovariance
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-degree-covariance-v129.md. Concrete actual covariance. -/
+/-! Concrete actual covariance. -/
 set_option autoImplicit false
 noncomputable section
 open Set

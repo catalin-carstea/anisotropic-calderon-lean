@@ -1,9 +1,8 @@
 import Calderon.ActualCompactNormalChart
 import Calderon.ParameterHadamardDivision
 
-/-! Source-only same-witness author construction. EXPANSION-v001.md is sealed.
-The new integral representative is globally smooth. It is proved equal to the
-unchanged piecewise endpoint on the exact closed-q normalization domain.
+/-! The integral representative is globally smooth. It is proved equal to the
+piecewise endpoint on the exact closed-q normalization domain.
 No ambient germ equality across its closed-q boundary is asserted. -/
 set_option autoImplicit false
 noncomputable section

@@ -1,6 +1,6 @@
 import Calderon.MetricInverse
 import Calderon.GeodesicFlow
-import ComparatorChallenges.AnisotropicCalderon
+import OAI.Analysis.AnisotropicCalderon.Defs
 import Mathlib.Analysis.Normed.Lp.Matrix
 import Mathlib.Topology.Algebra.Module.FiniteDimension
 import Mathlib.Analysis.Matrix.Hermitian

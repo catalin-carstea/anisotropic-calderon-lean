@@ -5,8 +5,7 @@ import Calderon.ActualJacobiCommonSupportMultiplierGerms
 import Calderon.ActualFirstCorrectionParameterJets
 import Calderon.ActualFirstCorrectionSobolevFamilies
 
-/-! Sol author candidate. Full upfront: before-source-v001/MATHEMATICS.md §§1–3.
-No check or independent review is claimed. The forward coefficient is the literal
+/-! The forward coefficient is the literal
 moving E; the reverse below is the ordered angular reverse, not the raw lower E. -/
 set_option autoImplicit false
 noncomputable section
@@ -738,8 +737,7 @@ private theorem ordinaryEndpointsFoldedContract_proof (hreg : FixedDirichletRegu
 Pi/Jacobi germs, and ambient finite-jet caps chosen before profiles and inputs.
 The signed room includes r=0. Literal original moving E is identified only by
 `movingDifferenceQuotient_eq_canonicalHigh` with its retained nonzero-radius
-hypothesis; no equality or smoothness of the original quotient at zero is asserted.
-This owner does not claim the missing full E/E gain family. -/
+hypothesis; no equality or smoothness of the original quotient at zero is asserted. -/
 theorem exists_commonRoom_actual_fullE_ordinary_endpoints
     (hreg : FixedDirichletRegularity) :
     ∃ δ : ℝ, 0 < δ ∧ δ ≤ ρ ∧ commonRoom y0 ρ δ ⊆ Ω ∧

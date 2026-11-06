@@ -25,8 +25,6 @@ import Mathlib.MeasureTheory.Integral.Bochner.Basic
 import Calderon.PhysicalDensityProductsProfileEnergyIntegrability
 
 /-! Private scalar and actual pointwise profile estimate.
-Upfront: /tmp/ProductsProfilePointwiseEstimate-v003/UPFRONT.md.
-The full uniform d/C_P theorem and full conditional profile helper remain open.
 -/
 set_option autoImplicit false
 noncomputable section

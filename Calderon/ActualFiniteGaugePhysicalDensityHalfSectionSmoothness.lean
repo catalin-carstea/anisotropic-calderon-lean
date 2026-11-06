@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteGaugePhysicalDensityHalfSection
 import Calderon.ActualDensityPrincipalFrameSmoothness
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-GAUGE-PHYSICAL-HALF-SECTION-SMOOTHNESS-UPFRONT-v001.md. Actual outer action on uncompressed eta. -/
+/-! Actual outer action on uncompressed eta. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

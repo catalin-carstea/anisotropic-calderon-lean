@@ -3,9 +3,8 @@ import Calderon.ActualReferenceInvertibleStrongWeakCoherence
 import Calderon.NativeH2SmoothMultiplierDerivative
 import Calderon.NativeOrderOneCoefficientMultiplier
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-smooth-multiplier-strong-identity-v011.md. Actual harmonic
-lift identity; explicit literature trace-kernel parameter only. -/
+/-! Strong identity for the smooth multiplier: the actual harmonic lift identity, with an
+explicit trace-kernel parameter as the only additional parameter. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

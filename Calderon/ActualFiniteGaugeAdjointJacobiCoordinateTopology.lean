@@ -1,8 +1,6 @@
 import Calderon.ActualFiniteGaugeAdjointMovingBoundaryFamily
 import Calderon.ActualFiniteGaugeAdjointCoordinateTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-DIRECT-MOVING-TOPOLOGY-PROOF-DECOMPOSITION-UPFRONT-v001.md. Exact existing smoothness proof block. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

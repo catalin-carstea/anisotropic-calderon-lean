@@ -1,7 +1,7 @@
 import Calderon.ActualReferenceGaugeBoundaryCoefficientFamilies
 import Calderon.NativeH2ConormalRadialConversion
 
-/-! Full upfront actual-gradient-drift-author-oct15-v001/EXPANSION-actual-tangent-endpoint-definition-split-v015.md. EXACT same native tangent endpoint. -/
+/-! EXACT same native tangent endpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set

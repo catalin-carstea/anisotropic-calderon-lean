@@ -1,8 +1,6 @@
 import Calderon.JointConformalReferenceFramedDriftData
 import Calderon.ConformalFluxDivergence
 
-/-! SOURCE-ONLY author proposal. Full derivation and exact interfaces were
-sealed before candidate assembly. No compilation or acceptance is claimed. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

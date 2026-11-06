@@ -13,16 +13,15 @@ import Calderon.ActualAngularHighDraft
 import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.ActualFiniteHarmonicModelRaisingCommute
 
-/-! Opus v079 author-only source, 30 October 2026. UNCOMPILED until Root checks.
-Before-source mathematics: MATHEMATICS.md (same output directory). Repairs v078 internally.
+/-! High raising-E graph.
 * `hRepH/hRepL` discharged by `rfl` (definition of raisingHigh/raisingLow);
 * raising symmetry proved from native singles + `harmonicDerivativeAdjoint_composition_commute`
   + partial sums (method of native `gainedHigh_graph`);
 * uniform cap CC of `C_A` on one retained compact room, before g2/profile/F/cutoff, from
-  continuity of every actual factor. Root supplies actual high-coordinate Taylor regularity
-  on its native retained high-invertibility room; no continuity premise remains in the cap/final theorems;
-* literal original `higherSAngularHalf` principal/error identity and `9 CQ CC R ‖U‖` bound.
-NOT proved: S-Sdag, double-E, weighted integral, cofinal uniformity, coercivity, Main. -/
+  continuity of every actual factor, using the actual high-coordinate Taylor regularity
+  on the native retained high-invertibility room; the cap and final theorems take no
+  continuity premise;
+* literal original `higherSAngularHalf` principal/error identity and `9 CQ CC R ‖U‖` bound. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -164,7 +163,7 @@ attribute [local irreducible] canonicalHigh canonicalLow adjointHighRemainder ad
   zeroCorrectionHigh zeroCorrectionHalf adjointRotationGain adjointDegreeGain
   radialRaisingHigh raisingMultiplierHigh raisingEHigh
 
-/-- Root: atomic actual radial/raising graph, retaining every coordinate word. -/
+/-- Atomic actual radial/raising graph, retaining every coordinate word. -/
 lemma radialRaisingHigh_graph (hreg : FixedDirichletRegularity)
     (G : Fin 3 → Pphys → Half →L[ℝ] Half) (i : Fin 3) (p : Pphys)
     (hSeg : ∀ θ ∈ Icc (0 : ℝ) 1, (p.1,(p.2.1,θ*p.2.2)) ∈ Ω)
@@ -191,7 +190,7 @@ lemma radialRaisingHigh_graph (hreg : FixedDirichletRegularity)
           g L y0 Φ B ε C ρ H a w hData hcalc hreg hF hO hD τ0 p.1 p.2.1 p.2.2 hSeg y)) x
   simpa only [radialRaisingHigh,raisingHigh,raisingLow] using hRaw
 
-/-- Root: atomic actual raising/multiplier graph. -/
+/-- Atomic actual raising/multiplier graph. -/
 lemma raisingMultiplierHigh_graph (δ0 : ℝ) (W : CoeffRoom δ0) (i : Fin 3)
     (c : RetainedCoefficient) (t : Tpar)
     (hRot : ∀ k : Fin 3, ∀ x : Hi,
@@ -207,7 +206,7 @@ lemma raisingMultiplierHigh_graph (δ0 : ℝ) (W : CoeffRoom δ0) (i : Fin 3)
       (fun k y => coordinate_native_high_comm hF hO hD hcalc τ0 (QW δ0 W c t) k y) x
   simpa only [raisingMultiplierHigh,raisingHigh] using hRaw
 
-/-- Root: actual retained-germ graph assembly at a fixed point. -/
+/-- Actual retained-germ graph assembly at a fixed point. -/
 lemma raisingEHigh_graph_of_words (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : CoeffRoom δ0)
     (i j : Fin 3) (t : Tpar) (ht0 : t ∈ ParamRoom δ0)
     (hSeg : ∀ θ ∈ Icc (0 : ℝ) 1, (t.1.1,(t.1.2.1,θ*t.1.2.2)) ∈ Ω)
@@ -274,14 +273,14 @@ lemma exists_raisingE_graph_on_given_rooms (hreg : FixedDirichletRegularity)
     hreg δ0 W i j t ⟨hSub0 ht.1,ht.2⟩ hSeg hK hM u
 
 
-/-- Root: discard unused fields while all proposition payloads remain abstract. -/
+/-- Discard unused fields while all proposition payloads remain abstract. -/
 private lemma keep_middle_graph {D G : Type*} {A B C : D → Prop} {P Q S : D → G → Prop}
     (h : ∃ d : D, A d ∧ B d ∧ C d ∧ ∃ g : G, P d g ∧ Q d g ∧ S d g) :
     ∃ d : D, A d ∧ B d ∧ C d ∧ ∃ g : G, Q d g := by
   rcases h with ⟨d,ha,hb,hc,g,_hp,hq,_hs⟩
   exact ⟨d,ha,hb,hc,g,hq⟩
 
-/-- Root: retain exactly the native coordinate graph room, omitting unused caps. -/
+/-- Retain exactly the native coordinate graph room, omitting unused caps. -/
 lemma exists_raising_coordinate_graph_room (hreg : FixedDirichletRegularity)
     (hKernel : UnitBallValueTraceKernel τ0) :
     ∃ dA : ℝ, 0 < dA ∧ dA ≤ ρ ∧ commonRoom y0 ρ dA ⊆ Ω ∧
@@ -293,7 +292,7 @@ lemma exists_raising_coordinate_graph_room (hreg : FixedDirichletRegularity)
     hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg hg hKernel
   exact keep_middle_graph hNative
 
-/-- Root: retain exactly the high generator/multiplier graph on the same caller W. -/
+/-- Retain exactly the high generator/multiplier graph on the same caller W. -/
 lemma exists_raising_multiplier_graph_room (hreg : FixedDirichletRegularity)
     (hKernel : UnitBallValueTraceKernel τ0) (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :
     ∃ dU : ℝ, 0 < dU ∧ ∀ V : Generator, ∀ c : RetainedCoefficient, ∀ t ∈ ParamRoom dU, ∀ x : Hi,
@@ -306,7 +305,7 @@ lemma exists_raising_multiplier_graph_room (hreg : FixedDirichletRegularity)
   intro V c t ht x
   exact (hUG V c t ht).1 x
 
-/-- Root: combine existential graph rooms without elaborating their proposition payloads. -/
+/-- Combine existential graph rooms without elaborating their proposition payloads. -/
 private lemma combine_graph_rooms {D U G : Type*} {A B C : D → Prop} {Q : D → G → Prop}
     {P : U → Prop} {T : U → Prop} {Result : Prop}
     (hA : ∃ d : D, A d ∧ B d ∧ C d ∧ ∃ g : G, Q d g)

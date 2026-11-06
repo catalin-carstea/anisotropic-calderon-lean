@@ -5,8 +5,7 @@ import Calderon.WeightedCommonSupportCoefficients
 import Calderon.PositiveMatrixPointCalculus
 import Mathlib.Topology.Order.DenselyOrdered
 
-/-! UNCOMPILED author proposal. EXPANSION.md C1--C7 was sealed first.
-The same Phi/B and entire original framed-metric package are retained. -/
+/-! The same Phi/B and entire original framed-metric package are retained. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 set_option backward.isDefEq.respectTransparency false

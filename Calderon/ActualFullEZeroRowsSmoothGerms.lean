@@ -2,9 +2,7 @@ import Calderon.ActualPiJacobiRadialGainedRows
 import Calderon.ActualFullECanonicalEndpoints
 import Calderon.NativeThreeHalfBoundaryMultiplierLocalSmoothness
 
-/-! Opus v046 author-only source. Full upfront mathematics: output/MATHEMATICS.md.
-Not compiled, not reviewed. Independent of Root's `fullGainedHigh` and graph proof.
-Complete ambient smooth germs, exact high/low compatibility and uniform finite
+/-! Complete ambient smooth germs, exact high/low compatibility and uniform finite
 mixed jets for the literal K/Z zero row and the native z/E zero row, on the SAME
 coefficient witness W returned by `exists_commonRoom_actual_fullE_ordinary_endpoints`. -/
 set_option autoImplicit false

@@ -65,8 +65,7 @@ lemma original_low_products_budget_of_beta_floor
       mul_le_mul_of_nonneg_right hKPow (inv_nonneg.mpr hP2.le)
     _ = cRaise/8 := by rw [mul_assoc,mul_inv_cancel₀ hP2.ne',mul_one]
 
--- Pure complete norm/integral algebra. Production specialization must derive these
--- specific budget premises from their actual qualified owners; it is not completion.
+-- Pure norm/integral algebra; the budget estimates are hypotheses supplied by the caller.
 lemma weighted_full_norm_lower_of_low_products_budgets
     {E : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
     (mu : R3 → ℝ) (hmu : Continuous mu) (hmu0 : ∀ x,0 ≤ mu x)

@@ -2,7 +2,7 @@ import Calderon.RadiusTwoSmoothSourceResponse
 import Calderon.RadiusTwoSmoothSourceClassicalDivergence
 import Calderon.NativeMetricJetIdentity
 
-/-! Full upfront expansion precedes the actual chosen source PDE and jet constraint. -/
+/-! The actual chosen source PDE and jet constraint. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

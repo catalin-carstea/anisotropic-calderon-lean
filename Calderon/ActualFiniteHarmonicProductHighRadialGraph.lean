@@ -2,8 +2,7 @@ import Calderon.NativeFiniteHarmonicProductH3Extension
 import Calderon.ActualFiniteHarmonicHighRadialGraph
 import Calderon.ActualReferenceSameBoundaryCorrection
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-PRODUCT-HIGH-RADIAL-EXPANSION-v001.md. SAME DN on untruncated product of finite input. -/
+/-! SAME DN on untruncated product of finite input. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

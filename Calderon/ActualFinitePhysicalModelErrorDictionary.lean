@@ -7,9 +7,8 @@ import Calderon.ActualFiniteCoreSobolevRepresentation
 import Calderon.ActualFiniteHarmonicModelConnectionSymmetric
 import Calderon.SphereSobolevAngularRaisingThreeHalfGraph
 
-/-! Full before-source expansion and verified API bundle:
-actual-finite-physical-model-dictionary-author-oct19-v001/BEFORE-SOURCE-RECEIPT.json.
-Concrete original finite-input dictionary. No quantitative or transfer-existence claim. -/
+/-! Concrete original finite-input dictionary. It states no quantitative bound and no
+transfer existence. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

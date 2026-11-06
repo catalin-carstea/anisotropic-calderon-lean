@@ -6,8 +6,8 @@ noncomputable section
 open scoped InnerProductSpace
 namespace OAI.AnisotropicCalderon.RotationCasimirEstimate
 
-/-! Full upfront expansion: EXPANSION-v001.json. Genuine finite vector pairing
-bookkeeping only; actual physical Csharp construction remains a separate obligation. -/
+/-! Genuine finite vector pairing bookkeeping only; the actual physical Csharp construction
+is separate. -/
 
 lemma abs_sum_real_inner_le_sqrt_sum_norm_sq
     {ι E : Type*} [Fintype ι] [NormedAddCommGroup E] [InnerProductSpace ℝ E]

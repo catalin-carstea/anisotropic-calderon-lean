@@ -18,8 +18,8 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
 
 include hData
 
-/-! Upfront expansion: EXPANSION-actual-reference-rotation-angle-coefficient-jets-v001.json.
-The literal beta preserves its actual L/r scaling. No same-order boundary rotation norm regularity. -/
+/-! The literal beta preserves its actual L/r scaling. No same-order boundary rotation norm
+regularity. -/
 
 lemma referenceRotationPrincipal_data (i j : Fin 3) :
     ContDiff ℝ ∞ (coordinateRotationPrincipalFamily i j a) ∧

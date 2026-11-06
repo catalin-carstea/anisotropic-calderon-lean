@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeNormalReciprocalRoom
 import Calderon.NativeThreeHalfCoefficientProduct
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-ADJOINT-PRODUCT-ASSEMBLY-EXPANSION-v001.md. Literal reciprocal-times-frozen-Q before extension. -/
+/-! Literal reciprocal-times-frozen-Q before extension. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

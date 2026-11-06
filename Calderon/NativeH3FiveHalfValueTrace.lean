@@ -2,8 +2,7 @@ import Calderon.NativeLowerOrderProjection
 import Calderon.NativeH3ThreeHalfRotationTrace
 import Calderon.SphereSobolevFiveHalfTraceReconstruction
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-H3-TRACE-EXPANSION-v001.md, Component D. Native H3 value trace with exact lower coherence. -/
+/-! Native H3 value trace with exact lower coherence. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

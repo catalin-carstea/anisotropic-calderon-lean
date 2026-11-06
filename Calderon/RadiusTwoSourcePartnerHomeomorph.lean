@@ -2,10 +2,9 @@ import Calderon.RadiusTwoSourcePointwiseEmbedding
 import Calderon.RadiusTwoSmoothSourceCommonExterior
 import Mathlib.Topology.Homeomorph.Lemmas
 
-/-! Full upfront expansion precedes this downstream PROJECT implication.
-hImage is the explicitly still-open novel image-equality obligation. It is not
-a literature premise, is not adopted here and is not added to Main. The codomain
-of each source family has the literal product/pointwise topology. -/
+/-! Partner homeomorphism between the radius-two source families of two metrics, under the
+hypothesis `hImage` that their source-evaluation images are equal. The codomain of each
+source family has the product/pointwise topology. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric TopologicalSpace Topology
@@ -16,15 +15,15 @@ open EnergyBridge DirichletFamily Literature
 variable (hreg : FixedDirichletRegularity) (hcalc : FixedSobolevCalculus)
 variable (hSep : RadiusTwoSourceSeparation)
 variable (g₁ g₂ : MatrixField) (hg₁ : IsAdmissibleMetric g₁) (hg₂ : IsAdmissibleMetric g₂)
-/- The remaining NOVEL project image-equality hypothesis, not an analytic interface. -/
+/- Equality of the two source-evaluation images. -/
 variable (hImage :
   Set.range (fun p : (radiusTwoOpens : Set R3) =>
     radiusTwoSourceEvaluationFamily hreg hcalc g₁ hg₁ (p : R3)) =
   Set.range (fun q : (radiusTwoOpens : Set R3) =>
     radiusTwoSourceEvaluationFamily hreg hcalc g₂ hg₂ (q : R3)))
 
-/-- Partner map from metric one's interior to metric two's interior, conditional
-on the still-open equality of the two actual source-evaluation images. -/
+/-- Partner map from metric one's interior to metric two's interior, given the
+equality of the two actual source-evaluation images. -/
 def radiusTwoSourcePartnerHomeomorph :
     (radiusTwoOpens : Set R3) ≃ₜ (radiusTwoOpens : Set R3) :=
   (((isEmbedding_radiusTwoSourceEvaluationFamily hreg hcalc hSep g₁ hg₁).toHomeomorph).trans
@@ -95,8 +94,7 @@ theorem continuous_radiusTwoSourcePartnerHomeomorph_symm :
     Continuous (radiusTwoSourcePartnerHomeomorph hreg hcalc hSep g₁ g₂ hg₁ hg₂ hImage).symm :=
   (radiusTwoSourcePartnerHomeomorph hreg hcalc hSep g₁ g₂ hg₁ hg₂ hImage).continuous_symm
 
-/-- The original all-smooth energy equality fixes every actual exterior pole;
-it is not used to presume the still-open equality hImage. -/
+/-- The original all-smooth energy equality fixes every actual exterior pole. -/
 theorem radiusTwoSourcePartnerHomeomorph_eq_self_of_exterior
     (hΛ : ∀ f : R3 → ℝ, ContDiff ℝ ∞ f → minimalEnergy g₁ f = minimalEnergy g₂ f)
     (p : (radiusTwoOpens : Set R3)) (hp : (p : R3) ∈ (exteriorAnnulusOpens : Set R3)) :

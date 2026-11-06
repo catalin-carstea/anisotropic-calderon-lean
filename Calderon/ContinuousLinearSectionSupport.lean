@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevInclusion
 import Mathlib.Topology.Algebra.Support
 
-/-! Full before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-bundled-linear-section-support-v036.md. Actual bundled linear maps preserve input support. -/
+/-! Actual bundled linear maps preserve input support. -/
 set_option autoImplicit false
 noncomputable section
 open Set

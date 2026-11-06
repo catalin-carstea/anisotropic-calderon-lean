@@ -4,9 +4,8 @@ import Calderon.ActualSZeroPhysicalWordDictionary
 
 /-!
 Literal signed T/S zero/zero POINTWISE assembly.
-Before-code: ../T-S-zero-literal-pointwise-before-source-nov03-night-v001/.
 The original core-valued T/Tdag zero pair and the original S/Sdag zero remainders
-are used, with factor4. True integrability and the integral consumer remain required.
+are used, with factor4. Integrability and the integral are handled separately.
 -/
 set_option autoImplicit false
 set_option Elab.async false

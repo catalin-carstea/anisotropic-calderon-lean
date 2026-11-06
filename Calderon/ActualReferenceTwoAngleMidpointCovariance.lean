@@ -2,8 +2,7 @@ import Calderon.ActualReferenceTwoAngleMidpointCore
 import Calderon.ActualReferenceTwoAngleStrongLiftCovariance
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-midpoint-covariance-v028.md. Actual uncompressed midpoint covariance. -/
+/-! Actual uncompressed midpoint covariance. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

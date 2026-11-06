@@ -4,8 +4,7 @@ import Calderon.NativeCoefficientBoundaryMultiplier
 import Calderon.NativeHalfCoordinateProductTrace
 import Calderon.NativeFullHalfRadialTrace
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-H2-multiplier-outward-trace-v009.md. The extra normal derivative
+/-! The extra normal derivative
 term is retained as an actual finite sum of boundary multipliers. -/
 set_option autoImplicit false
 noncomputable section

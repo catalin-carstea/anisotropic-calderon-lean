@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceGaugeBoundaryCoefficientFamilies
 import Calderon.SmoothSignedTaylorRemainder
 
-/-! Full upfront: actual-gauge-boundary-jets-author-oct15-v001/
-EXPANSION-tangent-radial-remainder-v007.md. Actual ambient Taylor subtractions
-are retained; zero/first radial cancellation is used ONLY on the sphere. -/
+/-! Tangent radial remainder. Actual ambient Taylor subtractions are retained; the
+zero/first radial cancellation is used only on the sphere. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

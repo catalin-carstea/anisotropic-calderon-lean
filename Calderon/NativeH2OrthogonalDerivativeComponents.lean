@@ -1,7 +1,6 @@
 import Calderon.NativeH1OrthogonalDerivativeTransport
 import Calderon.StrongDerivativeValues
 
-/-! Expanded first in EXPANSION-native-H2-orthogonal-pullback-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter

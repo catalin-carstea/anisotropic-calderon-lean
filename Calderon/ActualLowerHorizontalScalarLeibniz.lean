@@ -1,7 +1,6 @@
 import Calderon.ActualCovariantDensityFirstActions
 
-/-! Before-source: actual-lower-horizontal-scalar-leibniz-author-oct16-v001/EXPANSION-v001.md.
-The actual radius derivative term is retained in the ordered physical operator. -/
+/-! The actual radius derivative term is retained in the ordered physical operator. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

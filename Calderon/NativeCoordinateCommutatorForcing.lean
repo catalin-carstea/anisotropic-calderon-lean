@@ -7,8 +7,7 @@ open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 
-/-! Upfront expansion: EXPANSION-native-coordinate-commutator-forcing-joint-v001.md.
-The row and column are kept separately; no symmetry of F is assumed. -/
+/-! The row and column are kept separately; no symmetry of F is assumed. -/
 
 def nativeCoordinateCommutatorForcingL (hcalc : FixedSobolevCalculus)
     (F : SmoothCoefficientMatrix 2) (G : Fin 3 → SmoothCoefficientJets 1) (k : Fin 3) :

@@ -1,8 +1,7 @@
 import Calderon.ActualNativeZeroCoordinateCovariantTransport
 import Calderon.ActualNativeMovingAdjointFiniteJ
 
-/-! Full upfront: actual-physical-P-local-allocation-author-oct16-v001/EXPANSION-v001.md.
-Exact original frame/covector cancellation; no desired jet/gain/image premise. -/
+/-! Exact original frame/covector cancellation, with no jet, gain or image premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

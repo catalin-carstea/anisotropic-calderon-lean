@@ -1,8 +1,7 @@
 import Calderon.NativeCoefficientH1ProductDerivative
 import Calderon.NativeSobolevCoordinateDerivativeCoherence
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. SAME values force finite-order coherence. -/
+/-! Equal values force finite-order coherence of the native coefficient multipliers. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

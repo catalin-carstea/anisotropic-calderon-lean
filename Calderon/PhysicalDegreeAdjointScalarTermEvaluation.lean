@@ -9,8 +9,7 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic InnerIsometryOperatorEvaluation DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json. Additional actual scalar term helper1,
-factored from successful typed evaluation; original final1 is separate. -/
+/-! Evaluation of an additional actual scalar term. -/
 attribute [local irreducible] sphereSobolevZeroEquiv sphereSobolevInclusionL
   degreeAdjointProjectionL
 lemma degreeAdjointScalarTerm_apply

@@ -4,9 +4,7 @@ import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
 import Calderon.CollaboratorRegularityBaseCaseOct17
 import Calderon.CollaboratorRegularityInductionStepOct17
 
-/-! Task 05 (see 05-dirichlet-regularity.md).
-
-The estimate is obtained from qualitative regularity by the closed graph theorem: on the closed
+/-! The estimate is obtained from qualitative regularity by the closed graph theorem: on the closed
 subspace of pairs `(f, u)` solving the equation, `(f, u) ↦ U` is linear (by uniqueness of `U`)
 with closed graph. -/
 

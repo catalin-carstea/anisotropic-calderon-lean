@@ -2,7 +2,6 @@ import Calderon.ActualReferenceOrthogonalStrongLift
 import Calderon.ActualReferenceOrthogonalWeakData
 import Calderon.ActualReferenceInvertibleStrongWeakCoherence
 
-/-! Expanded first in EXPANSION-actual-reference-orthogonal-strong-lift-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

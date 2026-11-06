@@ -1,7 +1,6 @@
 import Calderon.RadiusTwoSmoothSourceSeparation
 import Mathlib.Topology.LocalAtTarget
 
-/-! Full upfront expansion precedes the literal pointwise evaluation embedding. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric TopologicalSpace Topology

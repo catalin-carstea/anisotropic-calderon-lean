@@ -2,7 +2,6 @@ import Calderon.LiteratureHarmonicDecomposition
 import Mathlib.Topology.ContinuousMap.StoneWeierstrass
 import Mathlib.MeasureTheory.Function.ContinuousMapDense
 
-/-! Open collaborator task. Read 02-density.md before changing the proof. -/
 noncomputable section
 open MeasureTheory MvPolynomial
 namespace OAI.AnisotropicCalderon.SphereHarmonic

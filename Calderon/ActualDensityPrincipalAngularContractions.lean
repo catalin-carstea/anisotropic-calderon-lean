@@ -1,8 +1,7 @@
 import Calderon.ActualDensityPrincipalFrameSymmetry
 import Calderon.ActualNativeLeadingAngularCancellation
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-principal-contractions-v010.md. Actual native angular endpoints. -/
+/-! Actual native angular endpoints. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

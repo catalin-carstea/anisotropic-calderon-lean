@@ -7,8 +7,6 @@ import Mathlib.Analysis.Calculus.ContDiff.Comp
 import Mathlib.Topology.Separation.Hausdorff
 import Mathlib.Algebra.Order.BigOperators.Group.Finset
 
-/-! Author proposal, fully expanded in EXPANSION-v001.md before authoring.
-    UNCOMPILED. No additional mathematical premise is introduced. -/
 set_option autoImplicit false
 noncomputable section
 open Set Function Filter

@@ -17,8 +17,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Fully expanded before source in EXPANSION-actual-radial-open-invertibility-locus-v001.json.
-Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
+/-! Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
 def referenceRadialEndpointInvertibleLocus (hcalc : FixedSobolevCalculus) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace) : Set (ℝ × (R3 × ℝ)) :=
   {p | (referenceStrongDriftFamily g L y0 Φ B ε C ρ H a w hData hcalc 0 p.1 p.2).IsInvertible ∧ (referenceWeakDirichletEnergyFamily g L y0 Φ B ε C ρ H a w hData hcalc p).IsInvertible ∧ (referenceNormalBoundaryMultiplierFamily g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0 p).IsInvertible}

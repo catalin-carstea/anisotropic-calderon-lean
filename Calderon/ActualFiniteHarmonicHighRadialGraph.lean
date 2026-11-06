@@ -2,8 +2,7 @@ import Calderon.NativeFiniteHarmonicH3Extension
 import Calderon.ActualSmoothDatumHighRadialGraph
 import Calderon.ActualReferenceSharpUpperTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-HARMONIC-HIGH-RADIAL-EXPANSION-v001.md. Same actual finite cutoff radial graph. -/
+/-! Radial graph of the actual finite cutoff. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

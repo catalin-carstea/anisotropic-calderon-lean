@@ -2,8 +2,7 @@ import Calderon.NativeH3ThreeHalfRotationTrace
 import Calderon.SphereSobolevOrderOneRotation
 import Calderon.NativeSmoothBallSobolevFamily
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-H3-ROTATION-ENDPOINT-GRAPH-EXPANSION-v001.md. Literal same rotation on native H3 data. -/
+/-! Literal same rotation on native H3 data. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

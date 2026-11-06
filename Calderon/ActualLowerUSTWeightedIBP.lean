@@ -4,10 +4,9 @@ import Calderon.ActualLowerUSSecondRowDerivative
 import Calderon.ActualLowerUSSignedRows
 import Calderon.ActualHigherSScalarCommutatorNativeForm
 
-/-! Delegated GPT-6.1 Sol; before code ../t-finite-domain-upfront-v001.md and
-../t-weighted-ibp-upfront.md. Genuine actual T coefficient, supported weighted
+/-! Genuine actual T coefficient, supported weighted
 IBP, original density-log correction and original reference-profile energy.
-No finite physical S output, cap callback or author compiler job. -/
+No finite physical S output or cap callback. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

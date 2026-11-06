@@ -2,8 +2,7 @@ import Calderon.LocalParameterJetTransport
 import Calderon.ActualFramedMixedRadialJets
 import Calderon.PositiveMatrixPointCalculus
 
-/-! UNCOMPILED author proposal. EXPANSION.md L4--L8 was saved before this source.
-Raw determinant coefficients are smooth only at positive points of the geometric room. -/
+/-! Raw determinant coefficients are smooth only at positive points of the geometric room. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

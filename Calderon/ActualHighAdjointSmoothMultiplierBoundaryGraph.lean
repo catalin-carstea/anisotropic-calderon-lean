@@ -5,8 +5,7 @@ import Calderon.ActualReferenceGaugeNormalHighReciprocalCommutation
 import Calderon.HighAdjointMultiplierEndpointAlgebra
 import Calderon.SequenceLpNaturalStructureData
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-GENUINE-HIGH-GAIN-GRAPH-INSTANTIATION-v001.md. Every endpoint graph is derived for the SAME actual operators. -/
+/-! Every endpoint graph is derived for the SAME actual operators. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

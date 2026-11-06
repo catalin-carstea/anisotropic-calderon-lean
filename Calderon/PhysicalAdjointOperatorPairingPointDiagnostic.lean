@@ -6,8 +6,7 @@ namespace OAI.AnisotropicCalderon.RotationCasimirEstimate
 open SphereHarmonic
 attribute [local irreducible] sphereSobolevSingleL sphereSobolevCoefficientL
   sphereSobolevZeroEquiv sphereSobolevInclusionL
-/-! Full upfront: EXPANSION-v002.json. Exact physicaladjunction point application,
-not a derivation of actualCsharp or of the selected paper balanced bound. -/
+/-! Exact pointwise application of the physical adjunction. -/
 lemma physical_adjoint_operator_pairing_apply_diagnostic
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
     (P Q : Fin 3 × Fin 3 → (SphereSobolev 1 →L[ℝ] SphereSobolev 0))

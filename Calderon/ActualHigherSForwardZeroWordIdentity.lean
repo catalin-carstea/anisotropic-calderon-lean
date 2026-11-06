@@ -32,8 +32,7 @@ local notation "BH" => orderedReverseHigh g L y0 Φ B ε C ρ H a w hData hg hca
 local notation "EL" => canonicalLow g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 local notation "BL" => orderedReverseLow g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-- Scalar normalization of exactly one seven-family word row.
-Finite 207-index enumeration is provided only by the Words owner. -/
+/-- Scalar normalization of exactly one seven-family word row. -/
 private lemma seven_row_scalar_expansion {V : Type*} [AddCommGroup V] [Module ℝ V]
     (r Q fi fj : ℝ) (Gi Gj : Fin 3 → Fin 3 → ℝ)
     (v1 v2 : Fin 3 → Fin 3 → V) (d1 d2 a1 a2 z : V) :

@@ -3,11 +3,7 @@ import Calderon.ActualFiniteHarmonicModelFirstAngularCoefficients
 import Calderon.ActualFiniteHarmonicModelWPolynomialIdentity
 
 /-!
-Author: delegated GPT-6.1 Sol, 3 November 2026.
-Upfront: ../bound-route-analysis.md, section Exact finite weak-row plan.
-Narrow algebraic dictionaries only. No analytic cap premise or proof admission.
-Authored against the assignment's single pinned 4554-provider context.
-This source has not been compiled by its author; Root owns the diagnostic/check.
+Algebraic dictionaries for the exact finite weak rows. No analytic cap premise.
 -/
 set_option autoImplicit false
 set_option Elab.async false

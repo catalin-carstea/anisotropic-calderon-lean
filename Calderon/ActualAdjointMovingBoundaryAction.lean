@@ -12,9 +12,8 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic NativeHarmonicLiftCompletion
   NativeCoefficientBoundaryMultiplier NativeThreeHalfCoefficientMultiplier
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/
-EXPANSION-high-adjoint-boundary-action.md. Genuine adjoint radial family;
-no identification with the moving distributional transpose is assumed. -/
+/-! The genuine adjoint radial family; no identification with the moving
+distributional transpose is assumed. -/
 
 attribute [local irreducible] referenceJacobiBoundaryCoefficientJets
   referenceLowerRadialEndpointFamily referenceAdjointThreeHalfRadialFamily

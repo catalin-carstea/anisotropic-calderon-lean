@@ -10,8 +10,6 @@ namespace OAI.AnisotropicCalderon.NativeHalfCoefficientConormalTrace
 open NativeFullSharpHalfTrace SphereHarmonic SpectralCoreRegularity DirichletFamily EnergyBridge
   DirichletFamily.DriftBootstrap
 
-/-! Upfront: native-half-coefficient-conormal-author-oct14-v001/EXPANSION-v001.json. -/
-
 def nativeHalfCoefficientConormalTraceL
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (hcalc : FixedSobolevCalculus)

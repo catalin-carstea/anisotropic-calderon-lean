@@ -5,11 +5,9 @@ import Calderon.ActualReferenceDDHigherCLMProducts
 import Calderon.ActualReferenceDDHigherProfileJets
 
 /-!
-Author: delegated GPT-6.1 Sol, 3 November 2026.
-Upfront: ../zero-row-expansion.md. Exact missing scalar part of the original
-weighted adjoint derivative. All caps below are derived from actual compact
-background families and the original radius jets; no cap callback is assumed.
-Authored only; Root owns focused and native checking.
+The scalar part of the original weighted adjoint derivative. All caps below are
+derived from actual compact background families and the original radius jets;
+no cap callback is assumed.
 -/
 set_option autoImplicit false
 set_option Elab.async false

@@ -1,9 +1,8 @@
 import Calderon.SmoothSobolevBridge
 import Mathlib.Geometry.Manifold.PartitionOfUnity
 import Mathlib.Topology.Separation.Regular
-/-! Source-only author localization stage. The original local smooth premise
-and complete compact-neighborhood/cutoff expansion were sealed first.
-No global smooth premise or full physical/Psi acceptance is inferred. -/
+/-! Localization: from a local smooth premise, via compact neighborhoods and
+cutoffs. No global smooth premise is used. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Function

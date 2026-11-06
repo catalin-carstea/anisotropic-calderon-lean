@@ -8,8 +8,6 @@ open scoped ContDiff InnerProductSpace Topology
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 open SphereHarmonic
 
-/-! Expanded before source in EXPANSION-actual-sphere-flux-continuity-v001.json. -/
-
 theorem continuousOn_surfaceIntegral_smul (f : R3 → ℝ) (R : ℝ)
     (hf : ContinuousOn f (closedBall (0 : R3) R)) :
     ContinuousOn (fun r : ℝ => ∫ «ω» : UnitSphere, f (r • «ω».val) ∂surfaceMeasure)

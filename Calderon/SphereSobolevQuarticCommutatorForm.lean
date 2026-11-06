@@ -5,10 +5,9 @@ import Mathlib.Tactic.Ring
 import Mathlib.Tactic.Linarith
 import Mathlib.Tactic.Positivity
 
-/-! Full upfront: day-oct13/full-quartic-form-author-oct15-v001/EXPANSION-v001.md.
-Native two-endpoint quartic weak form. This module proves its boundedness;
-actual pivot commutator identification and finite-input squared-norm equality
-remain separate graph obligations. No invariant finite-core assumption. -/
+/-! Native two-endpoint quartic weak form. This module proves its boundedness; the
+identification with the pivot commutator and the squared-norm equality on finite inputs
+are separate graph statements. No invariant finite-core assumption. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

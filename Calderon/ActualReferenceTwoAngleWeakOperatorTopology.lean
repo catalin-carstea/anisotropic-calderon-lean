@@ -15,8 +15,6 @@ import Calderon.SubmoduleRealNaturalStructureData
 import Calderon.NativeWeakOperatorNormedStructures
 import Calderon.NativeTwoAngleDualTestPostcompositionTopology
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-REPAIR-two-angle-weak-literal-covariance-topology-partition-v065.md. Exact selected-claim partition. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

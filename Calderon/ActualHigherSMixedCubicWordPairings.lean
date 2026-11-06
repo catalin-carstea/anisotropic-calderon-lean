@@ -1,8 +1,8 @@
 import Calderon.ActualHigherSMixedCubicFirstOutputs
 import Calderon.ActualHigherSActualCubicPairing
 
-/-! Literal full3*3*207 mixed physical contraction, author source uncompiled.
-Canonical own4511 first fields keep the original reverse minus. Every word and
+/-! Literal full 3*3*207 mixed physical contraction.
+The canonical first fields keep the original reverse minus. Every word and
 coefficient order is retained. No output angular restriction or analytic callback. -/
 set_option autoImplicit false
 noncomputable section
@@ -74,7 +74,7 @@ private lemma weighted_bilinear_sum {ι κ E N : Type*}
 
 set_option diagnostics true in
 /-- Complete first/word physical pairings from the original literal negative graphs.
-Both graph hypotheses are discharged by the retained actual point owner in the public adapter. -/
+Both graph hypotheses are discharged by the actual point graphs in the public adapter. -/
 theorem actual_first_pairings_eq_word_sums (g2 : MatrixField) (dr Ar : ℝ) (p : ℕ) (q : ℝ)
     (F : smoothCompactFiniteSphereCore hO hD) (x : R3) (Z T : Half)
     (hZ : JL Z = quadraticZeroNegative g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0

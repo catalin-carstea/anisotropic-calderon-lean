@@ -10,8 +10,8 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json. Abstract actual-space point seam;
-actual inverse-family graph and finite bound must be independently derived. -/
+/-! Abstract pointwise step in the actual space; the inverse-family graph and the
+finite bound are derived separately. -/
 attribute [local irreducible] sphereSobolevSingleL sphereSobolevCoefficientL sphereSobolevInclusionL
 
 lemma exists_half_degree_extension_of_decoded_form_bound

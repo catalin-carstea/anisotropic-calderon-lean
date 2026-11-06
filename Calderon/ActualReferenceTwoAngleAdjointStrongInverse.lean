@@ -1,8 +1,6 @@
 import Calderon.ActualReferenceTwoAngleAdjointStrongEnergy
 import Calderon.ActualReferenceTwoAngleNativeAdjointInverse
 import Calderon.CompactInverseDerivativeBounds
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-strong-inverse-v040.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

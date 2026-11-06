@@ -4,8 +4,7 @@ import Calderon.NativeZeroTestGreenForcing
 import Calderon.FixedDirichletRegularity
 import Calderon.TauAffineAlgebra
 
-/-! Full upfront: EXPANSION-positive-coefficient-affine-all-order-v002.json.
-Actual raw positive coefficient affine solution and derived all-order lifts. -/
+/-! Actual raw positive coefficient affine solution and derived all-order lifts. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter

@@ -11,7 +11,7 @@ open OAI.AnisotropicCalderon.ConformalDepth RadiusProfile SphereHarmonic
   CoordinateBootstrapJets NormalizedPrincipalMetric
 
 /-- The exact Section 06 middle-set gain for the original five scalar sources,
-conditional on the separate uniform angular-density norm bound. The same
+taking the separate uniform angular-density norm bound as a hypothesis. The same
 cutoff chosen with the native moment remains in that density hypothesis. -/
 theorem exists_actual_middle_source_matched_five_source_coordinateH8_le_three_halves_for_late_density_bound
     (S : KnownSideSourceData) (L Rstar : ℝ)

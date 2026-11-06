@@ -7,8 +7,7 @@ import Calderon.SphereSobolevZeroEquivIdentities
 import Calderon.ActualFiniteCoreSobolevRepresentation
 import Calderon.ActualNativePhysicalModelInputDictionary
 
-/-! Author: Claude (Opus 5.5). Expansion: output/MATHEMATICS.md, Sections 1-2.
-Actual native H0 output of the literal first-correction word `UFirst` of
+/-! Actual native H0 output of the first-correction word `UFirst` of
 `referencePhysicalDensityOperator_finiteCore_eq_nativeModel_add_full_residual`,
 its exact negative graph, and support control. No quantitative claim here. -/
 set_option autoImplicit false
@@ -206,7 +205,7 @@ lemma nativeFirstCorrectionLift_inclusion_eq (hF : SphereFischerInner)
     (sphereSobolevInclusionL_comp_inclusionL_apply (3/2 : ℝ) 1 (1/2 : ℝ)
       (by norm_num) (by norm_num) (C_hi U))
 
-/-- One native first-correction word `NU_ij(y) ∈ H^0` (MATHEMATICS.md, Section 2). -/
+/-- One native first-correction word `NU_ij(y) ∈ H^0`. -/
 def nativeUFirstWord (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (g : MatrixField) (hg : IsAdmissibleMetric g) (L q δ A : ℝ)
     (p : ℕ) (hδ : 0 < δ) (hA : 0 < A) (F0 : smoothCompactFiniteSphereCore hO hD)

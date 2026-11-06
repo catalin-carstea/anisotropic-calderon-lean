@@ -10,8 +10,6 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic ClosedScalarCompatibility DirichletFamily.DriftBootstrap
-/-! Original mathematical kernel and public headers retained. Full upfront
-EXPANSION-SUPPLEMENT-v003.json records exact inherited-dictionary construction repair. -/
 
 def degreeCasimirConstraintL
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) :

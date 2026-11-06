@@ -8,8 +8,7 @@ open Set
 open scoped ENNReal Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic
-/-! Full upfront: EXPANSION-v001.json. Literal raw [N,Λ] high graph,
-physical coefficient degree m−n, actual lower/upper radial endpoint pair. -/
+/-! Raw [N,Λ] high graph, physical coefficient degree m−n, actual lower/upper radial endpoint pair. -/
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)
   (H a : (ℝ × (R3 × ℝ)) × R3 → Matrix (Fin 3) (Fin 3) ℝ)

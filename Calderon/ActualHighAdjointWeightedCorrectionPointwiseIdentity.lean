@@ -3,7 +3,7 @@ import Calderon.ActualNativeMovingLocalRemainderSigned
 import Calderon.ActualJacobiThreeHalfBoundaryMultiplierFamily
 import Mathlib.Analysis.Convex.Segment
 
-/-! Full BEFORE-SOURCE dictionary declaration split v081. Actual pointwise signed ordered identity; no desired identity premise. -/
+/-! Actual pointwise signed ordered identity; no desired identity premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter

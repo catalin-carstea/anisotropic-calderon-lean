@@ -12,9 +12,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic MetricVolume NativeH1CoordinateBoundaryGreen NativePolynomialBulkMoments
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in
-work/day-oct13/native-coefficient-adjoint-green-author-oct14-v001/EXPANSION-v001.json.
-The formal adjoint is literal (aᵀ,-b,c-div b), with the positive normal-drift
+/-! The formal adjoint is (aᵀ,-b,c-div b), with the positive normal-drift
 boundary term measured using the existing sphereProbability and sphereSurfaceMass. -/
 
 def nativeAdjointDriftField (G : Fin 3 → SmoothData) : R3 → R3 :=

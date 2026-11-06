@@ -18,8 +18,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 include hData
 
-/-! Expanded before source in EXPANSION-actual-rotation-native-weak-lift-topology-v001.json.
-SAME literal native total affine lift; smoothness only on its actual inverse locus. -/
+/-! The native total affine weak half lift; its smoothness holds only on the inverse locus. -/
 
 def referenceRotationNativeWeakHalfLiftFamily (hF : SphereFischerInner)
     (i j : Fin 3) (t : ℝ × (ℝ × (R3 × ℝ))) : SphereSobolev (1/2:ℝ) →L[ℝ] BallH1 :=

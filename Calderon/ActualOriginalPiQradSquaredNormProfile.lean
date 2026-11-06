@@ -10,10 +10,8 @@ import Calderon.ActualQradJointCoefficientCaps
 import Calderon.ActualQradFiniteFirstOutputLifts
 import Calderon.ActualHighSmoothMultiplierSecondRadialRemainderTopologyCoercivity
 
-/-! Original-Pi Qrad self row as a difference of two SEPARATELY integrable weighted squared norms
-(author-only successor, v010). Complete expansion: output/MATHEMATICS.md (N0–N7), written before
-these declarations. Imports the proposed parent `Calderon.ActualOriginalPiQradReferenceProfile`
-without redoing it. No compiler was run; no acceptance is claimed. -/
+/-! Original-Pi Qrad self row as a difference of two separately integrable weighted squared
+norms. Builds on `Calderon.ActualOriginalPiQradReferenceProfile`. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

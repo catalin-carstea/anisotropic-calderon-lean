@@ -1,6 +1,6 @@
 import Calderon.LiteratureSphereIntegrals
 
-/-! Task 01 (see 01-orthogonality.md). Proof via Gaussian integrals: harmonic homogeneous
+/-! Orthogonality of sphere harmonics, proved via Gaussian integrals: harmonic homogeneous
 polynomials of different degrees are orthogonal for `e^{-|x|²} dx` (Gaussian integration by parts,
 `gaussPair_eq_zero`), and in polar coordinates this Gaussian integral is a positive multiple of the
 sphere integral. -/

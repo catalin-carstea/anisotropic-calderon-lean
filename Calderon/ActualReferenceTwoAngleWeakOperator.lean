@@ -3,8 +3,7 @@ import Calderon.NativeSmoothCoefficientFullEnergy
 import Calderon.NativeFullFiniteForcingTopology
 import Calderon.ActualReferenceRotationWeakEnergy
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-native-two-angle-operators-v003.md. Native literal tested energy
+/-! Native literal tested energy
 and actual inverse room of the same two-angle coefficients. -/
 set_option autoImplicit false
 noncomputable section

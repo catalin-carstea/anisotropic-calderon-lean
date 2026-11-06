@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeTangentOperator
 import Calderon.ActualReferenceGaugeNormalMultiplierInverse
 import Calderon.ActualAdjointMovingBoundaryFamilyFoundation
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-normalized-adjoint-defect-v022.md. First component: SAME lower tangent term. -/
+/-! First component: SAME lower tangent term. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff

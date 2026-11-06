@@ -9,9 +9,7 @@ import Calderon.ActualLowerSSelfFormation
 
 /-! Complete original-data mixed P/Z2 weak expansion and uniform estimate.
 All derived room/profile/cap hypotheses below are internal interface facts; the
-public uniform producers retain only the original hypotheses. Uncompiled author
-integration: own native qualifications and conditional imports are recorded in
-CORRESPONDENCE.json; no independent review or canonical acceptance claimed. -/
+public uniform producers retain only the original hypotheses. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

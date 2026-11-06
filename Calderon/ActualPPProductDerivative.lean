@@ -1,7 +1,6 @@
 import Calderon.ActualHigherSCoefficientExtraction
 
-/-! Author source, UNCOMPILED. Upfront: pp-upfront-v001/UPFRONT.md.
-This expands the exact typed Hi→Half→Neg coefficient composition derivative.
+/-! This expands the exact typed Hi→Half→Neg coefficient composition derivative.
 No analytic estimate, inverse inclusion or full-output adjunction is assumed. -/
 set_option autoImplicit false
 noncomputable section

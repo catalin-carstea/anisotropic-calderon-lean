@@ -2,8 +2,7 @@ import Calderon.ActualReferenceHighAdjointCoordinateZeroRaisingGraph
 import Calderon.SphereSobolevAngularRaisingGraph
 import Calderon.ActualNativeMovingAdjointCorrectionInclusion
 
-/-! Upfront: actual-native-mixed-J-dictionary-author-oct16-v001/EXPANSION-v001.md.
-Actual ordered mixed zero/first expression, same finite-J graph and bound. -/
+/-! The ordered mixed zero/first expression, with the same finite-J graph and bound. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

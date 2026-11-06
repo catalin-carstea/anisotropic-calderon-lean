@@ -1,8 +1,6 @@
 import Calderon.ActualJacobiNativeMultiplierEndpointJointJets
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-nominal-common-Jacobi-jet-bound-record-v018.md.
-One actual common scalar bound; three separate original native operator norms. -/
+/-! One actual common scalar bound; three separate original native operator norms. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

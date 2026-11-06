@@ -4,9 +4,8 @@ import Calderon.ActualHigherSPhysicalPairing
 import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
 
 /-!
-Author: GPT-6.1 Sol. Before-code: ../zero-derivative-full-graph-upfront.md.
 Upgrade of the actual finite pairing to its exact negative-space graph, using
-explicit genuine finite test fields. No cap premise and no author compilation.
+explicit genuine finite test fields. No cap premise.
 -/
 set_option autoImplicit false
 set_option Elab.async false

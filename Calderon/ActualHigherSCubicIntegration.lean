@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSScalarCommutatorForm
 
 /-! Weighted diagonal cubic integration, with density and coefficient derivatives.
-Complete before-code proof: cubic-integration-upfront-v001/UPFRONT.md.
-Auxiliary identity only; no actual atom specialization or quantitative estimate. -/
+This is an auxiliary identity, with no actual atom specialization or quantitative estimate. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

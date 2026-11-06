@@ -1,8 +1,7 @@
 import Calderon.NativeThreeHalfCoefficientMultiplier
 import Calderon.NativeSmoothBallSobolev
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-COORDINATE-UNIT-PRODUCT-EXPANSION-v001.md. Concrete existing bump, actual high multiplier identity. -/
+/-! Concrete existing bump, actual high multiplier identity. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

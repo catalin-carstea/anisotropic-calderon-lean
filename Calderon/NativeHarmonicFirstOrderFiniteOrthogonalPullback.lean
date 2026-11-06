@@ -10,8 +10,7 @@ namespace OAI.AnisotropicCalderon.NativeHarmonicH1LiftCompletion
 open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap NativeHarmonicLiftCompletion
   NativePolynomialBulkMoments SphereHarmonic GreenRadialTrace SmoothAngularCasimir
 
-/-! Expanded before source in EXPANSION-native-first-order-harmonic-orthogonal-lift-v001.json.
-Agreement is proved on the actual harmonic polynomial singles. -/
+/-! Agreement is proved on the actual harmonic polynomial singles. -/
 
 lemma harmonicPolynomialRepresentativeL_orthogonalPullback (hF : SphereFischerInner)
     (e : R3 ≃ₗᵢ[ℝ] R3) (k : ℕ) (u : harmonicSphereSubspace k) :

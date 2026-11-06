@@ -10,8 +10,8 @@ open Set
 open scoped ContDiff ENNReal Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic ConnectionError DenseOperatorTaylorGraph
-/-! Full upfront EXPANSION-v001.json. Actual SAME chosen half family's first
-and signed-remainder values coincide with the ORIGINAL canonical named values. -/
+/-! The first and signed-remainder values of the chosen half family coincide
+with the canonical named values. -/
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)
   (H a : (ℝ × (R3 × ℝ)) × R3 → Matrix (Fin 3) (Fin 3) ℝ)

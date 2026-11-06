@@ -31,8 +31,8 @@ private lemma continuous_of_real_contDiff_carrier
     [NormedAddCommGroup F] [NormedSpace ℝ F]
     (f : E → F) (hf : ContDiff ℝ ∞ f) : Continuous f := hf.continuous
 
--- Congruence only for the dictionaries actually differing in v033.
--- No norm or space is identified by fiat: all six equalities are obligations.
+-- Congruence only for the dictionaries that actually differ.
+-- No norm or space is identified by fiat: all six equalities are hypotheses.
 private lemma real_clm_carrier_eq
     {E F : Type}
     (tE tE' : TopologicalSpace E) (aE aE' : AddCommMonoid E)
@@ -122,7 +122,7 @@ attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.inst
 attribute [local instance] weakHeaderDualZeroGroup weakHeaderDualZeroSpace
 attribute [local instance] weakHeaderSelfDualGroup weakHeaderSelfDualSpace
 
--- Same existing proof specialization, isolated to give each declaration the unchanged budget.
+-- A proof specialization isolated so that each declaration keeps the default budget.
 private def nativeTwoAngleInverseOpenFact :=
   isOpen_clm_inverse_preimage
     (P := (ℝ × (ℝ × (ℝ × (R3 × ℝ))))) (U := BallH1Zero) (V := StrongDual ℝ BallH1Zero)

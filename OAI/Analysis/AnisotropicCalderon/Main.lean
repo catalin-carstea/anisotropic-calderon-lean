@@ -1,5 +1,3 @@
--- Main isolated materialization under FINAL-MAIN-HANDOFF-NOV04-v001; Transfer draft retained verbatim.
--- BEFORE-CODE ONLY: requires actual reviewed and admitted original coercivity.
 import Calderon.ActualCurrentMainConditionalTransferIntegration
 import Calderon.ActualOriginalTwoDirectionPhysicalCoercivity
 

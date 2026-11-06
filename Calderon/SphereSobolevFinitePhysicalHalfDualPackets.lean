@@ -5,7 +5,7 @@ noncomputable section
 open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SpectralWeightedGraph
-/-! Full upfront: EXPANSION-v001.json. Literal physical dual coefficients,
+/-! Literal physical dual coefficients,
 actual weighted packets and half norm, complete unrestricted outputs. -/
 lemma sphereSobolevDualPairing_single_left_physical
     (s : ℝ) (k : ℕ) (z : harmonicSphereSubspace k) (f : SphereSobolev (-s)) :

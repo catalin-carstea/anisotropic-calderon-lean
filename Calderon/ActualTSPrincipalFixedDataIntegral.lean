@@ -2,7 +2,7 @@ import Calderon.ActualTSPrincipalFirstPhysical
 import Calderon.ActualHigherSCommonProfileRoomData
 import Calderon.ActualMixedAngularPhysicalBounds
 
-/-! Original fixed-data principal T/S integrability and bound, draft. -/
+/-! Original fixed-data principal T/S integrability and bound. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

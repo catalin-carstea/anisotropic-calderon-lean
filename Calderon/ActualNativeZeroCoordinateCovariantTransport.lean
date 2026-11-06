@@ -2,8 +2,7 @@ import Calderon.ActualHighAdjointMovingTraceNativeDecomposition
 import Calderon.ActualNativeLeadingAngularCancellation
 import Calderon.ActualPhysicalDensityOperator
 
-/-! Full upfront: actual-native-zero-covariant-transport-author-oct16-v001/EXPANSION-v001.md.
-Actual low zero and high base germ, then genuine zero covariant derivative. -/
+/-! Actual low zero and high base germ, then genuine zero covariant derivative. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

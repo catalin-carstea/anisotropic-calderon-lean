@@ -4,9 +4,9 @@ set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SpectralSylvester
 
-/-! Full upfront: EXPANSION-v001.json. Original DEGREE target retained. Selected
-Casimir energy is intermediate; auxiliary a=k+1/2 gives exact Sylvester differences.
-The generic Casimir product estimate is conditional and actualCsharp is still pending. -/
+/-! The target is the original degree bound. The selected Casimir energy is intermediate;
+the auxiliary a=k+1/2 gives exact Sylvester differences. The generic Casimir product
+estimate enters as a hypothesis. -/
 
 lemma one_add_casimir_le_four_half_shift_sq (k : ℕ) :
     1+(k:ℝ)*((k:ℝ)+1) ≤ 4*((k:ℝ)+(1/2:ℝ))^2 := by

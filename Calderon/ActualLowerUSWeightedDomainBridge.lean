@@ -4,12 +4,8 @@ import Calderon.ActualFiniteHarmonicModelBAngularAdjoint
 import Mathlib.MeasureTheory.Measure.OpenPos
 
 /-!
-Author: delegated GPT-6.1 Sol, 3 November 2026.
-Before code: ../weighted-domain-bridge-upfront-v001.md.
-Analysis/source bindings: ../domain-bridge-analysis-v001.md.
 Exact weighted transpose on finite tests against unrestricted smooth SphereL2
-fields, including the SAME original physical S output. No LA(S F) is formed.
-Authored against the coherent 4561 parent. No compiler run by this author.
+fields, including the same original physical S output. No LA(S F) is formed.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -333,8 +329,8 @@ theorem nativeULowerAdjointZeroWeightedTranspose_integrated (F G : FC) :
       exact congrArg (fun z : ℝ => mu x * z) (real_inner_comm (F.val x) ((JX G).val x)))
   linarith
 
-/-- Internal finite-witness uniqueness. A future qualified actual Js producer
-can discharge hJs; this is not an additional analytic cap or final hypothesis. -/
+/-- Internal finite-witness uniqueness: any `Js` satisfying the pointwise adjoint
+identity `hJs` is the weighted transpose. -/
 theorem nativeULowerAdjointZeroWeightedTranspose_eq_of_sphere_adjoint
     (Js : Module.End ℝ FC)
     (hJs : ∀ F G : FC, ∀ x : R3,

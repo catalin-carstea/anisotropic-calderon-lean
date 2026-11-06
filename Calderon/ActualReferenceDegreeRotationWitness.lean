@@ -3,8 +3,7 @@ import Calderon.ActualReferenceTwoAngleDegreeZeroIdentification
 import Calderon.SphereSobolevLocalRotationDistributionDerivative
 import Calderon.LocalRadialDerivative
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-actual-degree-rotation-witness-and-high-gain-v132.md. True actual derivative witness. -/
+/-! The true derivative witness. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter
@@ -117,7 +116,7 @@ lemma referenceTwoAngleDegreeRotationDerivativeFamily_distribution_witness
           sphereSobolevOrthogonalPullbackL (-(1/2:ℝ)) (coordinateRotationIsometry k l φ) (T f)) hZero)
   have hRaw := sphereSobolev_local_rotation_derivative_distribution
     hO hD (1/2:ℝ) (-(1/2:ℝ)) k l Q C0 D hQ hCov u
-  -- Order transport at the operator level (MATHEMATICS.md §2): the orders sit in the CLM
+  -- Order transport at the operator level: the orders sit in the CLM
   -- types, so `simp` cannot rewrite them; the carriers are the same fixed `lp` space.
   have hInc : ∀ (s r : ℝ) (h₁ : (1/2:ℝ) ≤ s) (h₂ : (1/2:ℝ) ≤ r), s = r →
       sphereSobolevInclusionL s (1/2:ℝ) h₁ = sphereSobolevInclusionL r (1/2:ℝ) h₂ := by

@@ -3,7 +3,7 @@ set_option autoImplicit false
 noncomputable section
 open scoped ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
-/-! Full upfront EXPANSION-v001.json. Literal ORIGINAL adjoint projection value;
+/-! Literal original adjoint projection value;
 no zero-equivalence or inner-product unfolding is required. -/
 lemma degreeAdjointProjectionL_apply
     (ij : Fin 3 × Fin 3) (x : PhysicalDegreeCasimirData) :

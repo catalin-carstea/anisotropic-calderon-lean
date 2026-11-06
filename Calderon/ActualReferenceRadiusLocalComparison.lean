@@ -1,5 +1,5 @@
 import Calderon.ReferenceRadiusScaling
-import MixedKernelCylinderBoundary
+import Calderon.MixedKernelConstruction.MixedKernelCylinderBoundary
 import Mathlib.MeasureTheory.Function.LpSeminorm.Monotonicity
 import Mathlib.Analysis.Calculus.Deriv.MeanValue
 

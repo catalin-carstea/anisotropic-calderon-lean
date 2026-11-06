@@ -1,5 +1,3 @@
--- BEFORE-CODE ONLY: three proposed scalar helpers for the exact v005 consumer.
--- No executable source, new analytic premise, object or review grant.
 import Mathlib.Basic.Real.Basic
 import Mathlib.Data.Fintype.Basic
 import Mathlib.Tactic.Linarith

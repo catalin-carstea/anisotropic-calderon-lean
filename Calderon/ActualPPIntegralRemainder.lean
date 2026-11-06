@@ -343,8 +343,8 @@ def ActualPPLowerRemainderContract : Prop :=
 
 
 /-- Complete actual P/P weak lower remainder and original-energy bound.
-Author source, UNCOMPILED. Every structural/cap hypothesis is derived below
-from the same original endpoint record; no foreign/Transfer source is assumed. -/
+Every structural/cap hypothesis is derived below from the same original endpoint
+record. -/
 theorem exists_actual_pp_lower_remainder (hL : 0 < L)
     (hKernel : UnitBallValueTraceKernel τ0) (hg2 : IsAdmissibleMetric g2) :
     ActualPPLowerRemainderContract g L y0 Φ B ε C ρ H a w hData hg hcalc

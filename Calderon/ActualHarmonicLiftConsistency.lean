@@ -4,9 +4,9 @@ import Calderon.DirichletForcingInjectivity
 import Calderon.OrdinaryWeightedDriftEnergy
 import Calderon.OrdinaryStrongDriftValueConsistency
 
-/-! Source-only exact same-extension actual harmonic lift consistency across
+/-! Exact same-extension actual harmonic lift consistency across
 integer native orders, on one actual weak radius. Sharp trace-kernel and
-all-real boundary interpretation remain separate. Full interfaces sealed first. -/
+all-real boundary interpretation are treated separately. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

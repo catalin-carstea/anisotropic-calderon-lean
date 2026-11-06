@@ -2,7 +2,6 @@ import Calderon.NativeHarmonicFirstOrderFiniteOrthogonalPullback
 import Calderon.NativeHalfTraceRightInverse
 import Calderon.NativeRadialFactorZeroClosure
 
-/-! Expanded before source in EXPANSION-native-coordinate-harmonic-defect-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial MeasureTheory

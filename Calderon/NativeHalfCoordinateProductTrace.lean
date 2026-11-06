@@ -2,7 +2,6 @@ import Calderon.NativeCoordinateEnergyCancellation
 import Calderon.NativeHalfSmoothMultiplier
 import Calderon.SphereSobolevCoordinateInclusion
 
-/-! Expanded first in EXPANSION-native-H2-coordinate-product-trace-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

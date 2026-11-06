@@ -1,7 +1,6 @@
 import Calderon.ActualFiniteGaugeAdjointUnitRadialTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-MOVING-PULLBACK-DECOMPOSITION-UPFRONT-v001.md. Exact actual radius-profile composition. -/
+/-! Exact actual radius-profile composition. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

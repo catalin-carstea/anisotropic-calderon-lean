@@ -4,9 +4,8 @@ import Calderon.ActualFullEComplementarySmooth
 import Calderon.ActualFullEOrdinarySmoothSelection
 import Calderon.ActualFullEGainedHighBandRooms
 
-/-! Exact actual full E/E joint endpoints. Root-authored representation boundary;
-all actual RR/RH/HR/HH and zero rows, both low inclusion graphs and six-family
-all-order within caps are retained. Qualification and source review remain required. -/
+/-! Exact actual full E/E joint endpoints. All actual RR/RH/HR/HH and zero rows,
+both low inclusion graphs and six-family all-order within caps are retained. -/
 set_option autoImplicit false
 set_option Elab.async false
 set_option stderrAsMessages false

@@ -1,6 +1,6 @@
 import Calderon.CompactParameterGeodesicFlowJets
 
-/-! UNCOMPILED. The explicit one-cutoff construction retains the joint room
+/-! The explicit one-cutoff construction retains the joint room
 and appends jets of the very same augmented global flow. -/
 set_option autoImplicit false
 noncomputable section

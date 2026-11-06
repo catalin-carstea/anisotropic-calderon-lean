@@ -2,8 +2,7 @@ import Calderon.ActualDensityAngularBoundaryAction
 import Calderon.MetricHessianQuadratic
 import Calderon.WeightedIndexedCurvature
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NORMALIZED-SCALAR-FRAME-EXPANSION-v001.md. Same actual normalized scalar Laplacian. -/
+/-! The actual normalized scalar Laplacian in the frame. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -1,7 +1,7 @@
 import Calderon.ActualPiCommonSupportFamily
 import Calderon.ActualPiLowerValueIdentification
 
-/-! Exact original Pi operator germs, complete Root upfront before this source. -/
+/-! Exact original Pi operator germs. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

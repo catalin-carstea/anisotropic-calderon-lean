@@ -10,8 +10,7 @@ namespace OAI.AnisotropicCalderon.NativeSmoothHalfRadialTrace
 open NativeSmoothSharpTraceCompletion NativePolynomialBulkMoments SphereHarmonic
   SpectralCoreRegularity DirichletFamily EnergyBridge
 
-/-! Fully expanded before source in EXPANSION-native-H2-half-radial-trace-v001.json.
-Global smooth domain remains explicit; arbitrary native H2 extension awaits real density. -/
+/-! The global smooth domain is explicit. -/
 
 lemma sphereSobolevInclusionL_smoothHalfTrace
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)

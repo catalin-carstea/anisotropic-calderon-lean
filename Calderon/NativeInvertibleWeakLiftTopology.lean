@@ -1,7 +1,6 @@
 import Calderon.NativeWeakHalfLiftTopologyAlgebra
 import Calderon.InvertibleFunctionalInverseEquality
 
-/-! Upfront argument: EXPANSION-invertible-weak-endpoint-topology-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff InnerProductSpace

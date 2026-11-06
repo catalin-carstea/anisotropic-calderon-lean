@@ -3,8 +3,7 @@ import Calderon.ActualNearBallDensityFirstPairing
 import Calderon.ActualPhysicalDensityOperator
 import Calderon.ActualNormalizedScalarFrameOperator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NEAR-BALL-PHYSICAL-DENSITY-PAIRING-EXPANSION-v001.md. Literal physical P pairing on the derived actual core. -/
+/-! The literal physical P pairing on the derived actual core. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

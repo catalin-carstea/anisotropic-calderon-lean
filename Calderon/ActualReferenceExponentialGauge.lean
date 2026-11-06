@@ -1,7 +1,6 @@
 import Calderon.ActualReferenceGradientDrift
 
-/-! Full upfront: day-oct13/actual-gradient-drift-author-oct15-v001/
-EXPANSION-exponential-gauge-v002.md. Same positive center-normalized gauge. -/
+/-! The exponential gauge: the same positive center-normalized gauge. -/
 set_option autoImplicit false
 noncomputable section
 open Set

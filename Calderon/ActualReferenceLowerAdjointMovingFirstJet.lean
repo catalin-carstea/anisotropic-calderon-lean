@@ -6,8 +6,7 @@ import Calderon.ClmInheritedStructureData
 import Calderon.InheritedNormedStructureData
 import Mathlib.Analysis.Calculus.Deriv.Mul
 
-/-! Upfront: actual-lower-adjoint-first-jet-author-oct16-v001/EXPANSION-v001.md.
-ACTUAL lower coordinate and Fhalf first jets, derived on the original domain. -/
+/-! Actual lower coordinate and Fhalf first jets, derived on the original domain. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

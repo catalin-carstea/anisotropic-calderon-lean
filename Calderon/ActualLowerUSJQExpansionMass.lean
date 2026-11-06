@@ -1,9 +1,8 @@
 import Calderon.ActualLowerUSJQPresentation
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jq-upfront.md.
-Exact complete physical J/Q reduction to the restricted actual lower quadratic
+/-! Exact complete physical J/Q reduction to the restricted actual lower quadratic
 words, with the genuine fixed Js and the full nonfinite Qout. No analytical
-cap callback or replacement physical operator. No compilation by author. -/
+cap callback or replacement physical operator. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

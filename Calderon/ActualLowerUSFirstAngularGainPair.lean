@@ -1,9 +1,7 @@
 import Calderon.ActualLowerUSSecondRowCoefficients
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code: ../lower-r-z-gain-pair-upfront.md.
-Concrete forward and true-adjoint high endpoints for the SAME actual G/E gains.
+Concrete forward and true-adjoint high endpoints for the same G/E gains.
 All norm constants are produced internally by the selected room budgets.
 -/
 set_option autoImplicit false

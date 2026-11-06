@@ -1,7 +1,6 @@
 import Calderon.ActualFullAdjointFirstActions
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-uncompressed-Y-regularity-v007.md. SAME ordinary uncompressed Y. -/
+/-! The same ordinary uncompressed Y. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

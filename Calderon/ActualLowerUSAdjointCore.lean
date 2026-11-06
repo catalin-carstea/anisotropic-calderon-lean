@@ -2,10 +2,7 @@ import Calderon.ActualLowerUSAdjointCoefficients
 import Calderon.ActualPerturbedModelSupport
 
 /-!
-Author: gpt-6.1-sol, lower U/S authoring support.
-Before-code expansion: ../adjoint-core-expansion-v001.md.
 This is a finite-core domain bridge, with no quantitative analytic assertion.
-Root owns diagnostics and the complete native check; no author compilation.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -53,7 +50,7 @@ theorem finiteCoreSupportPreserving_nativeULowerAdjointFirstCoefficient (i : Fin
     · exact finiteCoreSupportPreserving_nativeV hO hD hF g g2 hg hg2 L q dr Ar p hdr hAr i
   · exact finiteCoreSupportPreserving_coreScalar hO hD _ _
 
-/-- The checked C+W-a0 dictionary retains every original zero-order term. -/
+/-- The C+W-a0 dictionary retains every original zero-order term. -/
 theorem finiteCoreSupportPreserving_nativeULowerAdjointZeroCoefficient :
     FiniteCoreSupportPreserving hO hD D0 := by
   rw [nativeULowerAdjointZeroCoefficient_eq_original hO hD hF g g2 hg hg2

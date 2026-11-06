@@ -2,8 +2,7 @@ import Calderon.ActualDensityCovariantGroupedNormalForm
 import Calderon.ActualNativeLeadingCovariantRadiusCancellation
 import Calderon.ScaledContinuousLinearMapThreeSum
 
-/-! Before-source: actual-covariant-leading-algebra-author-oct16-v001/EXPANSION-v001.md.
-Ordered actual identity, with every native correction retained. -/
+/-! Ordered actual identity, with every native correction retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

@@ -497,7 +497,7 @@ lemma selfFormConstant_pos (M A0 A1 B Bd Z Zd : ℝ)
   positivity
 
 /-- The form mechanics require only actual first/zero adjoint jets and scalar principal first jets.
-The conditional budget here is discharged by `exists_actual_scalar_coefficient_budget`. -/
+The budget hypothesis here is discharged by `exists_actual_scalar_coefficient_budget`. -/
 theorem compact_scalarReducedSelfForm_bound (mu beta : R3 → ℝ) (a : MatrixField)
     (b : Fin 3 → R3 → ℝ) (c : R3 → ℝ) (u : R3 → E) (K : Set R3)
     (M A0 A1 B Bd Z Zd eps : ℝ) (hm : ContDiff ℝ ∞ mu)

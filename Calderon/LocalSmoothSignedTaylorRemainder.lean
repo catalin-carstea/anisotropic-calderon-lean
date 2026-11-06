@@ -1,8 +1,7 @@
 import Calderon.SmoothSignedTaylorRemainder
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-local-signed-remainder-compact-tube-v037.md. Genuine compact
-local extension and uniform tube transfer for the actual signed integral. -/
+/-! Genuine compact local extension and uniform tube transfer for the actual signed
+integral. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Function

@@ -1,8 +1,6 @@
 import Calderon.RadiusTwoSourcePoleCutoffDifference
 import Calderon.CauchySequenceSquaredDifferenceTransport
 
-/-! EXPANSION.json distinguishes this genuine conditional completion auxiliary
-from the separate actual smooth-delta discharge. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

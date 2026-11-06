@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceSameBoundaryCorrection
 import Calderon.ActualHighMovingBoundaryAction
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-MOVING-NATIVE-TRACE-IDENTIFICATION-EXPANSION-v001.md. Same actual C and bulk trace. -/
+/-! Same actual C and bulk trace. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

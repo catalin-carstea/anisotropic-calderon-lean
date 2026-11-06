@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeWeakConormalEndpoint
 import Calderon.ActualReferenceInvertibleConormalCompatibility
 import Calderon.SphereContinuousScalarMultiplierSymmetry
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-conormal-green-v008.md. Original conormal of SAME U. -/
+/-! The conormal of the same U. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

@@ -5,9 +5,8 @@ import Calderon.NativeSmoothMultiplierCommonSupportJets
 import Calderon.SequenceLpInheritedStructureData
 import Calderon.ClmInheritedStructureData
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-gauge-normal-half-gain-v070.md. Native B has sign [Lambda,alpha].
-The half gain is constructed before transporting the actual lower firstjet. -/
+/-! Native B has sign [Lambda,alpha].
+The half gain is constructed before transporting the lower first jet. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

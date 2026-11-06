@@ -2,10 +2,8 @@ import Calderon.ActualReferenceAdjointSignedRemainderCompatibility
 import Calderon.ActualReferenceRotationSignedRemainder
 import Calderon.SphereSobolevPairingInclusion
 
-/-! Full before-source: actual-high-first-output-domain-plan-oct16-v001/
-EXPANSION-actual-literal-paired-R2-pivot-domain-v005.md, section3.
-BOTH genuine opposite-index pivots, derived from actual lower transpose and
-signed high/low coherence. No finite-domain or gained-bracket premise. -/
+/-! Both opposite-index pivots, derived from the lower transpose and
+signed high/low coherence. -/
 set_option autoImplicit false
 noncomputable section
 open Set

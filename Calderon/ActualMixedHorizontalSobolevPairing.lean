@@ -1,7 +1,6 @@
 import Calderon.ActualHorizontalSobolevPairing
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-MIXED-HORIZONTAL-PAIRING-EXPANSION-v001.md. Genuine mixed-endpoint horizontal product rule. -/
+/-! Mixed horizontal pairing: the genuine mixed-endpoint horizontal product rule. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

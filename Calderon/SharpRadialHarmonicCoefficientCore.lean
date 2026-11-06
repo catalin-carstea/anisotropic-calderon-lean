@@ -8,7 +8,6 @@ open scoped Topology ENNReal DirectSum
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open NativeHarmonicLiftCompletion SphereHilbertDecomposition SpectralWeightedGraph DirichletFamily
 
-/-! Upfront expansion: EXPANSION-sharp-midpoint-coefficients-joint-v001.md. -/
 lemma harmonicLiftCompletion_sphereSobolevSingle
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)
     (k : ℕ) (u : harmonicSphereSubspace k) :

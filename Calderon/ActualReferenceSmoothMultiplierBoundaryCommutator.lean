@@ -2,9 +2,8 @@ import Calderon.ActualReferenceSmoothMultiplierStrongIdentity
 import Calderon.NativeH2SmoothMultiplierOutwardTrace
 import Calderon.ActualReferenceSharpUpperTrace
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-smooth-boundary-commutator-v013.md. The genuine plus normal
-multiplier is part of the bounded extension; no desired gain premise. -/
+/-! Smooth boundary commutator. The genuine plus normal multiplier is part of the bounded
+extension; no gain premise is assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

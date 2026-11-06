@@ -1,7 +1,6 @@
 import Calderon.NativeContinuousCoefficientOrthogonalEnergy
 import Calderon.NativeH1ZeroOrthogonalPullback
 
-/-! Upfront argument: EXPANSION-native-H1-orthogonal-energy-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

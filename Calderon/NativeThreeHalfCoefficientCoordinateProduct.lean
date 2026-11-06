@@ -2,8 +2,7 @@ import Calderon.NativeThreeHalfCoefficientMultiplier
 import Calderon.SphereSobolevCoordinateInclusion
 import Calderon.NativeBoundaryCoefficientL2Decomposition
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-COORDINATE-UNIT-PRODUCT-EXPANSION-v001.md. Literal coordinate times coefficient before extension. -/
+/-! The coordinate is multiplied by the coefficient before extension. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

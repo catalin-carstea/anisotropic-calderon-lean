@@ -2,9 +2,7 @@ import Calderon.ActualReferenceExponentialGauge
 import Calderon.NativeGradientGaugeEnergy
 import Calderon.ActualReferenceCoordinateDefectGain
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-native-energy-v005.md. SAME original weak lift;
-no new weighted inverse or boundary pairing premise. -/
+/-! The same weak lift; no weighted inverse or boundary pairing premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

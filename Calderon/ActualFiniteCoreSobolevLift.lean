@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteHarmonicCoreWeights
 import Calderon.SphereSobolevInclusion
 
-/-! Upfront: actual-physical-P-local-allocation-author-oct16-v001/
-EXPANSION-finite-core-lift-v002.md. Exact finite-core lift, no global L2 gain. -/
+/-! Exact finite-core lift, with no global L2 gain. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff ENNReal

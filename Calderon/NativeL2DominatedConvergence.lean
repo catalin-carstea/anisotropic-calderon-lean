@@ -4,7 +4,6 @@ import Mathlib.MeasureTheory.Function.LpSpace.Complete
 import Mathlib.MeasureTheory.Function.L2Space
 import Mathlib.Analysis.SpecialFunctions.Sqrt
 
-/-! Expanded first in EXPANSION-native-radial-factor-specific-dct-author-v002.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Filter

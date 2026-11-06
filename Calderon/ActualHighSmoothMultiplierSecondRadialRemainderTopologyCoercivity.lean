@@ -2,8 +2,7 @@ import Calderon.ActualHighSmoothMultiplierSecondRadialRemainderCoercivity
 import Calderon.LocalSmoothSignedTaylorRemainder
 import Calderon.ActualReferenceRadialEndpointOpenLocus
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-FIXED-MULTIPLIER-REMAINDER-TOPOLOGY-EXPANSION-v001.md. Independent multiplier parameter frozen in radial derivative. -/
+/-! Independent multiplier parameter frozen in radial derivative. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

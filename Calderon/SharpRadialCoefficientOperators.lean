@@ -7,8 +7,7 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SpectralWeightedGraph DirichletFamily.DriftBootstrap
 
-/-! Upfront expansion: EXPANSION-sharp-midpoint-coefficients-joint-v001.md, steps 6–7.
-The degree multiplier is (1+k)-1 on decoded coefficients, not the raw lp identity. -/
+/-! The degree multiplier is (1+k)-1 on decoded coefficients, not the raw lp identity. -/
 lemma sphereCoefficient_one_add_smul_sub
     {V : Type*} [AddCommGroup V] [Module ℝ V] (c : ℝ) (v : V) :
     (1+c) • v - v = c • v := by

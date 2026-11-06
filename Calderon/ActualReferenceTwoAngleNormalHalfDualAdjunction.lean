@@ -3,8 +3,7 @@ import Calderon.ActualReferenceNormalHalfInverseDualAdjunction
 import Calderon.ActualReferenceTwoAngleNormalDriftEndpointFamilies
 import Calderon.NativeHarmonicHalfCoarseDualPairing
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-normal-half-duality-v100.md. SAME ordinary normal reciprocal and actual beta. -/
+/-! SAME ordinary normal reciprocal and actual beta. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

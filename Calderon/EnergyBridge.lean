@@ -1,4 +1,4 @@
-import ComparatorChallenges.AnisotropicCalderon
+import OAI.Analysis.AnisotropicCalderon.Defs
 import TauCeti.Analysis.PDE.EnergyForm.Integrated.Basic
 
 noncomputable section

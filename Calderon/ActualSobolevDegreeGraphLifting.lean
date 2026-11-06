@@ -3,9 +3,7 @@ import Calderon.SphereSobolevShiftedPhysicalDegree
 import Calderon.ActualFiniteHarmonicCoreWeights
 import Calderon.ActualFiniteCoreSobolevLift
 
-/-! Source-only author: actualSol, 29 October 2026. UNCOMPILED.
-Before-source expansion and exact source/provider bindings: MATHEMATICS.md/BINDINGS.json.
-Three physical-degree/Bessel wrappers only; no norm change, output finiteness or signed estimate. -/
+/-! Three physical-degree/Bessel wrappers only; no norm change, output finiteness or signed estimate. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic.DegreeGraphLifting

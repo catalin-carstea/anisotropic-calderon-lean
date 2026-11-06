@@ -2,8 +2,7 @@ import Calderon.ActualLowerMovingBoundaryAction
 import Calderon.ActualJacobiBoundaryMultiplierFamily
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 
-/-! Full upfront: EXPANSION-ActualLowerMovingBoundaryFamily-v001.md.
-The SAME actual lower action, with operator-norm parameter smoothness on its
+/-! The SAME actual lower action, with operator-norm parameter smoothness on its
 original inverse locus. Arbitrary R remains explicit. No moving estimate. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

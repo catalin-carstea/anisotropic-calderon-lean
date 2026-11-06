@@ -11,10 +11,7 @@ import Calderon.ActualHigherSQuadraticZeroQuarticRegularity
 import Calderon.ActualHigherSQuadraticZeroQuarticRowBound
 import Calderon.ActualHigherSPairingNormDiagnostic
 
-/-! Complete actual207-squared pointwise norm-defect estimate, boundary D.
-Source-only conditional until its actual IdentityRowData import is fully qualified.
-All actual norms/data/germs/terms and original37/model/source holds remain;
-no final analytic callback or public hypothesis is added. -/
+/-! The pointwise norm-defect estimate for the square of the 207-word family. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

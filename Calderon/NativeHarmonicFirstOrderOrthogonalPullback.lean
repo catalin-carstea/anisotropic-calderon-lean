@@ -7,8 +7,7 @@ open scoped DirectSum ENNReal
 namespace OAI.AnisotropicCalderon.NativeHarmonicH1LiftCompletion
 open EnergyBridge SphereHarmonic DirichletFamily.DriftBootstrap
 
-/-! Expanded before source in EXPANSION-native-first-order-harmonic-orthogonal-lift-v001.json.
-Only actual finite-coefficient density is used; no H2 smooth density. -/
+/-! Only actual finite-coefficient density is used; no H2 smooth density. -/
 
 lemma harmonicFirstOrderLiftCompletion_orthogonalPullback (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (e : R3 ≃ₗᵢ[ℝ] R3) (u : SphereSobolev (1/2 : ℝ)) :

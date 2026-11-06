@@ -1,10 +1,8 @@
 import Calderon.ActualHigherSZeroPhysicalGraph
 import Calderon.ActualLowerUSLowerWordAdjoints
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jq-upfront.md.
-Exact finite quadratic commutator telescope and half/three-half bound.
-The generic bound is a reduction lemma; it does not assert a new analytic
-premise or claim the complete actual five-group producer. No compilation. -/
+/-! Exact finite quadratic commutator telescope and half/three-half bound.
+The generic bound is a reduction lemma; it introduces no new analytic premise. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -82,7 +80,7 @@ local notation "CZc" => ActualHigherSZeroCoefficientJets.canonicalZeroCoefficien
 local notation "UF" => ActualHigherSFormation.higherSInput hO hD
 
 
-/-- The single public primitive commutator expression consumed by both owners.
+/-- The single primitive commutator expression used by both estimates.
 The angular adjoint is genuine and Qout is the full native physical output. -/
 def lowerGeneratorZeroCommutatorDensity
     (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : CoeffRoom δ0)

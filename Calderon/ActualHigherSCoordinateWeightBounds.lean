@@ -28,7 +28,7 @@ theorem contDiff_coordinateWeightBase (g g2 : MatrixField)
       ((contDiff_referenceDensityPrincipalFrameCoefficient_joint g g2 hg hg2 L m a).add
         (contDiff_referenceDensityPrincipalFrameCoefficient_joint g g2 hg hg2 L a m)))
 
-/-- Elementary finite compact-family bound; same proof as Root's adjoint coefficient bounds. -/
+/-- Elementary finite compact-family bound; same proof as the adjoint coefficient bounds. -/
 private theorem compact_family_cap {X V I : Type*} [TopologicalSpace X]
     [SeminormedAddCommGroup V] [Fintype I] (K : Set X) (hK : IsCompact K)
     (f : I → X → V) (hf : ∀ i, ContinuousOn (f i) K) :

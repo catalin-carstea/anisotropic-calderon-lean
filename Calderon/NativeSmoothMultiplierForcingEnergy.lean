@@ -1,8 +1,7 @@
 import Calderon.NativeSmoothMultiplierForcingCoefficients
 import Calderon.NativeSmoothMultiplierEnergyCancellation
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-energy-link-v004.md. Exact restricted-measure energy/forcing graph.
+/-! Exact restricted-measure energy/forcing graph.
 No arbitrary multiplier zero-boundary membership or H2 gain is assumed. -/
 set_option autoImplicit false
 noncomputable section

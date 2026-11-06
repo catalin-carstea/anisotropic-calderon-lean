@@ -1,7 +1,6 @@
 import Calderon.NativeLowerTransposeSignedTaylor
 
-/-! Full upfront: native-lower-transpose-derivative-author-oct16-v001/EXPANSION-v001.md.
-Exact existing genuine transpose, proof-local normed outer packaging only. -/
+/-! Derivative of the genuine lower transpose, with proof-local normed outer packaging only. -/
 set_option autoImplicit false
 noncomputable section
 open Filter

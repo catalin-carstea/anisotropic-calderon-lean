@@ -2,8 +2,7 @@ import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.AngularShiftGraph
 import Calderon.SharpRadialHarmonicCoefficientCore
 
-/-! Upfront: native-angular-raising-dictionary-author-oct16-v001/
-EXPANSION-true-raising-graph-v003.md. True maximal raising graph for SAME A_1†. -/
+/-! True maximal raising graph for SAME A_1†. -/
 set_option autoImplicit false
 noncomputable section
 open Filter Set

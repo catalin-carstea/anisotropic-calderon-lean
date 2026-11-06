@@ -6,8 +6,7 @@ import Calderon.SequenceLpNaturalStructureData
 import Calderon.InheritedNormedStructureData
 import Calderon.ClmInheritedStructureData
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-actual-degree-gained-high-signed-remainder-v133.md. SAME named half remainder. -/
+/-! The same named half remainder. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

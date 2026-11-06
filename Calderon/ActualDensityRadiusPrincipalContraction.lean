@@ -1,7 +1,6 @@
 import Calderon.ActualDensityPrincipalDiagonalSplit
 
-/-! Full before-source expansion: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-radius-principal-contraction-v014.md. Signed-radius algebra only. -/
+/-! Radius contraction of the principal part: signed-radius algebra only. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

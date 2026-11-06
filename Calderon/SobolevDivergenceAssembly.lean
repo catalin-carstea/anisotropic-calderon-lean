@@ -5,7 +5,7 @@ open scoped ENNReal
 namespace OAI.AnisotropicCalderon.DirichletFamily
 open EnergyBridge
 
-/-- The reviewed coordinate derivative on the actual fixed Tau graph spaces. -/
+/-- The coordinate derivative on the actual fixed Tau graph spaces. -/
 def unitBallCoordinateDerivativeL (hcalc : FixedSobolevCalculus) (k : ℕ) (i : Fin 3) :=
   Classical.choose (hcalc.2 k i)
 
@@ -18,7 +18,7 @@ theorem unitBallCoordinateDerivativeL_value_ae (hcalc : FixedSobolevCalculus)
         (p := 2) (TauCeti.Wkp.firstOrder k u) x) i :=
   Classical.choose_spec (hcalc.2 k i) u
 
-/-- Strong-domain assembly using precisely the reviewed actual coordinate derivatives. -/
+/-- Strong-domain assembly using precisely the actual coordinate derivatives. -/
 def unitBallDivergenceL (hcalc : FixedSobolevCalculus) (s : ℕ) :=
   coefficientDivergenceL (unitBallCoordinateDerivativeL hcalc s)
     (fun j => (unitBallCoordinateDerivativeL hcalc (s + 1) j).comp

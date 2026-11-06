@@ -118,8 +118,8 @@ theorem smoothSobolev_sub (f h : SmoothData) :
   simp only [TauCeti.W1p.valueL_apply, value_smoothSobolev]
   exact MemLp.toLp_sub (memLp_smooth_value f) (memLp_smooth_value h)
 
-/-- The narrow published-source interface proposed for independent source review.
-This definition installs no assumption or axiom; theorems explicitly take a proof parameter. -/
+/-- The zero-trace interface: a smooth function vanishing on the unit sphere embeds into
+`H1_0` of the ball. This is not an axiom; theorems that use it take it as a hypothesis. -/
 def SmoothBoundaryZeroClosure : Prop :=
   ∀ f : SmoothData, (∀ x : R3, ‖x‖ = 1 → f.1 x = 0) →
     smoothSobolev f ∈ TauCeti.w1p0Submodule (volume : Measure R3) ballOpens 2
@@ -128,8 +128,8 @@ def SmoothBoundaryZeroClosure : Prop :=
 def smoothZeroSobolev : Set BallH1 :=
   {u | ∃ w : SmoothData, w.1 ∈ smoothZeroExterior ∧ smoothSobolev w = u}
 
-/-- The full frozen perturbation space has exactly the existing H1_0 closure,
-conditional only on the displayed standard zero-trace interface. -/
+/-- The full frozen perturbation space has exactly the H1_0 closure, given the standard
+zero-trace interface as a hypothesis. -/
 theorem closure_smoothZeroSobolev_eq (hzero : SmoothBoundaryZeroClosure) :
     closure smoothZeroSobolev =
       (TauCeti.w1p0Submodule (volume : Measure R3) ballOpens 2 : Set BallH1) := by
@@ -184,7 +184,7 @@ theorem smoothEnergy_image_eq (g : MatrixField) (f : SmoothData) :
     exact energy_smooth_eq_energyFormH1 g ⟨f.1 + w.1, f.2.add w.2⟩
 
 /-- The exact frozen real infimum equals the actual affine H1_0 energy infimum.
-All boundedness and standard density obligations remain explicit. -/
+The boundedness and standard density inputs are explicit hypotheses. -/
 theorem minimalEnergy_eq_sInf_affineSobolevEnergy
     (hzero : SmoothBoundaryZeroClosure) (g : MatrixField) (f : SmoothData)
     (hcoeff : MemLp (fun x => TauCeti.PDE.energyIntegrand (principalCoefficient g x) 0 0)
@@ -199,7 +199,7 @@ theorem minimalEnergy_eq_sInf_affineSobolevEnergy
     (continuous_affineSobolevEnergy g f hcoeff) hbelow).symm
 
 /-- The constructed classical jet has exactly the source W1_2 graph norm.
-This checked identity separates representation from the external zero-trace density parameter. -/
+This identity does not use the zero-trace density hypothesis. -/
 theorem norm_smoothSobolev_sq_eq_graph_integrals (f : SmoothData) :
     ‖smoothSobolev f‖ ^ 2 =
       (∫ x in B, (f.1 x) ^ 2) + (∫ x in B, ‖energyGradient f.1 x‖ ^ 2) := by

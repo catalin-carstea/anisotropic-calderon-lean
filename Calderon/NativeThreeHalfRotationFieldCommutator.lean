@@ -1,8 +1,7 @@
 import Calderon.NativeCoefficientRotationFieldSkew
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-HIGH-ROTATION-MULTIPLIER-GAIN-EXPANSION-v001.md. Same-order multiplier realization of the actual field commutator. -/
+/-! Same-order multiplier realization of the actual field commutator. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

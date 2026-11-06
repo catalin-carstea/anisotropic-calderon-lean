@@ -1,5 +1,4 @@
-/- Opus v074: actual uniform O(r) zero-base HigherS coefficient bound, source-only.
-Author-only; not compiled by the author. See STATUS.md for unverified API names. -/
+/- Actual uniform O(r) zero-base HigherS coefficient bound. -/
 import Calderon.ActualHigherSCoefficientBounds
 import Calderon.ActualReferenceProfileParameterJets
 import Calderon.FixedProfileBounds
@@ -271,9 +270,7 @@ attribute [local irreducible] canonicalHigh canonicalLow sphereSobolevInclusionL
  referenceHighAdjointMovingDifferenceQuotient referenceLowerAdjointMovingDifferenceQuotient
  referenceMetricGramFrame referenceDensityPrincipalFrameCoefficient normalizedSecondDriftFrameJoint
 
-/-- Exact frame convention: the actual conformal-frame operator sends `e_i` to `X_i`.
-Uses only the three existing identifications named in UPFRONT (signatures to be
-checked by Root; see STATUS.md). -/
+/-- Exact frame convention: the actual conformal-frame operator sends `e_i` to `X_i`. -/
 lemma conformalFrame_coordinateVector_eq (q : ℝ) (y : R3) (i : Fin 3) :
     conformalReferenceGramFrameOperatorJoint g L (q,y) (coordinateVector i) =
       referenceMetricGramFrame g L (q,y) i := by

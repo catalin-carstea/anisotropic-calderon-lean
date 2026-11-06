@@ -1,6 +1,5 @@
 import Calderon.ActualPhysicalDensityProductsAdjointOperatorCore
 
-/-! DATA-only untested complete boundary. See matching EXPANSION.DATA.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

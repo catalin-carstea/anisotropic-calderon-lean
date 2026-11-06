@@ -1,7 +1,6 @@
 import Calderon.ActualJacobiSphereSmoothCoefficient
 import Calderon.NativeBoundaryMultiplierLocalSmoothness
 
-/-! Upfront: EXPANSION-ActualJacobiBoundaryMultiplierFamily-v001.md. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

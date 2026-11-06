@@ -2,7 +2,6 @@ import Calderon.ActualReferenceRotationStrongEnergy
 import Calderon.ActualReferenceOrthogonalStrongWeakCoherence
 import Calderon.NativeOrthogonalWeakSolution
 
-/-! Expanded first in EXPANSION-actual-rotation-guarded-strong-identification-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

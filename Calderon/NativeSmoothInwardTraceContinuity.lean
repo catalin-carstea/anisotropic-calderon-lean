@@ -2,8 +2,7 @@ import Calderon.BallScaledDilationContinuity
 import Calderon.InwardSmoothBallRealization
 import Calderon.NativeFullSharpHalfTrace
 
-/-! Expanded first in EXPANSION-native-enlarged-ball-restriction-prerequisite-v001.json.
-This proves a genuine native restriction/trace limit for each fixed smooth
+/-! This proves a genuine native restriction/trace limit for each fixed smooth
 representative. No metric harmonic density or native-to-smooth theorem is assumed. -/
 set_option autoImplicit false
 noncomputable section

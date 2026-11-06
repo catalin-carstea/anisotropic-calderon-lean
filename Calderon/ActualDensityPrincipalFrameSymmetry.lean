@@ -1,7 +1,6 @@
 import Calderon.ActualDensityAngularBoundaryAction
 
-/-! Before-source expansion: actual-physical-principal-symmetry-author-oct16-v001/
-EXPANSION-v001.md. Real principal symmetry, no operator reordering. -/
+/-! Real symmetry of the principal part, without reordering operators. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

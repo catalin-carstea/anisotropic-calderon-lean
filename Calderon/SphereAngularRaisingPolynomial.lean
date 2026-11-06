@@ -1,8 +1,7 @@
 import Calderon.SphereDerivativeAdjoint
 import Calderon.SphereRotationCore
 
-/-! Full upfront: native-angular-raising-dictionary-author-oct16-v001/EXPANSION-v001.md.
-Exact polynomial block algebra for the genuine native angular transpose. -/
+/-! Exact polynomial block algebra for the genuine native angular transpose. -/
 set_option autoImplicit false
 noncomputable section
 open MvPolynomial

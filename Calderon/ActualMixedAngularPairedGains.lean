@@ -246,7 +246,7 @@ private lemma use_three_graph_rooms {D U V W : Type*}
   exact use d u v w ha hb hc hq hp hg he hf hh
 
 include hg in
-/-- Actual lowering/T graph room; all unused derivative bounds stay in its native receipt. -/
+/-- Actual lowering/T graph room; all unused derivative bounds remain in the native producer. -/
 lemma exists_loweringT_graph_room (hreg : FixedDirichletRegularity)
     (hKernel : UnitBallValueTraceKernel τ0) :
     ∃ d : ℝ, 0 < d ∧ d ≤ ρ ∧ commonRoom y0 ρ d ⊆ Ω ∧
@@ -388,8 +388,7 @@ private lemma use_high_graph_room {D G : Type*} {A B C K : D → Prop} {P : D �
   exact use d g ha hb hc hk hp
 
 /-- Genuine balanced mixed angular endpoint on one actual room and one original W.
-The low endpoint has BOTH inclusion identities and a cap by its two actual high parents.
-Uniform derivative caps and the physical signed integral estimate are subsequent obligations. -/
+The low endpoint has BOTH inclusion identities and a cap by its two actual high parents. -/
 theorem exists_commonRoom_actual_mixedAngular_paired_endpoints
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0)
     (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0) :

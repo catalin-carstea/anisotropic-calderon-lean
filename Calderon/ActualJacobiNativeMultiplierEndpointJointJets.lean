@@ -1,9 +1,8 @@
 import Calderon.ActualJacobiThreeHalfBoundaryMultiplierFamily
 import Calderon.ActualJacobiFullJointJets
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-paired-room-and-Jacobi-endpoint-declaration-splits-v013.md;
-separate original native endpoint codomains; preflight v014. -/
+/-! Joint jets of the Jacobi native multiplier endpoints, with separate original native
+endpoint codomains. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

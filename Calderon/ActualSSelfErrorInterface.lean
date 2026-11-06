@@ -187,8 +187,7 @@ theorem exists_uniform_model_S_s_self_error_interface
       g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data g2 hg2
       dr Ar p hdr hAr q CS CE eta F hC.1 hDecomp hTF
 
--- L4: CONDITIONAL algebra consumer only. The TWO named analytic premises
--- belong to Transfer and third respectively, and are not claimed proved here.
+-- L4: algebra only; the two named analytic bounds are hypotheses.
 lemma model_S_remaining_bound_of_named_TZS_and_ULS_bounds
     (dr Ar : ℝ) (p : ℕ) (hdr : 0 < dr) (hAr : 0 < Ar) (q : ℝ)
     (CS CE CTZS CULS eta : ℝ) (F : FC)

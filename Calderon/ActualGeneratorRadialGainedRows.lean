@@ -1,7 +1,7 @@
 import Calderon.ActualRetainedGeneratorMultiplierGains
 
-/-! Source-only Sol author prerequisite for W/E. Upfront:
-generator-radial-before-v001. Actual Th/Tl/Sh/Sl and physical degree k. -/
+/-! Generator radial gained rows, a prerequisite for W/E: Th/Tl/Sh/Sl and physical
+degree k. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

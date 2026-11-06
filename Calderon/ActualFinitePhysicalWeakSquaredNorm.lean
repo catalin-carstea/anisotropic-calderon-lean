@@ -1,9 +1,7 @@
 import Calderon.ActualFiniteGaugePhysicalDensityBaseL2
 import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-finite-physical-weak-squared-norm-v017.md.
-Actual finite-input weak squared norm only; no strong PdagP domain. -/
+/-! Actual finite-input weak squared norm only; no strong PdagP domain. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

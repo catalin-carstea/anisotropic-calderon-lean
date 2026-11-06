@@ -1,7 +1,5 @@
 import Mathlib.Analysis.Calculus.ContDiff.Basic
 
-/-! Full before-source: actual-covariant-leading-algebra-author-oct16-v001/
-EXPANSION-polymorphic-product-iterated-derivative-bounds-v055.md. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff

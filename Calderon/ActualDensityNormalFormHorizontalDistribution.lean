@@ -1,7 +1,7 @@
 import Calderon.ActualDensityFirstNormalFormSummandSmoothness
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-actual-four-summand-horizontal-distribution-v009.md. Genuine native half-valued sections. -/
+/-! Horizontal distribution of the four normal-form summands, as genuine native half-valued
+sections. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff ENNReal

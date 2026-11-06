@@ -1,10 +1,9 @@
 import Calderon.ReferenceFramedNormalizedEndpointIntegralIdentities
 import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
-/-! Source-only candidate, fully expanded and typed before source.
-No compiler/checker/axiom result is asserted. The actual center-horizontal
-phase variation uses the negative metric connection; no quadratic jet is
-assumed. All specializations retain the same supplied reference endpoint. -/
+/-! The actual center-horizontal phase variation uses the negative metric
+connection; no quadratic jet is assumed. All specializations keep the same
+reference endpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

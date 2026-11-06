@@ -2,13 +2,8 @@ import Calderon.ActualLowerUSGeneratorZeroCommutator
 import Calderon.ActualLowerUSJQExpansionMass
 import Calderon.ActualLowerUSFinitePretestSupport
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jq-upfront.md and
-../lower-r-z-complete-generator-q-upfront.md. Actual backend/version/tokens unknown.
-Complete fixed-g2 JQ assembly against Bound's exact planned actual primitive
-producer. Its imported generator/Q producer is still an open authored dependency;
-this source is NOT a completed/checked bound until that producer is proved and
-Root qualifies the coherent source chain. No analytic cap callback is introduced
-as a theorem premise. No compilation by author. -/
+/-! Complete fixed-g2 JQ assembly from the actual primitive producer and the imported
+generator/Q producer. No analytic cap callback is introduced as a theorem premise. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -57,8 +52,7 @@ local notation "WH" F:max x:max => ‖finiteWeightValue hO hD (1/2 : ℝ) F x‖
 local notation "WHi" F:max x:max => ‖finiteWeightValue hO hD (3/2 : ℝ) F x‖
 
 /-- Complete original fixed-metric gained J/Q conclusion. The actual all-five-
-group primitive producer is invoked internally; no cap callback is a premise.
-This theorem source remains unqualified until its entire authored chain passes. -/
+group primitive producer is invoked internally; no cap callback is a premise. -/
 theorem exists_nativeJQ_uniform_profile_bound
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (hL : 0 < L) (hKernel : UnitBallValueTraceKernel τ0) :

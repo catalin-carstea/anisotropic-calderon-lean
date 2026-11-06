@@ -6,11 +6,8 @@ import Calderon.ActualFiniteHarmonicModelWeightedYAngularMassBounds
 import Calderon.ActualGeneratorEPairedGainedEndpoints
 
 /-!
-Author: delegated GPT-6.1 Sol, 3 November 2026.
-Before-code: ../lower-zero-polynomial-upfront.md.
 Exact original lower-only zero polynomial and zeroth scalar coefficient mass.
 All primitive budgets are produced internally; no first-jet mass machinery.
-Authored only. Root owns focused/native checking and qualification.
 -/
 set_option autoImplicit false
 set_option Elab.async false

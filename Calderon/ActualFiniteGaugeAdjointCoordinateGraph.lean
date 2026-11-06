@@ -2,8 +2,7 @@ import Calderon.ActualFiniteGaugeAdjointCoordinateFamily
 import Calderon.ActualFiniteGaugeAdjointRadialGraph
 import Calderon.ActualAdjointMovingBoundaryAction
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-GAUGE-ADJOINT-COORDINATE-MOVING-DOMAIN-EXPANSION-v001.md. Actual derivative AFTER coordinate product. -/
+/-! Actual derivative AFTER coordinate product. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

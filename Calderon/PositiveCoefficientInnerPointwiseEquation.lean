@@ -1,8 +1,7 @@
 import Calderon.LocalSmoothFluxDivergence
 import Calderon.ConformalFluxDivergence
 
-/-! Full upfront EXPANSION.json precedes this immutable source.
-The classical flux equation is derived for the literal positive-coefficient native solver. -/
+/-! The classical flux equation is derived for the literal positive-coefficient native solver. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter Metric TopologicalSpace Matrix

@@ -3,8 +3,8 @@ import Calderon.NativeFiniteHarmonicProductHighRotationGraph
 import Calderon.NativeThreeHalfUnitCoefficient
 import Calderon.SphereSobolevPartialSumOperator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-HIGH-HORIZONTAL-FIRST-SECTION-EXPANSION-v001.md. Original frame, connection and finite input section. -/
+/-! The finite high horizontal first section: original frame, connection and finite input
+section. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -75,16 +75,15 @@ local notation "Sh" => referenceSharpRadialTraceSecondRemainder
 local notation "Sl" => referenceLowerRadialTraceSecondRemainder
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
-/- v004 (H0): the high frozen-coefficient remainder is the EXISTING owner
+/- (H0): the high frozen-coefficient remainder is
 `referenceHighSmoothMultiplierBoundaryCommutatorSecondRemainder` (literally
-`secondTaylorRemainder (fun t => referenceHighSmoothMultiplierBoundaryCommutatorFamily … Q (q,(y,t))) r`);
-the v003 duplicate definition is removed. -/
+`secondTaylorRemainder (fun t => referenceHighSmoothMultiplierBoundaryCommutatorFamily … Q (q,(y,t))) r`). -/
 local notation "GHr" => referenceHighSmoothMultiplierBoundaryCommutatorSecondRemainder
   g L y0 Φ B ε C ρ H a w hData hcalc hF hO hD τ0
 
 
 /-! ### H11. Joint C^∞ of the ACTUAL KbarHigh at a point with the two actual radial
-segments (MATHEMATICS.md H11 (a)-(f)). No continuity/bound/lift/gain premise. -/
+segments, parts (a)-(f). No continuity/bound/lift/gain premise. -/
 
 local notation "KbH" => referenceRadialAdjointSharpSecondCommutatorHigh
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room
@@ -102,8 +101,8 @@ local notation "BCL" => referenceSmoothMultiplierBoundaryCommutatorFamily
 local notation "BCA" => referenceHighAdjointSmoothMultiplierBoundaryCommutatorFamily
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-- (a) High twin of the lower private rotation lemma of the JointSmoothness owner
-(re-proved locally; `ActualReferenceRotationSignedRemainderJets` is not imported). -/
+/-- (a) High twin of the lower private rotation lemma of the joint smoothness file
+(proved locally, since `ActualReferenceRotationSignedRemainderJets` is not imported). -/
 lemma contDiffAt_referenceSharpRadialRotationSecondRemainder_joint_of_segment_high
     (i j : Fin 3) (q : ℝ) (y : R3) (r : ℝ)
     (hSegment : ∀ θ ∈ Icc (0 : ℝ) 1, (q,(y,θ*r)) ∈ referenceRadialEndpointInvertibleLocus
@@ -135,8 +134,8 @@ lemma contDiffAt_referenceSharpRadialRotationSecondRemainder_joint_of_segment_hi
       ((contDiffAt_fst.prodMk contDiffAt_snd.fst).prodMk contDiffAt_snd.snd)
   simpa only [referenceSharpRadialRotationSecondRemainder,Function.comp_def,F] using hOut
 
-/-- (c) Frozen common-support coefficient on the diagonal, through the EXISTING high
-owner `contDiffAt_referenceHighSmoothMultiplierSecondRemainder_commonSupport_of_segment`. -/
+/-- (c) Frozen common-support coefficient on the diagonal, through
+`contDiffAt_referenceHighSmoothMultiplierSecondRemainder_commonSupport_of_segment`. -/
 lemma contDiffAt_referenceHighSmoothMultiplierSecondRemainder_commonSupport_diagonal
     (m : (ℝ × (R3 × ℝ)) × R3 → ℝ) (hm : ContDiff ℝ ∞ m)
     (Km : Set R3) (hKm : IsCompact Km) (hmz : ∀ t x, x ∉ Km → m (t,x) = 0)

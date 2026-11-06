@@ -4,8 +4,7 @@ import Calderon.FixedParameterProfilePullback
 import Calderon.ActualHigherSForwardZeroConstructor
 import Calderon.ActualForwardZeroCollectedAlgebra
 
-/-! Independent complete owner of the original forward zero split.
-Public declaration/proof preserved from combined008; exact checks pending. -/
+/-! The original forward zero split. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

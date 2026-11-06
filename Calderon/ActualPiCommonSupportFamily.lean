@@ -1,8 +1,7 @@
 import Calderon.ActualJacobiHighPhysicalRoomCoercivity
 import Calderon.ActualJacobiCommonSupportMultiplierGerms
 
-/-! Root direct compact extension construction of the EXACT X5 Pi scalar.
-Full expansion before-source-v001/UPFRONT.md precedes this source. -/
+/-! Direct compact extension construction of the X5 Pi scalar. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

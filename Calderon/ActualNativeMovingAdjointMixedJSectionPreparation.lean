@@ -2,8 +2,7 @@ import Calderon.ActualNativeMovingAdjointFiniteJ
 import Calderon.SphereSobolevZeroSectionSupport
 import Calderon.RealNormedGroupProjectionData
 
-/-! Full before-source: day-oct13/actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-mixed-J-section-preparation-declarations-v065.md. Original native J section only. -/
+/-! Preparation of the original native mixed J section. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

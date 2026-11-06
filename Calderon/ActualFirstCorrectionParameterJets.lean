@@ -1,9 +1,8 @@
 import Calderon.ActualBoundedCoordinateFirstCorrection
 import Calderon.ActualFramedJacobiVelocityRemainder
 
-/-! Source-only true q/center operator-norm jets of the completed first radial
-and coordinate corrections. No Psi seminorm or full moving-family derivative
-completion claim is made. All coefficients are the actual reference drift. -/
+/-! Operator-norm jets in q and the center of the completed first radial and
+coordinate corrections. All coefficients are the actual reference drift. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

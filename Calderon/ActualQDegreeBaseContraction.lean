@@ -2,7 +2,6 @@ import Calderon.ActualDegreeGramBaseIdentity
 import Calderon.ActualDensityPrincipalFrameCoefficientBound
 import Calderon.ActualDensityPrincipalFrameSmoothness
 import Calderon.ActualHigherSAdjointCoefficientBounds
-/- Root; before-code expansion in UPFRONT.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

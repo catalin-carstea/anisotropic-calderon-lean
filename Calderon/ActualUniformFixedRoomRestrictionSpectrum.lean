@@ -1,5 +1,5 @@
 import Calderon.ActualUniformNativeSpectrumPowerBound
-import MixedKernelCurrentCrossSeries
+import Calderon.MixedKernelConstruction.MixedKernelCurrentCrossSeries
 import Mathlib.Topology.MetricSpace.Thickening
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

@@ -7,8 +7,8 @@ open Set
 open scoped ENNReal ContDiff InnerProductSpace Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic RotationCasimirJetTransport
-/-! Full upfront: EXPANSION-v001.json. Raw actual degree graph differentiated
-from ORIGINAL compatibility, not assumed as a jet identity. -/
+/-! The raw actual degree graph, differentiated from the original compatibility
+rather than assumed as a jet identity. -/
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)
   (H a : (ℝ × (R3 × ℝ)) × R3 → Matrix (Fin 3) (Fin 3) ℝ)

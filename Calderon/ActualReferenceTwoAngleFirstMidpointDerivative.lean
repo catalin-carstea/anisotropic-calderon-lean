@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceTwoAngleMidpointTrace
 import Calderon.LocalRadialDerivative
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-first-midpoint-derivative-v026.md. Actual fixed first-angle derivative. -/
+/-! Actual fixed first-angle derivative. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

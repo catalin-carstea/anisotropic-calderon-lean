@@ -1,7 +1,7 @@
 import Calderon.ActualFramedJacobiVelocityJets
 import Calderon.MovingFrameConnection
 
-/-! Source-only realization of the same physical phase velocity by the actual
+/-! Realization of the same physical phase velocity by the actual
 negative moving-frame connection direction. No constant-vector proxy is used. -/
 set_option autoImplicit false
 noncomputable section

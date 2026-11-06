@@ -6,8 +6,8 @@ open Set Filter
 open scoped ContDiff Topology
 namespace OAI.AnisotropicCalderon.RotationCasimirJetTransport
 
-/-! Full upfront: EXPANSION-v001.json. Differentiation of ORIGINAL local scalar
-linear identities; differentiated adjunction and Casimir identities are conclusions. -/
+/-! Differentiation of local scalar linear identities; the differentiated adjunction
+and Casimir identities are conclusions. -/
 
 lemma iteratedFDeriv_linear_scalar_identity
     {E A B : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]

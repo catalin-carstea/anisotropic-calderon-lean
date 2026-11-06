@@ -1,9 +1,7 @@
 import Calderon.ActualLoweringEPairedLowBridge
 
-/-! Focused original-room geometry and exact physical field projection
-diagnostic. It does not assert the full paired producer or identify a getter
-cause. Routine Sol implementation after the previously archived separate
-read-only Astra advice; no new advice/review/model call. -/
+/-! Focused original-room geometry and exact physical field projection.
+It does not assert the full paired producer. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

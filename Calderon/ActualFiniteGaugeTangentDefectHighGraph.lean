@@ -3,8 +3,7 @@ import Calderon.ActualReferenceGaugeTangentDivergenceEndpoints
 import Calderon.ActualReferenceGaugeReciprocalProductJets
 import Calderon.SphereSobolevPartialSumOperator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-ADJOINT-PRODUCT-ASSEMBLY-EXPANSION-v001.md. Higher representative of the exact tangent defect. -/
+/-! Higher representative of the exact tangent defect. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

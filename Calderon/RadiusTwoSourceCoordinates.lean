@@ -2,7 +2,7 @@ import Calderon.RadiusTwoSmoothSourceSeparation
 import Calderon.RadiusTwoSmoothSourceJetLinear
 import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
 
-/-! Full upfront expansion precedes coordinates made of actual source responses. -/
+/-! Coordinates made of actual source responses. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric TopologicalSpace

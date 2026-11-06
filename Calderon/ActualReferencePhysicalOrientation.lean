@@ -2,9 +2,8 @@ import Calderon.ActualPhysicalMetricNormalization
 import Calderon.WeightedMatrixCalculus
 import Mathlib.Topology.Order.IntermediateValue
 
-/-! UNCOMPILED /tmp author draft. See the preceding UPFRONT file.
-The full original endpoint and coefficient data are retained. No orientation
-premise, radius shrink, axiom, or admission is added. -/
+/-! The full original endpoint and coefficient data are retained. No orientation
+premise or radius shrink is added. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -6,8 +6,7 @@ import Calderon.ActualReferenceGaugeConormalRadialConversion
 import Calderon.ActualReferenceRadialInvertibleEndpointCompatibility
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-radial-decomposition-v010.md. SAME original solves and radial endpoint. -/
+/-! Radial decomposition of the gauge, with the same original solves and radial endpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

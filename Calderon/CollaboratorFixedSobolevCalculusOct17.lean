@@ -3,9 +3,7 @@ import Calderon.FixedSobolevCalculus
 import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
 import Calderon.CollaboratorWkpCalculusOct17
 
-/-! Task 06 (see 06-sobolev-calculus.md).
-
-Differentiation is `WkpCalculus.dL`.  Multiplication is built by induction on the order: the
+/-! Differentiation is `WkpCalculus.dL`.  Multiplication is built by induction on the order: the
 product `φ u ∈ W^{k+1,2}` is reconstructed (`WkpCalculus.ofPartials`) from its first-order part
 `φ u ∈ W^{1,2}` and its partial derivatives `φ ∂ᵢu + (∂ᵢφ) u ∈ W^{k,2}`, which are products of
 order `k` with `φ` and with `∂ᵢφ`. -/

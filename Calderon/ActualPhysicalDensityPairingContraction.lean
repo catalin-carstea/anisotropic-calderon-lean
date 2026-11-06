@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalDensityOperator
 import Calderon.ActualNormalizedScalarFrameOperator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-PHYSICAL-PAIRING-CONTRACTION-SPLIT-EXPANSION-v001.md. Literal finite covariant contraction. -/
+/-! Literal finite covariant contraction. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

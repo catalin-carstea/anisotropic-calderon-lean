@@ -2,9 +2,8 @@ import Calderon.ActualLowerUSFirstCoefficientJets
 import Calderon.ActualLowerUSGainFirstCaps
 
 /-!
-GPT-6.1 Sol authoring support. The before-code derivative expansion is
-lower-u-s-nov03-v001/second-row-next-upfront.md. This module assembles the
-literal T product rule, keeping each actual coefficient and endpoint family.
+This module assembles the literal T product rule, keeping each actual coefficient and
+endpoint family.
 -/
 set_option autoImplicit false
 set_option Elab.async false
@@ -42,7 +41,7 @@ private theorem norm_fderiv_smul_le_generic {E : Type*} [NormedAddCommGroup E] [
         ContinuousLinearMap.opNorm_smul_le (b x) (fderiv ℝ A x))
       (le_of_eq (ContinuousLinearMap.norm_smulRight_apply (fderiv ℝ b x) (A x)))
 
-/- Cache the canonical low-map structures only, following the qualified
+/- Cache the canonical low-map structures only, as in the
 physical Gain producer. No parameter-space structure or bare Norm override. -/
 @[instance_reducible] private def secondRowDerivativeLowMapNormed : NormedAddCommGroup LowMap := inferInstance
 attribute [local instance] secondRowDerivativeLowMapNormed

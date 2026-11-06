@@ -7,8 +7,6 @@ open Filter Set
 open scoped Topology ENNReal Classical
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 
-/-! Expanded before source in EXPANSION-sphere-coordinate-inclusion-compatibility-v001.json. -/
-
 lemma sphereSobolevInclusionL_linearCoordinateMul_single
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
     (s t : ℝ) (hts : t ≤ s) (d : R3) (k : ℕ) (a : harmonicSphereSubspace k) :

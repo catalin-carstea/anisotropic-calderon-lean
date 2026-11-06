@@ -10,8 +10,7 @@ open scoped ENNReal ContDiff
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic SmoothAngularCasimir
 
-/-! Expanded before source in EXPANSION-native-finite-sphere-orthogonal-trace-v001.json.
-The trace is SAME tau0, and the domain is every native H1 graph element. -/
+/-! The trace is SAME tau0, and the domain is every native H1 graph element. -/
 
 lemma valueTraceL_nativeH1OrthogonalPullback (τ0 : UnitBallValueTrace)
     (e : R3 ≃ₗᵢ[ℝ] R3) (u : BallH1) :

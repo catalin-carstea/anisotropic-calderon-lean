@@ -2,7 +2,7 @@ import Calderon.PositiveCoefficientInnerClassicalWeakEquation
 import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
 import Mathlib.MeasureTheory.Measure.OpenPos
 
-/-! Full upfront: EXPANSION.json. Actual local scalar flux integration by parts.
+/-! Actual local scalar flux integration by parts.
 The generic weak-test condition is discharged by the actual solver in the next specialization. -/
 set_option autoImplicit false
 noncomputable section

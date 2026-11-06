@@ -2,7 +2,6 @@ import Calderon.NativeH2OrthogonalPullbackExistence
 import Calderon.NativeH1OrthogonalValueTrace
 import Calderon.NativeCoordinateTraceVariation
 
-/-! Expanded first in EXPANSION-native-H2-conormal-orthogonal-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Filter

@@ -7,11 +7,8 @@ import Calderon.ActualAdjacentGainedFiniteFamilyCaps
 import Mathlib.MeasureTheory.Integral.Bochner.Set
 import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
-/-! Actual physical Qrad signed self-row (author-only candidate, v008).
-Complete expansion: output/MATHEMATICS.md, written before these declarations.
-Uses ONLY the Root producers: first-output lifts, CL bracket, radial coefficient pivots,
-finite-family adjacent caps, plus the checked QradFourIndexNormIdentity/WeakForm.
-No compiler was run; no acceptance is claimed. -/
+/-! Actual physical Qrad signed self-row. Uses the first-output lifts, CL bracket, radial
+coefficient pivots, finite-family adjacent caps, and QradFourIndexNormIdentity/WeakForm. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

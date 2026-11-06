@@ -12,8 +12,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic MetricVolume
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Full upfront source correspondence: native-supported-adjoint-weak-solution-author-oct14-v001/EXPANSION-v001.json.
-The actual adjoint solution is derived from original invertibility. -/
+/-! The actual adjoint solution is derived from original invertibility. -/
 
 def nativeSupportedDriftSmoothData (beta : R3 → R3) (hbeta : ContDiff ℝ ∞ beta) :
     Fin 3 → SmoothData :=

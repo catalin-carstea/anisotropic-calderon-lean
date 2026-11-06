@@ -1,8 +1,7 @@
 import Calderon.ActualFiniteGaugeAdjointRadialFamily
 import Calderon.SignedTaylorFixedLinearTransport
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-DIRECT-FINITE-GENUINE-SIGNED-REMAINDER-DOMAIN-EXPANSION-v002.md. Actual higher genuine adjoint signed remainder. -/
+/-! Actual higher genuine adjoint signed remainder. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

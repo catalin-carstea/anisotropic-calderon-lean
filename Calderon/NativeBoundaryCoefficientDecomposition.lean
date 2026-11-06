@@ -8,8 +8,6 @@ open scoped ENNReal ContDiff InnerProductSpace Classical Topology
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic
 
-/-! Expanded before source in EXPANSION-actual-boundary-normal-tangential-coefficient-v001.json. -/
-
 def boundaryNormalCoefficientData (F : SmoothCoefficientMatrix 2) : SmoothData :=
   ⟨fun x : R3 => ∑ i : Fin 3, ∑ j : Fin 3,
     x i*(coefficientSmoothData (F i j)).1 x*x j,

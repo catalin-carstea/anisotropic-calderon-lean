@@ -3,8 +3,7 @@ import Calderon.NormalizedConformalDrift
 import Calderon.WeightedRadialDriftCoercivity
 import Calderon.JointParameterFiberChart
 
-/-! UNCOMPILED author proposal. EXPANSION.md D2--D5,D7 was saved first.
-All parameter slices and normalized endpoint derivatives are literal native definitions. -/
+/-! All parameter slices and normalized endpoint derivatives are literal native definitions. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

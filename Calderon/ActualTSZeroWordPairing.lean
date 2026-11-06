@@ -6,10 +6,9 @@ import Calderon.ActualHigherSCommonProfileRoomData
 import Calderon.ActualHigherSZeroAtomDictionary
 
 /-!
-Before-code: ../T-S-quadratic-word-pairing-before-source-nov03-night-v001/UPFRONT.md.
 Original ordered word pairing bound for arbitrary four angular atoms.
-The actual finite-input lifts will be supplied by the later physical consumer.
-This is retained T/S work, not a new S-self proof or a whole T/S energy bound.
+The actual finite-input lifts are supplied by the physical consumer.
+This is not a whole T/S energy bound.
 -/
 set_option autoImplicit false
 set_option Elab.async false

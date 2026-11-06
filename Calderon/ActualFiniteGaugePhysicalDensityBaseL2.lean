@@ -3,8 +3,7 @@ import Calderon.ActualFiniteGaugePhysicalDensityHalfSectionSmoothness
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 import Mathlib.MeasureTheory.Function.LpSpace.Indicator
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-FINITE-GAUGE-PHYSICAL-BASE-L2-UPFRONT-v001.md. ONE actual W, no pointwise output choice. -/
+/-! One actual W, with no pointwise choice of output. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

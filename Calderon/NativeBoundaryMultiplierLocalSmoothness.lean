@@ -1,7 +1,6 @@
 import Calderon.NativeCoefficientBoundaryMultiplier
 import Calderon.FiniteDimensionalLocalSmoothExtension
 
-/-! Full upfront: EXPANSION-NativeBoundaryMultiplierLocalSmoothness-v001.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Function Metric

@@ -3,9 +3,8 @@ import Calderon.ActualDilatedDepthCofinalHessian
 import Calderon.ReferenceWeightedApproximation
 
 /-! Cofinal reference profile bounds and the degree/radius profile allocation for the
-actual reference radius. The cofinal depth Hessian bound is Root's
-`exists_dilated_referenceDepth_strict_hessian_bound_forall_ge`; it is only used here.
-No coercivity claim. -/
+actual reference radius. The cofinal depth Hessian bound is
+`exists_dilated_referenceDepth_strict_hessian_bound_forall_ge`; it is only used here. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff InnerProductSpace Gradient Topology Matrix.Norms.Elementwise

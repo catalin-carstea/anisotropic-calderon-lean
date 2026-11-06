@@ -2,8 +2,7 @@ import Calderon.ActualTSSymmetricFirstGreen
 import Calderon.ActualTSFirstLinearZeroIntegral
 
 /-! Elementary energy and integral bookkeeping for the literal original D01.
-Before code: ../UPFRONT.md and ../integral-UPFRONT.md. No final analytic cap
-is assumed here; actual original-room producers discharge these interfaces. -/
+No final analytic cap is assumed here; actual original-room producers discharge these interfaces. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

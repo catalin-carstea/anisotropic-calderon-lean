@@ -2,8 +2,8 @@ import Calderon.NativeFiniteHarmonicH3Extension
 import Calderon.NativeThreeHalfProductTrace
 import Calderon.NativeRepackedCoefficientMultiplierTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-FINITE-HARMONIC-PRODUCT-H3-EXPANSION-v001.md. Untruncated actual multiplier on finite input. -/
+/-! H3 extension of the finite harmonic product: the untruncated actual multiplier on finite
+input. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

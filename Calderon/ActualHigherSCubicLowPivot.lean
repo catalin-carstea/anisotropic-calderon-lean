@@ -1,8 +1,6 @@
 import Calderon.ActualFullEPhysicalEndpoints
 
-/-! Full-Half gained pivot by two dense-inclusion extensions.
-Root auxiliary proof; complete before-code statement in cubic-low-pivot-upfront-v001.
-No actual endpoint producer, final bound or semantic acceptance is asserted. -/
+/-! Full-Half gained pivot by two dense-inclusion extensions. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualHigherSCubicLowPivot

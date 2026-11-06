@@ -1,7 +1,6 @@
 import Calderon.TauMetricCoercivity
 
-/-! Expanded first in EXPANSION-smooth-positive-coefficient-native-coercivity-v001.json.
-Derive actual native ellipticity/coercivity without exterior normalization. -/
+/-! Derive actual native ellipticity/coercivity without exterior normalization. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Matrix Set

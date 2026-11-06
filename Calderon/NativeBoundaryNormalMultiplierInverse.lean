@@ -11,8 +11,6 @@ open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap SphereHarmonic
   NativeHalfSmoothMultiplier NativeNegativeHalfSmoothMultiplier NativeSmoothMultiplierInverse
   NativeFullSharpHalfTrace NativeHarmonicH1LiftCompletion
 
-/-! Expanded before source in EXPANSION-native-boundary-normal-multiplier-inverse-v001.json. -/
-
 lemma nativeNegativeHalfNormalCoefficientMulL_isInvertible
     (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)

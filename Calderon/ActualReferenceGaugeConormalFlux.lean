@@ -4,9 +4,8 @@ import Calderon.ActualReferenceRadialEndpointCompatibility
 import Calderon.NativeH2ConormalRadialConversion
 import Calderon.NativeH2ConormalTraceRepresentative
 
-/-! Full upfront: actual-gauge-boundary-jets-author-oct15-v001/
-EXPANSION-conormal-flux-v006.md. Arbitrary native H2 inputs, SAME weighted
-principal coefficient, and existing native normal/tangent conversion. No PDE premise. -/
+/-! Arbitrary native H2 inputs, the same weighted principal coefficient, and the
+existing native normal/tangent conversion. No PDE premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

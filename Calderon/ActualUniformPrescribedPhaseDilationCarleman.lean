@@ -1,5 +1,5 @@
 import Calderon.ActualLocalParameterStrictWeightCarleman
-import MixedKernelNativeRoomInterpolation
+import Calderon.MixedKernelConstruction.MixedKernelNativeRoomInterpolation
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

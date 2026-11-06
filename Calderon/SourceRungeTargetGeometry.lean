@@ -1,7 +1,6 @@
 import Calderon.BallComplementConnected
 import Calderon.FixedExteriorSourceBall
 
-/-! Full upfront expansion precedes the actual closed-source target geometry. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric TopologicalSpace

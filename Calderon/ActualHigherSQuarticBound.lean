@@ -1,8 +1,6 @@
 import Calderon.ActualHigherSScalarCommutatorForm
 
-/-! Structural quartic bound only. Exact before-code derivation is in
-quartic-bound-upfront-v001. Actual same-packet caps and complete word coverage
-are mandatory later; no final analytic callback or acceptance is asserted. -/
+/-! Structural quartic bound. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualHigherSQuarticBound

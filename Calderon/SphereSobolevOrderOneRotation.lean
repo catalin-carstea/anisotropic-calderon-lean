@@ -12,8 +12,6 @@ open SmoothSphereRotation SmoothSphereRotationProjection SmoothSphereRotationBou
   SmoothAngularCasimir SpectralCoreRegularity SpectralWeightedGraph NativeFullSharpHalfTrace
   DirichletFamily EnergyBridge
 
-/-! Expanded before source in EXPANSION-sphere-half-tangential-derivative-v001.json. -/
-
 lemma norm_inverseDegree_harmonicSphereRotation_le (k : ℕ) (i j : Fin 3)
     (a : harmonicSphereSubspace k) :
     ‖(1+(k:ℝ))⁻¹ • harmonicSphereRotation k i j a‖ ≤ Real.sqrt 2*‖a‖ := by

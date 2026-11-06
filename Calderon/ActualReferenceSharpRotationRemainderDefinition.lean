@@ -1,9 +1,6 @@
 import Calderon.ActualReferenceRadialRotationCommutatorJointJets
 import Calderon.SignedTaylorFixedLinearTransport
 
-/-! Exact literal selected definition moved from RotationSignedRemainderJets4.
-Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-PARTITION-literal-upper-rotation-remainder-definition-v125.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

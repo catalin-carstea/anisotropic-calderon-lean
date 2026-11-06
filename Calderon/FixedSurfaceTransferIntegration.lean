@@ -31,9 +31,9 @@ def fixedFlux (μ : Measure R3) (A : Coefficients) (u : R3 → ℝ)
     (n : R3 → Fin 3 → ℝ) (G : R3 → R3 → ℝ) (y : R3) : ℝ :=
   ∫ x, fluxIntegrand A u n G x y ∂μ
 
-/-- Primitive data for the actual Wronskian integral. No regularity or PDE of
+/-- Primitive data for the Wronskian integral. No regularity or PDE of
 its integrand or parameter integral is assumed. The measure and all weights
-are fixed in y. Geometry and kernel construction are supplied by their owners. -/
+are fixed in y. -/
 structure SmoothFluxData (μ : Measure R3) (K U V : Set R3)
     (A : Coefficients) (u : R3 → ℝ) (n : R3 → Fin 3 → ℝ)
     (G : R3 → R3 → ℝ) : Prop where

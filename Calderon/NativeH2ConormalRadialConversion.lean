@@ -9,8 +9,6 @@ open scoped ContDiff Gradient
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeFullSharpHalfTrace NativeNegativeHalfSmoothMultiplier
 
-/-! Expansion: EXPANSION-native-H2-conormal-radial-conversion-v001.md, step 2. -/
-
 theorem sphereSobolevInclusionL_eq_of_target_eq (s t u : ℝ)
     (ht : t ≤ s) (hu : u ≤ s) (htu : t = u) :
     sphereSobolevInclusionL s t ht = sphereSobolevInclusionL s u hu := by

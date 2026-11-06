@@ -2,7 +2,7 @@ import Calderon.MetricSmooth
 import Mathlib.Analysis.Normed.Module.Connected
 import Mathlib.Analysis.Convex.Topology
 
-/-! Full upfront expansion precedes this actual R3 Runge geometry. -/
+/-! Runge geometry in R3. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

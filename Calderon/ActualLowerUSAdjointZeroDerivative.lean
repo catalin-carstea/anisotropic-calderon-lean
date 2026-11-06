@@ -5,12 +5,8 @@ import Calderon.ActualFiniteCoreSobolevLift
 import Calderon.SphereSobolevBesselOrderCompatibility
 
 /-!
-Author: delegated GPT-6.1 Sol, 3 November 2026.
-Before-code expansion: ../zero-derivative-upfront.md.
 Exact bounded Sobolev representative of the original lower-adjoint zero
-coefficient derivative. All profile caps are internally produced. No assertion
-that a full physical S output belongs to the finite angular core is made.
-Authored only; Root owns compilation and native checking.
+coefficient derivative. All profile caps are produced internally.
 -/
 set_option autoImplicit false
 set_option Elab.async false

@@ -189,7 +189,7 @@ theorem integral_first_physical_cross_eq_coordinate_sum (ordinary : Ordinary)
   exact integral_finsetSum _ (fun k _ => hi l k)
 
 /-- Original signed factor4 principal T/S physical integral, with all helper premises discharged.
-The constant remains AFTER fixed g2; original metric-neighborhood uniformity is still open. -/
+The constant is chosen AFTER the fixed g2, so it is not uniform over a metric neighborhood. -/
 theorem exists_first_physical_cross_reference_bound (hL : 0 < L)
     (hreg : FixedDirichletRegularity) (d0 : ℝ) (germs : CoeffRoom d0)
     (data : MixedAngularPhysicalEndpointRoom hF hO hD hcalc τ0 g L y0 Φ B ε C ρ H a w hData hg hreg d0 germs) :

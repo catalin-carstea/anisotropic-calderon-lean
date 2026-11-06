@@ -1,8 +1,7 @@
 import Calderon.ActualTSZeroWordPairing
 
 /-! Three-word first-T/quadratic-S angular symmetrization with its genuine
-included-derivative gained error. The symmetric weighted base form remains open.
-Before-code: ../T-first-S-quadratic-triple-before-source-nov03-night-v001/. -/
+included-derivative gained error. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

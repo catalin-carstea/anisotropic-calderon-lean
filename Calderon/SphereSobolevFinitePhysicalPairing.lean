@@ -6,7 +6,6 @@ noncomputable section
 open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 attribute [local irreducible] sphereSobolevSingleL sphereSobolevCoefficientL sphereSobolevZeroEquiv
-/-! Full upfront: EXPANSION-v003.json. Honest original2=checkedfirst1+originalsecond1. -/
 
 lemma inner_zeroEquiv_symm_clm_finite_packets
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

@@ -1,9 +1,8 @@
 import Calderon.ActualHigherSQuadraticZeroNegativeSupportGraphs
 import Calderon.FixedParameterProfilePullback
 
-/-! Separate actual207 Half→negative realization owner. Exact upfront precedes
-source materialization. Own actual identity/allRoom/lift/Words dependencies remain
-conditional until closed; no provider grant, output truncation or final callback. -/
+/-! Half→negative realization of the 207 quadratic zero words, without output
+truncation. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

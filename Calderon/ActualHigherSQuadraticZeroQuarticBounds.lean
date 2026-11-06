@@ -15,12 +15,8 @@ import Calderon.ActualHigherSQuadraticZeroQuarticRegularity
 import Calderon.ActualHigherSQuadraticZeroQuarticRowBound
 import Calderon.ActualHigherSPairingNormDiagnostic
 
-/-! Complete actual207-word quartic uniform estimate, author source UNCOMPILED.
-Own conditional source interfaces are not native/provider grants. Scalar cap
-producer758c6aa5 was consumed ONLY through its exact declaration and upfront,
-under Root's explicit conditional-interface grant; no new proof body was read.
-No analytic callback escapes the final theorem. Original source/body/API/owner/
-norm/literature-relative37 holds and pending human ratification remain. -/
+/-! Complete actual 207-word quartic uniform estimate. No analytic callback escapes
+the final theorem. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

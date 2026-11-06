@@ -1,8 +1,6 @@
 import Calderon.ActualReferenceTwoAngleAdjointStrongOperator
 import Calderon.ActualReferenceTwoAngleStrongEnergy
 import Calderon.ActualReferencePrincipalForcingEnergy
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-principal-forcing-v038.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

@@ -12,10 +12,6 @@ import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
 import Mathlib.Tactic.Linarith
 import Mathlib.Tactic.Positivity
 
-/-! HELD complete all4 ordinary author candidate. Exact before-code expansion4278e14 and
-supplemental API bindings8a2a367/a0963a8/e43fc43. Mechanical compilation is pending;
-no prospective parent/object/config or acceptance. The final selected SAME Green
-consumer requires exact genuinely released all3 concentration, never a failed receipt. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Metric TopologicalSpace Filter

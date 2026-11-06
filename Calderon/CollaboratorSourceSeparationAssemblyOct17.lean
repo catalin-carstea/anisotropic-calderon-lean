@@ -597,7 +597,7 @@ open EnergyBridge DirichletFamily MetricVolume TauCeti TauCeti.PDE Regularity
 open _root_.OAI.AnisotropicCalderon.Affine
 
 open SepAux in
-/-- **Task 09**, conditional on weak unique continuation. -/
+/-- **Task 09**, from weak unique continuation. -/
 theorem radiusTwoSourceSeparation_of_uniqueContinuation (hUCP : UniqueContinuation) :
     RadiusTwoSourceSeparation := by
   intro g hg response hresp

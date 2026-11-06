@@ -9,8 +9,6 @@ open scoped ENNReal ContDiff Gradient InnerProductSpace
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge MetricVolume
 
-/-! Upfront expansion: EXPANSION-native-coordinate-energy-cancellation-joint-v001.md. -/
-
 theorem realBilinear_coordinate_product_cancel
     {V : Type*} [NormedAddCommGroup V] [NormedSpace ℝ V]
     (B : V →L[ℝ] V →L[ℝ] ℝ) (U V' e : V) (t u v : ℝ) :

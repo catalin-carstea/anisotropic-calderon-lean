@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeNormalThreeHalfMultiplier
 import Calderon.NativeThreeHalfCoefficientCommutation
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-RECIPROCAL-MULTIPLIER-COMMUTATION-EXPANSION-v001.md. SAME actual high right reciprocal. -/
+/-! Same actual high right reciprocal. -/
 set_option autoImplicit false
 noncomputable section
 open Set

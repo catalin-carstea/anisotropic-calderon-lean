@@ -14,7 +14,7 @@ open EnergyBridge DirichletFamily ExteriorSource Literature ConnectionError Metr
 
 /-- The native mixed-kernel provider and actual q=2 beta profile supply the
 complete source parameter order for the source-matched one-dilation bootstrap.
-The fixed-frame reference-base lift norm is conditional, with D chosen after chi; no moving-fiber identity is used. -/
+The fixed-frame reference-base lift norm bound is a hypothesis, with D chosen after chi; no moving-fiber identity is used. -/
 theorem exists_actual_factory_one_dilation_bootstrap_with_native_referenceBaseLift_profile
     (hcalc : FixedSobolevCalculus) (hreg : FixedDirichletRegularity) (hF : SphereFischerInner)
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) (τ0 : UnitBallValueTrace)

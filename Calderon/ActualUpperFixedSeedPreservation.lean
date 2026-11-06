@@ -1,5 +1,5 @@
-import MixedKernelNativeFinalAssembly
-import MixedKernelNativeParameterAssembly
+import Calderon.MixedKernelConstruction.MixedKernelNativeFinalAssembly
+import Calderon.MixedKernelConstruction.MixedKernelNativeParameterAssembly
 import Calderon.ActualMixedKernelNativeH3Datum
 set_option autoImplicit false
 noncomputable section

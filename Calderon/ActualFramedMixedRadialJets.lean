@@ -3,7 +3,7 @@ import Calderon.ActualFramedCoefficientsDrift
 import Mathlib.Analysis.Normed.Module.RCLike.Real
 import Mathlib.Topology.Constructions.SumProd
 
-/-! Author proposal, UNCOMPILED. The signed radius room epsilon/16 is chosen
+/-! The signed radius room epsilon/16 is chosen
     before any jet order, and the spatial compact is the full closed unit ball. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

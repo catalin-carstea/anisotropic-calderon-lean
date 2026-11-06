@@ -5,13 +5,12 @@ import Mathlib.Analysis.InnerProductSpace.PiL2
 import Mathlib.MeasureTheory.Integral.Bochner.Set
 import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
-/-! Before-source: output/PRINCIPAL-Q-ELLIPTICITY-MATHEMATICS.md.
-Actual principal coefficient `Q = Cᵀ N C` (exact `referenceDensityPrincipalFrameCoefficient`,
-actual coframe `referenceCoFrameEntry`, actual normalized matrix): positive definiteness,
+/-! Ellipticity of the principal coefficient `Q = Cᵀ N C` (`referenceDensityPrincipalFrameCoefficient`,
+with coframe `referenceCoFrameEntry` and the normalized matrix): positive definiteness,
 a compact uniform scalar lower bound whose constant precedes every profile/cutoff/input,
-the arbitrary real Hilbert vector version, the exact zero-order Half/Neg dual-pairing version
-(all harmonic degrees, including degree 0) and weighted integral consumers carrying the
-actual `referenceDensityFamily`. Not a signed-error or full coercivity statement. -/
+the arbitrary real Hilbert vector version, the zero-order Half/Neg dual-pairing version
+(all harmonic degrees, including degree 0) and weighted integral consequences carrying
+`referenceDensityFamily`. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

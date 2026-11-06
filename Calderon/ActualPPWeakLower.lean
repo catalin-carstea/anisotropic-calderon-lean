@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSScalarCommutatorForm
 import Calderon.ActualHigherSCoefficientExtraction
 
-/-! Author structural source after pp-upfront-v001. UNCOMPILED.
-This supplies weighted coordinate weak IBP, true-neighborhood differentiation
+/-! This supplies weighted coordinate weak IBP, true-neighborhood differentiation
 of a low pivot and the two-factor transpose used to balance the remainder.
 It is NOT the actual same-packet P/P theorem: original data must discharge
 all structural hypotheses, actual caps, finite sums and leading matching. -/
@@ -19,7 +18,7 @@ section WeakGreen
 variable {E F : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
   [NormedAddCommGroup F] [NormedSpace ℝ F]
 
-/-- Reverse the checked one-Green-step identity while retaining both lower
+/-- Reverse the one-Green-step identity while retaining both lower
 coefficient/density derivatives. All compact-support integrability is derived. -/
 theorem weighted_first_operator_green
     (Q : E →L[ℝ] F →L[ℝ] ℝ) (mu : R3 → ℝ) (U : R3 → E)
@@ -140,7 +139,7 @@ variable {E H N : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
   [NormedAddCommGroup H] [NormedSpace ℝ H]
   [NormedAddCommGroup N] [NormedSpace ℝ N]
 
-/-- Point derivative of a continuous bilinear pairing, using the checked CLM
+/-- Point derivative of a continuous bilinear pairing, using the CLM
 application derivative boundary; global smoothness is not required. -/
 lemma directional_bilinear_at (P : H →L[ℝ] N →L[ℝ] ℝ)
     (v : R3 → H) (w : R3 → N) (x X : R3)

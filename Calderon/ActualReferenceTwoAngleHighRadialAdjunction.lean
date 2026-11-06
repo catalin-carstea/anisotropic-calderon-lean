@@ -4,8 +4,7 @@ import Calderon.ActualReferenceTwoAngleAdjointHighRadialFamily
 import Calderon.ActualReferenceTwoAngleTangentialHalfDualAdjunction
 import Calderon.ActualReferenceSharpMidpointRadialTrace
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-high-radial-adjunction-v102.md. True all-high native pivot pairing. -/
+/-! Two-angle high radial adjunction: the true all-high native pivot pairing. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

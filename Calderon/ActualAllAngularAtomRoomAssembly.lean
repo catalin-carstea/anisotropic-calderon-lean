@@ -1,9 +1,8 @@
 import Calderon.ActualAllAngularAtomHighRoom
 import Calderon.ActualAllAngularAtomFiniteCaps
 
-/-! Complete actual room assembly on a variable original high packet. All low
-facts and finite caps are derived, with no analytic cap callback or new final
-premise. Original public definitions/record are imported from their high owner. -/
+/-! Complete room assembly on a variable high packet. All low facts and finite
+caps are derived here. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

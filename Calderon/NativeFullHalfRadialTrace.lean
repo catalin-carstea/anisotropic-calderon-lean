@@ -9,8 +9,7 @@ open scoped ENNReal InnerProductSpace Classical
 namespace OAI.AnisotropicCalderon.NativeFullHalfRadialTrace
 open NativeFullSharpHalfTrace SphereHarmonic SpectralCoreRegularity DirichletFamily EnergyBridge
 
-/-! Expanded before source in EXPANSION-native-full-H2-half-radial-trace-v001.json.
-This uses the actual full native H1 sharp trace, whose genuine density parent must pass. -/
+/-! This uses the actual full native H1 sharp trace. -/
 
 def nativeHalfOutwardTraceL (hF : SphereFischerInner) (hO : OrthogonalSphereHarmonics)
     (hD : DenseSphereHarmonics) (hcalc : FixedSobolevCalculus) (τ0 : UnitBallValueTrace) :

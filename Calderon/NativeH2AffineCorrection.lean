@@ -15,8 +15,8 @@ open EnergyBridge SphereHarmonic NativeHarmonicLiftCompletion NativeHarmonicH1Li
   NativeHarmonicLiftOrderCoherence
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in native-supported-adjoint-nonzero-H2-author-oct14-v001/EXPANSION-v001.json.
-Exact three-half datum, literal formal-adjoint coefficients and same harmonic completion. -/
+/-! Uses the three-half datum, the formal-adjoint coefficients and the same harmonic
+completion. -/
 
 def nativeH2AffineCorrectionL (J : StrongDirichletSpace 0 →L[ℝ] BallSobolev 2)
     (R : BallSobolev 0 →L[ℝ] StrongDirichletSpace 0)

@@ -2,8 +2,7 @@ import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.ActualReferenceParallelRaising
 import Calderon.ActualHorizontalSobolevConnection
 
-/-! Upfront: actual-physical-leading-cancellation-author-oct16-v001/EXPANSION-v001.md.
-Three concrete native leading identities; no physical/quartic conclusion assumed. -/
+/-! Three concrete native leading identities; no physical/quartic conclusion assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Filter

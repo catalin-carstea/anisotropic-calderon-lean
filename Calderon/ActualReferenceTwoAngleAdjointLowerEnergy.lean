@@ -2,8 +2,6 @@ import Calderon.ActualReferenceTwoAngleAdjointStrongOperator
 import Calderon.NativeScalarMassPrincipalRegularity
 import Calderon.NativeAdjointEnergyScalarAssembly
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-lower-energy-v037.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

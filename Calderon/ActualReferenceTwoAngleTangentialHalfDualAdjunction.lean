@@ -4,8 +4,7 @@ import Calderon.SphereSobolevTangentialDerivative
 import Calderon.NativeNegativeHalfCoefficientCoordinateProduct
 import Calderon.NativeHalfCoefficientRotationDualAdjunction
 import Calderon.SphereSobolevCoordinateNegativeHalfOrder
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-tangent-pairing-partition-v099.md. Actual native tangent adjunction. -/
+/-! Actual native tangent adjunction. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

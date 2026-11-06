@@ -3,8 +3,7 @@ import Calderon.ActualHigherSQuadraticZeroWords
 import Calderon.ActualHigherSZeroAtomDictionary
 
 /-! Native Word-family first caps, independent of physical profile assembly.
-One actual Room cap M precedes all atoms and parameter points. This author
-successor remains uncompiled until its own complete Root check. -/
+One actual Room cap M precedes all atoms and parameter points. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

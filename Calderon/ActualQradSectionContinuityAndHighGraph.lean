@@ -6,10 +6,7 @@ import Calderon.ActualQradJointCoefficientCaps
 import Calderon.ActualQradFiniteFirstOutputLifts
 import Calderon.ActualHighSmoothMultiplierSecondRadialRemainderTopologyCoercivity
 
-/-! Original-Pi Qrad self row as a difference of two SEPARATELY integrable weighted squared norms
-(author-only successor, v010). Complete expansion: output/MATHEMATICS.md (N0–N7), written before
-these declarations. Imports the proposed parent `Calderon.ActualOriginalPiQradReferenceProfile`
-without redoing it. No compiler was run; no acceptance is claimed. -/
+/-! Original-Pi Qrad self row as a difference of two separately integrable weighted squared norms. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -104,7 +101,7 @@ lemma continuous_clm_apply_of_closed_vanishing
     exact continuousAt_const.congr hEq
 
 /-! ### N0 (L2): exact high commutator identity and two-endpoint segment on one physical room.
-Same producers and same proof as Root's `exists_reference_commonRadius_finite_radial_coefficient_first_output_lifts`. -/
+Same producers and same proof as `exists_reference_commonRadius_finite_radial_coefficient_first_output_lifts`. -/
 
 theorem exists_reference_commonRadius_highMultiplierRemainder_lowerIdentity
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0) :

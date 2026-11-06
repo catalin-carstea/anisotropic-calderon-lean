@@ -9,8 +9,6 @@ open scoped ENNReal InnerProductSpace Gradient
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 
-/-! Upfront expansion: EXPANSION-native-coordinate-forcing-energy-joint-v001.md. -/
-
 theorem energyIntegrand_coordinate_jet_left
     (A : Matrix (Fin 3) (Fin 3) ℝ) (b : R3) (c : ℝ) (k : Fin 3) (V : ℝ × R3) :
     TauCeti.PDE.energyIntegrand A b c ((0 : ℝ),EuclideanSpace.single k 1) V =

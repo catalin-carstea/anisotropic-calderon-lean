@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevShiftedPhysicalDegree
 import Calderon.SphereSobolevOrthogonalPullback
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-degree-extraction-v128.md. Exact decoded diagonal identity. -/
+/-! Exact decoded diagonal identity. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

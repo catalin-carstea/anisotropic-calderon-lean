@@ -1,8 +1,7 @@
 import Calderon.NativeFiniteHarmonicProductH3Extension
 import Calderon.NativeH3RotationEndpointGraph
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-FINITE-PRODUCT-HIGH-ROTATION-EXPANSION-v001.md. Rotation after the actual untruncated product. -/
+/-! Rotation after the actual untruncated product. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

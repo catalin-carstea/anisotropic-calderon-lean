@@ -1,7 +1,6 @@
 import Calderon.ClmInheritedStructureData
 
-/-! Full upfront: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-explicit-natural-CLM-data-v007.md. Explicit existing natural data, no replacement structures. -/
+/-! Explicit existing natural data, no replacement structures. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

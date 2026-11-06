@@ -14,8 +14,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativePolynomialBulkMoments
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in native-scalar-mass-full-green-author-oct14-v001/EXPANSION-v001.json.
-Actual H1 tests, literal mass density and probability/surface-mass normalization. -/
+/-! Actual H1 tests, literal mass density and probability/surface-mass normalization. -/
 
 lemma energyIntegrand_add_mass_apply (A : Matrix (Fin 3) (Fin 3) ℝ) (b : R3) (c : ℝ)
     (U V : ℝ × R3) :

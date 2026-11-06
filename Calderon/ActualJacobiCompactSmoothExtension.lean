@@ -1,8 +1,8 @@
 import Calderon.ActualJacobiThreeHalfBoundaryMultiplierFamily
 import Calderon.FiniteDimensionalLocalSmoothExtension
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-JACOBI-COMPACT-SMOOTH-EXTENSION-EXPANSION-v001.md. Same actual sphere coefficients, one smooth compact extension. -/
+/-! The actual Jacobi coefficients: the same actual sphere coefficients, with one smooth
+compact extension. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

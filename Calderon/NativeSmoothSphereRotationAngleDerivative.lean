@@ -8,8 +8,7 @@ open scoped ENNReal ContDiff Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothAngularCasimir SmoothSphereFields CompactParameterSmoothness
 
-/-! Upfront expansion: EXPANSION-finite-harmonic-angle-derivative-v001.json.
-Actual continuous-sphere differentiation precedes bounded CLM transport to probability L2. -/
+/-! Actual continuous-sphere differentiation precedes bounded CLM transport to probability L2. -/
 
 lemma contDiff_coordinateRotationScalarFamily (i j : Fin 3) (F : R3 → ℝ)
     (hF : ContDiff ℝ ∞ F) :

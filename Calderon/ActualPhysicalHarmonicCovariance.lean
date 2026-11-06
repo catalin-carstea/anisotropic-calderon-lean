@@ -2,10 +2,8 @@ import Calderon.ActualPhysicalMetricNormalization
 import Calderon.MetricPullbackDivergence
 import Calderon.ActualNativeSmoothOperatorRealization
 import Calderon.ActualPhysicalBoundaryChainRule
-/-! Source-only author actual physical/native harmonic covariance stage.
-Exact coefficient, actual derivative invertibility and whole native kernel/lift
-derivation were sealed before bodies. No covariance/kernel/Psi premise or
-canonical acceptance is introduced. Ambient smooth-data scope is explicit. -/
+/-! Actual physical/native harmonic covariance. No covariance/kernel/Psi
+premise is introduced. Ambient smooth-data scope is explicit. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

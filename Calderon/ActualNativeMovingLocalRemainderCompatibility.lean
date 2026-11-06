@@ -2,8 +2,7 @@ import Calderon.ActualNativeMovingLocalRemainder
 import Calderon.ActualNativeZeroCoordinateCovariantTransport
 import Calderon.ActualNativeMovingAdjointCorrectionInclusion
 
-/-! Object5 of actual-native-moving-local-remainder-author-oct16-v001/EXPANSION-v001.md.
-Same quotient at two placements, using actual graphs and no desired inverse/gain. -/
+/-! Same quotient at two placements, using actual graphs and no desired inverse/gain. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

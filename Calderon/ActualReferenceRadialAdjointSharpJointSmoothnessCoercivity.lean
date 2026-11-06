@@ -9,15 +9,11 @@ import Calderon.NativeSmoothMultiplierCommonSupportJets
 import Calderon.CompactInverseDerivativeBounds
 
 /-!
-UNCOMPILED proof-development draft. Upfront mathematics and exact source identity:
-/tmp/ActualRadialKbarJointSmoothness_20261023.md.
-
 This file deliberately does not import ActualReferenceNormalizedDefectTopology,
 ActualReferenceRotationSignedRemainderJets, or ActualReferenceSignedRemainderJets.
-The narrow lower-endpoint proofs are reproduced from their concrete selected
-owners. In particular the negative defect below is the ORIGINAL Kbar definition
-`-realHalfOperatorAdjointL Dl`, not the old differently-parameterized extension.
-No admission, new mathematical callback, or changed operator definition is used.
+The narrow lower-endpoint proofs are reproduced here. In particular the negative
+defect below is the ORIGINAL Kbar definition `-realHalfOperatorAdjointL Dl`, not a
+differently-parameterized extension.
 -/
 
 set_option autoImplicit false

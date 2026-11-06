@@ -1,7 +1,7 @@
 import Calderon.ActualFullAdjointFirstActions
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/EXPANSION-v001.md.
-Literal formal Y=-H+Cprimal-GammaTrace; genuine global IBP remains separate. -/
+/-! The formal Y = -H + Cprimal - GammaTrace; the genuine global integration by parts is treated
+separately. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

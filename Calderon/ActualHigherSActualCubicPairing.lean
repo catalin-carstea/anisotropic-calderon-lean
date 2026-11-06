@@ -5,11 +5,8 @@ import Calderon.ActualHigherSQuadraticZeroQuartic
 import Calderon.ActualPPLowerRemainder
 import Calderon.ActualHigherSZeroAtomTransport
 
-/-! Author component of continuing actual mixed P/Z2 consumer. The final uniform
-bound is an archived target, not asserted in this component. Full-Half gained
-pivot and actual four-gain cubic cancellation are proved below. Own4510/4511
-imports retain their native/source qualifications; new own sources and focused
-LowPivot ec0024ae are conditional, not provider grants. No compiler by author. -/
+/-! Part of the actual mixed P/Z2 estimate: the Full-Half gained pivot and the actual
+four-gain cubic cancellation. The final uniform bound is not asserted here. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -165,7 +162,7 @@ lemma actual_cubic_directional_skew {d : ℝ} (P : ARoom d)
   rw [ActualHigherSScalarCommutatorNativeForm.directional_halfInput hO hD F (OAI.AnisotropicCalderon.ReferenceDensityBounds.coordinateDirection k) x]
   exact h
 
-/-- Original hypotheses produce the all-Half pivot; it is not a final callback. -/
+/-- Original hypotheses produce the all-Half pivot. -/
 theorem exists_same_packet_allAtom_full_half_pivot (hKernel : UnitBallValueTraceKernel τ0) :
     ∃ d : ℝ, 0 < d ∧ d ≤ data.δ ∧ d ≤ data.δ0 ∧ d ≤ ρ ∧
       ∃ P : ARoom d, ∀ t ∈ ParamRoom d, ∀ aa bb : ZeroAtom, ∀ x y : Half,

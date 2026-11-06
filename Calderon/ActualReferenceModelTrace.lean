@@ -18,7 +18,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
 
 /- Genuine native E/F-free, drift-free ordered reference model trace.
    Raw raising/connection/degree domains and covector Γ index are retained.
-   This is not identified with fullphysicalP/U/J/E/F/H. ROOT alone checks. -/
+   This is not identified with fullphysicalP/U/J/E/F/H. -/
 
 lemma physicalMixedQFrameCoefficient_symm (g : MatrixField) (hg : IsAdmissibleMetric g)
     (L lam : ℝ) (h : MatrixField) (x : R3) (hsymm : ∀ i j, h x i j = h x j i) (a b : Fin 3) :

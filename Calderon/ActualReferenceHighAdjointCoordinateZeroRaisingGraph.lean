@@ -5,8 +5,7 @@ import Calderon.SphereSobolevAngularRaisingSingle
 import Calderon.AngularShiftGraph
 import Calderon.SharpRadialHarmonicCoefficientCore
 
-/-! Upfront: native-angular-raising-dictionary-author-oct16-v001/
-EXPANSION-actual-zero-raising-v004.md. Actual zero coordinate action, TRUE model raising graph. -/
+/-! Actual zero coordinate action, TRUE model raising graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

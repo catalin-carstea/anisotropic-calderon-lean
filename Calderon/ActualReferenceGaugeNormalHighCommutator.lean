@@ -1,7 +1,7 @@
 import Calderon.ActualReferenceGaugeNormalHighCommutatorDefinition
 
-/-! Full BEFORE-SOURCE v252: exact original five-root K3 package split at the
-original constructor boundary. Actual native minus/right reciprocal retained. -/
+/-! Exact original five-root K3 package, split at the original constructor
+boundary. Actual native minus/right reciprocal retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

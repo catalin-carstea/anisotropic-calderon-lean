@@ -5,7 +5,6 @@ import Calderon.ActualHigherSCommonProfileRoomData
 
 /-!
 Genuine global continuity/support/integrability of the original grouped L00.
-Before-code: ../T-S-zero-literal-integral-before-source-nov03-night-v001/.
 No ambient smoothness is inferred from a closed-room ContDiffOn statement.
 -/
 set_option autoImplicit false

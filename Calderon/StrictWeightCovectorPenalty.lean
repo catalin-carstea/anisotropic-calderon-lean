@@ -1,9 +1,6 @@
 import Calderon.StrictWeightProductMoments
 
-/-! Original product-Hessian cone proof root7: compact choice of the positive covector penalty.
-Before-source authority: Root0845e11c, original ALL14 unchanged literal root7.
-The actual Cone6/ProductMoments5 ordinary parent guards remain mandatory before production.
-The original source geometric criterion is not thereby proved for Main. -/
+/-! Product-Hessian cone proof: compact choice of the positive covector penalty. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Matrix Filter Topology

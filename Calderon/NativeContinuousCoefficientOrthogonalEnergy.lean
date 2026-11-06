@@ -1,7 +1,6 @@
 import Calderon.NativeH1OrthogonalEnergyCovariance
 import Calderon.NativeWeightedDriftFluxGreen
 
-/-! Upfront argument: EXPANSION-native-H1-orthogonal-energy-covariance-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

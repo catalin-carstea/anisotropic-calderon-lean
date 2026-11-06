@@ -1,16 +1,12 @@
-/- Opus v081 original double-E form package, author-only and uncompiled. -/
 import Calderon.ActualCommonFirstWordQuadraticAdjoint
 import Calderon.ActualHigherSCoefficientBounds
 
-/-! Source-only Opusv081 author, 31 October 2026. UNCOMPILED.
-Before-source mathematics: MATHEMATICS.md (same output directory).
-On the caller's retained `W` and one common room `Cm`: the exact pointwise Gram identity of the
+/-! On the caller's retained `W` and one common room `Cm`: the exact pointwise Gram identity of the
 ORIGINAL forward double field `higherSDoubleHalf` against a finite test (one `Cm.pivot`), its
 transfer to the native reversed-order `revDoubleHalf`, compact-room operator bounds for `EH`/`eH`
 (before `g2`), the actual `K = 9 CQ ‖KL‖² CE CrE` (after `g2`, before every profile/input), the
 global pointwise bound `|form| ≤ K R³ ‖UF‖ ‖UG‖`, and the density-weighted integrated identities
-and bounds, including the diagonal `F0 = G0`.
-NOT proved here: cofinal metric-family uniformity, full S-Sdag estimate, coercivity, Main. -/
+and bounds, including the diagonal `F0 = G0`. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

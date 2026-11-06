@@ -4,10 +4,9 @@ import Calderon.ActualHigherSAllAtomNativeFirstCaps
 import Calderon.FixedParameterProfileBudgets
 import Calderon.FixedParameterProfilePullback
 
-/-! Same-W all16 actual within-profile first caps. Original checked pullback
+/-! Same-W all16 actual within-profile first caps. Original pullback
 budgets and strict guards discharge all domain/regularity premises; constants
-precede every profile/input. Standard native derivative norms are selected explicitly; qualification follows
-the exact Root receipts. This successor remains uncompiled until its own check. -/
+precede every profile/input. Standard native derivative norms are selected explicitly. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

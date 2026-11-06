@@ -1,6 +1,5 @@
 import Calderon.CoerciveFunctionalInverseEquality
 
-/-! Full upfront expansion: EXPANSION-native-weak-half-lift-topology-algebra-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff InnerProductSpace

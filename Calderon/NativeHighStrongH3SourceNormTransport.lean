@@ -1,8 +1,8 @@
 import Calderon.NativeHighStrongH3StructureEquality
 import Calderon.NormedSourceContinuousLinearMapTransport
 
-/-! Full before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-native-h3-full-source-norm-bridge-v127.md. SAME full chosen/Stage H3 source data and the exact canonical operator-norm transport; no native norm registration or trace premise. -/
+/-! SAME full chosen/Stage H3 source data and the exact canonical operator-norm transport;
+no native norm registration or trace premise. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

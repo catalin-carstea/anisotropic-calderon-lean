@@ -57,7 +57,7 @@ local notation "BCL" => referenceSmoothMultiplierBoundaryCommutatorFamily
 local notation "BCA" => referenceHighAdjointSmoothMultiplierBoundaryCommutatorFamily
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 
-/-! ### A1. The named actual adjacent maps (literally the two sides of v004 H13). -/
+/-! ### A1. The named actual adjacent maps (literally the two sides of H13 in `ActualHighRadialCommutatorGain`). -/
 
 local notation "CH" => referenceAdjacentGainedCommutatorHigh
   g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room

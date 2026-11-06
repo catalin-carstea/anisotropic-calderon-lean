@@ -9,8 +9,6 @@ open scoped ENNReal Distributions ContDiff InnerProductSpace
 namespace OAI.AnisotropicCalderon.DirichletFamily
 open EnergyBridge
 
-/-! Expansion: EXPANSION-native-H2-tangential-trace-v001.md, obligation A. -/
-
 theorem inner_testFunction_value_eq_integral
     (f : Lp ℝ 2 ((volume : Measure R3).restrict ballOpens))
     (phi : 𝓓(ballOpens, ℝ)) :

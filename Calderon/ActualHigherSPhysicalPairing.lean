@@ -2,14 +2,12 @@ import Calderon.ActualHigherSFormation
 import Calderon.ActualDensityPrincipalFrameEllipticity
 import Calderon.ActualWeightedHorizontalGreen
 
-/-! Source-only author: Opusv045, 30 October 2026. UNCOMPILED.
-Before-source mathematics: PHYSICAL-PAIRING-MATHEMATICS.md §§1–5 (same output directory).
-Independent of v044 Signed/Integrated. (1) universal `P(a, J b) = ⟪K a, K b⟫` from the native
+/-! (1) Universal `P(a, J b) = ⟪K a, K b⟫` from the native
 zero-order identity and the linear isometry `sphereSobolevZeroEquiv`; (2) exact finite-core decoding
 `K (IH (u y)) = F0 y`; (3) generic graph bridge and weighted integrability/equality for every
 continuous weight; (4) actual formation consumer and uniform producer with the original
 before-profile witnesses of `higherSUniformFormationContract_proof`; (5) `C^∞` actual weighted frame
-divergence. All degrees kept (incl. 0). NOT a signed estimate, NOT coercivity. -/
+divergence. All degrees are kept (including 0). -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

@@ -2,10 +2,8 @@ import Calderon.ActualHigherSQuadraticZeroWords
 import Calderon.CompactSmoothJetBounds
 import Calderon.ActualHigherSZeroCoefficientBounds
 
-/-! Author scalar jet algebra component for the actual mixed cubic estimate.
-Actual uniform cap production is a following source owner; no generic jet premise
-is a final analytic assumption. Exact expansion is archived before this source.
-No compiler/native/review acceptance or change to original coefficient definitions. -/
+/-! Scalar jet algebra for the mixed cubic estimate. The uniform caps are produced
+elsewhere. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric
@@ -14,7 +12,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap.ActualHigherSMi
 open EnergyBridge ConnectionError ConformalDepth ReferenceWeightedApproximation
   ActualHigherSQuadraticZeroWords ActualNormalizedSecondMetricDrift SmoothMetricFrame MovingFrameConnection
 
-/-- A local scalar first-jet estimate, used only to prove the actual coefficient producer. -/
+/-- A local scalar first-jet estimate, used only to bound the coefficients. -/
 structure ScalarPointJet (f : R3 → ℝ) (x : R3) (A B : ℝ) : Prop where
   differentiable : DifferentiableAt ℝ f x
   value : |f x| ≤ A

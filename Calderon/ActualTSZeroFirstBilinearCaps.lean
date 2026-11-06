@@ -2,10 +2,7 @@ import Calderon.ActualTSActualTriplePhysicalCaps
 import Calderon.ActualTSZeroFirstScalarJets
 import Calderon.ActualHigherSScalarCommutatorCoefficients
 
-/-! Actual weighted coefficients for the 270 original zero-T/first-S triples.
-Before code: ../scalar-UPFRONT.md, ../UPFRONT.md and ../weighted-API-SPEC.txt.
-The shared triple and physical cap stay Transfer-owned. This D01-specific
-consumer is authored by d01_scalar; exact model/version/effort are unexposed. -/
+/-! Actual weighted coefficients for the 270 original zero-T/first-S triples. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

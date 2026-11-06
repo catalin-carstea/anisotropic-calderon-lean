@@ -1,7 +1,6 @@
 import Calderon.LocalSmoothAmbientExtension
 import Mathlib.Topology.Compactness.Compact
-/-! Source-only same ambient extension on a compact continuous parameter family.
-Full expansion and literal interfaces were sealed before bodies. -/
+/-! The same ambient extension on a compact continuous parameter family. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Function

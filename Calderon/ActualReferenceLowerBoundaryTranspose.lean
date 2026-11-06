@@ -19,9 +19,8 @@ local instance : CompleteSpace (SphereSobolev (-(1/2 : ℝ))) := by
     instCompleteSpaceHarmonicSphereSubspace
   exact lp.completeSpace
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/
-EXPANSION-lower-boundary-action.md. The following equivalence changes the
-interpretation of the raw carrier; it is NOT physical Sobolev inclusion. -/
+/-! The following equivalence changes the interpretation of the raw carrier;
+it is not physical Sobolev inclusion. -/
 
 def sphereHalfDualCarrierEquiv :
     SphereSobolev (1/2 : ℝ) ≃ₗᵢ[ℝ] SphereSobolev (-(1/2 : ℝ)) :=

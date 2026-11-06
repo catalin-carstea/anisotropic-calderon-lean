@@ -2,9 +2,7 @@ import Calderon.CompactParameterReferencePositiveCoefficients
 import Calderon.LocalCoefficientJetTransport
 import Mathlib.Topology.Order.DenselyOrdered
 
-/-! UNCOMPILED source-only author proposal. EXPANSION.md J1--J10 was saved before source.
-All joint-flow/positive/drift parents remain disclosed as uncompiled mathematical inputs.
-Raw inverse/determinant smoothness is only local at positive points. -/
+/-! Raw inverse/determinant smoothness is only local at positive points. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

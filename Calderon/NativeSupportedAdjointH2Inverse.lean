@@ -12,8 +12,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in native-supported-adjoint-H2-inverse-author-oct14-v001/EXPANSION-v001.json.
-The strong space is the existing actual H2 domain with precisely first-order zero boundary. -/
+/-! The strong space is the existing actual H2 domain with precisely first-order zero boundary. -/
 
 attribute [local irreducible] nativeZeroCoefficientEnergyL nativeDirichletForcingL nativeStrongH2Representative
 

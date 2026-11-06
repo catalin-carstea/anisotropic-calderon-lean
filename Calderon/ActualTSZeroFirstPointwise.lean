@@ -4,9 +4,8 @@ import Calderon.ActualTSZeroFirstEnergyTools
 import Calderon.ActualTSFirstQuadraticTriple
 import Calderon.ActualTZeroCorrectionUniform
 
-/-! The original D01 odd-triple errors and ENTIRE raw correction are bounded
-in the unchanged inclusion energy. Before code: ../UPFRONT.md and
-../integral-UPFRONT.md. No high derivative norm or final cap callback. -/
+/-! The original D01 odd-triple errors and the entire raw correction are bounded
+in the unchanged inclusion energy. No high derivative norm is used. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

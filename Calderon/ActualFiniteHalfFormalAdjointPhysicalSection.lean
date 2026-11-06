@@ -2,9 +2,7 @@ import Calderon.ActualFullAdjointFirstActions
 import Calderon.ActualFiniteHighFullAdjointFirstSection
 import Calderon.ActualDensityAngularBoundaryAction
 
-/-! Full AUTHOR upfront: actual-Y-second-action-domain-author-oct16-v001/
-EXPANSION-finite-full-formal-adjoint-L2-v015.md, object1 only.
-Explicit Hhalf section, not an assumed output image or adjunction statement. -/
+/-! Explicit Hhalf section, not an assumed output image or adjunction statement. -/
 set_option autoImplicit false
 noncomputable section
 open Set

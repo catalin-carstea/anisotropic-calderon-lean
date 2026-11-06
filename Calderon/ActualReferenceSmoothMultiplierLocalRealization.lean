@@ -2,9 +2,8 @@ import Calderon.ActualReferenceSmoothMultiplierJointTopology
 import Calderon.ActualReferenceSmoothMultiplierExtensionIndependence
 import Calderon.FiniteDimensionalLocalSmoothExtension
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-commutator-local-realization-v022.md. Smooth boundary data
-transfers to actual commutator; arbitrary chosen bulk jets need not be smooth. -/
+/-! Smooth boundary data transfers to the commutator; arbitrary chosen bulk
+jets need not be smooth. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Function Metric

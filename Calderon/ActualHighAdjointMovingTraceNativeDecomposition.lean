@@ -1,9 +1,8 @@
 import Calderon.ActualHighAdjointMovingTraceActualJets
 import Calderon.ActualReferenceHighAdjointRadialNativeJets
 
-/-! Full upfront: full-physical-U-form-author-oct16-v001/
-native-moving-adjoint-specialization-author-v001/EXPANSION.md. SAME actual
-moving family with DERIVED native B and firstjet; no desired graph premise. -/
+/-! The actual moving family, with the native B and first jet derived; no graph
+premise. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Filter MeasureTheory

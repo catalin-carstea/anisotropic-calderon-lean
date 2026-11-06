@@ -3,8 +3,7 @@ import Calderon.NativeCoefficientRotationFieldSkew
 import Calderon.NativeOrderOneCoefficientMultiplierTopology
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/
-EXPANSION-divergence-endpoints-v005.md. Same genuine scalar jets at three finite orders. -/
+/-! The same genuine scalar jets at three finite orders. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

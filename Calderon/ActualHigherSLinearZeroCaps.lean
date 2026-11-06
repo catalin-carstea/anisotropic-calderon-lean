@@ -1,6 +1,5 @@
 import Calderon.ActualHigherSLinearZeroDensityCaps
-/-! Uniform O(r² beta) linear-zero high caps from original endpoint data.
-UNCOMPILED author source. Full before-code expansion: linear-zero-caps-upfront-v001. -/
+/-! Uniform O(r² beta) linear-zero high caps from original endpoint data. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

@@ -9,8 +9,8 @@ open MvPolynomial
 open scoped ENNReal
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 
-/-! Expanded before source in EXPANSION-orthogonal-polynomial-linear-pullback-v001.json.
-This is an actual finite polynomial action; harmonic preservation is the next separate obligation. -/
+/-! This is an actual finite polynomial action; harmonic preservation is proved
+separately. -/
 
 def orthogonalCoordinatePolynomial (e : R3 ≃ₗᵢ[ℝ] R3) (i : Fin 3) : MvPolynomial (Fin 3) ℝ :=
   ∑ j : Fin 3, C ((e (EuclideanSpace.single j 1)) i) * X j

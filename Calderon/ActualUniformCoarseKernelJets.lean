@@ -1,7 +1,7 @@
 import Calderon.ActualUniformCoarseCrossAmplitude
 import Calderon.ActualUniformCurrentCrossKernelJets
 import Calderon.ActualCurrentCrossKernelL2Norm
-import MixedKernelClosedCoarseSeed
+import Calderon.MixedKernelConstruction.MixedKernelClosedCoarseSeed
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

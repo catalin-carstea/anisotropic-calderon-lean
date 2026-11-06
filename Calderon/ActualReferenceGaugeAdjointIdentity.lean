@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeRadialDecomposition
 import Calderon.ActualReferenceGaugeNormalMultiplierCompatibility
 import Calderon.NativeGaugeAdjointIdentity
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-gauge-adjoint-identity-v011.md. Actual SAME lower DN and true pivot transpose. -/
+/-! The same lower DN and the true pivot transpose. -/
 set_option autoImplicit false
 noncomputable section
 open Set

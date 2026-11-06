@@ -1,4 +1,4 @@
-import TaskInterface
+import Calderon.MixedKernelConstruction.TaskInterface
 import Calderon.ActualMixedKernelMovingFixedFlux
 import Calderon.ActualMixedKernelGlobalSurfaceExtension
 import Calderon.FixedSurfaceFluxIntegration

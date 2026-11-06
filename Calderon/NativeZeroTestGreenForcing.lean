@@ -1,7 +1,6 @@
 import Calderon.NativeH2CoefficientFluxGreen
 import Calderon.NativeZeroValueTrace
 
-/-! Fully expanded first in EXPANSION-native-zero-test-green-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

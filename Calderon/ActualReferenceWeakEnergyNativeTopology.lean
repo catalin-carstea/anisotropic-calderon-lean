@@ -1,6 +1,5 @@
 import Calderon.ActualReferenceWeakEnergyTopology
 
-/-! Upfront proof: EXPANSION-actual-reference-weak-energy-native-topology-v001.json. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

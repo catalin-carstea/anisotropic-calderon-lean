@@ -1,5 +1,5 @@
 import Calderon.ActualUniformPrescribedPhaseInterpolation
-import MixedKernelPrescribedPhaseArms
+import Calderon.MixedKernelConstruction.MixedKernelPrescribedPhaseArms
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -2,8 +2,7 @@ import Calderon.ActualHarmonicLiftConsistency
 import Calderon.ActualJointNativeTraceOperatorFamily
 import Calderon.NativeH3ThreeHalfRadialTrace
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-FINITE-SMOOTH-DATUM-H3-GRAPH-EXPANSION-v001.md. SAME smooth-datum solution, finite native H3 graph. -/
+/-! The smooth-datum solution and its finite native H3 graph. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

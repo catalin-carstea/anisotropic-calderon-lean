@@ -2,10 +2,7 @@ import Calderon.ActualLowerUSAdjointCore
 import Calderon.ActualLowerUSIntegralSplit
 
 /-!
-Author: GPT-6.1 Sol, author support only.
-Before-code expansion: ../weak-domain-upfront.md.
 Actual full S/true S-adjoint weak-domain identity and original-profile integrability.
-No quantitative lower U/S bound or finite-output assertion for S.
 -/
 set_option autoImplicit false
 set_option Elab.async false

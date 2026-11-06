@@ -10,8 +10,8 @@ attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.inst
 attribute [local irreducible] nativeZeroCoefficientEnergyL nativeWeakConormalEndpoint
   sphereSobolevOrthogonalPullbackL
 
-/-! Full upfront expansion: EXPANSION-v001.json. Convert the existing normalized
-native inverse predicate through its checked iff before applying raw covariance. -/
+/-! Convert the normalized native inverse predicate through its iff before applying raw
+covariance. -/
 lemma nativeWeakConormalEndpoint_orthogonal_covariance_of_nativeZero_isInvertible
     (e : R3 ≃ₗᵢ[ℝ] R3) (a : MatrixField) (b : R3 → R3) (c : R3 → ℝ)
     (ha : Continuous a) (hb : Continuous b) (hc : Continuous c)

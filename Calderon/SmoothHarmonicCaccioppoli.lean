@@ -1,9 +1,7 @@
 import Calderon.SmoothHarmonicNativeWeak
 import TauCeti.Analysis.PDE.Caccioppoli.Basic
 
-/-! Exact SAME classical Caccioppoli using prescribed COMMON ellipticity.
-Full before-code expansion: UPFRONT-EXPLICIT-ELLIPTICITY-CLASSICAL-CACCIOPPOLI-v001.md.
-The combined native weak parent must be genuine before a production packet. -/
+/-! Exact SAME classical Caccioppoli using prescribed COMMON ellipticity. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Metric Set

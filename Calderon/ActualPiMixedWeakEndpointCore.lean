@@ -225,8 +225,8 @@ lemma v016_exists_uniform_cap_two {X F₁ F₂ : Type*} [NormedAddCommGroup X] [
   have hl := hle i k
   exact ⟨by linarith, by linarith⟩
 
-/-! ### §5a Generic algebraic mixed adjunction `[a,TΠ]^† = [ΠS,A]` (MATHEMATICS.md §5).
-A general lemma about arbitrary operators. It is NOT a premise of any actual theorem. -/
+/-! ### §5a Generic algebraic mixed adjunction `[a,TΠ]^† = [ΠS,A]`.
+A general lemma about arbitrary operators. -/
 
 theorem v016_mixed_adjunction_of_primitives
     (aL AL Tl Sl : Half →L[ℝ] NegH) (aH AH Th Sh Ch Dh : Hi →L[ℝ] Half)

@@ -1,8 +1,7 @@
 import Calderon.ActualTSFirstLinearZeroPointwise
 
-/-! Genuine original-energy integral estimate for the exact first-T/linear-zero-S
-component, retaining its quadratic companion through the original D10 identity.
-Before-code: ../T-first-S-linear-zero-before-source-nov03-night-v001/. -/
+/-! Original-energy integral estimate for the first-T/linear-zero-S component,
+retaining its quadratic companion through the D10 identity. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

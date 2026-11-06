@@ -13,8 +13,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Full upfront expansion: native-supported-adjoint-strong-forcing-author-oct14-v001/EXPANSION-v001.json.
-This is actual H2-to-L2 forcing and its proved zero-test energy identity. -/
+/-! This is actual H2-to-L2 forcing and its proved zero-test energy identity. -/
 
 def nativePrincipalTransposeJets (F : SmoothCoefficientMatrix 2) : SmoothCoefficientMatrix 2 :=
   fun i j => F j i
@@ -58,10 +57,8 @@ lemma nativeH2FirstOrderL_apply (U : BallSobolev 2) :
 attribute [local irreducible] ordinaryPrincipalL supportedDriftL nativeCoefficientMassL
   nativeH2ThreeTermForcingL nativeH2FirstOrderL
 
-/- Original raw nativeSupportedMassStrongL body, source614d..., retained verbatim.
-This body never elaborated in receipts db9b9493... and f7c07d94... .
-The typed assembly below is the same literal composition; exact constructor and
-original concrete apply/evaluation identities are public proof roots.
+/- The raw nativeSupportedMassStrongL body, which does not elaborate as written.
+The typed assembly below is the same literal composition:
   (ordinaryPrincipalL hcalc 0 F +
     (supportedDriftL hcalc 0 beta hbeta K hK hz).comp
       (TauCeti.Wkp.firstOrderL (mu := (volume : Measure R3)) (Omega := ballOpens) (p := 2) 1)) +

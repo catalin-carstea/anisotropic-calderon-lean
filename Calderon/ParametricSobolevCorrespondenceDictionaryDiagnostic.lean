@@ -3,8 +3,7 @@ import Calderon.InheritedNormedStructureData
 import Calderon.ClmInheritedStructureData
 import Calderon.LpInheritedStructureData
 
-/-! Full upfront: EXPANSION-correspondence-dictionary-diagnostic-v001.json.
-One typed definition diagnostic; not a whole correspondence retry. -/
+/-! One typed definition diagnostic for the correspondence dictionary. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory ContinuousLinearMap

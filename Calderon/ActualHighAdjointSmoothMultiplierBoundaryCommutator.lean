@@ -2,8 +2,7 @@ import Calderon.ActualHighSmoothMultiplierFixedTopology
 import Calderon.ActualReferenceGaugeNormalHighCommutator
 import Calderon.ActualReferenceGaugeTangentHighMultiplierCommutatorTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-GENUINE-ADJOINT-FIXED-MULTIPLIER-HIGH-GAIN-EXPANSION-v001.md. Literal genuine high gain formula; graph is a separate obligation. -/
+/-! Literal genuine high gain formula. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

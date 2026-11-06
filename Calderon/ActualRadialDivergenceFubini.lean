@@ -8,8 +8,7 @@ open scoped ContDiff Distributions InnerProductSpace
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 open SphereHarmonic
 
-/-! Actual outer-radial integration of the checked vector identity. Expanded
-before source in EXPANSION-actual-radial-divergence-Fubini-v001.json. -/
+/-! Actual outer-radial integration of the vector divergence identity. -/
 
 theorem integrable_sphere_radial_product (f : R3 → ℝ)
     (hf : Integrable f (volume : Measure R3)) :

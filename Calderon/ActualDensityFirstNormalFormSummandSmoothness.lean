@@ -1,8 +1,7 @@
 import Calderon.ActualWeightedHorizontalActions
 import Calderon.ActualNativeMovingHighLocalRemainderSmoothness
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-normal-form-summands-smoothness-v007.md. Actual summands on the same input. -/
+/-! Smoothness of the actual normal-form summands on the same input. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff ENNReal

@@ -8,8 +8,7 @@ open scoped Topology
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SmoothSphereRotation SmoothSphereRotationProjection DirichletFamily.DriftBootstrap
   SpectralWeightedGraph
-/-! Full upfront expansion: EXPANSION-v005.json. This only specializes the checked
-abstract derivative identity to exact upper orders before actual family arguments. -/
+/-! This only specializes the abstract derivative identity to exact upper orders before actual family arguments. -/
 
 lemma sphereSobolevInclusionL_upper_fixed_input_order :
     sphereSobolevInclusionL ((3/2:ℝ)+1) (3/2:ℝ) (by norm_num) =

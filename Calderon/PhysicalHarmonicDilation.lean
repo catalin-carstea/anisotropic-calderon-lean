@@ -1,7 +1,6 @@
 import Calderon.MetricPullbackDivergence
 import Calderon.ActualNearBallHarmonicLift
-/-! Source-only exact original metric harmonic data dilation.
-Full expansion and literal interfaces sealed before bodies. -/
+/-! Dilation of the metric harmonic data. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

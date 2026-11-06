@@ -1,22 +1,19 @@
-/- Opus v086 original secondS/fullS physical form bounds, author-only and uncompiled. -/
 import Calderon.ActualOriginalSDirectPhysicalForm
 import Calderon.ActualSScalarCoefficientBounds
 import Calderon.ActualOriginalDoubleEForm
 import Calderon.ActualWeightedHorizontalActionBounds
 
-/-! Source-only Opus v086 author, 31 October 2026. UNCOMPILED. Before-source mathematics:
-MATHEMATICS.md (same output directory). Uses v085 `ActualOriginalSDirectPhysicalForm` (PENDING native)
-and Root `ActualSScalarCoefficientBounds` (native RUNNING) only through their exact stated APIs.
+/-! Original secondS/fullS physical form bounds. Uses `ActualOriginalSDirectPhysicalForm`
+and `ActualSScalarCoefficientBounds` only through their stated APIs.
 
-PROVED HERE (author claim, Root checks):
 * §1 exact `densityDerivativeCoefficient` of the literal `secondCoefficient = R²Q_ij`
   (`= R²(Q div + μ(X_iQ + 2Q f_i))`) and the bound `≤ Cc μ R² β`, `Cc` before all profiles; no density
   lower bound, no inverse inclusion.
 * §2 exact signed pointwise split of the literal `higherSSecondHalf` pairing and its integrated form.
 * §3 integrated diagonal bound `|∫μ⟪F,KL secondS F⟫| ≤ K ∫ μ(R²‖U‖Σ‖IH dU X_i‖ + R²β‖U‖²)`.
 * §4 full literal `nativeHigherSOut` bound with `(R + R²β + R³)‖U‖²`, ONE common room `δ, Cm`.
-SINGLE remaining explicit premise: `Continuous (actualReferenceBeta g L q δr Ar p)` (definition not in
-packet; needed only for integrability of the requested majorant). See STATUS.md. -/
+The one extra hypothesis is `Continuous (actualReferenceBeta g L q δr Ar p)`, needed only for
+integrability of the requested majorant. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -1208,7 +1205,7 @@ theorem second_form_of_bounds (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W :
 /-! ## 5. FINAL original secondS form, all caps discharged -/
 
 /-- Caller's retained `W`; `δ, Cm` before `g2`; `K` after fixed admissible `g2`, BEFORE every
-profile, input, point. Only remaining premise: continuity of the native `β` (STATUS.md). -/
+profile, input, point. The extra hypothesis is continuity of the native `β`. -/
 theorem exists_retained_original_secondS_form (hreg : FixedDirichletRegularity)
     (hKernel : UnitBallValueTraceKernel τ0) (δ0 : ℝ) (hδ0 : 0 < δ0) (W : CoeffRoom δ0)
     (hL : 0 < L) :

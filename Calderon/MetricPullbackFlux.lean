@@ -1,8 +1,6 @@
 import Calderon.CoordinatePiolaCovariance
 import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-/-! Source-only author C2 stage. Exact matrix/gradient/absolute-volume
-flux expansion and interfaces were sealed before proof bodies. No physical
-harmonic kernel or full moving-trace closure is claimed. -/
+/-! Matrix/gradient/absolute-volume expansion of the pulled-back flux. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

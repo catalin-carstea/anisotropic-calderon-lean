@@ -5,8 +5,8 @@ noncomputable section
 open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json. Same canonical extractor and restricted
-norm: cache generic calculus before actualmap; use literal norm_coe equality. -/
+/-! Same canonical extractor and restricted norm: cache generic calculus before actualmap;
+use literal norm_coe equality. -/
 
 lemma contDiff_compatibleDegreeHalfExtractorL
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics) :

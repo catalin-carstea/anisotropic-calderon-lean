@@ -3,9 +3,8 @@ import Calderon.ActualHigherSOriginalDataCommonFirstWordRoom
 import Calderon.ActualHigherSQuadraticZeroNegativeProfileGraphs
 import Calderon.FixedParameterProfilePullback
 
-/-! Separate actual207 Half→negative realization owner. Exact upfront precedes
-source materialization. Own actual identity/allRoom/lift/Words dependencies remain
-conditional until closed; no provider grant, output truncation or final callback. -/
+/-! Actual 207-word Half→negative realization, with no output truncation or final
+callback. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

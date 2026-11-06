@@ -1,7 +1,6 @@
 import Calderon.NativeCompletedHarmonicLiftTopology
 
-/-! Before-source v199: pull the exact OWN237 completed native low lift
-back along fst, in its original native context before higher class caches. -/
+/-! Pull the completed native low lift back along `fst`, in its original native context before higher class caches. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

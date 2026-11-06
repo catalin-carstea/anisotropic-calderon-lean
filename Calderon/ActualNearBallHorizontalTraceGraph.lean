@@ -2,8 +2,7 @@ import Calderon.ActualPhysicalHorizontalNativeTrace
 import Calderon.ActualMovingBoundaryNativeTraceIdentification
 import Calderon.ActualMovingNearBallHarmonicLift
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-NEAR-BALL-HORIZONTAL-TRACE-EXPANSION-v001.md. Derived SAME near-ball harmonic trace graph. -/
+/-! The near-ball harmonic trace graph, derived. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

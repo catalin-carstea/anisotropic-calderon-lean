@@ -7,8 +7,7 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic SmoothSphereRotationProjection RotationCasimirEstimate SpectralSylvester
-/-! Full upfront EXPANSION-v001.json. Concrete finite estimates from the original
-closed constraints. Actual chosen-family norm infinity remains separate. -/
+/-! Concrete finite estimates from the original closed constraints. -/
 
 def compatibleDegreeSharpBlockL
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

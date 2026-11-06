@@ -1,8 +1,7 @@
 import Calderon.ActualNearBallHorizontalTraceNeighborhood
 import Calderon.ActualDensityFirstPairingDefect
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NEAR-BALL-DENSITY-FIRST-PAIRING-EXPANSION-v001.md. Derived actual graph eliminates the exact defect. -/
+/-! Derived actual graph eliminates the exact defect. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

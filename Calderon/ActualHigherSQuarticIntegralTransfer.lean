@@ -11,10 +11,8 @@ import Calderon.ActualHigherSQuadraticZeroQuarticRowBound
 import Calderon.ActualHigherSPairingNormDiagnostic
 
 /-! Complete actual density-weighted integral transfer, boundary E. The final
-original theorem must prove its internal square/energy integrabilities, actual
-support facts and pointwise estimate from native data and complete C/D producers.
-No new final premise, norm or analytic callback is licensed. Uncompiled; original
-source/body/API/owner/norm/energy/germ/literature37/model holds remain. -/
+original theorem proves its internal square/energy integrabilities, actual
+support facts and pointwise estimate from native data and complete C/D producers. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

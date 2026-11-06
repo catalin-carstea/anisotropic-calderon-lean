@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceGaugeBoundaryJets
 import Calderon.ActualJointReferenceCoefficientData
 
-/-! Full upfront: actual-gauge-boundary-jets-author-oct15-v001/
-EXPANSION-coefficient-families-v002.md. Joint smoothness and common-support
-native coefficient data for SAME A=m*a. No extension of finite-domain radial jets. -/
+/-! Joint smoothness and common-support native coefficient data for the same
+A=m*a. No extension of finite-domain radial jets. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

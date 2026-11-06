@@ -2,10 +2,7 @@ import Calderon.ActualDensityCovariantLeadingPart
 import Calderon.ActualDensityRadiusPrincipalContraction
 import Calderon.ActualPhysicalDensityOperator
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-physical-leading-contraction-v016.md and
-actual-covariant-leading-algebra-author-oct16-v001/EXPANSION-physical-leading-correspondence-v009.md.
-Literal physical P, retaining every K remainder and original drift endpoint. -/
+/-! Literal physical P, retaining every K remainder and original drift endpoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

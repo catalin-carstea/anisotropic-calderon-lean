@@ -7,8 +7,7 @@ open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open OrthogonalSphereMeasure SpectralCoreRegularity
 
-/-! Expanded before source in EXPANSION-native-orthogonal-zero-half-trace-v001.json.
-Harmonic projection covariance is derived from the actual unitary pullback. -/
+/-! Harmonic projection covariance is derived from the actual unitary pullback. -/
 
 lemma sphereL2OrthogonalPullback_symm_apply (e : R3 ≃ₗᵢ[ℝ] R3) (u : SphereL2) :
     sphereL2OrthogonalPullback e.symm (sphereL2OrthogonalPullback e u) = u := by

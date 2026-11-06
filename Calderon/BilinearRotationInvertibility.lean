@@ -1,7 +1,6 @@
 import Mathlib.Analysis.Normed.Operator.Bilinear
 import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Invertible
 
-/-! Upfront expansion: EXPANSION-native-orthogonal-zero-energy-invertibility-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

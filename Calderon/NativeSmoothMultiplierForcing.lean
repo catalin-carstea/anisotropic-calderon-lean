@@ -1,8 +1,6 @@
 import Calderon.NativeCoordinateForcingEnergy
 
-/-! Upfront: day-oct13/general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-forcing-v002.md. Literal column/row/drift L2 forcing and zero-test graph.
-The actual arbitrary multiplier coefficient assembly is a separate obligation. -/
+/-! Literal column/row/drift L2 forcing and zero-test graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

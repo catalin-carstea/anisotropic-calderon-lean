@@ -1,7 +1,7 @@
 import Calderon.PositiveCoefficientInnerSmoothRepresentative
 import Calderon.NativeInteriorH3ClassicalJet
 
-/-! Full upfront: EXPANSION.json. Actual native/classical first jet and compact-test weak PDE.
+/-! Actual native/classical first jet and compact-test weak PDE.
 No representative/gradient/physical harmonicity premise is added. -/
 set_option autoImplicit false
 noncomputable section

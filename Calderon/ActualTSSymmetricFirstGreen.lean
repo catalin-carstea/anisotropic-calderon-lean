@@ -1,8 +1,7 @@
 import Calderon.ActualTSPrincipalGreen
 
 /-! Exact weighted symmetric first-form Green identity and mass-energy bound.
-Generic support only: the actual original207-word coefficient producer is later work.
-Before-code: ../T-S-symmetric-first-Green-before-source-nov03-night-v001/. -/
+The statements are generic; they are not specialized to the original207-word coefficients. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -107,7 +106,7 @@ private lemma diagonal_action_bound (P : E →L[ℝ] F →L[ℝ] ℝ) (A : E →
     (by ring)
 
 /-- Quantitative symmetric first-form bound uses genuine weighted mass energy only.
-This remains generic support; original coefficient caps must be supplied by their producer. -/
+The statement is generic; coefficient caps enter as hypotheses. -/
 theorem symmetric_first_integral_mass_bound
     (P : E →L[ℝ] F →L[ℝ] ℝ) (mu beta : R3 → ℝ) (u : R3 → E)
     (A : R3 → E →L[ℝ] F) (K : Set R3) (hK : IsCompact K)

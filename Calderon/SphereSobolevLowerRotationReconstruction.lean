@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevTraceReconstruction
 
-/-! Full upfront: full-physical-U-form-author-oct16-v001/
-lower-rotation-reconstruction-author-v001/EXPANSION.md. Genuine distribution
-witnesses and exact decoded native inclusion, without an output-regularity premise. -/
+/-! Genuine distribution witnesses and exact decoded native inclusion, without an
+output-regularity premise. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ENNReal InnerProductSpace

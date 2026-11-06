@@ -1,8 +1,7 @@
 import Calderon.ContinuousLinearSectionSupport
 import Calderon.RealNormedGroupProjectionData
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-canonical-zero-decoding-section-support-v040.md. SAME canonical decoding map. -/
+/-! SAME canonical decoding map. -/
 set_option autoImplicit false
 noncomputable section
 open Set

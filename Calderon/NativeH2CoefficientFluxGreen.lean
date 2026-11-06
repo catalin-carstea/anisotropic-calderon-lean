@@ -9,8 +9,6 @@ open scoped ENNReal InnerProductSpace Classical
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativePolynomialBulkMoments NativeH1CoordinateBoundaryGreen
 
-/-! Expanded before source in EXPANSION-native-H2-coefficient-flux-Green-v001.json. -/
-
 def ordinaryConormalTraceL (hcalc : FixedSobolevCalculus) (τ0 : UnitBallValueTrace)
     (F : SmoothCoefficientMatrix 2) : BallSobolev 2 →L[ℝ] SphereL2 :=
   ∑ i : Fin 3, ∑ j : Fin 3, (sphereCoordinateMulL i).comp

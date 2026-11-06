@@ -1,6 +1,5 @@
 import TauCeti.Analysis.Sobolev.W1p.Zero
 
-/-! See prior upfront EXPANSION.json; no failed whole Truncation import or modified native definitions. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

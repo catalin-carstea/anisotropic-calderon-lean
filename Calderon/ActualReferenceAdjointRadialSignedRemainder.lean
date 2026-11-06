@@ -1,8 +1,8 @@
 import Calderon.NativeLowerTransposeSignedTaylor
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-adjoint-signed-remainder-v017.md. SAME independently defined genuine adjoint. -/
+/-! Signed radial remainder of the adjoint, for the same independently defined genuine
+adjoint. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

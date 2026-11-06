@@ -2,7 +2,6 @@ import Calderon.NativeCoordinateEnergyCancellation
 import Calderon.NativeH2CoordinateAssembly
 import Calderon.NativeH2OrthogonalPullbackExistence
 
-/-! Expanded first in EXPANSION-native-H2-coordinate-product-trace-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

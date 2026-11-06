@@ -1,6 +1,6 @@
 import Calderon.LiteratureSphereIntegrals
 
-/-! Task 03 (see 03-fischer-inner.md). Proof via Gaussian integrals: for harmonic homogeneous
+/-! Proof via Gaussian integrals: for harmonic homogeneous
 `p, q` of degree `k`, `∫_{ℝ³} p q e^{-|x|²} = π^{3/2} 2^{-k} [p, q]` (Gaussian integration by
 parts, `gaussPair_eq_fischer`), while polar coordinates give
 `∫_{ℝ³} p q e^{-|x|²} = (∫_{S²} p q dσ) Γ(k + 3/2) / 2`; the degree-zero case fixes `σ(S²)`, and

@@ -1,8 +1,6 @@
 import Calderon.ActualReferenceTangentialAdjointOrderOne
 import Calderon.ActualReferenceTwoAngleCoefficientJets
 import Calderon.NativeCoefficientRotationAdjointEndpointCompatibility
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-boundary-coefficients-v095.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

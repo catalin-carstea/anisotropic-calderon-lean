@@ -6,8 +6,8 @@ open scoped ENNReal InnerProductSpace
 namespace OAI.AnisotropicCalderon.SphereHarmonic
 open SpectralWeightedGraph SpectralCoreRegularity
 
-/-! Full upfront: EXPANSION-v001.json. Probability-L2 finite test pairing with
-an unrestricted full output; all Single1/physical coefficient0 conventions retained. -/
+/-! Probability-L2 finite test pairing with an unrestricted full output, in the
+Single1 and physical coefficient0 conventions. -/
 
 lemma inner_zeroEquiv_symm_finite_harmonic_test
     (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)

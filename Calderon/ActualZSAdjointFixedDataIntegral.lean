@@ -1,10 +1,8 @@
 import Calderon.ActualZSAdjointReferenceIntegral
 import Calderon.ActualHigherSCommonProfileRoomData
 
-/-! Exact whole minus-four Z/Sdag integral consumer at the fixed actual endpoint
-data. The original analytic producer closes its own caps; the retained-adjoint
-producer supplies the common room internally. No finite S-output premise.
-Before-code: ../Z-Sdag-fixed-actual-data-consumer-before-source-nov03-night-v001/. -/
+/-! The whole minus-four Z/Sdag integral estimate at fixed endpoint data. The
+coefficient caps and the common room are obtained internally. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

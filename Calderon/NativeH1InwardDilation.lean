@@ -3,9 +3,8 @@ import Calderon.NativeSmoothInwardTraceContinuity
 import Calderon.LpDilationScaling
 import Mathlib.MeasureTheory.Function.LpSeminorm.Indicator
 
-/-! Expanded first in EXPANSION-native-H1-inward-dilation-v001.json.
-The uniform bound is derived on the literal smooth realization before the
-checked dense extension constructs an operation on the actual native H1 space. -/
+/-! The uniform bound is derived on the smooth realization before the
+dense extension constructs an operation on the actual native H1 space. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Filter Metric

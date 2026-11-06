@@ -1,9 +1,7 @@
 import Calderon.ActualReferenceFirstRadialJetMatching
 import Calderon.SphereSobolevDenseEndpointCovariance
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-endpoint-firstjet-transport-v026.md. Differentiation of
-SAME chosen actual endpoint compatibility, then decoded injective/dense inclusion. -/
+/-! Differentiation of SAME chosen actual endpoint compatibility, then decoded injective/dense inclusion. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

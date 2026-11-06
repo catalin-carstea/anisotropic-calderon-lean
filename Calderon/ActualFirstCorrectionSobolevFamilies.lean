@@ -1,8 +1,7 @@
 import Calderon.SphereSobolevCoordinateInclusion
 import Calderon.ActualFirstCorrectionParameterJets
 
-/-! Full upfront: EXPANSION-ActualFirstCorrectionSobolevFamilies-v001.md.
-Existing actual finite-band F0, genuine inclusion and parameter-norm graphs. -/
+/-! Existing actual finite-band F0, genuine inclusion and parameter-norm graphs. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

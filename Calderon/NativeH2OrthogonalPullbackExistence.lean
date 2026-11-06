@@ -1,8 +1,7 @@
 import Calderon.NativeH2CoordinateAssembly
 import Calderon.NativeH2OrthogonalDerivativeComponents
 
-/-! Expanded first in EXPANSION-native-H2-orthogonal-pullback-author-v001.json.
-No second-order smooth density is used. -/
+/-! No second-order smooth density is used. -/
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

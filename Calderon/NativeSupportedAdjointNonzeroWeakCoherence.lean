@@ -10,8 +10,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in native-supported-adjoint-weak-coherence-author-oct14-v001/EXPANSION-v001.json.
-Actual high/half coherence is derived from genuine energy uniqueness. -/
+/-! Actual high/half coherence is derived from genuine energy uniqueness. -/
 
 attribute [local irreducible] nativeZeroCoefficientEnergyL nativeWeakHalfLift
   harmonicFirstOrderLiftCompletion

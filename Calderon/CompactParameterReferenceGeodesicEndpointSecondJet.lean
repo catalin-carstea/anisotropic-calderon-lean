@@ -1,7 +1,7 @@
 import Calderon.CompactParameterGeodesicEndpointSecondJet
 import Calderon.ConformalReferenceOperators
 
-/-! UNCOMPILED exact reference specialization of the same joint flow with
+/-! Exact reference specialization of the same joint flow with
 endpoint first jet and the pure-velocity Hessian equal to the negative connection. -/
 set_option autoImplicit false
 noncomputable section

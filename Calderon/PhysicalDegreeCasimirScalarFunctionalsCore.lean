@@ -5,7 +5,6 @@ noncomputable section
 open scoped InnerProductSpace ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic
-/-! Exact original mathematical blocks partitioned in EXPANSION-PARTITION-v002.json. -/
 def degreeEndpointScalarL (m : ℕ) (u : SphereSobolev (3/2:ℝ))
     (v : harmonicSphereSubspace m) : PhysicalDegreeCasimirData →L[ℝ] ℝ :=
   (degreeRightInnerL v).comp

@@ -3,9 +3,7 @@ import Calderon.ActualReferenceSharpMidpointRadialCoefficientCore
 import Calderon.SharpRadialCoefficientOperators
 import Calderon.ActualFirstCorrectionSobolevFamilies
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-chosen-midpoint-firstjet-matching-v025.md. Chosen actual midpoint
-radial firstjet equals the existing bounded finite-band native F0. -/
+/-! The chosen actual midpoint radial first jet equals the existing bounded finite-band native F0. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

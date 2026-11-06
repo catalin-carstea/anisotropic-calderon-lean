@@ -10,10 +10,13 @@ a smooth isometry fixing the exterior pointwise.
 
 The theorem is `OAI.AnisotropicCalderon.main`, in
 [`OAI/Analysis/AnisotropicCalderon/Main.lean`](OAI/Analysis/AnisotropicCalderon/Main.lean).
-Its ten defining declarations are in
-[`ComparatorChallenges/AnisotropicCalderon.lean`](ComparatorChallenges/AnisotropicCalderon.lean).
-The target is the specialization selected from `l-oksanen/openai-calderon`, commit
-`d1205fb493b3fbe04e55f72b76c6ff0761fb5a03`.
+It answers the comparator challenge of
+[`l-oksanen/openai-calderon`](https://github.com/l-oksanen/openai-calderon), commit
+`d1205fb493b3fbe04e55f72b76c6ff0761fb5a03`. The challenge statement and its
+comparator configuration are kept unchanged in
+[`ComparatorChallenges/`](ComparatorChallenges/). The proof uses the same ten
+definitions from
+[`OAI/Analysis/AnisotropicCalderon/Defs.lean`](OAI/Analysis/AnisotropicCalderon/Defs.lean).
 
 ```lean
 theorem main (g₁ g₂ : MatrixField)
@@ -61,18 +64,31 @@ access. The used Tau Ceti sources are bundled here and need no separate checkout
 
 `Check.lean` prints the theorem's type and axiom dependencies.
 
+## Checking against the challenge
+
+After the build, run the comparator that ships with Lake on the challenge's own
+configuration:
+
+```sh
+lake comparator --config ComparatorChallenges/AnisotropicCalderon.json
+```
+
+It needs [bubblewrap](https://github.com/containers/bubblewrap) (`bwrap`) on
+`PATH`. It builds the challenge and the solution in a sandbox, checks that
+`OAI.AnisotropicCalderon.main` has the same statement as in the challenge and
+uses only `propext`, `Quot.sound` and `Classical.choice`, and replays the proof
+through Lean's kernel. The replay takes a few hours. A plain `lake build` does
+not build the challenge module, since its theorem is a `sorry`.
+
 ## Reading the sources
 
 - [Proof guide](docs/PROOF_GUIDE.md): principal files and the route to the theorem.
 - [Tau Ceti attribution](THIRD_PARTY_NOTICES.md): bundled upstream code, authorship,
   revision, and license.
 - [Expansion](docs/expansion/README.md): preserved mathematical working text.
-- [Frozen target](reference/AnisotropicCalderon.lean.txt): original statement,
-  including its original placeholder, kept outside the build.
 
 Lauri Oksanen has reviewed the Lean statement of `OAI.AnisotropicCalderon.main`
 and confirmed that it correctly expresses the intended theorem.
-Historical development comments in the Lean files are preserved verbatim.
 
 ## Scope
 

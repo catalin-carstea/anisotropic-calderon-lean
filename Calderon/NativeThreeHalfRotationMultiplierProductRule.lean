@@ -1,8 +1,7 @@
 import Calderon.NativeCoefficientRotationProductRule
 import Calderon.SphereSobolevTangentialEndpointCompatibility
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-HIGH-ROTATION-MULTIPLIER-GAIN-EXPANSION-v001.md. Literal compatible rotation product rule. -/
+/-! Literal compatible rotation product rule. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.SphereHarmonic

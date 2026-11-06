@@ -1,7 +1,6 @@
 import Calderon.ActualHighSmoothMultiplierBoundaryTopology
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-SMOOTH-MULTIPLIER-GAIN-EXPANSION-v001.md. Fixed actual multiplier, no chosen-jet smoothness premise. -/
+/-! Fixed actual multiplier, no chosen-jet smoothness premise. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

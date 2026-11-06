@@ -2,9 +2,7 @@ import Calderon.ActualLowerUSFirstAngularGainTranspose
 import Calderon.ActualLowerUSIndexedAngularGraphs
 import Calderon.ActualHigherSPhysicalPairing
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jp-upfront-v001.md.
-Actual gained quadratic J/E words and their TRUE reverse angular adjoints.
-No compiler by author; authored imports await Root's coherent qualification. -/
+/-! Gained quadratic J/E words and their true reverse angular adjoints. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

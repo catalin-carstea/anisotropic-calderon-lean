@@ -8,10 +8,8 @@ open scoped ContDiff Distributions InnerProductSpace
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 open SphereHarmonic
 
-/-! Exact vector-field radial integration using actual volume and its native
-surface measure. Expanded before source in
-EXPANSION-radial-vector-polar-integration-v001.json. Ball flux and sharp trace
-remain separate obligations. -/
+/-! Exact vector-field radial integration using volume and its native
+surface measure. -/
 
 /-- Classical Euclidean divergence in a fixed orthonormal basis. -/
 def radialDivergence (b : OrthonormalBasis (Fin 3) ℝ R3) (V : R3 → R3)

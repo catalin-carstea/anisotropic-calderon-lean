@@ -2,8 +2,7 @@ import Calderon.ActualNativeMovingAdjointFiniteJ
 import Calderon.ActualFirstCorrectionSobolevFamilies
 import Calderon.SphereSobolevCoordinateInclusion
 
-/-! Upfront: actual-native-finite-J-author-oct16-v001/EXPANSION-correction-inclusion-v003.md.
-SAME actual correction at all finite placements, multiplier remains on right. -/
+/-! SAME actual correction at all finite placements, multiplier remains on right. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

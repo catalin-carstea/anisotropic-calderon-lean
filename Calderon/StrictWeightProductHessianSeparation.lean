@@ -1,8 +1,6 @@
 import Calderon.StrictWeightCovectorPenalty
 
-/-! Exact original product-Hessian root8. The ordinary parent guards for ProductMoments5
-and CovectorPenalty1 remain mandatory. Before-source authority: Root37130aff.
-No Main source-geometric criterion or parameter uniformity is proved by this pointwise split. -/
+/-! Pointwise separation of the product Hessian. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric Matrix Filter Topology

@@ -2,8 +2,8 @@ import Mathlib.Analysis.Normed.Operator.NormedSpace
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json precedes this source. All equalities retain
-exact original Mathlib product norm, algebra, and topology constructors. -/
+/-! All equalities keep the Mathlib product norm, algebra, and topology
+constructors. -/
 
 theorem prod_normedAddCommGroup_seminormedAddCommGroup_eq
     (E F : Type*) [NormedAddCommGroup E] [NormedAddCommGroup F] :

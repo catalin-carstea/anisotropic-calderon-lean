@@ -4,10 +4,8 @@ import Calderon.ActualHigherSQuadraticZeroNegativeProfileGraphs
 import Calderon.ActualLowerSSelfFormation
 
 /-!
-Before-code: ../T-S-L00-weighted-assembly-before-source-nov03-night-v001/.
 The original negative-four raw-adjoint correction/quadratic-S term.
-No correction is reassigned to Z, no quadratic Hi->Half bound is used,
-and the remaining S-linear and literal S-zero dictionaries are still required.
+No correction is reassigned to Z, and no quadratic Hi->Half bound is used.
 -/
 set_option autoImplicit false
 set_option Elab.async false

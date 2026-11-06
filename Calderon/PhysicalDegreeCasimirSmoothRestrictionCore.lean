@@ -14,8 +14,8 @@ open Set
 open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.PhysicalDegreeCasimirCompatibility
 open SphereHarmonic ClosedScalarCompatibility DirichletFamily.DriftBootstrap
-/-! Full upfront EXPANSION-v001.json precedes source. Additional literal actual-space
-specialization only. Original zero-annihilation condition and full restricted norm remain. -/
+/-! Literal actual-space specialization. The original zero-annihilation condition and full
+restricted norm remain. -/
 variable {X : Type*} [NormedAddCommGroup X] [NormedSpace ℝ X]
 
 def physicalDegreeCasimirRestriction

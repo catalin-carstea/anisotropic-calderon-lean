@@ -3,7 +3,6 @@ import Calderon.NativeStrongCoefficientCongruence
 import Calderon.ActualReferenceStrongRoom
 import Calderon.CoordinateRotationCoefficientFamily
 
-/-! Expanded first in EXPANSION-actual-rotation-strong-zero-room-lift-author-v001.json. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

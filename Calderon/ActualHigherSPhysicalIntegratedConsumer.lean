@@ -1,14 +1,12 @@
 import Calderon.ActualHigherSIntegratedPairing
 import Calderon.ActualHigherSPhysicalPairing
 
-/-! Source-only author: Opusv045, 30 October 2026. UNCOMPILED.
-Before-source mathematics: PHYSICAL-PAIRING-MATHEMATICS.md §§6–7 (same output directory).
-Consumes ONLY the public v044 targets `scalar_weighted_green`, `HigherSIntegratedIdentity`,
-`higherS_integrated_pairing_actual` (Root repairs v044 preserving them) and the independent
+/-! Consumes only `scalar_weighted_green`, `HigherSIntegratedIdentity` and
+`higherS_integrated_pairing_actual` from `ActualHigherSIntegratedPairing`, and
 `ActualHigherSPhysicalPairing`. (1) integrability of the divergence and coefficient-derivative
 integrands; (2) combined scalar Green `−∫(a·div_i + μ·X_i(a))·P`; (3) combined integrated identity;
-(4) final actual producer: the SAME `δ0, W, δ, e` of v044 carry output, transfer, identity,
-combined identity and physical SphereL2 pairing. NOT a signed estimate, NOT coercivity. -/
+(4) final actual producer: the SAME `δ0, W, δ, e` of `higherS_integrated_pairing_actual` carry output,
+transfer, identity, combined identity and physical SphereL2 pairing. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -69,7 +67,7 @@ private lemma eight_first_congr {a b c d e f g h k : ℝ} (hAB : a=b) :
 section Generic
 variable (g : MatrixField) (L q : ℝ) (R : R3 → ℝ)
 
-/-- **Combined scalar weighted Green**, consumer of the v044 public `scalar_weighted_green`.
+/-- **Combined scalar weighted Green**, from `scalar_weighted_green`.
 `X_i(a)` (all derivatives of `a`) is kept; physical degree unchanged; no output cut. -/
 theorem scalar_weighted_green_combined (hg : IsAdmissibleMetric g) (hR : ContDiff ℝ ∞ R)
     (hr : ∀ y, R y ≠ 0) (u : R3 → Hi) (v : R3 → Half) (a : R3 → ℝ)
@@ -139,7 +137,7 @@ local notation "GM" y:max i:max j:max k:max =>
 local notation "BB" g2:max y:max i:max => normalizedSecondDriftFrameJoint g g2 L i (q,y)
 local notation "DW" u:max y:max j:max => referenceHighWeightedHorizontalAction g L q RR u y j
 
-/-- v044 `HigherSIntegratedIdentity` with the Second block's divergence and coefficient-derivative
+/-- `HigherSIntegratedIdentity` with the Second block's divergence and coefficient-derivative
 integrals combined into ONE integral `−∫(a_ij·div_i + μ·X_i(a_ij))·P`, `a_ij = RR² Q_ij`. -/
 def HigherSIntegratedIdentityCombined (hreg : FixedDirichletRegularity) (δ0 : ℝ) (W : CoeffRoom δ0)
     (g2 : MatrixField) (e : Fin 3 → Tpar → Hi →L[ℝ] Half)
@@ -175,7 +173,7 @@ attribute [local irreducible] higherSInput higherSLift higherSParam sphereSobole
   referenceRadius referenceDensityPrincipalFrameCoefficient referenceHighWeightedHorizontalAction
   sphereSobolevInclusionL
 
-/-- Combined identity from the v044 identity and the formation `V` facts (integrability proved). -/
+/-- Combined identity from `HigherSIntegratedIdentity` and the formation `V` facts (integrability proved). -/
 theorem higherSIntegratedIdentityCombined_of_identity (hreg : FixedDirichletRegularity) (δ0 : ℝ)
     (W : CoeffRoom δ0) (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2)
     (e : Fin 3 → Tpar → Hi →L[ℝ] Half) (F0 : smoothCompactFiniteSphereCore hO hD)
@@ -265,7 +263,7 @@ attribute [local irreducible] HigherSOutputConclusions HigherSSignedTransferAt
 
 /-! ## 3. FINAL actual producer: one witness set, both output and identity, physical link -/
 
-/-- The v044 witnesses `δ0, W, δ, e` (chosen ONCE, before every profile) carry, for each profile and
+/-- The witnesses `δ0, W, δ, e` of `higherS_integrated_pairing_actual` (chosen ONCE, before every profile) carry, for each profile and
 membership-only input: output conclusions, transfer, the full integrated identity, the combined
 identity and the physical SphereL2 pairing conclusions (physical = dual integral, integrability
 proved). Composing the physical equality with the identity gives the physical integrated formula. -/

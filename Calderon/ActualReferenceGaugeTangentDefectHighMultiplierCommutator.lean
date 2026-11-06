@@ -1,8 +1,8 @@
 import Calderon.ActualReferenceGaugeTangentHighMultiplierCommutatorGraph
 import Calderon.ActualReferenceGaugeTangentDivergenceEndpoints
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-TANGENT-DEFECT-COMMUTATOR-EXPANSION-v001.md. Exact original transpose defect, no raw right-product skew claim. -/
+/-! High tangent defect commutator: the exact original transpose defect, with no skew
+claim for the raw right product. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

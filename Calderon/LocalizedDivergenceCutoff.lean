@@ -1,8 +1,7 @@
 import Calderon.DivergenceProductRule
 import Calderon.CollaboratorUCPLocalOct17
 
-/-! Actual local harmonic cutoff forcing for Main M1.
-Full before-code expansion: UPFRONT-LOCAL-SMOOTH-HARMONIC-CUTOFF-v001.md. -/
+/-! Actual local harmonic cutoff forcing for Main M1. -/
 set_option autoImplicit false
 noncomputable section
 open Metric Set Filter Topology

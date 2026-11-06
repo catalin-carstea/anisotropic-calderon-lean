@@ -2,9 +2,8 @@ import Calderon.ActualLowerUSJPWords
 import Calderon.ActualLowerUSJPPresentation
 import Calderon.ActualHigherSCoordinateWeightBounds
 
-/-! Author-support GPT-6.1 Sol. Before-code ../gained-jp-upfront-v001.md.
-Actual ordered coordinate-weight contraction of the gained J-word/E maps.
-No compiler by author. Helper caps are obtained internally by the final producer. -/
+/-! Actual ordered coordinate-weight contraction of the gained J-word/E maps.
+Helper caps are obtained internally by the final producer. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

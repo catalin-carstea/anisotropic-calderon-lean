@@ -3,8 +3,7 @@ import Calderon.ActualReferenceTwoAngleEndpointCompatibility
 import Calderon.NativeLowerTransposeDerivative
 import Mathlib.Topology.DenseEmbedding
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-lower-transpose-v106.md. SAME actual low DN transpose. -/
+/-! The actual low DN transpose. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

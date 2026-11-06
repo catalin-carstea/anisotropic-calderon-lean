@@ -3,9 +3,8 @@ import Calderon.ActualTSFirstQuadraticScalarJets
 import Calderon.ActualHigherSScalarCommutatorCoefficients
 import Calderon.ActualHigherSZeroWordCoefficientProfileRegularity
 
-/-! Source-only unvalidated original first-T/quadratic-S bilinear cap draft.
-Uses existing directional product budget and actual physical room pullback.
-Before-code: ../T-S-first-quadratic-bilinear-caps-before-source-nov03-night-v001/. -/
+/-! Original first-T/quadratic-S bilinear caps.
+Uses the directional product budget and the actual physical room pullback. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -92,8 +91,7 @@ private lemma coordinate_cap {V : Type*} [NormedAddCommGroup V] [NormedSpace ℝ
     _ = ‖fderiv ℝ f x‖ := by rw [norm_coordinateDirection,mul_one]
     _ ≤ B := h
 
-/-- Actual coefficient caps for the next symmetric Green consumer. The complete
-factory is source-only and must pass all existing checking/review gates. -/
+/-- Actual coefficient caps for the symmetric Green estimate. -/
 theorem exists_actual_uniform_weighted_triple_first_caps
     (hL : 0 < L) {d : ℝ} (hd : 0 < d) (P : ARoom d)
     (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) :

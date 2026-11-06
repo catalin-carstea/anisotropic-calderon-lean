@@ -1,7 +1,7 @@
 import Calderon.CollaboratorUniqueContinuationProofOct17
 
 /-! Actual separated-operator uniqueness on a product box, for Main M1 mixed-germ gluing.
-Full upfront precedes source; no R6 unique-continuation premise. -/
+No R6 unique-continuation premise. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff Matrix.Norms.Elementwise

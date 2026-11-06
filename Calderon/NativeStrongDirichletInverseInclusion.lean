@@ -1,7 +1,6 @@
 import Calderon.NativeStrongDirichletInclusion
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-STRONG-INVERSE-INCLUSION-ASSEMBLY-EXPANSION-v001.md. Exact existing total inverse plus native inclusion. -/
+/-! Exact existing total inverse plus native inclusion. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

@@ -3,8 +3,7 @@ import Calderon.ActualReferenceTwoAngleFirstMidpointDerivative
 import Mathlib.Analysis.InnerProductSpace.Calculus
 import Calderon.LocalRadialDerivative
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-first-adjoint-derivative-pair-v110.md. Actual genuine first-angle derivative. -/
+/-! Actual genuine first-angle derivative. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

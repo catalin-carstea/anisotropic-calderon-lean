@@ -1,5 +1,5 @@
 import Calderon.ActualCompactParameterRankOneCoercivity
-import MixedKernelClosedUniformFoundation
+import Calderon.MixedKernelConstruction.MixedKernelClosedUniformFoundation
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

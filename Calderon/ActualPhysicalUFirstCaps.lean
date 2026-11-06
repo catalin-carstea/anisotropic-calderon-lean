@@ -1,8 +1,7 @@
 import Calderon.ActualPhysicalUFirstSmoothness
 import Calderon.ActualRadiusThreeJetProfileRoom
 
-/-! Author: Claude (Opus 5.5), v032. Expansion: output/MATHEMATICS.md, "Caps (expanded)".
-Actual compact caps for `C_0`, `C_1`, `D C_0`, the conformal frame, the actual radius jets, `f_i`,
+/-! Actual compact caps for `C_0`, `C_1`, `D C_0`, the conformal frame, the actual radius jets, `f_i`,
 and the exact `I10` derivative commutation. No cap callback or new hypothesis. -/
 set_option autoImplicit false
 noncomputable section
@@ -29,7 +28,7 @@ attribute [local irreducible] sphereSobolevInclusionL sphereSobolevZeroEquiv
   nativeOneHorizontalAngularL nativeOneShiftedDegreeL nativeOneWeightedHorizontalAction
   nativeFirstCorrectionLift nativeUFirstWord nativeUFirstOut
 
--- actualSol: cache only the original canonical class data; do not replace norms or metrics.
+-- Cache only the original canonical class data; do not replace norms or metrics.
 @[instance_reducible] private def capsOriginalParameterNormed :
     NormedAddCommGroup ((ℝ × R3) × (R3 →L[ℝ] ℝ)) := inferInstance
 @[instance_reducible] private def capsOriginalParameterModule :
@@ -194,7 +193,7 @@ lemma abs_horizontalLogDerivative_le (g : MatrixField) (L q δ A : ℝ) (p : ℕ
   rw [abs_mul, abs_of_pos hr] at h2
   exact le_of_mul_le_mul_left h2 hr
 
-/-! ### I10 commutes through the derivative of the first correction (v031 §2, I1–I2) -/
+/-! ### I10 commutes through the derivative of the first correction (I1–I2) -/
 
 /-- (I1) `I10 (V_j x) = C_0(z x) j (Z (F0 x))`: no `H^1` norm of a base derivative. -/
 lemma inclusion_nativeFirstCorrectionLift_eq (hF : SphereFischerInner)

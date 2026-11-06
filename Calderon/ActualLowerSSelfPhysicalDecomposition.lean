@@ -63,7 +63,7 @@ local notation "Z1" => ActualHigherSLinearZero.linearZeroHigh g L y0 Φ B ε C �
 local notation "T1" => ActualHigherSLinearZero.linearAdjointZeroHigh g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0
 local notation "U" => ActualHigherSFormation.higherSInput hO hD
 local notation "KL" => sphereSobolevHalfToSphereL2L hO hD
-/-- Exact statement, before proof source: no residual definitions or extra callback. -/
+/-- Exact statement: no residual definitions or extra callback. -/
 def SamePacketPhysicalFirstZeroSplit (g2 : MatrixField) : Prop :=
   ∃ etaSplit : ℝ, 0 < etaSplit ∧ etaSplit ≤ data.eta0 ∧
     ∀ q ∈ Icc (0 : ℝ) 1,
@@ -251,8 +251,7 @@ private theorem physical_off_support_at
       hU0,hT0,map_zero,Finset.sum_const_zero,add_zero]
 
 set_option diagnostics true in
-/-- Literal physical decomposition, with every threshold derived before profiles.
-Author source; complete dependency qualification and checking remain required. -/
+/-- Literal physical decomposition, with every threshold derived before profiles. -/
 theorem exists_same_packet_physical_first_zero_split (hL : 0 < L)
     (hKernel : UnitBallValueTraceKernel τ0) (g2 : MatrixField) (hg2 : IsAdmissibleMetric g2) :
     SamePacketPhysicalFirstZeroSplit g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0

@@ -10,8 +10,6 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Expanded before source in EXPANSION-native-parameter-affine-lift-composition-factoring-v001.json. -/
-
 lemma contDiffAt_nativeParameterInverseEnergyComp
     {P : Type*} [NormedAddCommGroup P] [NormedSpace ℝ P]
     (I : P → StrongDual ℝ BallH1Zero →L[ℝ] BallH1Zero)

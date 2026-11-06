@@ -3,8 +3,6 @@ import Calderon.ActualReferenceTwoAngleStrongBoundaryTrace
 import Calderon.ActualReferenceTwoAngleTangentBoundaryCoefficients
 import Calderon.NativeH2ConormalCoefficientRadialConversion
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-high-radial-adjunction-v102.md, actual primal flux step. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

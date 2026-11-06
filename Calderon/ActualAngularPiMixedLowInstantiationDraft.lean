@@ -7,20 +7,12 @@ import Calderon.SphereSobolevHalfDualRotationPairing
 import Calderon.SphereSobolevCoordinateInclusion
 import Calderon.NativeOrderOneCoefficientMultiplier
 
-/-! DRAFT NOT CHECKED (claude-actual-Pi-low-instantiation-2026-10-29-v017, Claude Opus 5.5, author
-only, nothing compiled or run). Before-source mathematics: output/MATHEMATICS.md. Root supplied the
-routing and the exact API names. v015 (`ActualAngularPiMixedCapsDraft`) and v016
-(`ActualAngularPiMixedLowDraft`) are imported unchanged.
-
-Contents:
-* §1 Lemma H: the half-level adjunction `P(x, aL_i y) = P(y, AL_i x)` for ALL `x y : Half`.
-* §2 Lemma I: the inclusion graphs `J ∘ aH_i = aL_i ∘ IH` and `J ∘ AH_i = AL_i ∘ IH`.
-* §3 the cross adjunctions (aA1), (aA2).
-* §4 the native Pi primitives (high/half, half/negative, direct adjoint pairing).
-* §5 the ACTUAL theorem. It obtains the v015 witnesses once and returns the v015 facts together
-  with two actual low families `C_l, D_l` on the SAME witnesses: graphs, weak transpose graphs,
-  midpoint norms, `ContDiffOn ∞` on the closed `S`, and one cap per `N`.
-NOT claimed: D_Q, absorption, coercivity, Main. -/
+/-! The mixed Pi low endpoints. The half-level adjunction, the inclusion graphs, the cross
+adjunctions (aA1), (aA2) and the native Pi primitives are in
+`ActualAngularMixedEndpointPrimitives`. The theorem below obtains the witnesses of
+`ActualAngularPiMixedCapsDraft` once and returns those facts together with two low families
+`C_l, D_l` on the same witnesses: graphs, weak transpose graphs, midpoint norms, `ContDiffOn ∞`
+on the closed `S`, and one cap per `N`. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section
@@ -59,7 +51,7 @@ local notation "natL" => nativeHalfCoefficientMulL hcalc hF hO hD τ0
 local notation "natN" => nativeNegativeHalfCoefficientMulL hcalc hF hO hD τ0
 local notation "low" => smoothMultiplierLowerJets
 
--- actualSol: keep exact checked operator implementations opaque during elaboration.
+-- Keep the native operator implementations opaque during elaboration.
 attribute [local irreducible] nativeThreeHalfCoefficientMulL nativeHalfCoefficientMulL
   nativeNegativeHalfCoefficientMulL sphereSobolevRotationL sphereSobolevShiftedDegreeL
   sphereSobolevLinearCoordinateMulL
@@ -68,7 +60,7 @@ attribute [local irreducible] nativeThreeHalfCoefficientMulL nativeHalfCoefficie
   loweringAngularHighCommutator raisingCommutator
   loweringPiGain raisingPiGain loweringMixed raisingMixed
 
-/-! ### §5 The ACTUAL theorem on the SAME v015 witnesses -/
+/-! ### The mixed low endpoints on the common witnesses -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)
@@ -141,9 +133,10 @@ private lemma actualPiMixedLow_pointwise_adjunction
     hPic hPiN hPis u vTest
 
 include hreg hg hKernel in
-/-- ACTUAL mixed Pi low endpoints. The v015 witnesses `δ, G, m, Km` are obtained ONCE. The v015
-facts are returned unchanged, together with two actual low families `C_l, D_l : Half → Neg` on
-`S = commonRoom δ × closedBall 0 1`, bound to the SAME witnesses. -/
+/-- Mixed Pi low endpoints. The witnesses `δ, G, m, Km` of
+`exists_reference_commonRadius_actualPi_mixed_graph_caps` are obtained once; its facts are
+returned together with two low families `C_l, D_l : Half → Neg` on
+`S = commonRoom δ × closedBall 0 1`, bound to the same witnesses. -/
 theorem exists_reference_commonRadius_actualPi_mixed_low_graph_caps :
     ∃ δ : ℝ, 0 < δ ∧ δ ≤ ρ ∧ commonRoom y0 ρ δ ⊆ Ω ∧
     ∃ G : Fin 3 → Pphys → Half →L[ℝ] Half,
@@ -152,7 +145,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_low_graph_caps :
         JL (G j p v) = Tl p ((Ml j) v) - (Mn j) (Tl p v)) ∧
     ∃ (m : Fin 3 → Tpar × R3 → ℝ) (hm : ∀ k, ContDiff ℝ ∞ (m k)) (Km : Set R3)
       (hKm : IsCompact Km) (hmz : ∀ k t x, x ∉ Km → m k (t,x) = 0),
-      -- v015 facts, unchanged
+      -- the facts of `exists_reference_commonRadius_actualPi_mixed_graph_caps`
       (∀ i k : Fin 3, ∀ p ∈ commonRoom y0 ρ δ, ∀ ell ∈ closedBall (0 : R3 →L[ℝ] ℝ) 1,
         let Q := commonSupportCoefficientFamily 3 (m k) (hm k) Km hKm (hmz k) (p,ell)
         (natH Q = PiH k (p,ell) ∧ natL (low Q) = PiL k (p,ell) ∧
@@ -183,7 +176,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_low_graph_caps :
         ‖iteratedFDerivWithin ℝ n (EPiAMap m hm Km hKm hmz i k) (PiRoom δ) z‖ ≤ M ∧
         ‖iteratedFDerivWithin ℝ n (CaTPiMap G m hm Km hKm hmz i k) (PiRoom δ) z‖ ≤ M ∧
         ‖iteratedFDerivWithin ℝ n (CPiSAMap m hm Km hKm hmz i k) (PiRoom δ) z‖ ≤ M) ∧
-      -- v017: actual low families on the SAME witnesses
+      -- the low families on the same witnesses
       ∃ Cl Dl : Fin 3 → Fin 3 → Tpar → Half →L[ℝ] NegH,
         (∀ i k : Fin 3,
           ContDiffOn ℝ ∞ (Cl i k) (PiRoom δ) ∧ ContDiffOn ℝ ∞ (Dl i k) (PiRoom δ)) ∧
@@ -203,7 +196,6 @@ theorem exists_reference_commonRadius_actualPi_mixed_low_graph_caps :
         ∀ N : ℕ, ∃ M : ℝ, 0 ≤ M ∧ ∀ i k : Fin 3, ∀ n : ℕ, n ≤ N → ∀ z ∈ PiRoom δ,
           ‖iteratedFDerivWithin ℝ n (Cl i k) (PiRoom δ) z‖ ≤ M ∧
           ‖iteratedFDerivWithin ℝ n (Dl i k) (PiRoom δ) z‖ ≤ M := by
-  -- v015 witnesses obtained ONCE
   have hCapsOwner := exists_reference_commonRadius_actualPi_mixed_graph_caps
     hcalc hF hO hD τ0 g L y0 Φ B ε C ρ H a w hData hreg hg hKernel
   obtain ⟨δ,hδ,hδρ,hRoom,G,hGOn,hGlow,m,hm,Km,hKm,hmz,hGraph,hSmooth,hCaps⟩ := hCapsOwner
@@ -214,7 +206,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_low_graph_caps :
     (uniqueDiffOn_commonRoom y0 ρ hρ hδ).prod
       (uniqueDiffOn_convex (convex_closedBall _ _)
         ⟨0,ball_subset_interior_closedBall (mem_ball_self one_pos)⟩)
-  -- the actual mixed adjunction at the CURRENT z (MATHEMATICS.md §6); no new premise
+  -- the mixed adjunction at the current z
   have hAdj : ∀ i k : Fin 3, ∀ z ∈ PiRoom δ, ∀ u w : Hi,
       PP (IH w) (JL (CaTPiMap G m hm Km hKm hmz i k z u)) =
         PP (IH u) (JL (CPiSAMap m hm Km hKm hmz i k z w)) := by
@@ -230,7 +222,7 @@ theorem exists_reference_commonRadius_actualPi_mixed_low_graph_caps :
       hAt.1.1 hAt.1.2.1 hAt.1.2.2
       (CaTPiMap G m hm Km hKm hmz i k (p,ell)) (CPiSAMap m hm Km hKm hmz i k (p,ell))
       hAt.2.2.2.1 hAt.2.2.2.2 u vTest
-  -- the two low families, via v016's generic smooth-family theorem on the SAME closed S
+  -- the two low families, via the generic smooth-family theorem on the same closed S
   have hLow := fun i k : Fin 3 =>
     v016_exists_contDiffOn_lowEndpoint (PiRoom δ) hSU
       (CaTPiMap G m hm Km hKm hmz i k) (CPiSAMap m hm Km hKm hmz i k)

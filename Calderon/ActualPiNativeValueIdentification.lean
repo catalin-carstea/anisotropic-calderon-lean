@@ -2,7 +2,7 @@ import Calderon.ActualPiNativeGeometryCore
 import Calderon.NativeThreeHalfCoefficientCoordinateProduct
 import Calderon.NativeCoefficientMultiplierBoundaryDerivative
 
-/-! Original X5 Pi high value formula, Opus v006 P4 expansion; Root proof.
+/-! Original X5 Pi high value formula (P4).
 The coefficient-value hypothesis is a transparent matching contract, not an
 existence/bound assumption for the physical family. That family is separate. -/
 set_option autoImplicit false

@@ -3,11 +3,8 @@ import Calderon.ActualCanonicalAngularGainedBracket
 import Calderon.ActualRaisingEHighGraph
 import Calderon.ActualHigherSAdjointLeadingCoordinate
 
-/-! Author proof source for the SAME-W paired lowering/E and reverse-E/raising producer.
-Split high graph/smooth owner, successor v003. UNCOMPILED: no formal/native/review acceptance is claimed. Full exact before-source target is
-upfront-v001/CONTRACT.md. Source/body/API/owner/norm/literature-relative37 holds remain.
-Multiplier and smoothness helper proofs adapt the selected checked generator/E construction;
-new lowering/raising graph mathematics and both-low integration are separately attributed here. -/
+/-! Product graphs for the paired lowering/E and reverse-E/raising maps with the same W.
+The multiplier and smoothness helper proofs adapt the generator/E construction. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric

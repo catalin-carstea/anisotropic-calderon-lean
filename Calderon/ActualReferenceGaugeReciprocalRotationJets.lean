@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeNormalReciprocalRoom
 import Calderon.NativeSmoothMultiplierCommonSupportJets
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/actual-reciprocal-tangent-author-v001/
-EXPANSION-actual-rotation-jets-v001.md. Derivatives of the same actual scalar reciprocal extension. -/
+/-! Derivatives of the same actual scalar reciprocal extension. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

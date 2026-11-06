@@ -2,8 +2,7 @@ import Calderon.ActualTSLowerZeroZeroBinding
 import Calderon.ActualTZeroGenuineReverse
 import Calderon.ActualReferenceZeroECommutators
 
-/-! Exact original D01 physical-to-word dictionary. Third-owned successor.
-Before-code: ../UPFRONT.md, exact statement: ../TARGET-SPEC.txt.
+/-! Exact original D01 physical-to-word dictionary.
 All 270 triple occurrences and all nine full raw correction pairings remain.
 No analytic norm estimate or assumed high derivative norm is introduced. -/
 set_option autoImplicit false

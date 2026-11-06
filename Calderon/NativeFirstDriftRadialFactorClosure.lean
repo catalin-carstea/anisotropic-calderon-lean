@@ -8,8 +8,7 @@ open scoped ContDiff ENNReal
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError
 
-/-! Upfront expansion: EXPANSION-native-first-drift-without-general-closure-joint-v001.md.
-Only the explicit polynomial corrector's closure is proved; no general zero-trace converse. -/
+/-! Closure for the explicit polynomial corrector, without a general zero-trace converse. -/
 lemma polynomialEval_radiusSq_eq_norm_sq (x : R3) :
     eval (polynomialCoordinateMap x) (AngularPolynomial.radiusSq : MvPolynomial (Fin 3) ℝ) =
       ‖x‖^2 := by

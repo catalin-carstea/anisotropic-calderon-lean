@@ -1,7 +1,5 @@
 import Calderon.RealHarmonicInheritedStructureData
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-STRONG-CANONICAL-REAL-GROUP-METRIC-PROJECTIONS-UPFRONT-v001.md. -/
 set_option autoImplicit false
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 

@@ -14,8 +14,7 @@ variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (w : (ℝ × (R3 × ℝ)) × R3 → ℝ)
   (hData : JointConformalReferenceFramedDriftData g L y0 Φ B ε C ρ H a w)
 
-/-! Fully expanded before source in EXPANSION-actual-reference-lower-radial-endpoint-v001.json.
-Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
+/-! Actual same retained coefficient a, no parameter-dependent bound choices in the maps. -/
 def referenceNormalCoefficientJetsFamily : (ℝ × (R3 × ℝ)) → SmoothCoefficientJets 2 :=
   normalCoefficientJetsFamily a (jointReferenceStrongCoefficient_data g L y0 Φ B ε C ρ H a w hData).1
     (closedBall (0 : R3) 3) (isCompact_closedBall _ _) (jointReferenceStrongCoefficient_data g L y0 Φ B ε C ρ H a w hData).2.2.2.1

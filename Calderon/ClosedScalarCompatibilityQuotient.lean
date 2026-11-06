@@ -8,8 +8,8 @@ open Set
 open scoped ContDiff
 namespace OAI.AnisotropicCalderon.ClosedScalarCompatibility
 open SmoothKernelCodomainRestriction
-/-! Full upfront EXPANSION-v001.json precedes source. Closure follows from
-the original continuous scalar constraints, not a closure assumption. -/
+/-! Closure follows from the continuity of the scalar constraints, not from a
+closure assumption. -/
 variable {E X I : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
   [NormedAddCommGroup X] [NormedSpace ℝ X]
 

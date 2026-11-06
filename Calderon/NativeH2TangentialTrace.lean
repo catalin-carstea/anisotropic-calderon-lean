@@ -9,8 +9,6 @@ namespace OAI.AnisotropicCalderon.SphereHarmonic
 open EnergyBridge DirichletFamily DirichletFamily.DriftBootstrap NativeFullSharpHalfTrace
   SpectralCoreRegularity
 
-/-! Expansion: EXPANSION-native-H2-tangential-trace-v001.md, obligation E. -/
-
 theorem sphereCoordinateMulL_commute_apply (i j : Fin 3) (u : SphereL2) :
     sphereCoordinateMulL i (sphereCoordinateMulL j u) =
       sphereCoordinateMulL j (sphereCoordinateMulL i u) := by

@@ -2,7 +2,7 @@ import Calderon.ActualReferenceTwoAngleNormalHighJets
 import Calderon.NativeHalfCoefficientInverseCompatibility
 import Calderon.NativeThreeHalfCoefficientMultiplierInverse
 
-/-! Exact native rotation endpoint inverse specialization; full upfront v079. -/
+/-! Specialization of the native endpoint inverse to the rotation families. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

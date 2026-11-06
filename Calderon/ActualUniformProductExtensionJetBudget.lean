@@ -3,7 +3,7 @@ import Calderon.ActualUniformFixedRoomRestrictionSpectrum
 import Calderon.ActualBoundedProductL2Budget
 import Calderon.ActualCurrentCoefficientProductNormBounds
 import Calderon.ActualUniformCurrentCrossKernelJets
-import MixedKernelHessianExtensionConstruction
+import Calderon.MixedKernelConstruction.MixedKernelHessianExtensionConstruction
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

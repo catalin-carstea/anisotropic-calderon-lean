@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceGaugeNormalMultiplierInverse
 import Calderon.NativeSmoothMultiplierInverse
 
-/-! Full upfront: actual-gauge-tangent-operator-author-oct15-v001/reciprocal-graph-author-v001/
-EXPANSION-inverse-graph-v001.md. Scalar boundary identity precedes native inverse identity. -/
+/-! Scalar boundary identity precedes native inverse identity. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric

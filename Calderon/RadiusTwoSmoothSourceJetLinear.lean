@@ -2,9 +2,9 @@ import Calderon.RadiusTwoSmoothSourceResponse
 import Calderon.FiniteDimensionalJetRange
 import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
-/-! Full upfront expansion precedes these actual raw source jets. The response is
+/-! Actual raw source jets. The response is
 smooth only on the open radius-two ball. Second-derivative linearity is obtained
-from equality of first-derivative GERMS there. The raw target includes arbitrary
+from equality of first-derivative germs there. The raw target includes arbitrary
 bilinear maps; its PDE kernel alone is not the symmetric admissible jet space. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10

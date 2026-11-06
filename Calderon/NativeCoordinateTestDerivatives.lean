@@ -9,8 +9,6 @@ open scoped ENNReal Distributions ContDiff InnerProductSpace
 namespace OAI.AnisotropicCalderon.DirichletFamily
 open EnergyBridge MetricVolume
 
-/-! Expansion: EXPANSION-native-H2-tangential-trace-v001.md, obligation A. -/
-
 theorem smoothCoordinateDerivative_commute (f : SmoothData) (i j : Fin 3) :
     smoothCoordinateDerivative (smoothCoordinateDerivative f j) i =
       smoothCoordinateDerivative (smoothCoordinateDerivative f i) j := by

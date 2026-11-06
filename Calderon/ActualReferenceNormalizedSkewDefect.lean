@@ -1,8 +1,7 @@
 import Calderon.ActualReferenceNormalizedAdjointDefect
 import Calderon.ActualReferenceGaugeTangentReciprocalSkew
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-actual-normalized-skew-defect-v027.md. Actual positive scalar residual retained. -/
+/-! Actual positive scalar residual retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set

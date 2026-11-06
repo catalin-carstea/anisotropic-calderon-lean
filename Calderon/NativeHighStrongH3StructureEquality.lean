@@ -1,8 +1,7 @@
 import Calderon.NativeHighStrongSobolevTopology
 
-/-! Before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-native-high-h3-full-structure-equality-v092.md.
-Full original cached H3 structures; no projected equality or new norm. -/
+/-! Equality of the full cached H3 structures, not only of their projections; no new
+norm is introduced. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

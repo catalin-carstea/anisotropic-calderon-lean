@@ -1,6 +1,6 @@
 import Calderon.ActualNativeMovingLocalRemainder
 
-/-! Exact final original selected LR theorem; upfront EXPANSION-build-replay-split-v003.md. -/
+/-! The signed local remainder theorem. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter

@@ -1,7 +1,6 @@
 import Calderon.SignedTaylorFixedLinearTransport
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-signed-Taylor-addition-v021.md. Actual product curve and fixed projections. -/
+/-! Actual product curve and fixed projections. -/
 set_option autoImplicit false
 noncomputable section
 open Set

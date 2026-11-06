@@ -5,8 +5,7 @@ import Calderon.NativeHighStrongH3StructureEquality
 import Calderon.InnerProductMeasureSpaceProjectionData
 import Calderon.NativeOutwardActualCarrierEquality
 
-/-! Full before-source: weak-native-instance-repair-author-oct16-v001/
-EXPANSION-native-outward-public-carrier-v109.md. Exact original native public carrier versus its stored full-data CLM13 expansion. -/
+/-! Exact original native public carrier versus its stored full-data CLM13 expansion. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

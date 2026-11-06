@@ -14,8 +14,7 @@ open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWe
   ActualReferenceDDHigherProfileJets ActualReferenceDDHigherCLMProducts
   ActualScalarPrincipalAdjoint ReferenceDensityBounds PrincipalCommutator ConformalDepth RadiusProfile
 
-/- Actual differentiated density coefficient of native rb2 only; all interfaces
-   and the whole coefficient body were frozen before this source candidate. -/
+/- Actual differentiated density coefficient of native rb2 only. -/
 
 def referenceDensityLogCoordinateJoint (g : MatrixField) (L : ℝ) (j : Fin 3) (z : ℝ × R3) : ℝ :=
   (referenceDensityFamily g L z)⁻¹ * familyDirectionalDeriv j (referenceDensityFamily g L) z

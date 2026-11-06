@@ -2,9 +2,8 @@ import Calderon.ActualReferenceTwoAngleStrongOperator
 import Calderon.ActualReferenceRotationStrongZeroAngle
 import Calderon.NativeStrongCoefficientCongruence
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-strong-original-room-v009.md. Actual zero-angle identity
-and genuine local strong inverse membership from SAME original inverse. -/
+/-! The zero-angle identity and local strong inverse membership, from the
+original inverse. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

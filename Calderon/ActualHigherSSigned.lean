@@ -4,17 +4,12 @@ import Calderon.SphereSobolevPairing
 import Calderon.ActualWeightedHorizontalGreen
 import Calderon.ActualHigherSErrorSplit
 
-/-! Source-only author: Opusv040, repaired Opusv044, 29 October 2026. UNCOMPILED.
-Before-source mathematics: INTEGRATED-PAIRING-MATHEMATICS.md §2 (same output directory).
-Actual pointwise transfer identities on finite INPUTS tested against `IH (u y)`: every literal
+/-! Actual pointwise transfer identities on finite INPUTS tested against `IH (u y)`: every literal
 higher-S term in which the original low quotient `LQ_i` acts on an INCLUDED vector (`E_j`,
 `Ahi_j u`, `D_j u`) equals a pairing against the genuine reverse word `e_i u`.
-v044 repairs: printed formation API (`higherSParam L δr Ar p q`, `higherSInput hO hD`,
-`higherSReferenceInput hO hD g L hg δr Ar p hδr hAr q`, `higherSRaisingInput hF hO hD`,
-`higherSLift` without positivity proofs, `HigherSRoomAt` without `hg`); pairing algebra from the
-checked `halfPairing_*` lemmas; the reverse family carries BOTH its ambient germs and its
-pairing from ONE `obtain` of `exists_commonRoom_actual_fullE_ordinary_endpoints`.
-NOT used or claimed: `e = -E + gain`, positivity of `Q`, signed estimate, Sdag, coercivity. -/
+The pairing algebra comes from the `halfPairing_*` lemmas; the reverse family carries BOTH its
+ambient germs and its pairing from ONE `obtain` of
+`exists_commonRoom_actual_fullE_ordinary_endpoints`. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory
@@ -39,7 +34,7 @@ local notation "JL" => sphereSobolevInclusionL (1/2 : ℝ) (-(1/2 : ℝ)) (by no
 local notation "PP" => sphereSobolevDualPairing (1/2 : ℝ)
 attribute [local instance] v017PiHighComplete v017PiHalfComplete v017PiNegativeComplete
 
-/-! ## 1. Pairing algebra (thin wrappers of the checked `halfPairing_*` lemmas) -/
+/-! ## 1. Pairing algebra (thin wrappers of the `halfPairing_*` lemmas) -/
 
 lemma pp_inclusion_symm (x z : Half) : PP x (JL z) = PP z (JL x) :=
   halfPairing_inclusion_symm x z
@@ -125,7 +120,7 @@ theorem exists_actual_reverse_family (hreg : FixedDirichletRegularity) :
       g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 hreg
   exact ⟨δE, hδE, _, fun i t ht => (hSm i t ht).2.2.1, hPairE⟩
 
-/-- v040 target kept: the reverse pairing alone (from the same family theorem). -/
+/-- The reverse pairing alone (from the same family theorem). -/
 theorem exists_actual_reverse_pairing (hreg : FixedDirichletRegularity) :
     ∃ δE : ℝ, 0 < δE ∧ ∃ e : Fin 3 → Tpar → Hi →L[ℝ] Half,
       ∀ i : Fin 3, ∀ t ∈ ParamRoom δE, ∀ u v : Hi,

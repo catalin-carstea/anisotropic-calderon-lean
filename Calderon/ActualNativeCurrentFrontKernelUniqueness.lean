@@ -1,6 +1,6 @@
-import MixedKernelProductOpenUCP
-import MixedKernelNativeCompactFront
-import MixedKernelUniformLowerSide
+import Calderon.MixedKernelConstruction.MixedKernelProductOpenUCP
+import Calderon.MixedKernelConstruction.MixedKernelNativeCompactFront
+import Calderon.MixedKernelConstruction.MixedKernelUniformLowerSide
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

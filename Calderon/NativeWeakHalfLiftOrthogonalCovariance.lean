@@ -11,8 +11,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in EXPANSION-native-coefficient-weak-half-lift-rotation-v001.json.
-Coefficients transform by actual matrix conjugation and vector pullback. -/
+/-! Coefficients transform by actual matrix conjugation and vector pullback. -/
 
 lemma memLp_nativeOrthogonalEnergyIntegrand_of_continuous
     (e : R3 ≃ₗᵢ[ℝ] R3) (a : MatrixField) (b : R3 → R3) (c : R3 → ℝ)

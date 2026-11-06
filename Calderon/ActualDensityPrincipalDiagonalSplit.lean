@@ -1,7 +1,6 @@
 import Calderon.ActualDensityPrincipalAngularContractions
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-principal-diagonal-split-v012.md. Actual identity/sigma leading split. -/
+/-! Actual identity/sigma leading split. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap

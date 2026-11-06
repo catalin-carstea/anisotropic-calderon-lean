@@ -1,8 +1,7 @@
 import Calderon.ActualWeightedHorizontalActions
 import Calderon.ActualNativeLeadingCovariantRadiusCancellation
 
-/-! Before-source: actual-physical-full-allocation-author-oct16-v001/
-EXPANSION-radius-weighted-product-v011.md. Original signed radius and frame. -/
+/-! Uses the original signed radius and frame. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ContDiff ENNReal

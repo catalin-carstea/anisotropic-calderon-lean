@@ -1,4 +1,4 @@
-import TaskInterface
+import Calderon.MixedKernelConstruction.TaskInterface
 import Calderon.ActualHarmonicCoordinateConformalRigidity
 import Calderon.NormalizedPrincipalMetricEquality
 import Calderon.NormalizedPrincipalMetricSmooth

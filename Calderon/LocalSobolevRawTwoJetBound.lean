@@ -2,10 +2,8 @@ import Calderon.RadiusTwoSmoothSourceJetLinear
 import TauCeti.Analysis.Sobolev.Wkp.Classical
 
 /-!
-UNADOPTED STANDARD-LITERATURE CANDIDATE; definition only, no inhabitant,
-axiom, source-jet endpoint, or change to Main. EXPANSION.json gives the complete
-McLean 3.16/3.20/3.26 plus native-graph transport derivation. This draft has not
-been compiled. A radius-dependent constant is allowed and is chosen before
+A standard interior regularity statement (McLean, Theorems 3.16, 3.20 and 3.26).
+A radius-dependent constant is allowed and is chosen before
 both the native Sobolev element and its smooth interior representative.
 -/
 

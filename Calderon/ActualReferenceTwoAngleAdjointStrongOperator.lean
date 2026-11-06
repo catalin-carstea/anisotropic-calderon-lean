@@ -1,8 +1,6 @@
 import Calderon.ActualReferenceTwoAngleStrongOperator
 import Calderon.ActualReferenceTwoAngleAdjointMassFamily
 import Calderon.NativeSupportedAdjointStrongForcing
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-adjoint-strong-v036.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

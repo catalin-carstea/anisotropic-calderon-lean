@@ -1,9 +1,8 @@
 import Calderon.ActualTSFullLowerAssembly
 import Calderon.ActualTSZeroLiteralIntegral
 
-/-! Exact binding of the checked literal zero/zero row to the original full
-lower T/S cross. D10 and D01 remain unestimated; grouped integrals only.
-Before-code: ../TS-zero-full-lower-binding-before-source-nov03-night-v001/. -/
+/-! Exact binding of the zero/zero row to the original full lower T/S cross.
+D10 and D01 are not estimated here; grouped integrals only. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section
@@ -64,7 +63,7 @@ local notation "D10" => originalFirstZeroCrossDensity
 local notation "D01" => originalZeroFirstCrossDensity
   hF hO hD g L y0 Φ B ε C ρ H a w hData hg hcalc τ0
 
-/-- Global literal decomposition, without integrating either still-unestimated row. -/
+/-- Global literal decomposition, without integrating either row. -/
 theorem original_lower_cross_eq_three_signed_rows (g2 : MatrixField)
     (dr Ar : ℝ) (p : ℕ) (hdr : 0 < dr) (hAr : 0 < Ar) (q : ℝ)
     (F : smoothCompactFiniteSphereCore hO hD) (x : R3) :

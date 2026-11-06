@@ -1,7 +1,6 @@
 import Mathlib.LinearAlgebra.FiniteDimensional.Basic
 import Calderon.MixedRadialJetCalculus
 
-/-! UNCOMPILED author proposal. EXPANSION.md L1--L3 was saved before this source. -/
 set_option autoImplicit false
 noncomputable section
 open Set Function Filter

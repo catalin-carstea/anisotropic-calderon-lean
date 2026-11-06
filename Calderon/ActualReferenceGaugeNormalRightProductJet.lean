@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeNormalRadialDerivativeCertificates
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 import Calderon.NormalCommutatorRightProductJet
 
-/-! Full upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-REPAIR-actual-K-right-product-factor-v108.md. Actual right-product derivative before finite-band transport. -/
+/-! The right-product derivative, taken before finite-band transport. -/
 set_option autoImplicit false
 noncomputable section
 open Set

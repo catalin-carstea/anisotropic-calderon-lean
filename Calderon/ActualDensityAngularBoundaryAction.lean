@@ -10,9 +10,7 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic NormalizedPrincipalMetric ReferenceDensityBounds
   ActualNormalizedSecondMetricDrift ActualHorizontalNormBridge
 
-/-! Upfront: day-oct13/actual-boundary-moving-operator-oct15-v001/
-EXPANSION-density-double-adjoint-angular-action.md. Both angular factors are
-actual genuine adjoints. This is not the full physical P. -/
+/-! Both angular factors are actual genuine adjoints. This is not the full physical P. -/
 
 attribute [local irreducible] referenceJacobiBoundaryCoefficientJets
   referenceAdjointThreeHalfRadialFamily referenceAdjointHalfRadialFamily

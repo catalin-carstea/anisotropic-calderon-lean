@@ -5,8 +5,8 @@ set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace
 namespace OAI.AnisotropicCalderon.InnerIsometryOperatorEvaluation
-/-! Full upfront EXPANSION-PARTITION-v004.json. Abstract scalar evaluation;
-no actual sphere equivalence, carrier cast, or adjunction premise is used. -/
+/-! Abstract scalar evaluation; no sphere equivalence, carrier cast, or
+adjunction is used. -/
 lemma innerSL_linear_isometry_equiv_eval_comp_apply
     {X U V W : Type*}
     [NormedAddCommGroup X] [NormedSpace ℝ X]

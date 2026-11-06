@@ -11,10 +11,8 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge MetricVolume
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in
-work/day-oct13/native-supported-adjoint-H2-author-oct14-v001/EXPANSION-v001.json.
-The formal adjoint uses the literal aᵀ, negative original supported drift and
-actual c-div beta mass. The existing principal hreg is the only regularity interface. -/
+/-! The formal adjoint uses aᵀ, the negative of the supported drift, and the mass
+c - div beta. The principal regularity hypothesis `hreg` is the only regularity input. -/
 
 lemma contDiffOn_nativePrincipalTranspose (a : MatrixField)
     (ha : ContDiffOn ℝ ∞ a (Metric.closedBall 0 2)) :

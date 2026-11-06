@@ -1,8 +1,7 @@
 import Calderon.ActualHigherSLinearZero
 import Calderon.ActualHigherSAdjointLeadingCoordinate
 
-/-! Reverse-only exact native constructor/profile/density transport.
-Author source, conditional until focused/native/closure checks. No zero split. -/
+/-! Reverse-only exact native constructor/profile/density transport. No zero split. -/
 noncomputable section
 set_option autoImplicit false
 open Set Filter Metric MeasureTheory

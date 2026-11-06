@@ -8,8 +8,6 @@ open scoped ENNReal Gradient
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge
 
-/-! Upfront expansion: EXPANSION-native-coordinate-commutator-forcing-joint-v001.md. -/
-
 def coefficientFirstJets (F : SmoothCoefficientJets 2) : SmoothCoefficientJets 1 :=
   compactCoefficient 1 (coefficientValue 2 F) (contDiff_coefficientValue 2 F)
     (hasCompactSupport_coefficientValue 2 F)

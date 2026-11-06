@@ -2,9 +2,8 @@ import Mathlib.Analysis.Calculus.Deriv.Mul
 import Mathlib.Analysis.Calculus.Deriv.Add
 import Mathlib.Tactic.Abel
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-REPAIR-normal-firstjet-product-algebra-factor-v100.md. Elementary endpoint
-product rule; actual family hypotheses are discharged in its application. -/
+/-! Elementary endpoint product rule; the family hypotheses are discharged where it is
+applied. -/
 set_option autoImplicit false
 noncomputable section
 namespace OAI.AnisotropicCalderon.ConnectionError

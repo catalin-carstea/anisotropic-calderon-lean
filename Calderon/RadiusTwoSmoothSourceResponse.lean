@@ -2,7 +2,7 @@ import Calderon.RadiusTwoSmoothSourceGlobalRepresentative
 import Calderon.SourceRungeLiteratureInterfaces
 import Calderon.RadiusTwoBoundedSourceOperator
 
-/-! Full upfront expansion precedes this actual fixed-source response construction.
+/-! Actual fixed-source response construction.
 Only the existing regularity parameters are used. Its pointwise linearity is
 derived from the SAME native solver and continuous AE uniqueness, rather than
 assumed from a representative choice. No separation or Runge premise is used. -/

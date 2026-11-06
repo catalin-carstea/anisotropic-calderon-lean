@@ -1,8 +1,7 @@
 import Calderon.NativeRadialFactorGradient
 import Mathlib.Analysis.SpecificLimits.Basic
 
-/-! Expanded before source in EXPANSION-native-radial-factor-specific-dct-author-v002.json.
-Specific radial convergence is proved in the actual native H1 graph norm. -/
+/-! Specific radial convergence is proved in the actual native H1 graph norm. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory Filter

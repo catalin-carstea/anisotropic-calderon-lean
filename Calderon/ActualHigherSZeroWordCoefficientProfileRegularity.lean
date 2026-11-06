@@ -12,10 +12,8 @@ open EnergyBridge ConnectionError SphereHarmonic ActualAngularHighDraft ActualAn
   ActualScalarPrincipalAdjoint ConformalDepth SmoothMetricFrame MovingFrameConnection
 
 /-! Complete scalar contract module; no endpoint data or analytic callback.
-Before-source expansion: coefficient-profile-regularity-upfront-nov03-v002/MATHEMATICS.md.
 The connection reads only the base (q,x) coordinates of the original profile.
-All original 207 ordered coefficients and all original parameters are retained.
-UNCOMPILED until the parent's maintained focused/full checks succeed. -/
+All original 207 ordered coefficients and all original parameters are retained. -/
 
 lemma contDiff_coefficientParameterSlice (q : ℝ) :
     ContDiff ℝ ∞ (fun x : R3 => (q,x)) :=

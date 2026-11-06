@@ -9,9 +9,9 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotationProjection
   SpectralWeightedGraph AngularPolynomial RotationCasimir
 
-/-! Full upfront argument: EXPANSION-v005.json. These are actual physical finite
-harmonic blocks, with all9 ordered rotations and exact negative-half Casimir factor.
-Degree zero is retained; no uniform form/adjoint premise is introduced. -/
+/-! These are actual physical finite harmonic blocks, with all9 ordered rotations and exact
+negative-half Casimir factor. Degree zero is retained; no uniform form/adjoint premise is
+introduced. -/
 
 variable (g : MatrixField) (L : ℝ) (y0 : R3)
   (Φ : ℝ → (R3 × R3) → ℝ → R3 × R3) (B : Set (R3 × R3)) (ε C ρ : ℝ)

@@ -1,7 +1,6 @@
 import Calderon.SphereSobolevTraceReconstruction
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-H3-TRACE-EXPANSION-v001.md, Component B. Same bounded stored maps; exact shifted decoded graph. -/
+/-! Same bounded stored maps; exact shifted decoded graph. -/
 set_option autoImplicit false
 noncomputable section
 open scoped ENNReal InnerProductSpace

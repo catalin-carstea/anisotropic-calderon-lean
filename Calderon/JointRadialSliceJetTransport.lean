@@ -5,7 +5,7 @@ noncomputable section
 open Set Filter
 open scoped ContDiff Topology
 namespace OAI.AnisotropicCalderon.ConnectionError
-/-! Full upfront: EXPANSION-v001.json. Exact local radial curve jets,
+/-! Exact local radial curve jets,
 connecting selected Taylor derivatives to full-joint actual operator jets. -/
 variable {Q P V : Type*} [NormedAddCommGroup Q] [NormedSpace ℝ Q]
   [NormedAddCommGroup P] [NormedSpace ℝ P]

@@ -6,8 +6,7 @@ import Calderon.ActualReferenceTwoAngleMidpointCovariance
 import Calderon.HarmonicSphereRotationAngleDerivative
 import Mathlib.Analysis.Calculus.Deriv.Mul
 
-/-! Upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-first-harmonic-graph-v029.md. Exact actual physical harmonic graph. -/
+/-! Two-angle first harmonic graph: the exact actual physical harmonic graph. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

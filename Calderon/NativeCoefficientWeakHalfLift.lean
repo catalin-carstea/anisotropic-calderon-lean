@@ -17,12 +17,9 @@ namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge SphereHarmonic NativeHarmonicH1LiftCompletion
 attribute [local instance] TauCeti.W1p0.instNormedAddCommGroup TauCeti.W1p0.instInnerProductSpace
 
-/-! Fully expanded before source in EXPANSION-native-coefficient-weak-half-lift-rotation-v001.json.
-The transparent affine formula uses the literal coefficient energy, not an assumed solution. -/
+/-! The transparent affine formula uses the literal coefficient energy, not an assumed solution. -/
 
-/-! Native instance specialization is expanded before this repair in
-work/day-oct13/weak-lift-native-helper-repair-oct14-v001/EXPANSION-v001.json.
-Arguments remain abstract until inherited structure diamonds are normalized. -/
+/-! Arguments remain abstract until inherited structure diamonds are normalized. -/
 
 lemma nativeWeakAffineLiftAssembly_apply
     (J : BallH1Zero →L[ℝ] BallH1) (I : StrongDual ℝ BallH1Zero →L[ℝ] BallH1Zero)

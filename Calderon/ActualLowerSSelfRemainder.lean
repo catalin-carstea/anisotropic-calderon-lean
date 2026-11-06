@@ -212,8 +212,7 @@ attribute [local irreducible] sphereSobolevHalfToSphereL2L sphereSobolevInclusio
   ActualHigherSQuadraticZeroQuartic.actualZ2Half ActualHigherSQuadraticZeroQuartic.actualT2Half
   ActualHigherSLinearZero.linearZeroHigh ActualHigherSLinearZero.linearAdjointZeroHigh
 
-/-- Primary original remainder estimate. The full Mixed weak companion is a
-separately pending assigned component, and is not asserted by this theorem. -/
+/-- Primary original remainder estimate. -/
 theorem exists_original_lower_s_self_primary_remainder (hL : 0 < L)
     (hKernel : UnitBallValueTraceKernel τ0) (hg2 : IsAdmissibleMetric g2) :
     PrimaryLowerSSelfContract g L y0 Φ B ε C ρ H a w hData hg hcalc hF hO hD τ0 Room hreg data g2 := by

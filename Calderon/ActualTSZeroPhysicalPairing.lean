@@ -2,10 +2,9 @@ import Calderon.ActualTSZeroWeightedScalar
 import Calderon.ActualTZeroWordRealization
 
 /-!
-Before-code: ../T-S-L00-weighted-assembly-before-source-nov03-night-v001/.
 Exact finite bilinear matching, all original coefficients and the signed factor4.
-The native quadratic density uses genuine RHalf; the raw-adjoint correction and
-original S linear remainders are still required for the complete literal L00.
+The native quadratic density uses genuine RHalf; the raw-adjoint correction and the
+original S linear remainders of L00 are treated separately.
 -/
 set_option autoImplicit false
 set_option Elab.async false

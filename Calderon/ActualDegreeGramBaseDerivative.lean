@@ -1,6 +1,5 @@
 import Calderon.ActualDegreeGramCancellation
 import Calderon.ActualHigherSZeroCoefficientBounds
-/- Root; mathematics precedes this code in UPFRONT.md. -/
 set_option autoImplicit false
 noncomputable section
 open Set Filter Metric MeasureTheory

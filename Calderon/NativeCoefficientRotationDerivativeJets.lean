@@ -1,8 +1,7 @@
 import Calderon.NativeCoefficientRotationProductRule
 import Calderon.NativeSmoothBallSobolev
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-NATIVE-HIGH-ROTATION-MULTIPLIER-GAIN-EXPANSION-v001.md. Actual compact rotation derivative. -/
+/-! Actual compact rotation derivative. -/
 set_option autoImplicit false
 noncomputable section
 open Set

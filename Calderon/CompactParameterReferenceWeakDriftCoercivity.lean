@@ -1,8 +1,7 @@
 import Calderon.CompactParameterReferenceDrift
 import Calderon.UniformSmallDriftCoercivity
 
-/-! UNCOMPILED author proposal. EXPANSION.md D9--D10 was saved before source.
-One weak radius works for the entire compact dilation/center family; no order enters its choice. -/
+/-! One weak radius works for the entire compact dilation/center family; no order enters its choice. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

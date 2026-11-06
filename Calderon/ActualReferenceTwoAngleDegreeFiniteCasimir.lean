@@ -8,8 +8,7 @@ open scoped InnerProductSpace ContDiff ENNReal Topology Matrix.Norms.Elementwise
 namespace OAI.AnisotropicCalderon.DirichletFamily.DriftBootstrap
 open EnergyBridge ConnectionError SphereHarmonic SmoothSphereRotationProjection
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-two-angle-actual-closed-degree-data-v119.md. Literal actual theta-first finite Casimir specialization. -/
+/-! The theta-first specialization of the finite Casimir identity. -/
 attribute [local irreducible] referenceTwoAngleFirstMidpointDerivativeFamily
   referenceTwoAngleBackgroundSharpHarmonicBlockL referenceTwoAngleFirstMidpointHarmonicBlockL
 

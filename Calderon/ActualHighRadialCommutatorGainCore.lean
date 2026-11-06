@@ -5,11 +5,8 @@ import Calderon.ActualHighSmoothMultiplierFixedTopology
 import Calderon.ActualFinitePhysicalDomainCommonRoom
 import Calderon.SignedTaylorFixedLinearTransport
 
-/-! High radial commutator gain (author-only, UNCOMPILED), v003.
-Mathematics: output/MATHEMATICS.md, sections H0-H10, written before this file.
-No sorry/admit/axiom/opaque/native_decide. The only local instances are the
-Prop-valued `CompleteSpace` facts for the existing lp carriers, written exactly
-as in the supplied sources. -/
+/-! High radial commutator gain. The only local instances are the Prop-valued
+`CompleteSpace` facts for the existing lp carriers. -/
 
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
@@ -36,9 +33,9 @@ attribute [local irreducible] referenceHighSmoothMultiplierBoundaryCommutatorFam
   referenceLowerRadialRotationCommutatorL sphereSobolevRotationL harmonicSphereSubspace
 open SmoothSphereRotation NativeH2ThreeHalfValueTrace NativeHarmonicLiftCompletion
 
-/-! ### H1. Four-carrier signed-Taylor transport, proved constructively from the
-supplied `secondTaylorRemainder_fixed_linear_map` and
-`secondTaylorRemainder_eq_of_locallyEq_on_segment` (the supplied three-carrier
+/-! ### H1. Four-carrier signed-Taylor transport, proved constructively from
+`secondTaylorRemainder_fixed_linear_map` and
+`secondTaylorRemainder_eq_of_locallyEq_on_segment` (the three-carrier
 `secondTaylorRemainder_operator_intertwining` forces `I`'s codomain to be `F`'s). -/
 
 lemma secondTaylorRemainder_endpoint_intertwining
@@ -93,8 +90,8 @@ lemma secondTaylorRemainder_endpoint_intertwining
 
 /-! ### H8. Adjacent gained commutator: high realization, abstract endpoint algebra.
 `CHigh = -KH MHi MHk - Sh GAi MHk - Gi Th MHk + Th GHi MHk + Th MHi GHk` realizes the
-UPFRONT lower form `-MNi Kl MLk + MNi Tl Gk - Gni MNk Sl` (MINUS kept). Every
-hypothesis is an existing actual graph; see MATHEMATICS.md H8 for the owners. -/
+lower form `-MNi Kl MLk + MNi Tl Gk - Gni MNk Sl` (MINUS kept). Every
+hypothesis is an existing actual graph. -/
 
 theorem adjacentGainedCommutator_high_lower_graph
     {X Y Z : Type*}
@@ -164,7 +161,7 @@ lemma radial_pow_six_le_theta_mul_beta (r β θ : ℝ) (hr : 0 ≤ r) (hβ : 1 �
 
 /-! ### Concrete actual operators. -/
 
--- Prop-valued completeness of the existing lp carriers (as in the supplied sources).
+-- Prop-valued completeness of the existing lp carriers.
 local instance highRadialGainThreeHalfComplete : CompleteSpace (SphereSobolev (3/2 : ℝ)) := by
   letI : ∀ k : ℕ, CompleteSpace (harmonicSphereSubspace k) := instCompleteSpaceHarmonicSphereSubspace
   exact lp.completeSpace
@@ -587,9 +584,9 @@ theorem referenceRadialAdjointSharpSecondCommutatorHigh_remainder_graph
         q hq y hy r hSegment hRoom hAgree u)
 
 /-! ### H6. One uniform radial room from the ACTUAL finite physical-domain room.
-The v001 tube premise is discharged: UE = hz.1, hsmall = hz.2.1.1,
+The tube premise is discharged: UE = hz.1, hsmall = hz.2.1.1,
 hWeak = isInvertible_referenceWeakDirichletEnergyFamily … lam hz.2.1, and the high
-locus is hz.2.2.2.1 (exactly the conversions of the supplied certificate owners). -/
+locus is hz.2.2.2.1. -/
 
 theorem exists_reference_commonRadius_radialAdjointSharpSecondCommutatorHigh_graph
     (hreg : FixedDirichletRegularity) (hKernel : UnitBallValueTraceKernel τ0) :
@@ -677,9 +674,7 @@ lemma referenceSmoothMultiplierSecondRemainder_upper_graph
             (smoothMultiplierLowerJets Q)) (hS v).symm)))
   exact hLower.trans hRight.symm
 
-/-! ### H7a. Generic compact-room operator-norm cap from joint continuity.
-Applied to KbarHigh only once its joint continuity is proved (see MISSING-SOURCES C);
-no continuity is assumed anywhere for the actual operator. -/
+/-! ### H7a. Generic compact-room operator-norm cap from joint continuity. -/
 
 lemma exists_opNorm_bound_of_continuousOn_compact
     {P E F' : Type*} [TopologicalSpace P]

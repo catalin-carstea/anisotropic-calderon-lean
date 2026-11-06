@@ -8,8 +8,6 @@ open scoped ContDiff InnerProductSpace Topology
 namespace OAI.AnisotropicCalderon.RadialTestIntegration
 open SphereHarmonic IntervalDistributionPrimitive
 
-/-! Expanded before source in EXPANSION-actual-ball-divergence-flux-v001.json. -/
-
 theorem integral_ball_zero_eq_radial_interval (f : R3 → ℝ) (R : ℝ) (hR : 0 < R)
     (hf : IntegrableOn f (ball (0 : R3) R) (volume : Measure R3)) :
     (∫ x in ball (0 : R3) R, f x) = ∫ r in (0 : ℝ)..R, r^2 *

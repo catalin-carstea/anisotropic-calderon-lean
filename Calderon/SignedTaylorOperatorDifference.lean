@@ -1,8 +1,7 @@
 import Calderon.SignedTaylorOperatorIntertwining
 import Calderon.SignedTaylorAdditiveTransport
 
-/-! Full upfront: high-degree-rotation-author-oct15-v001/
-EXPANSION-normalized-degree-physical-DN-dictionary-v135.md. Fixed composition difference, not assumed intertwining. -/
+/-! Fixed composition difference; no intertwining is assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Set

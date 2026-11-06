@@ -2,8 +2,7 @@ import Calderon.ActualReferenceGaugeHalfTangentDefect
 import Calderon.ActualReferenceAdjointRadialEndpointConstruction
 import Calderon.ActualReferenceRadialInvertibleEndpointCompatibility
 
-/-! Full upfront: day-oct13/actual-physical-density-operator-author-oct15-v001/
-ACTUAL-HIGH-RADIAL-GENUINE-ADJOINT-DEFECT-EXPANSION-v001.md. Genuine endpoint coherence, right reciprocal retained. -/
+/-! Genuine endpoint coherence, with the right reciprocal retained. -/
 set_option autoImplicit false
 noncomputable section
 open Set

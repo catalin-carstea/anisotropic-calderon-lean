@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceRadialEndpointInvertibleTopology
 import Calderon.CompactRadialTaylorRoom
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-actual-lower-raw-Taylor-helper-v057.md. Literal signed integral
-remainder of SAME actual lower DN curve; native true firstjet is proved. -/
+/-! Literal signed integral remainder of the same actual lower DN curve; the
+native first jet is proved. -/
 set_option autoImplicit false
 noncomputable section
 open Set Metric MeasureTheory

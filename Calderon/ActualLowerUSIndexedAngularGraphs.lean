@@ -1,9 +1,7 @@
 import Calderon.ActualLowerUSOrdinaryAngularMaps
 import Calderon.ActualLowerUSLowerWordAdjoints
 
-/-! GPT-6.1 Sol author support. Before-code ordinary-angular-before-v001.
-Indexed finite input graphs; the true finite adjoint dictionary is imported
-from its separate owner. No assertion that E/e/S preserves finite harmonics. -/
+/-! Indexed finite input graphs; the true finite adjoint dictionary is imported. -/
 set_option autoImplicit false
 set_option Elab.async false
 noncomputable section

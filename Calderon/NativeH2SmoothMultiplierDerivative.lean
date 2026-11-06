@@ -2,9 +2,8 @@ import Calderon.NativeCoefficientH1ProductDerivative
 import Calderon.NativeH2CoordinateProduct
 import Calderon.NativeThreeHalfCoefficientMultiplier
 
-/-! Upfront: general-boundary-multiplier-commutator-author-oct15-v001/
-EXPANSION-H2-multiplier-derivative-v008.md. The product is the existing actual
-coefficientMultiplier. No derivative or boundary regularity premise is added. -/
+/-! Derivative of the H2 multiplier. The product is the actual `coefficientMultiplier`.
+No derivative or boundary regularity premise is assumed. -/
 set_option autoImplicit false
 noncomputable section
 open Set MeasureTheory

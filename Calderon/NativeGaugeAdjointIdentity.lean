@@ -1,9 +1,8 @@
 import Calderon.ActualReferenceLowerBoundaryTranspose
 import Calderon.SphereSobolevDualOrthogonalPullback
 
-/-! Full upfront: actual-gradient-drift-author-oct15-v001/
-EXPANSION-native-gauge-adjoint-algebra-v009.md. Conditional native pivot algebra;
-actual coefficient/solution graphs remain separately proved obligations. -/
+/-! Native pivot algebra, conditional on the actual coefficient/solution graphs, which are
+proved separately. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

@@ -1,9 +1,8 @@
 import Calderon.NativeSmoothOperatorRealization
 import Calderon.ActualOrdinaryOperatorRadialJets
 import Calderon.ActualRescaledConformalGauge
-/-! Source-only author C5 actual specialization. Exact same-witness hData
-and native calculus/room identities were fully expanded and sealed first.
-No physical harmonic kernel premise, compiler, or Psi closure is claimed. -/
+/-! Actual specialization, with the same-witness hData and native calculus/room
+identities. No physical harmonic kernel premise is used. -/
 set_option autoImplicit false
 set_option maxSynthPendingDepth 10
 noncomputable section

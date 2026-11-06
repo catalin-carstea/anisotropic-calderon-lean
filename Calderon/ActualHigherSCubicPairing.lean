@@ -1,8 +1,6 @@
 import Calderon.ActualFullEPhysicalEndpoints
 
-/-! Typed cubic mixed-word transpose difference; auxiliary algebra only.
-Full before-source proof is cubic-pairing-upfront-v001/UPFRONT.md.
-No actual lower estimate, extra final premise or acceptance is asserted. -/
+/-! Typed cubic mixed-word transpose difference; auxiliary algebra only. -/
 set_option autoImplicit false
 noncomputable section
 open scoped InnerProductSpace

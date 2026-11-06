@@ -1,7 +1,7 @@
 import Calderon.ActualMixedKernelGlobalSurfaceExtension
 import Calderon.ActualMixedKernelNativeH3Datum
 import Calderon.NativeMixedKernelBoundaryGermDensity
-import MixedKernelNativeRadialCoordinates
+import Calderon.MixedKernelConstruction.MixedKernelNativeRadialCoordinates
 
 set_option autoImplicit false
 noncomputable section
