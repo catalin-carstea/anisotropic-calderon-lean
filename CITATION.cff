@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use or build upon this formalization in your research, please cite Cătălin I. Cârstea and Lauri Oksanen; acknowledge bundled Tau Ceti code separately."
+title: "Anisotropic Calderón uniqueness in Lean"
+type: software
+license: BSD-3-Clause
+authors:
+  - family-names: "Cârstea"
+    given-names: "Cătălin I."
+  - family-names: "Oksanen"
+    given-names: "Lauri"
+abstract: "A Lean formalization of three-dimensional full-boundary anisotropic Calderón uniqueness on the unit ball for smooth metrics Euclidean outside the ball."

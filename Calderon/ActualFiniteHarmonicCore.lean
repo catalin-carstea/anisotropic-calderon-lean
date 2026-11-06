@@ -1,0 +1,33 @@
+import Calderon.ActualModelCommutatorWords
+import Calderon.BoundedAngularShift
+import Calderon.SmoothSphereRotationProjection
+import Calderon.PrincipalDirectional
+import Mathlib.Analysis.Calculus.FDeriv.Const
+import Mathlib.Algebra.Module.LinearMap.End
+import Calderon.ActualFiniteHarmonicCoreSpace
+import Calderon.ActualFiniteHarmonicCoreCutoff
+import Calderon.ActualFiniteHarmonicCoreBlockField
+import Calderon.ActualFiniteHarmonicCoreBlockOperator
+import Calderon.ActualFiniteHarmonicCoreWeights
+import Calderon.ActualFiniteHarmonicCoreRotation
+import Calderon.ActualFiniteHarmonicCoreNormalizedDerivative
+import Calderon.ActualFiniteHarmonicCoreNormalizedRaising
+import Calderon.ActualFiniteHarmonicCoreDerivative
+import Calderon.ActualFiniteHarmonicCoreRaising
+import Calderon.ActualFiniteHarmonicCoreBase
+import Calderon.ActualFiniteHarmonicCoreScalar
+import Calderon.ActualFiniteHarmonicCoreLeibniz
+
+set_option autoImplicit false
+noncomputable section
+open MeasureTheory Set Filter
+open scoped InnerProductSpace ContDiff Topology
+namespace OAI.AnisotropicCalderon.ActualFiniteHarmonicCore
+open SphereHarmonic SphereHilbertDecomposition SpectralCoreRegularity SpectralWeightedGraph
+  BoundedAngularShift AngularShiftGraph HarmonicDerivativeOperator PrincipalCommutator
+  SmoothSphereRotationProjection
+
+variable (hO : OrthogonalSphereHarmonics) (hD : DenseSphereHarmonics)
+
+
+end OAI.AnisotropicCalderon.ActualFiniteHarmonicCore

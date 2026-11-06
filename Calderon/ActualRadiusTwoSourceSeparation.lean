@@ -1,0 +1,12 @@
+import Calderon.CollaboratorSourceSeparationAssemblyOct17
+import Calderon.CollaboratorUniqueContinuationProofOct17
+
+set_option autoImplicit false
+noncomputable section
+namespace OAI.AnisotropicCalderon.ExteriorSource.Literature
+
+theorem radiusTwoSourceSeparation : RadiusTwoSourceSeparation :=
+  radiusTwoSourceSeparation_of_uniqueContinuation
+    OAI.AnisotropicCalderon.uniqueContinuation
+
+end OAI.AnisotropicCalderon.ExteriorSource.Literature
