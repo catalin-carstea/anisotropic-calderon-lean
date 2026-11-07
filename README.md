@@ -27,8 +27,8 @@ theorem main (g₁ g₂ : MatrixField)
 
 ## Time and system requirements
 
-Allow **about 12 hours** for a first build from source. Actual time depends on
-the machine; older or low-power computers may take longer. Cached builds are
+Allow **up to 12 hours** for a first build from source. Actual time depends on
+the machine; older or low-power computers may take even longer. Cached builds are
 much quicker.
 
 Suggested starting requirements are:
@@ -78,14 +78,14 @@ It needs [bubblewrap](https://github.com/containers/bubblewrap) (`bwrap`) on
 `OAI.AnisotropicCalderon.main` has the same statement as in the challenge and
 uses only `propext`, `Quot.sound` and `Classical.choice`, and replays the proof
 through Lean's kernel. The replay takes a few hours. A plain `lake build` does
-not build the challenge module, since its theorem is a `sorry`.
+not build the challenge module.
 
 To check that `ComparatorChallenges/` and `lean-toolchain` are identical to the
 [challenge repository](https://github.com/l-oksanen/openai-calderon) at the
 pinned commit (or at a revision given as argument), run
 
 ```sh
-./check-challenge.sh
+bash check-challenge.sh
 ```
 
 ## Reading the sources
@@ -94,9 +94,6 @@ pinned commit (or at a revision given as argument), run
 - [Tau Ceti attribution](THIRD_PARTY_NOTICES.md): bundled upstream code, authorship,
   revision, and license.
 - [Expansion](docs/expansion/README.md): preserved mathematical working text.
-
-Lauri Oksanen has reviewed the Lean statement of `OAI.AnisotropicCalderon.main`
-and confirmed that it correctly expresses the intended theorem.
 
 ## Scope
 
