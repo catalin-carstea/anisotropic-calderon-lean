@@ -80,6 +80,14 @@ uses only `propext`, `Quot.sound` and `Classical.choice`, and replays the proof
 through Lean's kernel. The replay takes a few hours. A plain `lake build` does
 not build the challenge module, since its theorem is a `sorry`.
 
+To check that `ComparatorChallenges/` and `lean-toolchain` are identical to the
+[challenge repository](https://github.com/l-oksanen/openai-calderon) at the
+pinned commit (or at a revision given as argument), run
+
+```sh
+./check-challenge.sh
+```
+
 ## Reading the sources
 
 - [Proof guide](docs/PROOF_GUIDE.md): principal files and the route to the theorem.
